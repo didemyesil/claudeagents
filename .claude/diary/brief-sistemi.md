@@ -70,9 +70,22 @@ Poppins'i açıkça yasaklıyor; başka bir kaynakta Montserrat geçse bile Quic
 Kapakta Didem'in fotoğrafı layout'a entegre kullanılabilir (`.claude/assets/foto/`).
 Stok fotoğraf hiçbir yerde yok.
 
-**CTA: sabit tarih yazılmaz.** İçeriğe gömülü bir etkinlik tarihi kullanma. Aktif bir
-webinar/etkinlik varsa Didem girdide söyler; söylemediyse CTA bülten, blog ya da
-profil bağlantısı olur. Geçmiş tarihli bir CTA yayınlanan içeriği çöpe çevirir.
+**CTA: içeriğe göre değişir, sabit tarih gömülmez.**
+
+- **Etkinlik varsa** — Didem girdide söyler. O zaman CTA etkinliktir: konu, tarih, saat, kayıt.
+  Didem söylemediği bir etkinliği CTA yapma; geçmiş tarihli CTA içeriği çöpe çevirir.
+- **Etkinlik yoksa (varsayılan)** — karuselde kaydetme/paylaşma/takip çağrısı.
+
+Varsayılan CTA'nın kuralı: **bağlama oturur, dörtlü sıralanmaz.** "Beğen, kaydet, paylaş,
+takip et!" dizisi jenerik pazarlama dili — marka rehberi bunu yasaklıyor. Bunun yerine
+karuselin konusuna bağlı tek bir çağrı, yanında sessiz bir takip daveti:
+
+- *"Kendi işini bölerken tekrar bakmak için kaydet."*
+- *"Bu ayrımı ekibinle konuşacaksan paylaş."*
+- *"Bu tür notları haftalık paylaşıyorum."*  ← takip daveti, "takip et!" değil
+
+Karuselin birincil metriği kaydetme; CTA da onu istesin. Reel'de birincil metrik DM
+paylaşımı — metodolojinin kendi CTA kuralı geçerli.
 
 ## Sesin yapması ve yapmaması gerekenler
 

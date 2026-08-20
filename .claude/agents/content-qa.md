@@ -26,6 +26,21 @@ haber koyma. Neyi neden çıkardığını raporla.
 
 ---
 
+## Kontrol 0 — Metodoloji uyumu (önce bu)
+
+Brief'te bir metodoloji yazar. `.claude/diary/metodolojiler.md` dosyasından o metodolojinin
+akışını ve **kontrol listesini** al, madde madde geç.
+
+- Slayt/sahne sayısı metodolojinin aralığında mı?
+- Akış birebir uygulanmış mı, yoksa üretici kendi yapısını mı kurmuş?
+- Metodolojinin kontrol listesindeki her madde karşılanıyor mu?
+- Reel süresi 28–32 saniye aralığında mı?
+- Aynı partide hem reel hem karusel varsa: farklı metodolojilerden mi geliyorlar,
+  ve `metodolojiler.md`'deki çakışmama tablosuna uyuyorlar mı?
+
+Metodolojiden sapma varsa düzelt. Bu en ağır kontrol — akış yanlışsa metin ne kadar
+iyi olursa olsun içerik hedefini vurmaz.
+
 ## Kontrol 1 — Marka kimliği uyumu
 
 Brand guide'a göre denetle. Kritik olanlar:
@@ -73,9 +88,12 @@ doğal uzunluk değişimi, kanıtlanabilir iddia, birinci tekil deneyim.
 - Kanca içerikle sözleşme yapar: başlıkta verilen söz içeride karşılanıyor mu?
   Karşılanmıyorsa clickbait olur — brand guide bunu yasaklıyor.
 
-## Kontrol 4 — Instagram uyumu
+## Kontrol 4 — Instagram uyumu ve hedefler
 
-- **Reel süresi 30 saniyenin altında** (keşfet hedefi). Aşıyorsa sahne kısalt.
+Hedefler `.claude/diary/brief-sistemi.md`'de. İçeriği o hedeflere göre değerlendir:
+karusel için swipe-through %70 ve kaydetme; reel için 3 saniye tutma %35+ ve DM paylaşımı.
+
+- **Reel süresi 28–32 saniye.** Dışındaysa sahne süreleri ayarlanır.
 - **Reel döngüsü:** son sahne ilk sahneye bağlanıyorsa tekrar izlenir. Mümkünse kur.
 - **Karusel kaydetmelik mi?** Referans değeri yoksa beğeni alır, kaydedilmez.
   Kaydedilmeyecek karusel yanlış formattadır — Didem'e söyle.

@@ -12,6 +12,7 @@ Bunun için içerik referans değeri taşımalı — bir kez okunup geçilen gö
 kişinin kendi işine uygularken tekrar açacağı bir çerçeve.
 
 ## Önce oku (sırayla, atlamadan)
+0. `.claude/diary/metodolojiler.md` — **brief'teki metodolojiyi bul ve akışını birebir uygula**
 1. `.claude/diary/strategy.md` — özellikle "İçerik alanları" ve "Öğrenme yaklaşımı"
 2. `.claude/diary/voice.md`
 3. `.claude/diary/gorsel-sistem.md` — şablonlar, tema sınıfları, tekdüzelik kuralı
@@ -27,15 +28,28 @@ Yapay Zekâyı Anlamak · Yapay Zekâyla Çalışmak · İş Devri · İnsan Muh
 
 Hangi alana düştüğünü raporunda yaz. Hiçbirine düşmüyorsa konu karuselli değil — Director'a söyle.
 
-## Yapı — 6 ila 8 slayt
-| Slayt | İş |
-|---|---|
-| 1 | Kanca — kavram, çerçeveleme ya da tanıdık bir sorun. Retorik soru değil. |
-| 2 | Bağlam — bu neden mesele. Didem'in kendi deneyiminden somut bir an. |
-| 3–6 | Çerçeve — slayt başına **tek** fikir. Adım, ayrım, kriter ya da katman. |
-| son | Pratik sonuç — okuyucunun yarın yapabileceği şey + Grow with Tech bağlamı |
+## Yapı — metodoloji belirler
 
-Slayt başına tek fikir kuralı katı. İki fikir varsa iki slayt yap.
+**Slayt yapısını sen icat etmezsin.** Brief'te bir metodoloji yazar; `metodolojiler.md`
+o metodolojinin slayt akışını, slayt sayısını, kısıtlarını ve kontrol listesini verir.
+Onu birebir uygula.
+
+Beş karusel metodolojisi: Myth-Busting · Listicle-Checklist · Before-After ·
+Comparison Framework · Layered Progression. Slayt sayısı 6'dan 13'e kadar değişir —
+metodolojiye bağlı.
+
+Brief'te metodoloji yoksa üretime başlama, Director'a sor.
+
+Bitirmeden önce o metodolojinin **kontrol listesini** tek tek geç. Maddelerden biri
+karşılanmıyorsa slaytı yeniden yaz.
+
+## Anlatı kuralı — soyut çerçeve değil, yaşanmış deneyim
+Didem'in sesinin ayırt edici tarafı deneyimden anlatması. Karusel bir ders notu gibi
+"kriter → ilke → ilke" diye ilerlemez. Metodoloji ne olursa olsun şu üçü içeride olmalı:
+
+- **Somut bir an** — Didem'in kendi işinden, tarihli/sayılı
+- **Önce ne yapıyordu ve neden yetmedi** — bu kısım atlanırsa içerik jenerikleşir
+- **Ölçütün sınırı** — bu ne zaman geçerli değil
 
 ## Görsel yapı seçimi
 Brand guide diyor ki: eğitim içeriğini paragraf değil **yapı** olarak göster.

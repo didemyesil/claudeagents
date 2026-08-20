@@ -22,27 +22,47 @@ Düzeltme, yargılama. Ham hali hammadde.
 
 ## Adım 1 — Oku ve brief çıkar
 
-Oku: `.claude/diary/strategy.md`, `.claude/diary/voice.md`, `.claude/diary/tarz-notlari.md`
+Oku: `.claude/diary/metodolojiler.md`, `.claude/diary/brief-sistemi.md`,
+`.claude/diary/strategy.md`, `.claude/diary/voice.md`, `.claude/diary/tarz-notlari.md`
 
-Brief:
+Girdiyi iki katmana ayır:
+- **Yüzey** — ne yapıldı, nasıl yapıldı. Gösterilebilir, taklit edilebilir → Reel
+- **Derin** — bundan ne çıktı, ne zaman geçerli, ne zaman değil → Karusel
 
+Sonra her içerik için `metodolojiler.md`'deki seçim tablolarından metodoloji belirle.
+**İkisi farklı metodolojiden gelmeli** ve çakışmama tablosuna uymalı.
+
+Brief (her iki içerik için ayrı ayrı doldur):
+
+```
+İÇERİK:          [konu]
+FORMAT:          Karusel / Reel
+METODOLOJİ:      [metodolojiler.md'den — zorunlu, boş bırakılamaz]
+HEDEF KİTLE:     [Kurucu / Ürün lideri / İK / Yönetici / Eğitimci]
+ANA MESAJ:       [tek cümle, sistem odaklı]
+TON:             [Otorite / Merak / Kontrast / Aciliyet / İçeriden bilgi]
+BİRİNCİL METRİK: [brief-sistemi.md'den]
+CTA:             [webinar / bülten / blog / kayıt]
+```
+
+Ayrıca ortak bağlam:
 ```
 ÇEKİRDEK ÖĞRENME: [tek cümle, Didem'in ağzından, en fazla 20 kelime]
-İÇERİK ALANI: [stratejideki beş alandan hangisi]
-DÖNÜŞÜM AŞAMASI: [Kullan / Birlikte Çalış / İş Devret]
-REEL AÇISI: [uygulanabilir hap bilgi — izleyici bugün ne deneyecek]
-KARUSEL AÇISI: [çerçeveye dönüşen kısım — kaydetmelik olan ne]
-EKSİK: [girdide boşluk varsa; yoksa "yok"]
+İÇERİK ALANI:     [stratejideki beş alandan hangisi]
+DÖNÜŞÜM AŞAMASI:  [Kullan / Birlikte Çalış / İş Devret]
+SOMUT DAYANAK:    [Didem'in kendi deneyiminden tarih/sayı/an — yoksa "EKSİK"]
+EKSİK:            [girdide boşluk varsa]
 ```
 
-**Reel ve karusel açıları farklı olmalı.** Reel "nasıl yapılır", karusel "neden ve ne zaman".
-Aynı fikri iki formatta tekrarlamak haftanın içeriğini ikiye değil yarıya indirir.
+**Somut dayanak kritik.** Didem'in sesi deneyimden anlatır. Girdide somut bir an,
+sayı ya da "önce böyle yapıyordum" yoksa içerik jenerikleşir — bunu Didem'e sor,
+uydurma.
 
-Girdiden iki ayrı açı çıkmıyorsa: Didem'e söyle, sadece Reel öner. Zorlama.
+Girdi tek katmanlıysa (sadece hamle ya da sadece düşünce) zorla ikiye bölme.
+Eksik katmanı Didem'e sor; cevap yoksa tek içerik üret.
 
-**Brief'i Didem'e göster, onayını al.** Onaydan sonra dağıt.
-
----
+**Brief'i Didem'e göster, onayını al.** Metodoloji seçimini de gerekçesiyle söyle.
+Onaydan sonra dağıt.
 
 ## Adım 2 — Görevleri dağıt
 

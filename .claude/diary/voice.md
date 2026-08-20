@@ -1,35 +1,42 @@
-# Didem'in Sesi (voice guide)
+# Didem'in sesi — AI Diary içerikleri
 
-Bu dosya bütün diary agent'larının tek referansı. Ton tartışması çıkarsa burası kazanır.
-Sesin değişirse **sadece burayı** güncelle; agent'lar otomatik uyar.
+Bu dosya **sadece diary'ye özgü** ses notlarını tutar.
+
+Copy kurallarının tamamı (yasaklı kalıplar, "mesele X değil Y" yasağı, LinkedIn klişeleri,
+AI cümle ritmi) `social-media-brand-guide` skill'inde. Her içerik agent'ı o skill'i okur.
+Burada onları tekrar etmiyoruz — çelişki çıkarsa **brand guide kazanır**.
 
 ## Kim yazıyor
-Didem — yazılım öğrenen, AI'ı günlük işine sokan biri. Uzman pozu yok,
-"birlikte öğreniyoruz" enerjisi var. Hatalarını da yazar, çünkü asıl değerli kısım orası.
+Didem. Yapay zekâyı kendi işine sokan, denerken hata yapan ve o hatayı da anlatan biri.
+Uzman pozu değil, "ben bunu denedim ve şunu gördüm" enerjisi.
 
-## Dil
-- Varsayılan **Türkçe**. Teknik terimler İngilizce kalır (prompt, agent, fine-tune, context window).
-- Terimi zorla çevirme. "bağlam penceresi" deme, "context window" de.
-- Samimi ama cıvık değil. Arkadaşına anlatır gibi, ama savruk değil.
-- Birinci tekil şahıs: "denedim", "kafam karıştı", "işe yaradı".
+Strateji dokümanındaki konumlandırma cümlesi her içeriğin arkasında durur:
+**yapay zekâyı kullanmayı değil, yapay zekâyla çalışmayı öğret.**
 
-## Yapı tercihleri
-- Kısa paragraf. 2-4 cümle. Duvar gibi metin yok.
-- Somut örnek > genel laf. "Verimliliği artırıyor" değil, "3 saatlik işi 20 dakikaya indirdi".
-- Sayı varsa sayıyı yaz. Yoksa uydurma.
-- Sonda tek bir düşündürücü soru veya çıkarım. Zorlama CTA yok.
+## Diary'ye özgü kurallar
 
-## Yasaklı liste (LLM kokusu)
-- "Günümüzün hızla gelişen dünyasında..."
-- "Yapay zeka hayatımızı değiştiriyor" tipi boş açılış
-- "Delve", "unlock", "game-changer", "devrim niteliğinde", "oyunun kurallarını değiştiren"
-- Em dash yığını, üçlü liste saplantısı, her cümleye emoji
-- Sahte alçakgönüllülük ("naçizane fikrim")
-- Okumadığın şeyi okumuş gibi yazmak
+**Birinci tekil, gerçek deneyim.** "Denedim", "kafam karıştı", "işe yaramadı".
+Didem'in yapmadığı bir şeyi yapmış gibi yazma. Girdide yoksa, uydurma.
+
+**Somut > genel.** "Verimlilik artıyor" değil, "3 saatlik işi 20 dakikaya indirdi".
+Sayı varsa yaz, yoksa uydurma.
+
+**Dil:** Türkçe. Teknik terimler İngilizce kalır — prompt, agent, context window, fine-tune.
+Zorla çevirme ("bağlam penceresi" deme). Türkçesi doğal oturuyorsa Türkçesini kullan
+(iş akışı, görev devri, insan gözetimi).
+
+**Uzunluk:** Kısa paragraf, 2–4 cümle. Karusel slaytında tek fikir.
+
+**Kapanış:** Zorlama CTA yok. Motivasyon cümlesi yok. Aforizma yok.
+İçerik doğal bitiyorsa bitsin.
+
+## Kaynak kuralı (radar içerikleri için kritik)
+Haber, iddia veya sayı varsa **kaynak zorunlu** ve kaynak birincil olmalı
+(şirketin kendi duyurusu, resmi blog, kurumun raporu). İkincil haber sitesi ancak
+birincil kaynağa ulaşılamıyorsa ve bu belirtilerek kullanılır.
+
+Kaynağı doğrulanamayan cümle içerikten **çıkarılır**. Yumuşatılmaz, "iddiaya göre"
+diye geçiştirilmez. Uydurma kaynak, uydurma tarih, uydurma sayı: kırmızı çizgi.
 
 ## Emoji
-Az. Post başına en fazla 1-2, sadece gerçekten işe yarıyorsa. Madde başlarında emoji kullanma.
-
-## Kaynak kuralı
-Bir haber, iddia veya sayı varsa **link zorunlu**. Link bulunamadıysa cümle
-"duyduğuma göre" diye yumuşatılır ya da tamamen çıkar. Uydurma kaynak = kırmızı çizgi.
+Az. Post başına en fazla 1–2 ve sadece işlevsel olduğunda. Madde başlarında emoji yok.

@@ -1,0 +1,10 @@
+{
+  "name": "gwt-render",
+  "private": true,
+  "type": "module",
+  "description": "Grow with Tech gorsel/video render araclari",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.49.0"
+  }
+}

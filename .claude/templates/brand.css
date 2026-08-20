@@ -1,0 +1,207 @@
+/* Grow with Tech — gorsel sistem
+   Didem'in iyi etkilesim alan gonderilerinden cikarildi.
+   KARUSEL ve REEL ayri iki duzen: karusel sola hizali + sol mor serit,
+   reel merkez hizali + gradient zemin + indigo baslik.
+   Kurallar: social-media-brand-guide skill'i. */
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/fonts/Quicksand-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+                 U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+                 U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 300 700; font-display: block;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/fonts/Quicksand-latin.woff2') format('woff2');
+  font-weight: 300 700; font-display: block;
+}
+
+:root {
+  /* --- ana marka --- */
+  --mor:         #6C3FE4;   /* canli mor — serit, pill, vurgu */
+  --indigo:      #2E2266;   /* koyu lacivert-mor — reel basliklari, koyu paneller */
+  --sari:        #F5C542;   /* parlak sari — karusel vurgu kutusu */
+  --altin:       #E0AE43;   /* altin sari — reel aksani, CTA, oklar */
+
+  /* --- 4. renk: tekduzeligi kirmak icin --- */
+  --deniz:       #0E9AA7;   /* petrol/teal — mor ve sariyla cakismaz */
+  --deniz-acik:  #E2F4F5;
+
+  /* --- destek tonlari --- */
+  --lila:        #E8E3F5;   /* chat balonu, yumusak zemin */
+  --lila-acik:   #F1ECFD;   /* not kutusu */
+  --mor-hayalet: #EDE7FC;   /* arka plan dev numara */
+  --sari-acik:   #FBEBC2;   /* pill zemini */
+  --mor-koyu:    #4A2496;   /* sari uzerindeki metin */
+
+  --zemin:       #FAF8F4;   /* warm white */
+  --metin:       #1B1B2F;
+  --soluk:       #6E6E80;
+  --cizgi:       #E4E1EC;
+
+  --serit: 14px;
+  --kenar: 84px;
+
+  /* tema degiskeni — .tema-* siniflari bunu degistirir */
+  --aksan: var(--mor);
+  --aksan-yumusak: var(--lila-acik);
+}
+
+/* ===== TEMA VARYASYONLARI =====
+   Tekduzeligi kirmak icin: her slayt/sahne farkli bir aksan alabilir.
+   Bir karuselde en fazla iki farkli tema kullan — uc ve uzeri dagitir. */
+.tema-mor   { --aksan: var(--mor);    --aksan-yumusak: var(--lila-acik); }
+.tema-deniz { --aksan: var(--deniz);  --aksan-yumusak: var(--deniz-acik); }
+.tema-altin { --aksan: var(--altin);  --aksan-yumusak: var(--sari-acik); }
+.tema-koyu  { --aksan: var(--altin);  --aksan-yumusak: rgba(255,255,255,.12);
+              background: var(--indigo); color: #fff; }
+.tema-koyu h1, .tema-koyu h2, .tema-koyu p { color: #fff; }
+.tema-koyu .etiket.gri, .tema-koyu .alt { color: rgba(255,255,255,.7); }
+.tema-koyu .alt { border-top-color: rgba(255,255,255,.18); }
+.tema-koyu .ayirici { background: rgba(255,255,255,.18); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--zemin); color: var(--metin);
+  font-family: 'Quicksand', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==================== KARUSEL — 1080x1350 (4:5) ====================
+   Sola hizali. Sol mor serit markanin imzasi. */
+.slayt {
+  position: relative; overflow: hidden;
+  width: 1080px; height: 1350px;
+  padding: 76px var(--kenar) 64px calc(var(--kenar) + var(--serit));
+  background: var(--zemin);
+  display: flex; flex-direction: column;
+}
+.slayt::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+  width: var(--serit); background: var(--aksan);
+}
+.slayt.tema-koyu { background: var(--indigo); }
+
+/* sag ust ilerleme: iki kaydirilmis cizgi + koyu rozet */
+.ilerleme { position: absolute; top: 64px; right: var(--kenar); display: flex; align-items: center; gap: 22px; }
+.ilerleme .cizgiler { display: flex; flex-direction: column; gap: 9px; }
+.ilerleme .c1 { width: 128px; height: 9px; background: var(--altin); border-radius: 5px; }
+.ilerleme .c2 { width: 104px; height: 9px; background: var(--aksan); border-radius: 5px; margin-left: 44px; }
+.ilerleme .rozet { background: #3A3A46; color: #fff; font-size: 30px; font-weight: 600; padding: 12px 26px; border-radius: 999px; }
+
+/* arka planda dev numara */
+.dev-numara {
+  position: absolute; right: 76px; top: 300px;
+  font-size: 260px; font-weight: 700; line-height: 1;
+  color: var(--mor-hayalet); letter-spacing: -.04em; user-select: none;
+}
+.tema-koyu .dev-numara { color: rgba(255,255,255,.07); }
+
+.govde { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 34px; position: relative; z-index: 1; }
+.govde.ust { justify-content: flex-start; padding-top: 44px; }
+
+.alt {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 26px; font-weight: 600; color: var(--soluk);
+  padding-top: 26px; border-top: 1px solid var(--cizgi);
+}
+
+/* ==================== REEL — 1080x1920 (9:16) ====================
+   Merkez hizali, gradient zemin, indigo baslik. Sol serit YOK. */
+.sahne {
+  position: relative; overflow: hidden;
+  width: 1080px; height: 1920px;
+  padding: 260px 90px 200px;
+  background: linear-gradient(175deg, #F4F2EF 0%, #FBF9F5 38%, #FAF7F1 100%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 38px; text-align: center;
+}
+.sahne.tema-koyu { background: var(--indigo); }
+.sahne h1 { font-size: 78px; line-height: 1.2; font-weight: 700; color: var(--indigo); letter-spacing: -.02em; }
+.sahne.tema-koyu h1 { color: #fff; }
+.sahne h2 { font-size: 46px; line-height: 1.35; font-weight: 700; color: var(--indigo); }
+.sahne p  { font-size: 40px; line-height: 1.4; font-weight: 500; color: var(--indigo); max-width: 92%; }
+
+/* baslik altindaki kisa altin cizgi */
+.sahne .alt-cizgi { width: 190px; height: 8px; background: var(--altin); border-radius: 4px; }
+
+.sahne .marka { position: absolute; bottom: 150px; left: 0; right: 0; text-align: center; }
+.sahne .marka .ad { font-size: 44px; font-weight: 700; color: var(--indigo); }
+.sahne .marka .kullanici { font-size: 34px; font-weight: 600; color: var(--altin); margin-top: 10px; }
+
+/* profil dairesi — mor cerceve + yanda kucuk sari nokta */
+.profil { position: relative; width: 300px; height: 300px; }
+.profil img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 9px solid var(--indigo); }
+.profil::after { content: ''; position: absolute; top: 14px; right: -6px; width: 46px; height: 46px; border-radius: 50%; background: var(--altin); }
+
+/* ==================== ORTAK BILESENLER ==================== */
+h1 { font-size: 82px; line-height: 1.14; font-weight: 700; letter-spacing: -.025em; }
+h2 { font-size: 62px; line-height: 1.18; font-weight: 700; letter-spacing: -.02em; }
+h1 em, h2 em, .vurgu { font-style: normal; color: var(--aksan); }
+p  { font-size: 37px; line-height: 1.48; font-weight: 500; max-width: 88%; }
+p.soluk { color: var(--soluk); }
+
+.etiket { font-size: 27px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--aksan); }
+.etiket.gri { color: var(--soluk); letter-spacing: .12em; font-size: 25px; }
+
+/* pill'ler */
+.pill { display: inline-flex; align-items: center; gap: 12px; font-size: 30px; font-weight: 700; padding: 14px 30px; border-radius: 999px; letter-spacing: .04em; }
+.pill.dolu    { background: var(--aksan); color: #fff; text-transform: uppercase; }
+.pill.altin   { background: var(--altin); color: var(--indigo); text-transform: uppercase; }
+.pill.yumusak { background: var(--aksan-yumusak); color: var(--mor-koyu); }
+.pill.cerceve { background: transparent; color: var(--indigo); border: 3px solid var(--indigo); text-transform: uppercase; }
+
+/* sari vurgu kutusu — slayt basina en fazla bir tane */
+.vurgu-kutu { background: var(--sari); color: var(--mor-koyu); font-size: 52px; font-weight: 700; padding: 26px 40px; border-radius: 10px; align-self: flex-start; }
+
+/* "BENIM NOTUM" kutusu — Didem'in kendi sesi, icerikten ayri durur */
+.not-kutu { background: var(--aksan-yumusak); border-left: 10px solid var(--aksan); padding: 32px 38px; border-radius: 0 12px 12px 0; display: flex; flex-direction: column; gap: 14px; text-align: left; }
+.not-kutu.altin-cizgi { border-left-color: var(--altin); }
+.not-kutu .baslik { font-size: 25px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--aksan); }
+.not-kutu p { font-size: 34px; line-height: 1.45; color: var(--mor-koyu); max-width: 100%; }
+
+.ayirici { height: 1px; background: var(--cizgi); width: 100%; }
+
+/* liste */
+ul { list-style: none; display: flex; flex-direction: column; gap: 26px; text-align: left; }
+li { font-size: 35px; line-height: 1.4; font-weight: 500; display: flex; gap: 22px; }
+li b { color: var(--aksan); font-weight: 700; flex-shrink: 0; }
+
+/* chat balonlari — numarali daire + lila balon */
+.balonlar { display: flex; flex-direction: column; gap: 20px; width: 100%; }
+.balon { display: flex; align-items: center; gap: 20px; }
+.balon .no { width: 54px; height: 54px; border-radius: 50%; border: 3px solid var(--indigo); display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 700; color: var(--indigo); flex-shrink: 0; }
+.balon .metin { background: var(--lila); color: var(--indigo); font-size: 36px; font-weight: 600; padding: 22px 34px; border-radius: 14px; }
+.balon.sag { justify-content: flex-end; }
+
+/* akis diyagrami — daire, ok, daire */
+.akis { display: flex; align-items: flex-start; justify-content: center; gap: 26px; }
+.akis .adim { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.akis .daire { width: 100px; height: 100px; border-radius: 50%; background: var(--indigo); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 44px; }
+.akis .daire.altin { background: var(--altin); color: var(--indigo); }
+.akis .daire.deniz { background: var(--deniz); color: #fff; }
+.akis .ad { font-size: 30px; font-weight: 700; color: var(--indigo); }
+.akis .ok { font-size: 36px; color: var(--altin); margin-top: 32px; }
+
+/* koyu panel — acik zemin uzerinde vurgu blogu */
+.koyu-panel { background: var(--indigo); border-radius: 18px; padding: 40px 44px; display: flex; flex-direction: column; gap: 24px; width: 100%; text-align: left; }
+.koyu-panel .satir { display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 36px; font-weight: 700; color: #fff; }
+.tik { width: 48px; height: 48px; border-radius: 50%; border: 3px solid var(--altin); color: var(--altin); display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; flex-shrink: 0; }
+.tik.dolu { background: var(--altin); color: var(--indigo); }
+
+/* beyaz kart */
+.kart { background: #fff; border: 1px solid var(--cizgi); border-radius: 16px; padding: 34px 38px; display: flex; align-items: center; justify-content: space-between; gap: 24px; width: 100%; text-align: left; }
+.kart .baslik { font-size: 36px; font-weight: 700; color: var(--indigo); }
+.kart .altmetin { font-size: 28px; font-weight: 500; color: var(--soluk); margin-top: 6px; }
+
+/* CTA butonu */
+.cta { background: var(--altin); color: var(--indigo); font-size: 34px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 24px 44px; border-radius: 12px; }
+
+/* iki sutun karsilastirma */
+.karsilastir { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; width: 100%; }
+.karsilastir > div { padding: 38px; border-radius: 14px; background: #fff; border: 1px solid var(--cizgi); text-align: left; }
+.karsilastir h3 { font-size: 27px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--aksan); margin-bottom: 18px; }
+.karsilastir p { font-size: 31px; max-width: 100%; }

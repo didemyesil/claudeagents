@@ -20,60 +20,61 @@ Düzeltme, yargılama. Ham hali hammadde.
 
 ---
 
-## Adım 1 — Oku ve brief çıkar
+## Adım 1 — Fikri al, öner, onay bekle
 
 Oku: `.claude/diary/metodolojiler.md`, `.claude/diary/brief-sistemi.md`,
 `.claude/diary/strategy.md`, `.claude/diary/voice.md`, `.claude/diary/tarz-notlari.md`
 
-Girdiyi iki katmana ayır:
-- **Yüzey** — ne yapıldı, nasıl yapıldı. Gösterilebilir, taklit edilebilir → Reel
-- **Derin** — bundan ne çıktı, ne zaman geçerli, ne zaman değil → Karusel
+Didem sana ham bir fikir verir — düzeltme, yargılama, ham hali hammadde.
 
-Sonra her içerik için `metodolojiler.md`'deki seçim tablolarından metodoloji belirle.
-**İkisi farklı metodolojiden gelmeli** ve çakışmama tablosuna uymalı.
+Fikri iki katmana ayır:
+- **Yüzey** — ne yapıldı, nasıl yapıldı. Gösterilebilir, taklit edilebilir → Reel adayı
+- **Derin** — bundan ne çıktı, ne zaman geçerli, ne zaman değil → Karusel adayı
 
-Brief (her iki içerik için ayrı ayrı doldur):
+Fikir tek katmanlıysa (sadece hamle ya da sadece düşünce) zorla ikiye bölme — tek format öner.
+
+Her aday format için `metodolojiler.md`'deki seçim tablolarından bir metodoloji seç.
+**Reel ve karusel aynı fikirden çıkıyorsa farklı metodolojiden gelmeli** ve
+çakışmama tablosuna uymalı.
+
+**Sonra Didem'e şunu öner ve DUR — üretime geçme:**
+
+```
+FORMAT:        [Reel / Karusel / İkisi]
+METODOLOJİ:    [seçilen metodoloji + neden bu değil de bu]
+AKIŞ:          [seçilen metodolojinin slayt/sahne başlıklarıyla kısa taslağı —
+                tam metin değil, her slaydın/sahnenin ne söyleyeceğinin özeti]
+SOMUT DAYANAK: [Didem'in fikrindeki somut an/sayı — yoksa "EKSİK, şunu sorayım: …"]
+```
+
+Bu bir brief değil, **bir öneri**. Didem onaylayana ya da değiştirene kadar üretime
+geçme. Değişiklik isterse yeni öneriyi çıkar, tekrar onay bekle. Onay gelince
+Adım 2'ye geç.
+
+**Somut dayanak eksikse** önce onu sor, öneriyi ondan sonra çıkar — dayanaksız öneri
+zayıf çıkar.
+
+## Adım 2 — Onaylanan öneriden brief çıkar, dağıt
+
+Onaylanan öneriyi tam brief'e genişlet:
 
 ```
 İÇERİK:          [konu]
 FORMAT:          Karusel / Reel
-METODOLOJİ:      [metodolojiler.md'den — zorunlu, boş bırakılamaz]
+METODOLOJİ:      [onaylanan]
 HEDEF KİTLE:     [Kurucu / Ürün lideri / İK / Yönetici / Eğitimci]
 ANA MESAJ:       [tek cümle, sistem odaklı]
 TON:             [Otorite / Merak / Kontrast / Aciliyet / İçeriden bilgi]
 BİRİNCİL METRİK: [brief-sistemi.md'den]
-CTA:             [webinar / bülten / blog / kayıt]
-```
-
-Ayrıca ortak bağlam:
-```
-ÇEKİRDEK ÖĞRENME: [tek cümle, Didem'in ağzından, en fazla 20 kelime]
+CTA:             [etkinlik varsa etkinlik; yoksa bağlamlı kaydetme çağrısı]
+ÇEKİRDEK ÖĞRENME: [tek cümle, Didem'in ağzından]
 İÇERİK ALANI:     [stratejideki beş alandan hangisi]
 DÖNÜŞÜM AŞAMASI:  [Kullan / Birlikte Çalış / İş Devret]
-SOMUT DAYANAK:    [Didem'in kendi deneyiminden tarih/sayı/an — yoksa "EKSİK"]
-EKSİK:            [girdide boşluk varsa]
+SOMUT DAYANAK:    [onaylanan öneriden]
 ```
 
-**Somut dayanak kritik.** Didem'in sesi deneyimden anlatır. Girdide somut bir an,
-sayı ya da "önce böyle yapıyordum" yoksa içerik jenerikleşir — bunu Didem'e sor,
-uydurma.
-
-Girdi tek katmanlıysa (sadece hamle ya da sadece düşünce) zorla ikiye bölme.
-Eksik katmanı Didem'e sor; cevap yoksa tek içerik üret.
-
-**Onay bekleme.** Didem ana fikri verir, metodoloji seçimi ve yapı kararı sende.
-Brief'i çıkar ve doğrudan üretime geç. Metodoloji seçiminin gerekçesini teslimde anlat —
-öncesinde değil.
-
-Tek istisna: `SOMUT DAYANAK` alanı boşsa. Didem'in kendi deneyiminden bir an, sayı ya da
-"önce böyle yapıyordum" yoksa içerik jenerikleşir. Bu durumda **tek bir soru sor** ve
-cevabı bekle. Uydurma.
-
-## Adım 2 — Görevleri dağıt
-
-`reel-producer` ve `carousel-producer`'ı **aynı anda** (tek mesajda, paralel) çalıştır.
-
-Her ikisine brief'in tamamını ver, sadece kendi satırını değil.
+`reel-producer` ve/veya `carousel-producer`'ı (onaylanan formata göre) **aynı anda**
+(tek mesajda, paralel) çalıştır. Her ikisine brief'in tamamını ver.
 Çıktı klasörünü sen belirle: `.claude/cikti/<YYYY-Wxx>/reel/` ve `.../karusel/`
 
 ---

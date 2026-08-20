@@ -1,29 +1,169 @@
-# Tarz notları — birikimli
+# Didem'in tarzı — kalıcı QA brief'i
 
-Bu dosya zamanla büyür. Didem bir çıktıya "şu iyi olmuş" ya da "bu bana ait değil" dediğinde
-o geri bildirim buraya bir satır olarak eklenir. Bütün içerik agent'ları ve QA bunu okur.
+Bu dosya bir kez kuruldu, her hafta yeniden brief verilmeyecek.
+Bütün içerik agent'ları ve QA bunu okur.
 
-Amaç: aynı düzeltmeyi ikinci kez yaptırmamak.
-
-## Nasıl işler
-- Didem geri bildirim verir → ilgili bölüme tek satır eklenir
-- Satır **somut** olmalı: hangi cümle, neden. "Daha iyi olsun" yazma.
-- Eskiyen bir kural varsa sil, üstünü çizme.
+Copy kurallarının tamamı `social-media-brand-guide` skill'inde (yasaklı kalıplar, klişeler,
+AI cümle ritmi). Burası onların üstüne **Didem'e özel** olanı ekler.
 
 ---
 
-## Beğenilen cümleler / yaklaşımlar
-<!-- örnek: "Agent'a görev vermek, iş tarifi yazmak gibi." — benzetme somut, iddia yok -->
-_(henüz boş — ilk geri bildirimlerle dolacak)_
+## QA'nın bakacağı dört şey (Didem'in kendi tarifi)
+1. Görsellerde marka kimliği uyumu var mı
+2. Instagram'ın çalışma biçimine uygun mu
+3. Cheesy olmadan catchy mi
+4. Hook yaratıyor mu
+
+QA sorunu bulduğunda **kendi düzeltir**. Tek istisna kaynak sorunları: doğrulanamayan
+iddia içerikten çıkarılır ve Didem'e bildirilir, yerine başka haber konmaz.
+
+---
+
+## Sesin imzaları
+
+Aşağıdakiler Didem'in gerçek bir LinkedIn yazısından çıkarıldı. Taklit edilecek kalıplar
+değil, **tanınacak davranışlar**.
+
+**Beklentiyi baştan düzeltir.** Okuyucunun muhtemelen beklediği şeyi söyler ve "burada o yok"
+der. Örnek: *"Bu webinar için ilk motivasyonunuz '10 saatlik işi ajanlarla 1 saatte nasıl
+yaparım' ise buradan başlamayacağız baştan söyleyeyim."* Satış yapmak yerine çerçeveyi
+düzeltiyor. Bu, içeriğe güven veren bir hamle.
+
+**Aracı küçümsemeden ötesine geçer.** *"Araçları ve özelliklerini bilmek, Claude'da 38 tane
+skill oluşturmak işlevsel belki ama bence öncesinde…"* Önce hakkını teslim ediyor,
+sonra asıl meseleye geçiyor. Karşıtlık kurmuyor, sıralama kuruyor.
+
+**Sayı verir.** "38 skill", "2 yıl önce", "17 yıl". Yuvarlak laf yerine somut sayı.
+Sayı yoksa cümleyi kurmuyor.
+
+**Zaman karşılaştırması yapar.** *"2 yıl önce uzun uzun promptlar yazmamız gerekirken,
+şimdi talimat setlerini skill'e dönüştürüp otomatiğe bağlıyoruz."* Değişimi soyut
+"her şey değişiyor" ile değil, önce-sonra ile gösteriyor.
+
+**Gerçek soru sorar, retorik kanca değil.** *"Peki alanında daha yetkin, daha proaktif,
+daha çok iş üstlenen ajanlara sahip olduğumuzda ne olacak?"* Bu soru yazının ortasında
+duruyor ve cevabı yazının kendisi. Açılışta dikkat çekmek için atılmış bir soru değil.
+
+**Yetkisini deneyimden alır, unvandan değil.** *"Eğitimde 17 yılını dolduran, bunun
+çoğunda teknoloji yetkinlikleri gelişimi… üzerine çalışmış biri olarak bugünlerde en çok
+düşündüğüm konular bunlar."* "Uzman olarak söylüyorum" değil, "şunu yaptım, şunu
+düşünüyorum".
+
+**Yumuşatıcı kullanır ama sulandırmaz.** "bence", "belki", "baştan söyleyeyim" var;
+"naçizane", "kısaca değinmek gerekirse" yok. Kesinlik iddiası taşımıyor ama net.
+
+**Kapanışı sade.** *"Devamı için webinara beklerim."* Motivasyon cümlesi, aforizma,
+ünlem yok.
+
+**Emoji:** az ve işlevsel. LinkedIn'de madde başlarında kullanmış; Instagram görsellerinde
+kullanma (brand guide madde başı emoji istemiyor). Caption'da post başına 1–2 yeter.
+
+---
+
+## Instagram'a çevirirken
+
+LinkedIn uzun form, Instagram değil. Ses aynı kalır, hacim düşer:
+
+- Uzun paragraf → slayt başına tek fikir
+- "2 yıl önce X, şimdi Y" → iki sütun karşılaştırma slaydı
+- Üç maddelik soru listesi → üç slayt ya da tek liste slaydı
+- Deneyimden gelen yetki cümlesi → "Benim notum" kutusu
+- Sade CTA → kapanış slaydı, tek satır
+
+Beklentiyi düzelten açılış Instagram'da **çok iyi kanca** olur: okuyucunun beklediğinin
+tersini söylemek, retorik soru sormadan parmağı durdurur. Bunu kullan.
+
+---
 
 ## Kaçınılacaklar — Didem'e ait olmayan ses
-<!-- brand guide'daki genel yasakların üstüne, Didem'e özel olanlar -->
-_(henüz boş)_
+- Uzman pozu, otorite iddiası ("uzman olarak söylüyorum", "bilmeniz gereken")
+- Abartılı vaat ("hayatınız değişecek", "bunu bilmeyen geri kalacak")
+- Korku pazarlaması, aciliyet uydurma
+- Motivasyon kapanışı, alıntılanmak için cilalanmış aforizma
+- Uydurma kişisel etiket ("Kişisel öğrenme rotam", "Benim yolculuğum") —
+  Didem yazmadıysa ekleme
+- Araç tanıtımına kayma. Araç örnek olur, konu olmaz.
+
+---
 
 ## Görsel tercihler
-<!-- beğenilen referans görsellerden çıkan kurallar -->
-_(henüz boş — referans örnekler geldiğinde doldurulacak)_
+Referans gönderilerden çıkanlar:
+- Karusel: sola hizalı, sol kenarda tam boy renkli şerit, sağ üstte çift çizgi + rozetli
+  ilerleme, altta ayırıcı üstünde marka + sayfa no
+- Reel: merkez hizalı, gradient zemin, indigo başlık, başlık altında kısa altın çizgi
+- "Benim notum" kutusu Didem'in kendi sesini içerikten ayırmak için iyi çalışıyor
+- Diyagramlar süs değil: daire → ok → daire akışı kavramı anlatıyorsa kullanılır
+- Koyu panel bloğu (tam sayfa değil) vurgu için iyi
+- **Her hafta aynı görünmesin.** Tema sınıfları ve şablon çeşitliliği bunun için var.
 
 ## Format notları
-<!-- reel temposu, karusel uzunluğu, caption uzunluğu vb. tercihler -->
-_(henüz boş)_
+- Reel: 30 saniyenin altında, sessiz üretilir (Instagram'da ses Didem ekler)
+- Karusel: 6–8 slayt · Radar: 5–7 slayt
+- Hashtag: en fazla 8
+
+---
+
+## Kötü örnek — okumadan geçilen içerik
+
+Didem'in "bunu okumadan geçerim" dediği gerçek bir örnek: bir haber kartı gönderisi.
+Görsel temiz, marka tutarlı, ama **çalışmıyor**. Nedenleri, çünkü aynı hatalar
+özellikle radar içeriğinde tekrarlanmaya çok yatkın:
+
+**Kart içinde kart.** Slaydın içine bir haber kartı gömülmüş; o kartın içinde de bir
+alıntı kutusu var. Üç katman iç içe. Slayt zaten bir çerçeve — içine ikinci bir çerçeve koyma.
+
+**Aynı bilgi üç kez.** İngilizce başlık, parantez içinde Türkçe çevirisi, altında aynı şeyi
+söyleyen açıklama cümlesi, en altta yine aynı şeyi söyleyen İngilizce alıntı.
+Tek bilgi, tek kez, en iyi haliyle.
+
+**Metin telefonda okunmuyor.** Font küçük çünkü çok şey sığdırılmış. Kural şu:
+**metni azalt, fontu küçültme.**
+
+**Hiyerarşi yok.** Göz nereye gideceğini bilmiyor: başlık mı, kart mı, kutu mu, alıntı mı?
+Bir slaytta bir şey en büyük olmalı, gerisi ona bağlanmalı.
+
+**Boşluk yanlış yerde.** Üstte ve altta bol boşluk var ama içerik ortada küçücük bir blokta
+sıkışmış. Whitespace içeriği nefes aldırmak için, kenara itmek için değil.
+
+**Haber var, çıkarım yok.** Gönderi "şu oldu" diyor ve bitiyor. Didem'in gönderisi olmasının
+sebebi ne — bu gelişme onun kitlesine ne söylüyor? Yorum yoksa içerik bir RSS beslemesidir.
+
+### Bunun yerine — haber slaydı nasıl olur
+- Slaytta **tek çıkarım**, büyük tipografiyle. Haberin kendisi tek satır alt bilgi.
+- Ekran görüntüsü, kart kopyası, arayüz taklidi yok
+- Kaynak linki slaytta değil, **caption'da**
+- İngilizce başlığı çevirip yanına koyma; ya Türkçesini yaz ya orijinalini
+- Alıntı kullanacaksan **bir** tane, kısa, ve neden önemli olduğu yanında olsun
+- "Ne oldu" en fazla iki satır, "bu bize ne diyor" asıl içerik
+
+---
+
+## İyi örnek — neden catchy
+
+Didem'in "bence catchy" dediği bir karusel kapağı (başka bir hesaptan). Kopyalanacak
+bir tasarım değil, **çalışan mekanizmaları** alınacak bir örnek:
+
+**Ölçek kontrastı.** Tek bir kelime slaytın yarısını kaplıyor, gerisi küçük. Göz önce
+o kelimeye çarpıyor, sonra detaya iniyor. Her şeyin aynı boyda olduğu slayt sakin görünür
+ama durdurmaz. Kapakta **bir kelimeyi büyüt**.
+
+**Kısa ve cömert vaat.** "Şu sistemi al, ücretsiz" enerjisi. Üç-dört kelime, net teklif,
+gizlenmiş bir şey yok. Satış dili değil, verme dili.
+
+**İçeriği gösteren önizleme.** Kapakta karuselin içindeki slaytların minyatürleri
+duruyor. Hem merak yaratıyor hem "gerçekten dolu" kanıtı veriyor.
+
+**Alt şeritte içindekiler.** Tek satır, üç kelime, aralarında nokta. Ne alacağını
+üç saniyede söylüyor.
+
+**Fotoğraf layout'a gömülü.** Profil dairesi değil, sahnenin parçası. Brand guide da
+bunu istiyor: Didem göründüğünde fotoğraf kompozisyona entegre olmalı, köşeye
+yapıştırılmış bir daire olmamalı.
+
+### Didem'in markasına çevirisi
+Alınacaklar: ölçek kontrastı, kısa vaat, önizleme kartları, alt şerit içindekiler,
+entegre fotoğraf.
+
+Alınmayacaklar: "steal my" tipi emir kipi ve abartılı iddia. Didem'in sesi daha ölçülü —
+cömertliği koru, bağırmayı bırak. Türkçe karşılığı "al kullan" değil, sade bir teklif:
+*"Bu haftanın notları"*, *"Denedim, işe yarayanı bırakıyorum"*.

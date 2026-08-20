@@ -40,8 +40,14 @@ Slayt başına tek fikir kuralı katı. İki fikir varsa iki slayt yap.
 ## Görsel yapı seçimi
 Brand guide diyor ki: eğitim içeriğini paragraf değil **yapı** olarak göster.
 
-Beş şablon: `karusel-kapak`, `karusel-icerik`, `karusel-liste`, `karusel-karsilastirma`,
-`karusel-koyu`. Aynı şablonu altı kez tekrarlama — liste, karşılaştırma ve koyu bloğu karıştır.
+Şablonlar: `karusel-kapak`, `karusel-kapak-buyuk`, `karusel-kapak-foto`, `karusel-icerik`,
+`karusel-liste`, `karusel-karsilastirma`, `karusel-koyu`.
+Aynı şablonu altı kez tekrarlama — liste, karşılaştırma ve koyu bloğu karıştır.
+
+**Kapak seçimi kritik.** Üç kapak varyantı arasında dönüşümlü git; geçen haftanın
+kapağını tekrarlama. `karusel-kapak-buyuk` ölçek kontrastı kurar (tek kelime devasa) —
+durdurucu kapak isteniyorsa en güçlüsü. `karusel-kapak-foto` Didem'in fotoğrafını
+kullanır; `.claude/assets/foto/` boşsa bu varyantı seçme.
 
 Tema sınıflarıyla aksan rengini değiştir ama bir karuselde en fazla iki tema kullan.
 Kapak ve kapanış aynı temada, ortası farklılaşsın. `tema-koyu` en fazla bir-iki slaytta.

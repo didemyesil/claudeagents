@@ -205,3 +205,60 @@ li b { color: var(--aksan); font-weight: 700; flex-shrink: 0; }
 .karsilastir > div { padding: 38px; border-radius: 14px; background: #fff; border: 1px solid var(--cizgi); text-align: left; }
 .karsilastir h3 { font-size: 27px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--aksan); margin-bottom: 18px; }
 .karsilastir p { font-size: 31px; max-width: 100%; }
+
+/* ============ KAPAK: olcek kontrasti ============
+   Bir kelimeyi devasa yap, gerisini kucuk birak. Kapak slaytini durdurucu yapan sey bu.
+   .dev-kelime tek basina kullanilir — slaytta ikinci bir dev eleman olmaz. */
+.dev-kelime {
+  font-size: 190px; line-height: .92; font-weight: 700;
+  letter-spacing: -.045em; color: var(--metin);
+}
+.dev-kelime em { font-style: normal; color: var(--aksan); }
+.ust-kelime { font-size: 62px; font-weight: 700; letter-spacing: -.02em; line-height: 1; }
+.alt-vaat   { font-size: 40px; font-weight: 600; color: var(--soluk); }
+.tema-koyu .dev-kelime, .tema-koyu .ust-kelime { color: #fff; }
+
+/* kapak alt seridi — icindekiler, tek satir */
+.alt-serit { display: flex; align-items: center; gap: 20px; font-size: 30px; font-weight: 700; color: var(--metin); }
+.alt-serit .ayrac { color: var(--altin); font-size: 26px; }
+.tema-koyu .alt-serit { color: #fff; }
+
+/* icerigi gosteren onizleme kartlari — merak + kanit */
+.onizlemeler { display: flex; gap: 20px; align-items: flex-start; }
+.onizleme {
+  background: #fff; border: 1px solid var(--cizgi); border-radius: 12px;
+  padding: 22px 24px; width: 240px; min-height: 175px;
+  display: flex; flex-direction: column; justify-content: space-between;
+  transform: rotate(-2deg);
+}
+.onizleme:nth-child(even) { transform: rotate(2deg); background: var(--indigo); border-color: var(--indigo); }
+.onizleme:nth-child(even) .baslik { color: #fff; }
+.onizleme:nth-child(even) .no { color: var(--altin); }
+.onizleme .baslik { font-size: 24px; font-weight: 700; line-height: 1.25; color: var(--metin); }
+.onizleme .no { font-size: 20px; font-weight: 700; color: var(--soluk); }
+
+/* ============ FOTOGRAFLI KAPAK ============
+   Brand guide: Didem gorundugunde fotograf layout'a entegre olur — profil dairesi degil.
+   Dogal ten tonu, mor overlay yok, agir rotus yok, stok fotograf havasi yok.
+   Uc yerlesim var; her hafta ayni olani kullanma. */
+
+/* 1) Saga yaslanmis tam boy foto, metin solda */
+.foto-yan { position: absolute; right: 0; top: 0; bottom: 0; width: 46%; overflow: hidden; }
+.foto-yan img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+.slayt.foto-sagda .govde { max-width: 56%; }
+
+/* 2) Alt yariyi kaplayan foto, metin ustte */
+.foto-alt { position: absolute; left: 0; right: 0; bottom: 0; height: 44%; overflow: hidden; }
+.foto-alt img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.foto-alt::before { content: ''; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to bottom, var(--zemin) 0%, transparent 22%); }
+.slayt.foto-altta .govde { justify-content: flex-start; padding-top: 30px; }
+.slayt.foto-altta .alt { position: relative; z-index: 2; }
+
+/* 3) Serbest kesit — fotograf kose blogu olarak, metin akisi bozulmadan */
+.foto-blok { width: 100%; height: 420px; border-radius: 16px; overflow: hidden; }
+.foto-blok img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+
+/* fotograf uzerine metin dusuyorsa okunurluk icin — mor degil notr perde */
+.foto-perde::after { content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to right, rgba(250,248,244,.94) 0%, rgba(250,248,244,.55) 55%, transparent 100%); }

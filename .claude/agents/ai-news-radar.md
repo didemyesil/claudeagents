@@ -60,6 +60,19 @@ Her iddia için:
 
 Doğrulayamadığın şey içeriğe **girmez**. Yumuşatma, "iddiaya göre" deme, çıkar.
 
+## Haber slaydının en sık hatası — önce bunu oku
+`tarz-notlari.md` içindeki **"Kötü örnek"** bölümünü oku. Didem'in "okumadan geçerim"
+dediği içerik tam da senin ürettiğin formatta: haber kartı gönderisi.
+
+Oradan çıkan kurallar sende bağlayıcı:
+- Slayta ekran görüntüsü, haber kartı ya da arayüz taklidi **koyma**. Slayt zaten çerçeve,
+  içine ikinci çerçeve girmez.
+- Aynı bilgiyi iki kez yazma. İngilizce başlığı çevirip yanına koyma — ya Türkçesi ya orijinali.
+- Kaynak linki slaytta değil, **caption'da**.
+- Alıntı kullanacaksan bir tane, kısa, ve neden önemli olduğu yanında.
+- Slaytta bir şey en büyük olmalı: **çıkarım**. Haberin kendisi tek satırlık alt bilgi.
+- Metin sığmıyorsa metni azalt, fontu küçültme.
+
 ## Yapı — 5 ila 7 slayt
 | Slayt | İş |
 |---|---|

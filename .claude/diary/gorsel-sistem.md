@@ -45,8 +45,21 @@ Her hafta aynı görünen içerik en büyük risk. Şu araçlar var:
 - Kapak ve kapanış aynı temada olsun, ortası farklılaşsın.
 - Bir karuselde en fazla **bir-iki** `tema-koyu` slayt — ritmi kırar, çoğalınca ağırlaşır.
 
-**2. Şablon çeşitliliği.** Beş karusel, beş reel şablonu var. Aynı karuselde
+**2. Şablon çeşitliliği.** Yedi karusel, beş reel şablonu var. Aynı karuselde
 `karusel-icerik`i altı kez tekrarlama. Liste, karşılaştırma, koyu blok karıştır.
+
+**2b. Kapak dönüşümlü.** Üç kapak var, her hafta aynısını kullanma:
+- `karusel-kapak` — başlık + sarı vurgu kutusu + not kutusu
+- `karusel-kapak-buyuk` — **ölçek kontrastı**: tek kelime devasa, önizleme kartlarıyla
+- `karusel-kapak-foto` — Didem'in fotoğrafı layout'a entegre
+
+Ölçek kontrastı kapağı durdurucu yapan şeydir: bir kelime slaytın yarısı, gerisi küçük.
+Her şeyin aynı boyda olduğu kapak sakin görünür ama parmağı durdurmaz.
+
+**2c. Fotoğraf varyasyonu.** `.claude/assets/foto/` içinde birkaç fotoğraf var
+(pc başında, elinde pc, konuşurken, portre). Konuya uyanı seç, üst üste iki hafta
+aynısını kullanma. Yerleşim de değişsin: `foto-sagda`, `foto-altta`, `.foto-blok`.
+Fotoğraf yoksa fotoğrafsız kapaklardan birini kullan — placeholder koyma.
 
 **3. Bileşen çeşitliliği.** `vurgu-kutu`, `not-kutu`, `pill`, `balon`, `akis`,
 `koyu-panel`, `kart`, `cta`, `dev-numara`. Hepsi her seferinde kullanılmaz —

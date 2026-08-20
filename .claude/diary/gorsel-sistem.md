@@ -85,8 +85,10 @@ raporda, dosya adında kullanılır. **Hiçbir slaytta/sahnede görünür metin 
 basılmaz, istisnasız.** Didem bunu açıkça yasakladı.
 
 Üst etiket (`.etiket`) sadece `AI DIARY` yazar, arkasına içerik alanı eklenmez.
-Daha iyi bir eyebrow/seri etiketi istenirse `.pill-etiket` bileşenini kullan
-(aşağıda) — ama o da içerik alanı adını değil, konuya özel kısa bir ifade taşır.
+
+**"AI Diary Serisi" / "AI Diary Series" de asla yazılmaz.** Didem bunu da
+yasakladı. Pill/eyebrow etiketi gerekiyorsa düz `AI DIARY` kullan (seri/series
+kelimesi olmadan) ya da pill'i tamamen kaldır, `.etiket` ile devam et.
 
 ## Uydurulmayacak şeyler
 - **Logo yok.** "Grow with Tech" sadece tipografi olarak yazılır. Yanına sembol,

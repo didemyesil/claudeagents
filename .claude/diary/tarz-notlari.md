@@ -167,3 +167,64 @@ entegre fotoğraf.
 Alınmayacaklar: "steal my" tipi emir kipi ve abartılı iddia. Didem'in sesi daha ölçülü —
 cömertliği koru, bağırmayı bırak. Türkçe karşılığı "al kullan" değil, sade bir teklif:
 *"Bu haftanın notları"*, *"Denedim, işe yarayanı bırakıyorum"*.
+
+
+---
+
+## Üçüncü gerçek örnek — "hız mı, kapasite mi" yazısı
+
+Bu, Didem'in tam da bu konuda yazdığı gerçek bir metin. Öncekilerden farkı: doğrudan bu
+haftanın konusu. Buradan çıkan imzalar öncekilere ek, çelişenler de var — çelişenler
+daha önemli çünkü gerçek kullanım önceliklidir.
+
+**Soru gerçek bir pivot noktası, kanca değil.** "Ama yapay zekânın değeri sadece burada mı?"
+— bu soru yazının ortasında, argümanı çeviren yerde duruyor. Slayt 1'in kancası olarak
+atılmış bir "dikkat çekici soru" değil. Fark şu: kanca sorusu cevaba ihtiyaç duymaz,
+sadece merak açar. Didem'in soruları **gerçekten cevaplanıyor** — soru sorduğu anda
+okuyucu da aynı soruyu soruyor olmalı.
+
+**Önce hakkını teslim eder, sonra sınırını çizer — art arda iki kez.** "Bunların hepsi
+değerli." → sonra "Ama yapay zekânın değeri sadece burada mı?" Aynı hareket slayt 3'te
+tekrar: "Bunun ciddi bir değeri var. Ama hızın da bir sınırı var." Bu, önceki örnekte
+görülen "önce hakkını ver, sonra öteye geç" davranışının netleşmiş hali — art arda iki
+kısa cümle, ilki onay, ikincisi çevirme.
+
+**Sayı somut ve eşleştirilmiş, tek başına değil.** "2 saatlik sunumu 30 dakikada
+hazırlıyoruz." Önce-sonra çifti olarak veriyor, tek bir yüzde ya da tek bir süre değil.
+Üç örneği art arda sıralıyor (sunum, e-posta, doküman) — hepsi aynı yapıda, ritim kuruyor.
+
+**Kısa, kesin özet cümlesi paragrafı kapatır.** "Yani aynı iş. Daha kısa sürede."
+İki parçalı, sıfır süslemeli. Bu cümle formu tekrar ediyor: "Burada sadece hızlanmıyoruz.
+Kapasitemiz genişliyor." de aynı ikili yapı.
+
+**Örnek somut ama kişisel anekdot değil, senaryo.** "Yüzlerce müşteri yorumu, toplantı
+notu ve destek talebini birlikte analiz edip…" — bu "geçen hafta şunu yaptım" değil,
+"bunu yapabilirsin" senaryosu. Önceki notta bu ayrımı bulamamıştık: **kişisel anekdot
+uydurmak yasak, ama tarif edilebilir bir senaryo/kapasite tasviri uydurmak Didem'in
+kendi yazdığı örneklerde de var.** Fark: senaryo "ben yaptım" iddiası taşımıyor,
+"bunu artık yapabiliyoruz" diyor — birinci çoğul, iddiasız.
+
+**Liste satır satır kırılıyor, madde imi yok.** "tekrar eden sorunları bulmak, /
+farklı gruplardaki örüntüleri karşılaştırmak, / gözümüzden kaçabilecek sinyalleri
+yakalamak…" — bullet değil, serbest satır kırığı. Bu bir ritim aracı, LinkedIn'de
+nefes payı yaratıyor. Instagram slaytına çevrilirken bullet/numara olabilir ama
+satır kırığının kendisi de bir görsel seçenek.
+
+**Kapanış CTA değil, açık soru yığını.** Yazı "kaydet/paylaş" ile bitmiyor.
+"Neyi daha iyi yapabilirim? Neyi daha önce yapamıyordum? Neyi artık tamamen farklı
+yapabilirim?" diye üç soruyla açık bırakıyor. **Bu, brief-sistemi.md'deki varsayılan
+CTA kuralıyla gerilimde** — sistem "bağlamlı kaydetme çağrısı" istiyor, Didem'in
+gerçek yazma alışkanlığı hiç CTA koymuyor. Instagram karuseli LinkedIn'den farklı bir
+mecra olduğu için tamamen CTA'sız bırakmak riskli, ama zorlama "kaydet!" yazısı da
+bu sese aykırı — kapanış sorularının hemen altına, küçük ve doğal bir kaydetme daveti
+eklenmesi bir orta yol olabilir. Kesin kural değil, her seferinde değerlendirilecek.
+
+### Bu örnekte Didem'in kendisinin fark ettiği/edebileceği bir gerilim
+
+Slayt 7'de "Sadece: Neyi hızlandırabilirim? değil." cümlesi, brand guide'ın açıkça
+yasakladığı **"Sadece X değil, Y" zorlama karşıtlık kalıbına** yapısal olarak uyuyor.
+Bu, gerçek yazma alışkanlığının kurallardan birine takıldığı nadir bir an — kural mı
+kazanır, gerçek ses mi, içerik agent'ları bunu **otomatik "düzeltmesin"**, QA bunu
+Didem'e sorarak işaretlesin. Muhtemelen çözüm kalıbı kırmak değil, aynı fikri farklı
+bir cümle yapısıyla söylemek (örn. "Soru artık tek değil: 'nasıl hızlanırım' de,
+'neyi artık yapabilirim' de.") — ama bu Didem'in kararı.

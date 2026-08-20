@@ -5,7 +5,7 @@
 //
 // sahneler.json bicimi:
 // { "sahneler": [ { "html": "sahne-1.html", "sure": 3.5 }, ... ], "gecis": 0.35 }
-// Toplam sure 30 saniyeyi asarsa script hata verir (Instagram kesfet hedefi).
+// Hedef sure 28-32 saniye (metodolojiler.md). Disina cikarsa script hata verir.
 import { execFileSync } from 'node:child_process';
 import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { dirname, resolve, join } from 'node:path';
@@ -28,8 +28,8 @@ const sahneler = tarif.sahneler;
 if (!sahneler?.length) { console.error('sahne yok'); process.exit(1); }
 
 const toplam = sahneler.reduce((t, s) => t + s.sure, 0) - gecis * (sahneler.length - 1);
-if (toplam > 30.5) {
-  console.error(`Toplam sure ${toplam.toFixed(1)}s — 30 saniye sinirini asiyor. Sahne kisalt.`);
+if (toplam > 32.5 || toplam < 27.5) {
+  console.error(`Toplam sure ${toplam.toFixed(1)}s — hedef aralik 28-32 saniye. Sahne sureleri ayarlanmali.`);
   process.exit(1);
 }
 

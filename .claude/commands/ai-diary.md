@@ -61,8 +61,13 @@ uydurma.
 Girdi tek katmanlıysa (sadece hamle ya da sadece düşünce) zorla ikiye bölme.
 Eksik katmanı Didem'e sor; cevap yoksa tek içerik üret.
 
-**Brief'i Didem'e göster, onayını al.** Metodoloji seçimini de gerekçesiyle söyle.
-Onaydan sonra dağıt.
+**Onay bekleme.** Didem ana fikri verir, metodoloji seçimi ve yapı kararı sende.
+Brief'i çıkar ve doğrudan üretime geç. Metodoloji seçiminin gerekçesini teslimde anlat —
+öncesinde değil.
+
+Tek istisna: `SOMUT DAYANAK` alanı boşsa. Didem'in kendi deneyiminden bir an, sayı ya da
+"önce böyle yapıyordum" yoksa içerik jenerikleşir. Bu durumda **tek bir soru sor** ve
+cevabı bekle. Uydurma.
 
 ## Adım 2 — Görevleri dağıt
 

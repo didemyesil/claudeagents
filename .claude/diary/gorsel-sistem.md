@@ -56,7 +56,12 @@ Her hafta aynı görünen içerik en büyük risk. Şu araçlar var:
 Ölçek kontrastı kapağı durdurucu yapan şeydir: bir kelime slaytın yarısı, gerisi küçük.
 Her şeyin aynı boyda olduğu kapak sakin görünür ama parmağı durdurmaz.
 
-**2c. Fotoğraf varyasyonu.** `.claude/assets/foto/` içinde birkaç fotoğraf var
+**2c. Fotoğraf — sadece karusel kapağında.**
+Reel'de ve karuselin iç slaytlarında **gerçek insan yüzü yok**; teknoloji tipografi,
+diyagram ve yapıyla anlatılır. Tek istisna karusel kapağı: orada Didem'in fotoğrafı
+layout'a entegre biçimde kullanılabilir. Stok fotoğraf hiçbir yerde kullanılmaz.
+
+ `.claude/assets/foto/` içinde birkaç fotoğraf var
 (pc başında, elinde pc, konuşurken, portre). Konuya uyanı seç, üst üste iki hafta
 aynısını kullanma. Yerleşim de değişsin: `foto-sagda`, `foto-altta`, `.foto-blok`.
 Fotoğraf yoksa fotoğrafsız kapaklardan birini kullan — placeholder koyma.

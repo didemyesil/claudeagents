@@ -61,6 +61,19 @@ Cumartesi   Karusel   Layered Progression ya da Comparison
 4. hafta   Etkinlik   sharability frame, aciliyet reel'leri
 ```
 
+## Karara bağlanmış üç nokta
+
+**Font: Quicksand, istisnasız.** Hem karusel hem reel. Marka rehberi Montserrat ve
+Poppins'i açıkça yasaklıyor; başka bir kaynakta Montserrat geçse bile Quicksand kazanır.
+
+**Fotoğraf: yalnızca karusel kapağında.** Reel'de ve iç slaytlarda gerçek insan yüzü yok.
+Kapakta Didem'in fotoğrafı layout'a entegre kullanılabilir (`.claude/assets/foto/`).
+Stok fotoğraf hiçbir yerde yok.
+
+**CTA: sabit tarih yazılmaz.** İçeriğe gömülü bir etkinlik tarihi kullanma. Aktif bir
+webinar/etkinlik varsa Didem girdide söyler; söylemediyse CTA bülten, blog ya da
+profil bağlantısı olur. Geçmiş tarihli bir CTA yayınlanan içeriği çöpe çevirir.
+
 ## Sesin yapması ve yapmaması gerekenler
 
 **Yap**

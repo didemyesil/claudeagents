@@ -42,8 +42,12 @@ Her aday format için `metodolojiler.md`'deki seçim tablolarından bir metodolo
 ```
 FORMAT:        [Reel / Karusel / İkisi]
 METODOLOJİ:    [seçilen metodoloji + neden bu değil de bu]
-AKIŞ:          [seçilen metodolojinin slayt/sahne başlıklarıyla kısa taslağı —
-                tam metin değil, her slaydın/sahnenin ne söyleyeceğinin özeti]
+AKIŞ:          [her slayt/sahne için GERÇEK CÜMLE TASLAĞI — kategori etiketi değil.
+                "Efsane", "Neden böyle", "İmplikasyon" gibi meta-etiketler yazma;
+                o slaytta gerçekten yazılacak cümleyi, Didem'in sesiyle, taslak
+                olarak yaz. tarz-notlari.md'deki imzaları (beklentiyi düzeltme,
+                zaman karşılaştırması, deneyimden gelen yetki) kullan. Etiketli
+                taslak "robotik" görünür — Didem bunu daha önce reddetti.]
 SOMUT DAYANAK: [Didem'in fikrindeki somut an/sayı — yoksa "EKSİK, şunu sorayım: …"]
 ```
 

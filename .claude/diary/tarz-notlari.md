@@ -171,10 +171,12 @@ cömertliği koru, bağırmayı bırak. Türkçe karşılığı "al kullan" değ
 
 ---
 
-## Üçüncü gerçek örnek — "hız mı, kapasite mi" yazısı
+## Üçüncü gerçek örnek — "hız mı, kapasite mi" yazısı ⭐ ONAYLANMIŞ REFERANS
 
-Bu, Didem'in tam da bu konuda yazdığı gerçek bir metin. Öncekilerden farkı: doğrudan bu
-haftanın konusu. Buradan çıkan imzalar öncekilere ek, çelişenler de var — çelişenler
+**Didem bu metni ve tonunu açıkça "benim sesime daha yakın" diye onayladı — bu dosyadaki
+en güvenilir referans.** Şüphe anında diğer örnekler yerine buna bak.
+
+Bu, Didem'in tam da bu konuda yazdığı gerçek bir metin. Buradan çıkan imzalar öncekilere ek, çelişenler de var — çelişenler
 daha önemli çünkü gerçek kullanım önceliklidir.
 
 **Soru gerçek bir pivot noktası, kanca değil.** "Ama yapay zekânın değeri sadece burada mı?"
@@ -228,3 +230,38 @@ kazanır, gerçek ses mi, içerik agent'ları bunu **otomatik "düzeltmesin"**, 
 Didem'e sorarak işaretlesin. Muhtemelen çözüm kalıbı kırmak değil, aynı fikri farklı
 bir cümle yapısıyla söylemek (örn. "Soru artık tek değil: 'nasıl hızlanırım' de,
 'neyi artık yapabilirim' de.") — ama bu Didem'in kararı.
+
+
+---
+
+## Onaylanan yazı cihazları — "hız mı, kapasite mi" karuselinden
+
+Bu karuselin son onaylı 8 slaydından çıkan, tekrar kullanılabilir somut araçlar:
+
+**Ok notasyonu (`→`) sayısal karşıtlık için.** "2 saatlik sunum → 30 dakika."
+Cümle kurmaya gerek yok, önce-sonra tek satırda. Zaman/sayı karşılaştırması
+gerektiğinde varsayılan araç bu.
+
+**"vs." iki tırnaklı cümle arasında.** Slayt 6: "Aynı işi daha hızlı
+yapabiliyorum." vs. "Bunu yapay zekâ olmadan bu şekilde yapamazdım." Didem'in
+kendi kullandığı, İngilizce ödünç ama Türkçe akışa oturan bir bağlaç. Karşılaştırma
+şablonunda kullanılabilir.
+
+**"Sadece X değil, Y" kalıbı içerikte serbest, kapanışta yasak.** Bu önemli bir
+düzeltme: Didem bu kalıbı slayt 7'de (içerik ortasında, bir soru evrimini
+göstermek için) kendi yazdı ve dokunmamamı istedi — sadece kapanışı (slayt 8)
+düzeltmemi istedi. Yani brand guide'ın bu kalıbı yasaklaması **mutlak değil,
+bağlama bağlı**: bir sorunun/iddianın nasıl değiştiğini göstermek için ortada
+kullanılması sorun değil, ama **kapanış/CTA gibi son izlenimi belirleyen yerlerde**
+kaçınılmalı. QA bu kalıbı gördüğünde otomatik "hata" işaretlemesin — nerede
+olduğuna bakıp değerlendirsin, kapanışta değilse muhtemelen sorun değil.
+
+**"Ekleyerek" / "ekliyorum" — antitezsiz genişletme bağlacı.** "'Neyi
+hızlandırabilirim?' sorusunun yanına bunu da ekleyerek: '...'" Bir fikri
+reddetmeden yanına yenisini koymanın yolu. "Sadece X değil Y" yerine kapanışta
+kullanılacak varsayılan alternatif bu.
+
+**Kapanış CTA'sız, açık soru(lar)la biter.** Zorlama "kaydet/paylaş" yok.
+Bu artık tek seferlik bir gözlem değil, **onaylanmış varsayılan** — etkinlik
+yoksa ve içerik reflektif bir Myth-Busting/düşünce parçasıysa, kapanışı
+Didem'in kendi sorduğu son soruyla bitir.

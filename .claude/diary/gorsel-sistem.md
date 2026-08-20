@@ -77,6 +77,17 @@ görsel yapı istiyorsa `brand.css` değişkenlerini kullanarak yeni bir yapı k
 **Geçen haftaya bak.** Çıktı klasörlerinde önceki haftaların içeriği var.
 Aynı şablon-tema kombinasyonunu üst üste iki hafta kullanma.
 
+## Etiket kuralı — içerik alanı asla görünür metin olmaz
+
+`strategy.md`'deki beş içerik alanı (Yapay Zekâyı Anlamak, Yapay Zekâyla Çalışmak,
+İş Devri, İnsan Muhakemesi, Yeni Çalışma Biçimleri) **iç sınıflandırmadır** — brief'te,
+raporda, dosya adında kullanılır. **Hiçbir slaytta/sahnede görünür metin olarak
+basılmaz, istisnasız.** Didem bunu açıkça yasakladı.
+
+Üst etiket (`.etiket`) sadece `AI DIARY` yazar, arkasına içerik alanı eklenmez.
+Daha iyi bir eyebrow/seri etiketi istenirse `.pill-etiket` bileşenini kullan
+(aşağıda) — ama o da içerik alanı adını değil, konuya özel kısa bir ifade taşır.
+
 ## Uydurulmayacak şeyler
 - **Logo yok.** "Grow with Tech" sadece tipografi olarak yazılır. Yanına sembol,
   ikon, monogram, kıvılcım, daire koyma. Bu kural estetiğin üstündedir.

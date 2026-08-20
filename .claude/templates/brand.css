@@ -262,3 +262,22 @@ li b { color: var(--aksan); font-weight: 700; flex-shrink: 0; }
 /* fotograf uzerine metin dusuyorsa okunurluk icin — mor degil notr perde */
 .foto-perde::after { content: ''; position: absolute; inset: 0;
   background: linear-gradient(to right, rgba(250,248,244,.94) 0%, rgba(250,248,244,.55) 55%, transparent 100%); }
+
+
+/* ============ KAPAK VARYANTI: UST CIZGI (serit yerine) ============
+   Referans: ince ust aksan cizgisi + sol serit YOK. Daha ferah, daha
+   "seri/dergi kapagi" hissi. karusel-kapak-buyuk ve foto ile donusumlu
+   kullan — hepsi ayni gorunmesin. */
+.slayt.cizgi-ust::before { display: none; }
+.slayt.cizgi-ust { padding-left: var(--kenar); }
+.slayt.cizgi-ust::after {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 7px;
+  background: var(--aksan);
+}
+
+/* buyuk, cok satirli baslik bloku — "dergi kapagi" hook'u icin */
+.baslik-blok {
+  font-size: 84px; line-height: 1.02; font-weight: 700; letter-spacing: -.03em;
+}
+.baslik-blok em { font-style: normal; color: var(--aksan); }
+.tema-koyu .baslik-blok { color: #fff; }

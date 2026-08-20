@@ -64,8 +64,9 @@ yeni bileşen kurabilirsin. Ayrıntı `gorsel-sistem.md`'de.
 
 ## Üretim adımları
 1. Slayt metinlerini düz metin olarak çıkar, akışı kontrol et
-2. Şablonlardan HTML slaytları üret. Çıktı klasörünü `.claude/cikti/<hafta>/karusel/`
-   altında aç, `brand.css`'i yanına kopyala (font yolu için gerekli)
+2. Şablonlardan HTML slaytları üret. Çıktı klasörü `.claude/cikti/<hafta>/karusel/`.
+   `brand.css`'i **kopyalama** — şablondaki `href="brand.css"` satırını
+   `href="../../../templates/brand.css"` yap (font yolu ancak böyle çalışır)
 3. Render et:
    ```
    cd .claude/scripts && PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers \

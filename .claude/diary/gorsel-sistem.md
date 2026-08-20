@@ -88,9 +88,18 @@ PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers node render-reel.mjs <sahneler.json> <
 
 `node_modules` yoksa önce `.claude/scripts` içinde `npm install`.
 
-**Font yolu tuzağı:** `brand.css` fontu `../assets/fonts/` olarak arar. Çıktı klasörünü
-`.claude/` altında aç (`.claude/cikti/2026-W34/karusel/`), `brand.css`'i yanına kopyala —
-göreli yol o zaman tutar. Başka yere açacaksan `brand.css` içindeki font yolunu mutlak yap.
+**Font yolu — brand.css'i KOPYALAMA.** CSS'teki göreli yollar CSS dosyasının bulunduğu
+yere göre çözülür. `brand.css` fontu `../assets/fonts/` olarak arar ve bu yol yalnızca
+dosya `.claude/templates/` içinde kaldığında doğrudur. Kopyalarsan fontlar yüklenmez.
+
+Bunun yerine HTML'den şablon klasörüne göreli link ver. Çıktı `.claude/cikti/<hafta>/karusel/`
+içindeyse:
+
+```html
+<link rel="stylesheet" href="../../../templates/brand.css">
+```
+
+Şablonlardaki `href="brand.css"` satırını çıktı klasörüne yazarken bu şekilde güncelle.
 
 **Render sonrası PNG'ye Read tool ile bak.** Script hata vermeden de metin taşabilir.
 Taşma varsa metni kısalt. Font küçültmek yasak.

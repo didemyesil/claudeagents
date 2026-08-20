@@ -52,8 +52,9 @@ Beş şablon var: `reel-kapak`, `reel-akis`, `reel-balon`, `reel-panel`, `reel-k
 Hepsini her seferinde kullanma; anlatıya uygun olanı seç ve **her hafta aynı diziyi tekrarlama**.
 Tema sınıflarıyla (`tema-mor`, `tema-deniz`, `tema-altin`, `tema-koyu`) aksanı değiştir.
 
-Çıktı klasörünü `.claude/cikti/<hafta>/reel/` altında aç ve `brand.css`'i yanına kopyala —
-font yolu ancak o zaman tutar (ayrıntı `gorsel-sistem.md`'de).
+Çıktı klasörü `.claude/cikti/<hafta>/reel/`. `brand.css`'i **kopyalama** — şablonlardaki
+`href="brand.css"` satırını `href="../../../templates/brand.css"` yap. CSS'teki font yolu
+ancak dosya kendi klasöründe kalırsa çalışır (ayrıntı `gorsel-sistem.md`'de).
 
 **3. `sahneler.json` yaz:**
 ```json

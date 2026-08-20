@@ -84,11 +84,14 @@ Aynı şablon-tema kombinasyonunu üst üste iki hafta kullanma.
 raporda, dosya adında kullanılır. **Hiçbir slaytta/sahnede görünür metin olarak
 basılmaz, istisnasız.** Didem bunu açıkça yasakladı.
 
-Üst etiket (`.etiket`) sadece `AI DIARY` yazar, arkasına içerik alanı eklenmez.
+**"AI DIARY" hiçbir biçimde görünür metin olmaz — tek başına, "Serisi/Series"
+eklenmiş, içerik alanı eklenmiş, fark etmez.** Didem bunu kesin dille yasakladı
+("asla olmayacak!!"). Üst etiket/pill/eyebrow alanı ya tamamen boş bırakılır
+ya da "Grow with Tech" / konuya özel kısa bir ifade kullanılır — "AI Diary"
+kelimesi ekranda hiçbir yerde çıkmaz.
 
-**"AI Diary Serisi" / "AI Diary Series" de asla yazılmaz.** Didem bunu da
-yasakladı. Pill/eyebrow etiketi gerekiyorsa düz `AI DIARY` kullan (seri/series
-kelimesi olmadan) ya da pill'i tamamen kaldır, `.etiket` ile devam et.
+Bunun bir istisnası yok: caption'da, hashtag'te (`#AIDiary` YASAK), dosya
+adında değil ama **görsel içerikte** kesinlikle olmaz.
 
 ## Uydurulmayacak şeyler
 - **Logo yok.** "Grow with Tech" sadece tipografi olarak yazılır. Yanına sembol,

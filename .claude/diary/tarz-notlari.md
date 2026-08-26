@@ -93,6 +93,24 @@ farklı bir retorik araç kullan — tekrar eden kelime, gerçek soru, ok notasy
 liste (satır satır kırılan), beklenti düzeltme. Aynı cümle iskeletini madde numarası
 değiştirerek çoğaltma. Kural takip etmek yazmayı düşünmemek için bahane değil.
 
+## "X değil, Y" kalıbı — güncellenmiş kesin kural
+
+Önceki not bu kalıbın içerik ortasında (Didem'in kendi yazdığı yerlerde) serbest
+olduğunu söylüyordu. Didem bunu bu seride net şekilde geri çevirdi: **asla kullanma** —
+ortada da, kapanışta da. Agent'lar kendi ürettiği cümlede bu kalıba hiç girmesin;
+önceki "bağlama bağlı" notu yalnızca Didem'in kendi yazdığı, zaten onaylanmış bir
+metne müdahale etmeme durumu için geçerliydi, agent'ın sıfırdan yazdığı cümleler için
+değil.
+
+## İş devri içeriğinde doğru çerçeve — "kural yaz" değil "Claude değerlendiriyor"
+
+Scheduled task + Claude anlatılırken "bir kural tanımla / kuralı yaz" gibi rijit,
+rule-engine dili kullanma. Claude görevi kendi muhakemesiyle değerlendirip
+planlayabiliyor — kullanıcı sabit bir karar ağacı yazmak zorunda değil. Doğru vurgu:
+"Claude bunu kendi değerlendirebiliyor", "gerisini Claude çözüyor" gibi, kullanıcının
+rijit bir kural yazdığı değil, işi tarif edip muhakemeyi Claude'a bıraktığı bir çerçeve.
+Bu, stratejideki "kör otomasyon yerine muhakeme" ilkesiyle de örtüşüyor.
+
 ## Kaçınılacaklar — Didem'e ait olmayan ses
 - Uzman pozu, otorite iddiası ("uzman olarak söylüyorum", "bilmeniz gereken")
 - Abartılı vaat ("hayatınız değişecek", "bunu bilmeyen geri kalacak")

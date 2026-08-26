@@ -265,3 +265,14 @@ kullanılacak varsayılan alternatif bu.
 Bu artık tek seferlik bir gözlem değil, **onaylanmış varsayılan** — etkinlik
 yoksa ve içerik reflektif bir Myth-Busting/düşünce parçasıysa, kapanışı
 Didem'in kendi sorduğu son soruyla bitir.
+
+---
+
+## Radar'a özel not — "X değil, Y" başlıklarda da kontrol edilsin
+
+Radar haber başlıklarında "X değil, Y" zorlama karşıtlığı özellikle sık tekrarlanıyor
+— haber özetlemek doğası gereği "aslında öyle değil, böyle" demeye çok yatkın.
+QA her haber slaydının **başlığını** da bu kalıba karşı kontrol etsin, sadece kapanışı
+değil. Yukarıdaki "bağlama bağlı" kuralı geçerli (Didem'in kendi yazdığı ortadaki
+kullanım serbest) ama radar başlıkları Didem'in kendi cümlesi değil, agent'ın kurduğu
+cümle — o yüzden başlıkta görülürse düzeltilsin.

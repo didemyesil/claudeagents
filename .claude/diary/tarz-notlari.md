@@ -75,6 +75,15 @@ tersini söylemek, retorik soru sormadan parmağı durdurur. Bunu kullan.
 
 ---
 
+## Director notu: somut dayanak her seferinde zorunlu değil
+
+Didem'in düzeltmesi: fikir sistemik/kavramsal olarak yeterince güçlüyse (ör. bir kriter,
+bir çerçeve, bir iş devri ilkesi), kişisel bir an ya da sayı olmadan da olgunlaştırılabilir.
+Director her fikirde otomatik "somut dayanak eksik, önce onu sorayım" diye durup üretimi
+bloklamasın — fikrin kendisi somut ve uygulanabilir bir mekanizma taşıyorsa (ör. "net talimat
+seti varsa skill, tekrarlıyorsa scheduled task") bu zaten yeterli somutluktur. Sayı/anekdot
+sadece varsa eklenir, yokluğu üretimi durdurmaz.
+
 ## Kaçınılacaklar — Didem'e ait olmayan ses
 - Uzman pozu, otorite iddiası ("uzman olarak söylüyorum", "bilmeniz gereken")
 - Abartılı vaat ("hayatınız değişecek", "bunu bilmeyen geri kalacak")

@@ -84,6 +84,15 @@ bloklamasın — fikrin kendisi somut ve uygulanabilir bir mekanizma taşıyorsa
 seti varsa skill, tekrarlıyorsa scheduled task") bu zaten yeterli somutluktur. Sayı/anekdot
 sadece varsa eklenir, yokluğu üretimi durdurmaz.
 
+## Şablon doldurur gibi yazma — her slayt aynı kalıpta olmasın
+
+Didem'in düzeltmesi: "X net, talimatı yaz, güne bağla" gibi bir formülü her slaytta
+tekrarlamak sıkıcı ve amatör duruyor — fark edilir, okuyucuyu iter. Director ve üretici
+agent'lar (özellikle carousel-producer) senior copywriter gibi çalışmalı: her slaytta
+farklı bir retorik araç kullan — tekrar eden kelime, gerçek soru, ok notasyonu, staccato
+liste (satır satır kırılan), beklenti düzeltme. Aynı cümle iskeletini madde numarası
+değiştirerek çoğaltma. Kural takip etmek yazmayı düşünmemek için bahane değil.
+
 ## Kaçınılacaklar — Didem'e ait olmayan ses
 - Uzman pozu, otorite iddiası ("uzman olarak söylüyorum", "bilmeniz gereken")
 - Abartılı vaat ("hayatınız değişecek", "bunu bilmeyen geri kalacak")

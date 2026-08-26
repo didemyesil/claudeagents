@@ -53,7 +53,11 @@ Birincil kaynak zorunlu:
 İkincil haber sitesi ancak birincil kaynağa ulaşılamıyorsa ve bunu belirterek.
 
 Her iddia için:
-- **WebFetch ile kaynağa gerçekten git.** Arama sonucu özetiyle yetinme.
+- **Bu ortamda WebFetch tamamen engelli** (claude.com, openai.com, hatta wikipedia.org
+  dahil — hiçbir dış siteye doğrudan erişim yok). "Kaynağa git" fiziksel olarak mümkün
+  değil, deneyip zaman kaybetme. Bunun yerine: **her iddiayı en az 2-3 bağımsız
+  WebSearch sorgusuyla çapraz doğrula** — aynı sayı, aynı tarih, aynı başlık farklı
+  kaynaklarda tutarlı çıkana kadar ara. Tek arama sonucuna güvenme.
 - Tarihi doğrula. Eski bir haberi bu haftanınmış gibi sunmak en sık yapılan hata.
 - Sayı varsa kaynakta gördüğün sayıyı yaz.
 - Alıntı varsa **birebir** yaz, kısaltma, kendi cümlene çevirme.

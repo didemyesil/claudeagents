@@ -71,6 +71,12 @@ yazar ve Didem'e onaylatır. Metin onaylanınca üretim (görsel/render) başlar
 2. Brief → **tam metin** → onay
 3. Metin onaylanınca üretici agent'a brief + onaylı metinle görev verilir (Adım 2)
 
+## Metin onayı sunum formatı
+
+Didem onay metinlerini telefonda okuyor. Hizalanmış/paddingli kod bloğu (sabit genişlikli
+tablo görünümü) telefonda yana kaydırma zorunlu kılıyor — kullanma. Düz numaralı liste,
+kısa satırlar, kod bloğu yok. Metin sarmalanabilir olmalı.
+
 ## Karara bağlanmış üç nokta
 
 **Font: Quicksand, istisnasız.** Hem karusel hem reel. Marka rehberi Montserrat ve

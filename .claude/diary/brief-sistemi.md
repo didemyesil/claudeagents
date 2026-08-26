@@ -61,6 +61,16 @@ Cumartesi   Karusel   Layered Progression ya da Comparison
 4. hafta   Etkinlik   sharability frame, aciliyet reel'leri
 ```
 
+## Üretim öncesi metin onayı
+
+Brief onaylandıktan sonra bile üretici agent'a (reel-producer / carousel-producer)
+doğrudan geçilmez. Director önce **tam slayt/sahne metnini** (nihai copy, taslak değil)
+yazar ve Didem'e onaylatır. Metin onaylanınca üretim (görsel/render) başlar. Sıra:
+
+1. Fikir → format + metodoloji önerisi → onay (Adım 1)
+2. Brief → **tam metin** → onay
+3. Metin onaylanınca üretici agent'a brief + onaylı metinle görev verilir (Adım 2)
+
 ## Karara bağlanmış üç nokta
 
 **Font: Quicksand, istisnasız.** Hem karusel hem reel. Marka rehberi Montserrat ve

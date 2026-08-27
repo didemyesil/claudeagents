@@ -67,8 +67,8 @@ hiçbir koşulda panele girmez.
 
 Sadece Aşama 3'ten APPROVED çıkmış nihai taslağı kullan.
 
-**Round 1 — Diverge (kör):** Dört panel agent'ını (`panel-egitim-olcme`,
-`panel-alan-uzmani`, `panel-sektor-temsilcisi`, `panel-ogrenci`) **aynı anda,
+**Round 1 — Diverge (kör):** Dört panel agent'ını (`panel-education-assessment`,
+`panel-subject-expert`, `panel-industry-representative`, `panel-student`) **aynı anda,
 birbirinin çıktısını görmeden** çalıştır (tek mesajda paralel). Her birine
 sadece nihai taslağı ve checklist'i ver — diğerlerinin çıktısını verme.
 

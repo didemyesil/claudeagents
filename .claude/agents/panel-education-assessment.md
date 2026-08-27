@@ -1,5 +1,5 @@
 ---
-name: panel-egitim-olcme
+name: panel-education-assessment
 description: Panel persona — Eğitim ve Ölçme-Değerlendirme Uzmanı. Aşama 4'te sadece kendisine etiketlenmiş standartlara (öğrenme çıktıları, ölçme-değerlendirme tasarımı, pedagojik yeterlilik) verdict verir.
 tools: Read, Write
 model: sonnet

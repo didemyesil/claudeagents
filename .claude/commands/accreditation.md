@@ -47,11 +47,24 @@ After approval, run the `folder-developer` agent. Give it: the Stage 1
 checklist, `/evidence/{programme}/`, institutional policy/regulatory
 documents.
 
-Output: `/output/{programme}-{accreditor}-file.md` (draft) + missing-evidence
-list.
+This agent doesn't just read the evidence pool — it can **adapt** an existing
+evidence document that doesn't yet match the standard's required format, and
+**create** a new one from scratch when none exists, always grounded in real
+institutional facts (never invented). When it hits a genuine factual gap it
+can't draft or adapt around, it raises a specific question instead of
+guessing.
 
-**STOP — present for Didem's approval.** Surface the missing-evidence list
-prominently; Didem may want to fill gaps and re-run.
+Output: `/output/{programme}-{accreditor}-file.md` (draft) + any evidence
+documents adapted/created in `/evidence/{programme}/` + open questions for
+Didem + remaining missing-evidence list.
+
+**STOP — present for Didem's approval.** Surface three things prominently:
+(1) which evidence documents were adapted or newly created — Didem should
+review those, not just the draft file; (2) open questions that need her
+answer before the item can be finished; (3) any remaining "evidence needed"
+items with nothing to build on at all. If she answers open questions, fold
+her answers in and finish those items/documents before moving on — this
+doesn't require a full re-run of the stage.
 
 ## Stage 3 — Coherence & Gap Auditor
 

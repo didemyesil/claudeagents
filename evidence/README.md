@@ -8,5 +8,12 @@ subfolders:
 ```
 
 `folder-developer` (Stage 2) maps every checklist standard against the
-evidence here. If a programme's evidence pool isn't here yet, Stage 2 marks
-that programme's items "evidence needed" — it never invents evidence.
+evidence here. It doesn't only read this pool — when a document exists but
+doesn't match the standard's required format, it adapts it in place; when no
+document exists at all, it drafts a new one here from real institutional
+facts. It never invents a fact to fill a document — a genuine gap becomes a
+question back to Didem, not a guess.
+
+If you review a file here and see it changed or appeared without your
+knowledge, check the Stage 2 report from the run that touched it — every
+adaptation and every newly created document is listed there.

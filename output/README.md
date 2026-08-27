@@ -1,12 +1,12 @@
 # /output
 
-Akreditasyon hattının ürettiği dosyalar buraya yazılır:
+Files produced by the accreditation pipeline are written here:
 
-- `{programme}-{accreditor}-checklist.md` — Aşama 1 (Standards Expert) çıktısı
-- `{programme}-{accreditor}-file.md` — Aşama 2 (Folder Developer) taslağı
-- `gap-tracker.md` — Aşama 3 (Coherence & Gap Auditor) çıktısı
-- `panel-visit-mock-report.md` — Aşama 4 (Panel) nihai raporu
+- `{programme}-{accreditor}-checklist.md` — Stage 1 (Standards Expert) output
+- `{programme}-{accreditor}-file.md` — Stage 2 (Folder Developer) draft
+- `gap-tracker.md` — Stage 3 (Coherence & Gap Auditor) output
+- `panel-visit-mock-report.md` — Stage 4 (Panel) final report
 
-Her dosya `/akreditasyon` komutuyla, insan onaylı 4 aşamalı hat üzerinden
-üretilir. Elle düzenleme yapılacaksa hangi aşamanın çıktısı olduğunu ve
-üzerine yazılıp yazılmadığını not düş.
+Every file is produced through the `/accreditation` command, over the
+4-stage, human-approved pipeline. If editing by hand, note which stage's
+output it is and whether it's being overwritten.

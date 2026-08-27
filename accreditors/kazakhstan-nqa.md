@@ -1,56 +1,58 @@
 # Kazakhstan NQA — Config
 
-> ⚠️ **AWAITING OFFICIAL DOCUMENT** — Bu dosya henüz placeholder'dır.
-> Kazakhstan NQA'nın resmi standart/kriter dokümanı yüklenmedi. `standards-expert`
-> bu haliyle çalıştırılırsa checklist'i "placeholder — kaynak doğrulanmalı"
-> uyarısıyla üretir; Aşama 2'ye geçilmemesi gerekir. Resmi doküman
-> yüklendiğinde bu dosya birebir kaynaktan doldurulmalı, hiçbir madde
-> bellekten/tahminden yazılmamalı.
+> ⚠️ **AWAITING OFFICIAL DOCUMENT** — This file is still a placeholder.
+> Kazakhstan NQA's official standards/criteria document has not been
+> uploaded. If `standards-expert` runs against this as-is, it will produce
+> the checklist with a "placeholder — source must be confirmed" warning;
+> Stage 2 should not proceed. Once the official document is uploaded, this
+> file must be filled in verbatim from the source — no item written from
+> memory or guesswork.
 
-> Bu dosya, `standards-expert` ajanının tek kaynağıdır. Buraya girmeyen hiçbir
-> madde checklist'e girmez. Emin olmadığın/kaynağını bulamadığın madde varsa
-> boş bırakma, `[UNVERIFIED — kaynak doğrulanmalı]` etiketiyle bırak — uydurma.
+> This file is the sole source for the `standards-expert` agent. Anything not
+> entered here does not enter the checklist. If you're unsure of an item or
+> can't find its source, don't leave it blank — leave it tagged
+> `[UNVERIFIED — source must be confirmed]`. Do not invent content.
 
-## Kaynak
+## Source
 
-- Resmi doküman adı / referansı: {...}
-- Yayın tarihi / versiyon: {...}
-- Erişim/yükleme tarihi: {...}
+- Official document name / reference: {...}
+- Publication date / version: {...}
+- Access/upload date: {...}
 
-## Standart / kriter listesi
+## Standards / criteria list
 
-Her madde resmi dokümandaki numarayla ve ifadeyle birebir eşleşmeli.
+Every item must match the official document's numbering and wording verbatim.
 
-### Standart 1 — {başlık}
-{resmi ifade}
+### Standard 1 — {title}
+{official wording}
 
-### Standart 2 — {başlık}
-{resmi ifade}
+### Standard 2 — {title}
+{official wording}
 
 ...
 
-## Zorunlu kanıt tipleri (standart başına)
+## Required evidence types (per standard)
 
-| Standart no | Zorunlu kanıt tipi |
+| Standard no | Required evidence type |
 |---|---|
 | 1 | {...} |
 | 2 | {...} |
 
-## Format / sunum kuralları
+## Format / presentation rules
 
-- {accreditor'ın dosya format, sayfa sınırı, dil, ek kuralları}
+- {this accreditor's file format, page limits, language, additional rules}
 
-## Verdict skalası
+## Verdict scale
 
-Accreditor'ın kendi terminolojisi varsa buraya yaz. Yoksa boş bırak —
-sistem varsayılanı kullanır: **Karşılıyor / Riskli / Karşılamıyor**.
+If this accreditor has its own terminology, put it here. Otherwise leave
+blank — the system default is used: **Meets / At Risk / Does Not Meet**.
 
-| Bu accreditor'ın terimi | Sistem varsayılanına karşılığı |
+| This accreditor's term | Maps to system default |
 |---|---|
-| {...} | Karşılıyor |
-| {...} | Riskli |
-| {...} | Karşılamıyor |
+| {...} | Meets |
+| {...} | At Risk |
+| {...} | Does Not Meet |
 
-## Dil / terminoloji özellikleri
+## Language / terminology notes
 
-- {accreditor'a özgü terimler, çeviri hassasiyetleri, kaçınılması gereken ifadeler}
+- {accreditor-specific terms, translation sensitivities, phrases to avoid}

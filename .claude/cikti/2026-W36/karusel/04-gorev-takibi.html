@@ -1,20 +1,17 @@
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <link rel="stylesheet" href="../../../templates/brand.css">
 <style>
-  .surec{display:flex;flex-direction:column;gap:0;width:100%;margin-top:6px;}
-  .surec-blok{border-radius:16px;padding:34px 38px;display:flex;flex-direction:column;gap:22px;text-align:left;}
-  .surec-blok.ai{background:#fff;border:2.5px solid var(--aksan);}
-  .surec-blok.sen{background:var(--aksan);}
-  .surec-blok.sen .surec-rol,.surec-blok.sen .surec-adim{color:#fff;}
-  .surec-rol{font-size:25px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--aksan);}
-  .surec-adim{font-size:33px;font-weight:600;line-height:1.38;color:var(--metin);}
-  .surec-ok{text-align:center;font-size:30px;font-weight:700;color:var(--altin);}
-  .surec-ok-orta{font-size:38px;margin:6px 0;}
-  .surec-adim-liste{display:flex;flex-direction:column;gap:20px;}
-  .surec-satir{display:flex;align-items:flex-start;gap:20px;}
-  .surec-no{flex-shrink:0;width:46px;height:46px;border-radius:12px;background:var(--aksan);color:#fff;
-    font-size:23px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px;}
-  .surec-satir span:last-child{font-size:31px;font-weight:600;line-height:1.38;color:var(--metin);}
+  .rol-etiket{font-size:25px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--aksan);}
+  .adim-liste{display:flex;flex-direction:column;gap:16px;width:100%;}
+  .adim-kart{background:#fff;border:1px solid var(--cizgi);border-radius:14px;padding:26px 32px;
+    display:flex;align-items:center;gap:26px;}
+  .adim-no{flex-shrink:0;width:52px;height:52px;border-radius:14px;background:var(--aksan);color:#fff;
+    font-size:25px;font-weight:700;display:flex;align-items:center;justify-content:center;}
+  .adim-kart span:last-child{font-size:31px;font-weight:600;line-height:1.32;color:var(--metin);}
+  .sen-kutu{background:var(--aksan);border-radius:14px;padding:28px 32px;
+    display:flex;align-items:center;gap:24px;margin-top:6px;}
+  .sen-kutu .sen-rol{color:#fff;font-size:25px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;flex-shrink:0;}
+  .sen-kutu .sen-adim{color:#fff;font-size:33px;font-weight:700;}
 </style>
 </head><body>
 <div class="slayt tema-deniz">
@@ -26,21 +23,13 @@
   <div class="govde">
     <div class="etiket">OTOMASYON ADAYI · 2/3</div>
     <h2>2. Haftalık görev takibi</h2>
-    <div class="surec">
-      <div class="surec-blok ai">
-        <div class="surec-rol">Yapay zekâ</div>
-        <div class="surec-adim-liste">
-          <div class="surec-satir"><span class="surec-no">1</span><span>Görev takip aracından açık işleri ve deadline'ları çeksin</span></div>
-          <div class="surec-satir"><span class="surec-no">2</span><span>Bu haftanın işlerini ve gecikenleri ayırsın</span></div>
-          <div class="surec-satir"><span class="surec-no">3</span><span>Önceliklendirilmiş listeyi hazırlasın</span></div>
-        </div>
-      </div>
-      <div class="surec-ok surec-ok-orta">↓</div>
-      <div class="surec-blok sen">
-        <div class="surec-rol">Sen</div>
-        <div class="surec-adim">Öncelikleri kontrol et → planını finalize et</div>
-      </div>
+    <div class="rol-etiket">Yapay zekâ</div>
+    <div class="adim-liste">
+      <div class="adim-kart"><span class="adim-no">1</span><span>Görev takip aracından açık işleri ve deadline'ları çeksin</span></div>
+      <div class="adim-kart"><span class="adim-no">2</span><span>Bu haftanın işlerini ve gecikenleri ayırsın</span></div>
+      <div class="adim-kart"><span class="adim-no">3</span><span>Önceliklendirilmiş listeyi hazırlasın</span></div>
     </div>
+    <div class="sen-kutu"><span class="sen-rol">Sen</span><span class="sen-adim">Öncelikleri kontrol et → planını finalize et</span></div>
   </div>
 
   <div class="alt"><span>Grow with Tech</span><span class="sayfa">04 / 07</span></div>

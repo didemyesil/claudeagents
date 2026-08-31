@@ -72,6 +72,22 @@ göründüğünde fotoğraf sahneye yapıştırılmış gibi çirkin duruyor. `-
 markanın zemin rengiyle birleşip tek kompozisyon gibi görünür. Ayrıntı ve referans
 görsel: `.claude/assets/foto/README.md`.
 
+## Süreç/adım gösterimi — ok-kutu (swimlane) YASAK
+
+Didem 2026-W36'da bunu net şekilde reddetti: dikey kutular arasında ↓ oku ile bağlanan
+"süreç akışı" (swimlane) düzeni okunması zor ve çirkin duruyor. **Bir daha kullanma.**
+
+Bunun yerine, bir işin adımlarını (özellikle "yapay zekâ şunu yapar, sen şunu yaparsın"
+türü akışları) göstermek için:
+- **Numaralı adım kartları** — yatay sıralanmış kutular, her biri kendi içinde tam
+  (koyu dolgulu rozet + kalın başlık + kısa açıklama), aralarında ok/çizgi YOK, sadece
+  dikey istifleniyorlar. Referans: İnkaUp'ın "Step by step" slaydı — 1'den 5'e numaralı
+  satırlar, her biri bağımsız bir kart, bağlayıcı çizgi yok.
+- **Basit numaralı liste** de yeterli olabilir, kart şart değil.
+- "Yapay zekâ / Sen" ayrımı gerekiyorsa, iki ayrı bölüm/kutu olarak göster (üst üste ya
+  da yan yana), aralarında akış oku değil, sadece görsel/renk ayrımı (ör. AI adımları
+  açık zeminde numaralı, "Sen" adımı tek satır vurgu kutusunda altta).
+
 ## İkon ve küçük görsel kullanımı
 
 Didem'in onayladığı referans (İnkaUp / Claude tip serisi): ikonlar küçük, tek tonlu/

@@ -1,16 +1,27 @@
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <link rel="stylesheet" href="../../../templates/brand.css">
+<style>
+  .kaydet-satir{display:flex;align-items:center;gap:26px;margin-top:8px;}
+  .kaydet-rozet{flex-shrink:0;width:68px;height:68px;border-radius:16px;background:var(--aksan-yumusak);
+    display:flex;align-items:center;justify-content:center;}
+  .kaydet-rozet::before{content:'';display:block;width:22px;height:30px;background:var(--aksan);
+    clip-path:polygon(0 0,100% 0,100% 100%,50% 76%,0 100%);}
+  .kaydet-satir p{margin:0;}
+</style>
 </head><body>
 <div class="slayt tema-mor">
   <div class="ilerleme">
     <div class="cizgiler"><div class="c1"></div><div class="c2"></div></div>
     <div class="rozet">7/7</div>
   </div>
-  <div class="dev-numara">07</div>
 
   <div class="govde">
+    <span class="pill yumusak">Otomasyon</span>
     <h1>Bu üç işten birini<br>bu hafta dene.</h1>
-    <p>Karar verirken tekrar bakmak için <span class="vurgu">kaydet</span>.</p>
+    <div class="kaydet-satir">
+      <span class="kaydet-rozet"></span>
+      <p>Karar verirken tekrar bakmak için <span class="vurgu">kaydet</span>.</p>
+    </div>
   </div>
 
   <div class="alt"><span>Grow with Tech</span><span class="sayfa">07 / 07</span></div>

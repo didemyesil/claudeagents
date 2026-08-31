@@ -2,14 +2,19 @@
 <link rel="stylesheet" href="../../../templates/brand.css">
 <style>
   .surec{display:flex;flex-direction:column;gap:0;width:100%;margin-top:4px;}
-  .surec-blok{border-radius:16px;padding:26px 36px;display:flex;flex-direction:column;gap:14px;text-align:left;}
+  .surec-blok{border-radius:16px;padding:28px 36px;display:flex;flex-direction:column;gap:18px;text-align:left;}
   .surec-blok.ai{background:#fff;border:2.5px solid var(--aksan);}
   .surec-blok.sen{background:var(--aksan);}
   .surec-blok.sen .surec-rol,.surec-blok.sen .surec-adim{color:#fff;}
   .surec-rol{font-size:24px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--aksan);}
   .surec-adim{font-size:30px;font-weight:600;line-height:1.35;color:var(--metin);}
-  .surec-ok{text-align:center;font-size:26px;font-weight:700;color:var(--altin);}
+  .surec-ok{text-align:center;font-size:27px;font-weight:700;color:var(--altin);}
   .surec-ok-orta{font-size:32px;margin:2px 0;}
+  .surec-adim-liste{display:flex;flex-direction:column;gap:16px;}
+  .surec-satir{display:flex;align-items:flex-start;gap:18px;}
+  .surec-no{flex-shrink:0;width:42px;height:42px;border-radius:11px;background:var(--aksan);color:#fff;
+    font-size:21px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:1px;}
+  .surec-satir span:last-child{font-size:29px;font-weight:600;line-height:1.35;color:var(--metin);}
 </style>
 </head><body>
 <div class="slayt tema-deniz">
@@ -29,11 +34,11 @@
       <div class="surec-ok surec-ok-orta">↓</div>
       <div class="surec-blok ai">
         <div class="surec-rol">Yapay zekâ</div>
-        <div class="surec-adim">Dokümanı kriterlere göre kontrol etsin</div>
-        <div class="surec-ok">↓</div>
-        <div class="surec-adim">Eksikleri ve sorunlu noktaları işaretlesin</div>
-        <div class="surec-ok">↓</div>
-        <div class="surec-adim">Dokümanı son haline getirsin</div>
+        <div class="surec-adim-liste">
+          <div class="surec-satir"><span class="surec-no">1</span><span>Dokümanı kriterlere göre kontrol etsin</span></div>
+          <div class="surec-satir"><span class="surec-no">2</span><span>Eksikleri ve sorunlu noktaları işaretlesin</span></div>
+          <div class="surec-satir"><span class="surec-no">3</span><span>Dokümanı son haline getirsin</span></div>
+        </div>
       </div>
       <div class="surec-ok surec-ok-orta">↓</div>
       <div class="surec-blok sen">

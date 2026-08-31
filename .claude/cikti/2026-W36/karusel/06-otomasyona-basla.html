@@ -1,19 +1,34 @@
 <!doctype html><html lang="tr"><head><meta charset="utf-8">
 <link rel="stylesheet" href="../../../templates/brand.css">
+<style>
+  .govde.altigi{gap:26px;}
+  .akis-liste{display:flex;flex-direction:column;gap:16px;width:100%;}
+  .akis-satir{display:flex;align-items:center;gap:22px;}
+  .akis-no{flex-shrink:0;width:52px;height:52px;border-radius:13px;background:var(--aksan);color:#fff;
+    font-size:25px;font-weight:700;display:flex;align-items:center;justify-content:center;}
+  .akis-satir span:last-child{font-size:30px;font-weight:600;line-height:1.3;color:var(--metin);}
+  .akis-kutu{background:#fff;border:1px solid var(--cizgi);border-radius:16px;padding:28px 32px;width:100%;}
+</style>
 </head><body>
 <div class="slayt tema-deniz">
   <div class="ilerleme">
     <div class="cizgiler"><div class="c1"></div><div class="c2"></div></div>
     <div class="rozet">6/7</div>
   </div>
-  <div class="dev-numara">06</div>
 
-  <div class="govde">
+  <div class="govde altigi">
     <div class="etiket">SONRAKİ ADIM</div>
     <h2>Otomasyona buradan başla.</h2>
-    <p>Her hafta aynı adımları tekrar ettiğin bir işi seç.</p>
-    <p>İşin adımlarını belirle → araçları bağla → yapay zekânın yapacağı kısmı tanımla → kontrol noktanı koy.</p>
-    <p>Yapay zekâ tekrar eden işi yürütür.</p>
+    <p class="soluk">Her hafta aynı adımları tekrar ettiğin bir işi seç.</p>
+    <div class="akis-kutu">
+      <div class="akis-liste">
+        <div class="akis-satir"><span class="akis-no">1</span><span>İşin adımlarını belirle</span></div>
+        <div class="akis-satir"><span class="akis-no">2</span><span>Araçları bağla</span></div>
+        <div class="akis-satir"><span class="akis-no">3</span><span>Yapay zekânın yapacağı kısmı tanımla</span></div>
+        <div class="akis-satir"><span class="akis-no">4</span><span>Kontrol noktanı koy</span></div>
+      </div>
+    </div>
+    <p class="soluk">Yapay zekâ tekrar eden işi yürütür.</p>
     <div class="vurgu-kutu" style="width:100%;">Sen kontrol ve kararda kal.</div>
   </div>
 

@@ -73,7 +73,8 @@ yeni bileşen kurabilirsin. Ayrıntı `gorsel-sistem.md`'de.
 - Başlık: en fazla 8–9 kelime, iki satır
 - Destek metni: en fazla 3 satır
 - Vurgu `<em>` ile (mor olur), slayt başına en fazla bir vurgu
-- Üst etikette içerik alanını yaz: `AI DIARY · İŞ DEVRİ` gibi
+- Üst etiket: "AI DIARY" ve içerik alanı adı asla görünür metin olmaz (`gorsel-sistem.md`).
+  Boş bırak, "Grow with Tech" yaz ya da konuya özel kısa bir ifade kullan (ör. "UYGUNLUK TESTİ").
 - Sayfa numarası `1 / 7` biçiminde, her slaytta güncel
 
 ## Üretim adımları

@@ -77,6 +77,15 @@ Didem onay metinlerini telefonda okuyor. Hizalanmış/paddingli kod bloğu (sabi
 tablo görünümü) telefonda yana kaydırma zorunlu kılıyor — kullanma. Düz numaralı liste,
 kısa satırlar, kod bloğu yok. Metin sarmalanabilir olmalı.
 
+## Drive'a yükleme — varsayılan değil
+
+Didem'in talebi: PNG/MP4 gibi görselleri Drive'a yükleme adımı **otomatik yapılmaz**,
+sadece Didem açıkça istediğinde çalıştırılır. Ayrıca bu ortamda base64 içerik bu şekilde
+okunup yazıldığında token maliyeti orantısız yüksek çıkıyor — bir görsel için yüz binlerce
+token'a mal olabiliyor. Varsayılan teslim yöntemi: üretilen dosyaları doğrudan Didem'e
+chat üzerinden gönder (SendUserFile). Drive'a sadece metin tabanlı brief/caption dosyaları
+onay olmadan yüklenebilir; görsellerin Drive'a yüklenmesi ayrı, açık bir istek gerektirir.
+
 ## Karara bağlanmış üç nokta
 
 **Font: Quicksand, istisnasız.** Hem karusel hem reel. Marka rehberi Montserrat ve

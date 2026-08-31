@@ -66,6 +66,20 @@ layout'a entegre biçimde kullanılabilir. Stok fotoğraf hiçbir yerde kullanı
 aynısını kullanma. Yerleşim de değişsin: `foto-sagda`, `foto-altta`, `.foto-blok`.
 Fotoğraf yoksa fotoğrafsız kapaklardan birini kullan — placeholder koyma.
 
+**Kesin kural: her zaman `-kesilmis.png` (transparan arka plan) kullan, düz `.jpg`
+asla.** Didem bunu 2026-W36'da net şekilde reddetti — `.jpg`'nin kendi arka planı
+göründüğünde fotoğraf sahneye yapıştırılmış gibi çirkin duruyor. `-kesilmis.png`
+markanın zemin rengiyle birleşip tek kompozisyon gibi görünür. Ayrıntı ve referans
+görsel: `.claude/assets/foto/README.md`.
+
+## İkon ve küçük görsel kullanımı
+
+Didem'in onayladığı referans (İnkaUp / Claude tip serisi): ikonlar küçük, tek tonlu/
+soluk renkli, yuvarlak köşeli kare "rozet" içinde, slaydın zemin tonuyla uyumlu —
+canlı renkli, çizgi film gibi jenerik clipart değil. Adım listelerinde ikon yerine
+koyu dolgulu, beyaz rakamlı numara rozeti (`1`, `2`, `3`…) çoğu zaman ikondan daha
+temiz durur. Bir slaytta en fazla bir ikon/rozet stili — karıştırma.
+
 **3. Bileşen çeşitliliği.** `vurgu-kutu`, `not-kutu`, `pill`, `balon`, `akis`,
 `koyu-panel`, `kart`, `cta`, `dev-numara`. Hepsi her seferinde kullanılmaz —
 içeriğin ihtiyacına göre seç.

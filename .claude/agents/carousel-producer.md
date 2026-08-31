@@ -63,6 +63,11 @@ kapağını tekrarlama. `karusel-kapak-buyuk` ölçek kontrastı kurar (tek keli
 durdurucu kapak isteniyorsa en güçlüsü. `karusel-kapak-foto` Didem'in fotoğrafını
 kullanır; `.claude/assets/foto/` boşsa bu varyantı seçme.
 
+**`karusel-kapak-foto` kullanıyorsan HER ZAMAN `-kesilmis.png` (transparan arka planlı)
+dosyayı seç, aynı adın düz `.jpg` halini asla kullanma.** Didem bunu 2026-W36'da net
+şekilde reddetti — `.jpg`'nin kendi arka planı (oda, mobilya vb.) fotoğrafı sahneye
+yapıştırılmış gibi çirkinleştiriyor. Ayrıntı: `.claude/assets/foto/README.md`.
+
 Tema sınıflarıyla aksan rengini değiştir ama bir karuselde en fazla iki tema kullan.
 Kapak ve kapanış aynı temada, ortası farklılaşsın. `tema-koyu` en fazla bir-iki slaytta.
 

@@ -47,7 +47,7 @@ Brand guide'a göre denetle. Kritik olanlar:
 
 - **Uydurma logo var mı?** "Grow with Tech" yanında sembol, ikon, monogram, kıvılcım,
   daire, yıldız. Varsa **kritik hata**, hemen kaldır.
-- Quicksand kullanılmış mı, başka font karışmış mı
+- Poppins/Nunito font rollerine uyulmuş mu (başlık=Poppins Bold, gövde=Nunito), başka font karışmış mı
 - Zemin ağırlıklı açık mı (tam sayfa koyu mor yok; `tema-koyu` blokları istisna,
   ama bir karuselde bir-ikiyi geçmemeli)
 - Renk dengesi: ağırlık açık nötrde, mor ana aksan, sarı ikincil

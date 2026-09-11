@@ -63,8 +63,9 @@ Cumartesi   Karusel   Layered Progression ya da Comparison
 
 ## Karara bağlanmış üç nokta
 
-**Font: Quicksand, istisnasız.** Hem karusel hem reel. Marka rehberi Montserrat ve
-Poppins'i açıkça yasaklıyor; başka bir kaynakta Montserrat geçse bile Quicksand kazanır.
+**Font: Poppins + Nunito ikilisi (2026-09 itibarıyla güncellendi, eski karar Quicksand'di).**
+Hem karusel hem reel. Başlıklar/güçlü vurgular Poppins Bold, gövde metni Nunito Regular,
+ara başlıklar/ikincil vurgular Nunito SemiBold. Montserrat hâlâ yasak.
 
 **Fotoğraf: yalnızca karusel kapağında.** Reel'de ve iç slaytlarda gerçek insan yüzü yok.
 Kapakta Didem'in fotoğrafı layout'a entegre kullanılabilir (`.claude/assets/foto/`).

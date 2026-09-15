@@ -1,3 +1,11 @@
+> **INTERNAL WORKING DOCUMENT — NOT PART OF THE SUBMITTED REPORT.**
+> This file maps each IAAR Guidelines requirement and Sample Question for
+> Standard 1 onto the evidence behind it, and records the severity and
+> lens analysis behind the position taken. It exists so that the coverage
+> can be audited and so that nothing is quietly dropped. The text actually
+> submitted to IAAR is
+> `output/sar/2.1 Standard 1 - Policy for Quality Assurance.md`.
+
 # Self-Assessment Report — Standard 1: Policy for Quality Assurance
 
 **Cluster:** Professional Master's in Applied Artificial Intelligence;

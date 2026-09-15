@@ -5,15 +5,18 @@
 > rules governing the Examination Board's own functioning — installation,
 > independence, composition, tasks, decisions, complaints handling) is
 > **institution-wide and applies unchanged to the Tech MBA**: it is not
-> specific to any one programme, and Team Academy's stated model is "a
-> separate Examination Board for each Master's programme," all governed by
-> the same rules. Part 2 (alignment with the programme's TER) is adapted
-> below to point to the Tech MBA's own TER and programme structure. Produced
-> as a Case-2 adaptation per Didem's confirmed decision.
+> specific to any one programme. Team Academy operates **one Examination
+> Board across all its programmes**, composed, in the source Handbook's own
+> words, of "the chair, the vice-chair, an official secretary and one or
+> more members per programme," with a permanent examination committee of at
+> least three. The Tech MBA is therefore served by that same Board, with
+> Tech MBA members on it, rather than by a board of its own. Part 2
+> (alignment with the programme's TER) is adapted below to point to the Tech
+> MBA's own TER and programme structure.
 
-## Part 1: Internal Rules and Regulations for the Functioning of the Examination Board (institution-wide — applies to the Tech MBA's Examination Board unchanged)
+## Part 1: Internal Rules and Regulations for the Functioning of the Examination Board (institution-wide — applies to the Examination Board serving the Tech MBA unchanged)
 
-The following provisions of the source Handbook apply to the Tech MBA's Examination Board exactly as written; full text is at the source path above.
+The following provisions of the source Handbook apply to the Examination Board serving the Tech MBA exactly as written; full text is at the source path above.
 
 - **Installation and Independence** (§1B): the Executive Board appoints the Examination Board and its members; the Board must include at least one external member; managers with financial responsibility cannot sit on the Board; the Board acts independently within the boundaries of the applicable TER — for the Tech MBA, its own TER (`/home/user/claudeagents/evidence/tech-mba/Teaching and Examination Regulations (TER) - Tech MBA.md`).
 - **Composition** (§1C): a minimum of three members, "preferably evenly distributed in age, gender and cultural background," including at least one internal faculty member and at least one independent external member; specific exclusions apply (Foundation Board, Executive Board, Programme Directors/Operations Directors, Advisory Board Chairs, Student Advisors). *(This composition rule is one of the provisions the shared Gender Equality and Equal Opportunities Statement draws on.)*

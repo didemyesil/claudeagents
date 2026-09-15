@@ -409,10 +409,10 @@ cluster.
 | # | Item | What's missing | Lens | Severity |
 |---|---|---|---|---|
 | 1 | Research–teaching–learning linkage, Bachelor's & Tech MBA | An equivalent to the Master's `Appendix 11 - Faculty Research.md` describing faculty research/scholarly activity and its link to teaching for these two programmes — or an institutional decision that this requirement is met via industry-practice currency instead | Pedagogical | Minor–Moderate |
-| 2 | Outsourced/subcontracted activities | No description in the evidence pool of what, if anything, is subcontracted and how adherence is monitored (Guidelines requirement + Sample Q 16) | Technical | Moderate |
+| 2 | ~~Outsourced/subcontracted activities~~ **CLOSED** | No description in the evidence pool of what, if anything, is subcontracted and how adherence is monitored (Guidelines requirement + Sample Q 16) | Technical | Moderate |
 | 3 | Tech MBA — dated record of Field Representative review in practice | Only the standing guidelines exist (Case-2 adapted at Stage 2); no consolidated feedback record equivalent to the Bachelor's `Consolidated Field Representative Feedback.md` | Technical/Industry | Moderate |
 | 4 | Tech MBA — dated entry requirements / foundations-module equivalent | The adapted TER (Article 2.3) carries over the Master's application process structurally but flags Tech-MBA-specific entry requirements as unconfirmed | Pedagogical | Minor |
-| 5 | Tech MBA — distinct Examination Board installation | Not confirmed whether the Tech MBA has its own formally installed Examination Board or shares the Master's Board under one TER-with-programme-sections model (both are permitted under the source Handbook, but which applies here is unconfirmed) | Technical/Governance | Minor–Moderate |
+| 5 | ~~Tech MBA — distinct Examination Board installation~~ **CLOSED** | Not confirmed whether the Tech MBA has its own formally installed Examination Board or shares the Master's Board under one TER-with-programme-sections model (both are permitted under the source Handbook, but which applies here is unconfirmed) | Technical/Governance | Minor–Moderate |
 | 6 | ~~Document synchronisation~~ **CLOSED** | §1.1.5 and §ESG 1.8 additions have since been mirrored into the Master's appendix copy and the Bachelor's copy; all four QA Policy copies now agree on the review cycle and publication status | N/A (mechanical) | Resolved |
 | 7 | Gender Equality and Equal Opportunities Statement | Entire document is a NEW DRAFT pending Didem's factual sign-off | N/A (approval, not evidence) | Must resolve before submission |
 
@@ -420,3 +420,28 @@ cluster.
 *Sources cited throughout are listed by full path at first mention; no
 claim in this document lacks a cited evidence file. Where evidence was
 absent or partial, this is marked "[EVIDENCE NEEDED]" rather than inferred.*
+
+
+---
+
+## Post-Stage-2 decisions (2026-09-15)
+
+Two items left open at Stage 2 have been answered by the institution and
+are now written into the submitted text:
+
+- **Activities carried out by other parties.** Team Academy subcontracts no
+  design, delivery or assessment. It does rely on an externally supplied
+  learning platform (Canvas, with Google Workspace), on content/knowledge
+  partners (Qwasar content in the Bachelor's technical tracks), and on
+  external bodies for assurance and appeals (independent Examination Board
+  member, External Examiner for contested final-project decisions, NRTO for
+  complaints beyond the Board, Field Representatives, and the Ministry/NVAO
+  as regulators). Standard 1 now covers these, with academic responsibility
+  expressly retained by faculty and the Examination Board. The residual
+  development point is that the QA Policy text itself still lacks an
+  explicit clause on such arrangements.
+- **Examination Board.** One Examination Board serves all three programmes,
+  with one or more members per programme, matching the composition the
+  source Examination Board Handbook already prescribes. The Tech MBA's
+  adapted Handbook, which had wrongly described a separate board per
+  programme, has been corrected.

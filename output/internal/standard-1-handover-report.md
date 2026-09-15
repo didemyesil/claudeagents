@@ -146,3 +146,16 @@ so a word-for-word comparison across them no longer shows an inconsistency.
    should not be upgraded past "Satisfactory."
 4. **Document sync gap** (see above) — low risk if closed before
    submission, moderate reputational risk (looks like carelessness) if not.
+
+
+---
+
+## Refused claims closed by the institution (2026-09-15)
+
+- *Outsourced/subcontracted activities* and *whether the Tech MBA has its
+  own Examination Board* were both left as "evidence needed" at Stage 2.
+  Both have been answered and written into
+  `output/sar/2.1 Standard 1 - Policy for Quality Assurance.md`. Three
+  refused claims remain open: research–teaching linkage for the Bachelor's
+  and Tech MBA, the absence of a dated Field Representative review record
+  for the Master's and Tech MBA, and the Tech MBA's entry requirements.

@@ -70,34 +70,31 @@ decisions, working to a target application date of October 2026.
 | `evidence/bachelors-applied-computing/action-planning/Action Planning Bachelors TNO_V2.md` | Held |
 
 ## Annex 1.7 — Teaching and Examination Regulations
-*Per programme.* Carries the academic integrity article (3.11) cited in the
-Standard.
+*Two sets, grouped by level.* The master's-level set covers the Professional
+Master's in Applied AI and the Tech MBA, with Tech MBA provisions in a
+programme-specific annex. The Bachelor's has its own.
 
-| Programme | File | Status |
+| Scope | File | Status |
 |---|---|---|
-| Master's | `evidence/professional-masters-applied-ai/appendices/Appendix 19 - Teaching and Examinations Regulations.md` | Held |
+| Master's + Tech MBA | `evidence/professional-masters-applied-ai/appendices/Appendix 19 - Teaching and Examinations Regulations.md` | Extended |
 | Bachelor's | `evidence/bachelors-applied-computing/standard-2-teaching-learning-environment/Teaching and Examination Regulations (TER).md` | Held |
-| Tech MBA | `evidence/tech-mba/Teaching and Examination Regulations (TER) - Tech MBA.md` | Issued |
 
 ## Annex 1.8 — Policy on Assessment
-*Per programme.* Carries the inclusive-assessment and accommodation provisions,
-and the rules on technological support in assessed work.
+*Two sets, grouped by level.*
 
-| Programme | File | Status |
+| Scope | File | Status |
 |---|---|---|
-| Master's | `evidence/professional-masters-applied-ai/appendices/Appendix 15 - Policy on Assessment.md` | Held |
+| Master's + Tech MBA | `evidence/professional-masters-applied-ai/appendices/Appendix 15 - Policy on Assessment.md` | Extended |
 | Bachelor's | `evidence/bachelors-applied-computing/standard-3-assessment/Policy on Assessment.md` | Held |
-| Tech MBA | `evidence/tech-mba/Policy on Assessment - Tech MBA.md` | Issued |
 
 ## Annex 1.9 — Examination Board Handbook
-*Per programme file; one Examination Board serves all three programmes, with one
-or more members for each.*
+*Two sets, grouped by level. One Examination Board serves all three
+programmes, with one or more members for each.*
 
-| Programme | File | Status |
+| Scope | File | Status |
 |---|---|---|
-| Master's | `evidence/professional-masters-applied-ai/appendices/Appendix 12 - Examination Board Handbook.md` | Held |
+| Master's + Tech MBA | `evidence/professional-masters-applied-ai/appendices/Appendix 12 - Examination Board Handbook.md` | Extended |
 | Bachelor's | `evidence/bachelors-applied-computing/standard-3-assessment/Examination Board Handbook.md` | Held |
-| Tech MBA | `evidence/tech-mba/Examination Board Handbook - Tech MBA.md` | Issued |
 
 ## Annex 1.10 — Faculty Research
 *Professional Master's in Applied AI.* The research–teaching linkage. No
@@ -112,15 +109,24 @@ point 2 in the Standard.
 
 ## Summary
 
-Twenty-one files stand behind the ten annexes. Of these:
+Eighteen files stand behind the ten annexes. Of these:
 
-- **12 Held** — existing institutional documents, cited as they stand.
-- **4 Extended** — the four Quality Assurance Policy copies.
-- **8 Issued** — copies produced this cycle for programmes that lacked one
-  (six for the Tech MBA, two for the Bachelor's).
+- **9 Held** — existing institutional documents, cited as they stand.
+- **7 Extended** — the four Quality Assurance Policy copies, and the three
+  master's-level regulatory documents, each now carrying a Tech MBA
+  programme-specific annex.
+- **5 Issued** — copies produced for programmes that lacked one: the Tech MBA's
+  Quality Assurance Policy, and the organisational structure and field
+  representative guidelines for the Bachelor's and the Tech MBA. The last four
+  are pending a scope decision — see the document scope register.
 - **1 Drafted** — the Gender Equality and Equal Opportunities Statement, the
   only document here that did not exist in some form before, and the only one
   awaiting approval.
+
+Scope for every document is settled in `/output/document-scope-register.md`.
+The Tech MBA does not have its own Teaching and Examination Regulations,
+Policy on Assessment or Examination Board Handbook: it is governed by the
+master's-level set alongside the Professional Master's.
 
 Annex numbering is provisional within Standard 1 and will be reassigned when
 the ten standards are assembled into the complete report.

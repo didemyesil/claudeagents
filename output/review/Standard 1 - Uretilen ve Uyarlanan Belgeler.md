@@ -1,36 +1,39 @@
 # Standard 1 — Üretilen ve Uyarlanan Belgelerin Tam Metni
 
-Bu dosya inceleme içindir, teslime gitmez. Standard 1 için bu döngüde
-**sıfırdan yazılan** ve **uyarlanan** dokuz belgenin tam metnini bir arada
-verir. Dokunulmayan mevcut belgeleriniz burada yok.
+İnceleme içindir, teslime gitmez.
 
-**Statü:** `DRAFTED` = sıfırdan yazıldı · `ISSUED` = mevcut kurumsal
-belgeden o program için uyarlandı.
+**Statü:** `DRAFTED` = sıfırdan yazıldı · `ISSUED` = o program için uyarlandı ·
+`EXTENDED` = mevcut belgeniz, kapsamı genişletildi.
 
-Sonda ayrıca, mevcut QA Policy'nize eklenen iki paragrafın tam metni var.
+> **Kapsam kararı sonrası güncellendi.** Tech MBA'in ayrı TER / Policy on
+> Assessment / Examination Board Handbook kopyaları kaldırıldı. Bunlar artık
+> master's seviyesindeki tek sete dahil: ortak hükümler bir kez, Tech MBA'e
+> özgü hükümler her belgenin sonundaki programa özgü ekte. Bachelor's kendi
+> setini koruyor.
 
-## İçindekiler
+## Bölüm A — Sıfırdan yazılan ve uyarlanan belgeler
 
 1. **[DRAFTED]** Gender Equality and Equal Opportunities Statement
-2. **[ISSUED]** Teaching and Examination Regulations — Tech MBA
-3. **[ISSUED]** Policy on Assessment — Tech MBA
-4. **[ISSUED]** Examination Board Handbook — Tech MBA
-5. **[ISSUED]** Institution-wide Quality Assurance Policy — Tech MBA
-6. **[ISSUED]** Institution Organisational Structure — Tech MBA
-7. **[ISSUED]** Responsibilities and Guidelines for the Field Representatives — Tech MBA
-8. **[ISSUED]** Institution Organisational Structure — Bachelor's
-9. **[ISSUED]** Responsibilities and Guidelines for the Field Representatives — Bachelor's
+2. **[ISSUED]** Institution-wide Quality Assurance Policy — Tech MBA
+3. **[ISSUED]** Institution Organisational Structure — Tech MBA
+4. **[ISSUED]** Field Representatives Guidelines — Tech MBA
+5. **[ISSUED]** Institution Organisational Structure — Bachelor's
+6. **[ISSUED]** Field Representatives Guidelines — Bachelor's
 
-10. QA Policy'ye eklenen iki paragraf
+## Bölüm B — Master's setine eklenen Tech MBA bölümleri
+
+1. Teaching and Examination Regulations (master's seti)
+2. Policy on Assessment (master's seti)
+3. Examination Board Handbook (master's seti)
 
 ---
 
 
-# 1. Gender Equality and Equal Opportunities Statement
+# A1. Gender Equality and Equal Opportunities Statement
 
 > **Statü:** DRAFTED
 >
-> Sıfırdan yazıldı. Mevcut belgelerdeki ayrımcılık karşıtı ve fırsat eşitliği hükümlerinin konsolidasyonu. Yeni taahhüt/hedef/tarih eklenmedi. Onayını bekliyor.
+> Sıfırdan yazıldı. Mevcut belgelerdeki ayrımcılık karşıtı ve fırsat eşitliği hükümlerinin konsolidasyonu. Onayını bekliyor.
 >
 > Dosya: `evidence/_shared/Gender Equality and Equal Opportunities Statement (Team Academy).md`
 
@@ -113,23 +116,329 @@ assumed here.
 - *Responsibilities and Guidelines for the Field Representatives* —
   Composition of the Group (diversity criteria).
 
-
-<div style='page-break-after: always'></div>
-
 ---
 
 
-# 2. Teaching and Examination Regulations — Tech MBA
+# A2. Institution-wide Quality Assurance Policy — Tech MBA
 
 > **Statü:** ISSUED
 >
-> Master's Ek 19'dan uyarlandı. Akademik dürüstlük (Md. 3.11) ve ayrımcılık karşıtı hükümler korundu; Tech MBA'e özgü sayılar programın kendi Handbook ve Supervision Guide'ından alındı.
+> Kurumsal QA Policy'nin Tech MBA kopyası.
 >
-> Dosya: `evidence/tech-mba/Teaching and Examination Regulations (TER) - Tech MBA.md`
+> Dosya: `evidence/tech-mba/Institution-wide Quality Assurance Policy (Team Academy) - Tech MBA.md`
 
 ---
 
-# Teaching and Examination Regulations (TER) — Tech MBA
+# Policy for Quality Assurance at Team Academy — Tech MBA
+## ESG 1.1. Policy for Quality Assurance
+
+*"Institutes should have a policy for quality assurance that is made public and forms part of their strategic management. Internal stakeholders should develop and implement this policy through appropriate structures and processes, while involving external stakeholders."*
+
+This section aims to set the context for Quality Assurance at Team Academy and provide information on the institute's guiding principles for quality assurance, its organisational structure for quality assurance, the evaluation system of the quality assurance system and the multi-layered approach to quality assurance for its programmes, including the Tech MBA. The institute's quality assurance policy complies with the requirements of the "European Standards and Guidelines for Quality Assurance in the European Higher Education Area" (ESG).
+
+### 1.1.1. Context and Objectives
+
+The vision of Team Academy is to bridge the skills gap that the world is currently facing. Team Academy offers master's-level programmes, including the Tech MBA, in the technology field, aimed at developing talent for the labour market. All staff and management teams are responsible for ensuring that the programmes meet the needs of the 21st century and the requirements of the job market. This is achieved through an effective internal quality assurance system for the programmes, ensuring that quality culture is maintained by all community members, that relevant content and competencies facilitate each learner's employability, that programmes connect with the needs of the global job market, and that ongoing improvement complies with international accreditation requirements.
+
+### 1.1.2. Concept of Quality
+
+Quality in education is based on the extent to which processes and procedures are in place to establish an educational standard and constantly improve it, and on the interaction between staff, external partners, learners, learning resources, learning environment and support mechanisms.
+
+### 1.1.3. Guiding principles for quality assurance
+
+Quality assurance at Team Academy — for the Tech MBA as for its other programmes — is supported by: adherence to the ESG; collaboration between internal and external bodies; transparency of policies to all community members; innovation in processes and tools; agility in responding to matters; and reflection to maintain constant improvement.
+
+### 1.1.4 Organisation of the Quality Assurance System
+
+Quality assurance at Team Academy provides a clear organisational structure for all teams, faculty and learners, consisting of the institute's quality assurance and the programme quality assurance systems. External players (Ministry of Education, Culture and Science; NVAO; Field Representatives; Knowledge Partners) interact with internal players (Executive Board, Management Teams, Institute Quality Assurance, Exam Board, Managing Director, QA Team, Programme Teams, Educational Council, Admissions Teams, Faculty, Learners, Programme Quality Assurance). For the Tech MBA's own local instance of these roles, see *Institution Organisational Structure*.
+
+The Institute Quality Assurance function is embedded within Team Academy's governance structure; the Institute Board sets strategic vision, management teams implement it, and monthly Executive Board–programme team check-ins provide reflection and adjustment.
+
+The programme quality assurance system for the Tech MBA, as for the institute's other programmes, is informed by the institute's QA policies and strategies, with external players (field representatives, global faculty, content partners) helping keep the curriculum current, and the QA Team (composed of programme managers, led by a QA Lead, reporting to the Executive Board) holding main responsibility.
+
+### 1.1.5 Evaluation of the Quality Assurance System
+
+The evaluation of the QA system is an ongoing, institute-wide process, applying equally to the Tech MBA. The institute's policies, procedures and guidelines are evaluated in collaboration with the Executive Board and other teams; the QA Team holds main responsibility for evaluation, and the Executive Board approves resulting iterative improvements. All feedback from external and internal players, including learners, is incorporated.
+
+**Review of this Policy document and stakeholder satisfaction with it (planned mechanism).** As set out in the institution-wide Policy, this document itself is reviewed annually by the QA Team ahead of each academic year, with revisions subject to Executive Board approval. As the Tech MBA has not yet run under this consolidated QA framework, no stakeholder-satisfaction results specific to the policy document exist yet; once the Tech MBA is operational, satisfaction with this policy will be assessed as part of that annual QA Team review, drawing on faculty, programme management, the Educational Council, and Field Representative input. This is a planned, ex-ante mechanism, not a historical record.
+
+**Adherence to the Plan–Do–Check–Act (PDCA) Cycle.** Team Academy's quality assurance system, including for the Tech MBA, is operationalised through the PDCA cycle across activity, module, certificate and programme levels: Plan (curriculum team and field representatives design the curriculum and align it with learner needs and labour-market demand), Do (delivery of learning activities, assessments and mentoring/coaching), Check (systematic feedback via reflections, learner surveys, exam board reviews and performance reviews), Act (targeted improvements formally approved by the QA Team and Executive Board).
+
+### 1.1.6. Multi-layered approach to quality assurance at the programme level
+
+The PDCA-based quality procedures apply at four levels, mapped to the Tech MBA's own structure as documented in *Tech MBA Programme Handbook_2024*:
+
+- **Activity level** — the Tech MBA's weekly workshops, module projects, weekly tasks/activities, action-learning sets and mentoring sessions. Quality is maintained by faculty/programme-management design against defined principles, continuous learner feedback (e.g. reflective accounts, knowledge checks), and immediate action on that feedback.
+- **Module level** — the Tech MBA's thirteen certification modules (e.g. Module 1: Digital Transformation and Business Strategy, through Module 13: Growth Hacking) plus the Leadership and Action Research modules. Each module is designed against programme competencies, with learner feedback gathered at module close and acted on for subsequent cohorts.
+- **Certificate level** — the Tech MBA's four certifications ("Transform Your Business," "Lead Your Business," "Innovate and Grow Your Business," "Leadership and Action Research"), each concluded with a VIVA and certification decision, with field-expert and external-advisor input into design and market alignment.
+- **Programme level** — the Tech MBA as a whole is evaluated against learner competency development, quality of the Final Project, and learner employability upon completion, with a corresponding design–evaluate–improve cycle in collaboration with field experts.
+
+## ESG 1.2. Design and approval of programmes
+
+*"Institutes should have formal mechanisms for the approval, periodic review and monitoring of their programmes and awards."*
+
+At Team Academy, the Curriculum Team designs and develops programmes — including the Tech MBA — in collaboration with field representatives; the Executive Board formally approves programmes and major changes; the Curriculum Team reviews and improves the curriculum in collaboration with faculty, students and field representatives, following the institute's internal procedures for programme design, approval, monitoring and review.
+
+## ESG 1.3. Student-centred learning, teaching and assessment
+
+*"Institutes should ensure that the programmes are delivered in a way that encourages students to take an active role in creating the learning process, and that the assessment of students reflects this approach."*
+
+Faculty on the Tech MBA follow the guidelines for a learner-centred programme experience; teaching and examination rules and procedures are aligned with the Tech MBA's competency-based education standards and set out in the Tech MBA's own Teaching and Examination Regulations document (see *Teaching and Examination Regulations (TER)*). Curriculum structure and assessment strategies are outlined in the Tech MBA Programme Handbook and made available to all learners, along with extension and appeal procedures.
+
+## ESG 1.4. Student admission, progression, recognition and certification
+
+*"Institutes should consistently apply pre-defined and published regulations covering all phases of the student's life cycle."*
+
+All applicants to the Tech MBA, from diverse backgrounds, cultures, genders and nationalities, regardless of physical disability, are encouraged to apply; the Admissions Team assesses suitability against published requirements. Learner progression is supported through defined intervention mechanisms, with programme management responsible for making programme information available to all learners. Team Academy's status as a Recognised Legal Entity for Higher Education (RPHO) under the Dutch WHW authorises the Tech MBA, like the institute's other programmes, to issue accredited certificates and diplomas.
+
+## ESG 1.5. Teaching staff
+
+*"Institutes should assure themselves of the competence of their teachers."*
+
+Programme management is responsible for fair, transparent recruitment, onboarding and development of Tech MBA faculty, following the institute's guidelines for recruitment and professional development.
+
+## ESG 1.6. Learning resources and learner support
+
+*"Institutes should have appropriate funding for learning and teaching activities and ensure that adequate and readily accessible learning resources and student support are provided."*
+
+The Tech MBA, delivered fully online, provides resources and support suited to a working-professional, part-time-compatible learner population (digital library, group mentoring, action-learning coaching), with a programme manager coordinating faculty–learner interaction and monitoring learner progress.
+
+## ESG 1.7 Information management
+
+*"Institutes should ensure that they collect, analyse and use relevant information for the effective management of their programmes and other activities."*
+
+Programme management for the Tech MBA keeps and provides data such as learner progress, learner mastery, assessment results and drop-out rates, stored on the institute's learning management system, consistent with the institution-wide data categories listed in the shared Policy.
+
+## ESG 1.8. Public information
+
+*"Institutes should publish information about their activities, including programmes, which is clear, accurate, objective, up-to-date and readily accessible."*
+
+The marketing team publishes Tech MBA programme details (objectives, curriculum, target competencies, credits, faculty), admission criteria and steps, the learning approach, brochures on request, and online application forms.
+
+**Publication status of this Policy document.** As with the institution-wide original, this Policy document is currently an internal governance document — shared with staff, faculty, the Educational Council and Field Representatives — and not yet published on the institute's public website, pending launch of the cluster's programmes. Public publication is planned once the cluster is operational.
+
+## ESG 1.9 On-going monitoring and periodic review of programmes
+
+*"Institutes should monitor and periodically review their programmes..."*
+
+The curriculum team, programme management and faculty ensure ongoing monitoring and review of the Tech MBA follow the institute's guidelines for that process, aimed at ensuring the programme achieves its intended learning outcomes and remains connected to the job market and society.
+
+## ESG 1.10 Cyclical external quality assurance
+
+*"Institutes should undergo external quality assurance in line with the ESG on a cyclical basis."*
+
+Team Academy pursues programme accreditation (e.g. NVAO) and maintains close contact, formal and informal, with field experts and employers whose market insights help improve programme quality, including for the Tech MBA.
+
+---
+*Adapted from the Institution-wide Quality Assurance Policy, itself sourced from Google Drive "Appendix 21: Quality Assurance Policy_TNO_Professional Masters in Applied AI" (Master's Appendices folder).*
+
+---
+
+
+# A3. Institution Organisational Structure — Tech MBA
+
+> **Statü:** ISSUED
+>
+> Kapsam kararı bekliyor: kurum geneli tek belge olursa bu kopya silinecek.
+>
+> Dosya: `evidence/tech-mba/Institution Organisational Structure (Team Academy) - Tech MBA.md`
+
+---
+
+# Organisational Structure — Tech MBA
+## Role Descriptions
+
+**The Executive Board** provides overall governance and strategic direction for Team Academy, including the Tech MBA.
+
+**The Examination Board** is responsible for ensuring the quality and integrity of assessment processes for the Tech MBA, overseeing examination standards, and safeguarding the academic quality of the programme and the level of the diploma.
+
+**QA Team** provides quality assurance oversight for the Tech MBA, ensuring academic standards and quality measures are maintained.
+
+**The Educational Council (Student Advisory Board)** consists of student representatives who share their experience of the Tech MBA's programme quality and provide advisory input. Their recommendations are passed to the Managing Director, who shares them with the Programme Manager(s) and Programme Design Leads.
+
+**Managing Director** Oversees operational management of Team Academy, coordinating between different departments, including the Tech MBA, and implementing strategic decisions from the Executive Board.
+
+**Programme Manager(s)** manage Tech MBA administration and coordination between faculty, students and the programme design lead. On the Tech MBA, this role is currently held by Isadora Costa (see *Tech MBA Programme Handbook_2024*).
+
+**Programme Design & Development Lead** Responsible for designing and developing the Tech MBA curriculum, ensuring curriculum quality and improvement.
+
+**Faculty** Academic staff who design and deliver the Tech MBA's learning activities such as workshops, mentoring, action learning sets and final-project supervision, and who design, develop and evaluate assessments as part of the curriculum team.
+
+**Head Coach** Supervises and coordinates the action-learning-coaching function on the Tech MBA, working directly with action learning coaches and mentors.
+
+**Team Coaches / Mentors / Action Learning Coaches** provide coaching, mentoring and facilitation support to Tech MBA learners.
+
+**Admissions Manager** Handles Tech MBA admissions processes.
+
+**Finance** manages financial operations, budgeting, and financial reporting, including for the Tech MBA.
+
+**Marketing** Specialist for marketing activities and external communications, including for the Tech MBA.
+
+**Web Development** Specialist for maintaining the web presence of Team Academy, including Tech MBA-related content.
+
+---
+*Adapted from the Institution Organisational Structure, itself sourced from Google Drive "Appendix 13: Organisational Structure_TNO_Professional Masters in Applied AI". Tech MBA role-holder reference (Programme Manager) sourced from Tech MBA Programme Handbook_2024.*
+
+---
+
+
+# A4. Field Representatives Guidelines — Tech MBA
+
+> **Statü:** ISSUED
+>
+> Kapsam kararı bekliyor.
+>
+> Dosya: `evidence/tech-mba/Responsibilities and Guidelines for the Field Representatives - Tech MBA.md`
+
+---
+
+# Responsibilities and Guidelines for the Field Representatives — Tech MBA
+Team Academy recognises the value and the importance of involving external stakeholders from industry, education and other relevant sectors, especially in the planning and development of its programmes, including the Tech MBA. One of the critical parties is the Group of Field Representatives, which creates an essential link between the programmes and the industry in order to achieve a higher level of quality and relevance of the programmes.
+
+The following set of guidelines is intended to lay out the structure, format and function of the field representatives:
+
+## The Purpose
+
+The field representatives serve as an advisory group to the curriculum team in key areas such as programme-market fit, programme-industry fit and continuous academic enhancement of the programmes, including the Tech MBA.
+
+### Role and Responsibilities of the Field Representatives
+
+To achieve this purpose, we collaborate with them to ensure that the programmes deliver education that is up to date and relevant to industry and employment needs. Specific roles and responsibilities of the group members include:
+
+- Provide recommendations and strategic planning guidance for the university's activities and programmes;
+- Make recommendations to ensure that the programmes address the critical needs of the employment and industry market;
+- Provide perspectives from the employer market, industry, and companies for the programmes' strategic planning;
+- Guide the university in the continuous evaluation of its programme objectives and recommend enhancements and improvements based on data from learners and university representatives;
+- Assist the university in the identification of new board members for wider diversity;
+- Commit to regular attendance at the meetings.
+
+## The Meetings
+
+It is intended that the curriculum team meet with the group members at the design and annual review stages of the programmes, including the Tech MBA. The review meeting will aim to validate the professional master's level of the final projects, including the Tech MBA's Final Project. The agenda is formed and agreed on based on the strategic and programme-related needs of the university and shared with the group members to prepare before the meetings.
+
+The length of the meetings is planned carefully to maintain the interest and involvement of the group members. The meetings are moderated by a representative from the institution, and meeting minutes are kept for further reference. The nature of the meetings encourages critical thinking, inquiry, data-driven decisions and innovation. The discussion and brainstorming are translated into decisions and recommendations about the specific agenda and reviewed in the next meeting.
+
+## The Composition of the Group
+
+The Group will represent diverse people from business and academic professionals, which will create diversity in the perspectives as well. The selection of further members will also take into consideration status, gender, race, ethnicity, age and geographic locations.
+
+The suggested number of the group is at least 3. Group members will serve three-year terms with the possibility for renewal for additional terms based on their interest and involvement. The group consists of members to represent the employer market and academia.
+
+The group is non-voting and does not engage in decision-making related to programme personnel, budget, or internal policy development within the partner institutions.
+
+---
+*Adapted from the Responsibilities and Guidelines for the Field Representatives (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI").*
+
+---
+
+
+# A5. Institution Organisational Structure — Bachelor's
+
+> **Statü:** ISSUED
+>
+> Kapsam kararı bekliyor.
+>
+> Dosya: `evidence/bachelors-applied-computing/standard-5-quality-assurance/Institution Organisational Structure (Team Academy) - Bachelor's.md`
+
+---
+
+# Organisational Structure — Bachelor's in Applied Computing
+## Role Descriptions
+
+**The Executive Board** provides overall governance and strategic direction for Team Academy, including the Bachelor's in Applied Computing.
+
+**The Examination Board** is responsible for ensuring the quality and integrity of assessment processes for the Bachelor's programme (and its three tracks — Applied Software Engineering, Applied Machine Learning, Applied Data Science), overseeing examination standards, and safeguarding the academic quality of the programme and the level of the diploma.
+
+**QA Team** provides quality assurance oversight for the Bachelor's programme, ensuring academic standards and quality measures are maintained.
+
+**The Educational Council (Student Advisory Board)** consists of student representatives who share their experience of the Bachelor's programme quality and provide advisory input. Their recommendations are passed to the Managing Director, who shares them with the Programme Manager(s) and Programme Design Leads.
+
+**Managing Director** Oversees operational management of Team Academy, coordinating between different departments, including the Bachelor's programme, and implementing strategic decisions from the Executive Board.
+
+**Programme Manager(s)** manage Bachelor's programme administration and coordination between faculty, students and the programme design lead, across the three tracks.
+
+**Programme Design & Development Lead** Responsible for designing and developing the Bachelor's curriculum (and its tracks), ensuring curriculum quality and improvement — see also *Development of Programme Competencies and Curriculum* and the Bachelor's Composition of Faculty, Teams and Boards document.
+
+**Faculty** Academic staff who design and deliver the Bachelor's learning activities (workshops, one-to-one/team inquiry sessions, final-project/graduation-project supervision), and who design, develop and evaluate assessments as part of the curriculum team.
+
+**Head Coach** Supervises and coordinates the team-coaching function on the Bachelor's programme, working directly with Team Coaches.
+
+**Team Coaches** provide coaching support to Bachelor's student teams' learning.
+
+**Admissions Manager** Handles Bachelor's admissions processes.
+
+**Finance** manages financial operations, budgeting, and financial reporting, including for the Bachelor's programme.
+
+**Marketing** Specialist for marketing activities and external communications, including for the Bachelor's programme.
+
+**Web Development** Specialist for maintaining the web presence of Team Academy, including Bachelor's-related content.
+
+---
+*Adapted from the Institution Organisational Structure, itself sourced from Google Drive "Appendix 13: Organisational Structure_TNO_Professional Masters in Applied AI". Bachelor's-specific track references sourced from Composition of the Faculty, Teams and Boards (2026).*
+
+---
+
+
+# A6. Field Representatives Guidelines — Bachelor's
+
+> **Statü:** ISSUED
+>
+> Kapsam kararı bekliyor.
+>
+> Dosya: `evidence/bachelors-applied-computing/external-validation-feedback/Responsibilities and Guidelines for the Field Representatives - Bachelor's.md`
+
+---
+
+# Responsibilities and Guidelines for the Field Representatives — Bachelor's in Applied Computing
+Team Academy recognises the value and the importance of involving external stakeholders from industry, education and other relevant sectors, especially in the planning and development of its programmes, including the Bachelor's in Applied Computing. One of the critical parties is the Group of Field Representatives, which creates an essential link between the programmes and the industry in order to achieve a higher level of quality and relevance of the programmes.
+
+The following set of guidelines is intended to lay out the structure, format and function of the field representatives:
+
+## The Purpose
+
+The field representatives serve as an advisory group to the curriculum team in key areas such as programme-market fit, programme-industry fit and continuous academic enhancement of the programmes, including the Bachelor's and its three tracks (Applied Software Engineering, Applied Machine Learning, Applied Data Science).
+
+### Role and Responsibilities of the Field Representatives
+
+To achieve this purpose, we collaborate with them to ensure that the programmes deliver education that is up to date and relevant to industry and employment needs. Specific roles and responsibilities of the group members include:
+
+- Provide recommendations and strategic planning guidance for the university's activities and programmes;
+- Make recommendations to ensure that the programmes address the critical needs of the employment and industry market;
+- Provide perspectives from the employer market, industry, and companies for the programmes' strategic planning;
+- Guide the university in the continuous evaluation of its programme objectives and recommend enhancements and improvements based on data from learners and university representatives;
+- Assist the university in the identification of new board members for wider diversity;
+- Commit to regular attendance at the meetings.
+
+## The Meetings
+
+It is intended that the curriculum team meet with the group members at the design and annual review stages of the programmes, including the Bachelor's. The review meeting will aim to validate the Bachelor's level of the graduation/final projects across its tracks. The agenda is formed and agreed on based on the strategic and programme-related needs of the university and shared with the group members to prepare before the meetings.
+
+The length of the meetings is planned carefully to maintain the interest and involvement of the group members. The meetings are moderated by a representative from the institution, and meeting minutes are kept for further reference. The nature of the meetings encourages critical thinking, inquiry, data-driven decisions and innovation. The discussion and brainstorming are translated into decisions and recommendations about the specific agenda and reviewed in the next meeting — for the Bachelor's, this is precisely the pattern already documented in the Consolidated Field Representative Feedback record cited above.
+
+## The Composition of the Group
+
+The Group will represent diverse people from business and academic professionals, which will create diversity in the perspectives as well. The selection of further members will also take into consideration status, gender, race, ethnicity, age and geographic locations.
+
+The suggested number of the group is at least 3. Group members will serve three-year terms with the possibility for renewal for additional terms based on their interest and involvement. The group consists of members to represent the employer market and academia.
+
+The group is non-voting and does not engage in decision-making related to programme personnel, budget, or internal policy development within the partner institutions.
+
+---
+*Adapted from the Responsibilities and Guidelines for the Field Representatives (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI").*
+
+---
+
+
+# B1. Teaching and Examination Regulations (master's seti) — Tech MBA programa özgü eki
+
+> Mevcut belgeniz korundu. Aşağıda yalnızca **sona eklenen** Tech MBA bölümü var.
+>
+> Dosya: `evidence/professional-masters-applied-ai/appendices/Appendix 19 - Teaching and Examinations Regulations.md`
+
+---
+
+# Programme-specific provisions — Tech MBA
+
 ## Section 1: General Provisions
 
 ### Article 1.1 Applicability of the Regulations
@@ -257,37 +566,19 @@ Follows the Master's TER, Section 6, in full — see *Examination Board Handbook
 If demonstrable unreasonableness or unfairness of a predominant nature occurs, the Executive Board or the Examination Board may allow deviation from the provisions of this TER.
 
 ---
-*Adapted from the Teaching and Examinations Regulations. Tech-MBA-specific facts (assessment weighting, ECTS/workload figures, certification structure, intake pattern, Final Project structure) drawn from Tech MBA Programme Handbook_2024 and Tech MBA Supervision Guide. Items marked "[[Tech-MBA-specific — ...*
-
-
-<div style='page-break-after: always'></div>
 
 ---
 
 
-# 3. Policy on Assessment — Tech MBA
+# B2. Policy on Assessment (master's seti) — Tech MBA programa özgü eki
 
-> **Statü:** ISSUED
+> Mevcut belgeniz korundu. Aşağıda yalnızca **sona eklenen** Tech MBA bölümü var.
 >
-> Master's Ek 15'ten uyarlandı.
->
-> Dosya: `evidence/tech-mba/Policy on Assessment - Tech MBA.md`
+> Dosya: `evidence/professional-masters-applied-ai/appendices/Appendix 15 - Policy on Assessment.md`
 
 ---
 
-# Assessment Policy — Tech MBA
-## Part A — Institution-Wide Assessment Policy (applies unchanged to the Tech MBA)
-
-The following provisions from the source Assessment Policy apply to the Tech MBA exactly as written for all Team Academy programmes; they are summarised here, with the full text available at the source path above:
-
-- **Vision on Learning & Assessment**: competency-based learning and assessment for all programmes; intended learning outcomes stated as competencies aligned with the European Qualification Framework (Dublin Descriptors) and the Dutch Qualification Framework (NLQF), validated by representatives of the relevant field of work.
-- **Roles in the process**: the Curriculum Team (programme management, learning design, faculty) designs and implements assessment; learners are assessed and peer-assess; the Examination Board exercises its statutory tasks (WHW Article 7.12b) and endorses the award of the degree.
-- **Generic outline of the assessment cycle**: Design → Development → Administration → Assessment → Analysis → Feedback & Feedforward → Revision, applied cyclically and iteratively.
-- **Student Protection**: GDPR-compliant handling of assessment data; a diverse and inclusive learning environment recognising intercultural differences; assessments designed free from cultural assumptions unfamiliar to some learners; accommodations for learners with disabilities "in line with individual needs," handled confidentially, "promoting equal opportunities for success." *(This is one of the provisions the shared Gender Equality and Equal Opportunities Statement draws on.)*
-- **Use of Technological Support**: permitted technical aids specified in advance; misuse treated as academic misconduct under the examination regulations; innovative developments (including AI) encouraged provided they align with fairness, transparency and academic integrity.
-- **Professional Development**: Basic and Senior Examination Qualifications for assessors; assessment-literacy competencies (design, evaluation, feedback, quality assurance) required of all assessors across all programmes, including the Tech MBA.
-
-## Part B — Tech MBA-Specific Assessment Policy
+# Programme-specific provisions — Tech MBA
 
 This section describes the procedural policies for assessment within the Tech MBA, following the institution-wide Part A above and clarifying Tech-MBA-specific roles, structures and weighting.
 
@@ -332,50 +623,19 @@ Follows Part A's institution-wide provisions on AI and technological aids, opera
 As under the institution-wide QA Policy (see *Institution-wide Quality Assurance Policy*), the Tech MBA's assessment approach is subject to the institute's PDCA cycle, with the Examination Board responsible for oversight of examination quality and exit qualifications.
 
 ---
-*Adapted from the Policy on Assessment. Tech-MBA-specific facts (weighting, roles, Final Project structure) drawn from Tech MBA Programme Handbook_2024 and Tech MBA Supervision Guide.*
-
-
-<div style='page-break-after: always'></div>
 
 ---
 
 
-# 4. Examination Board Handbook — Tech MBA
+# B3. Examination Board Handbook (master's seti) — Tech MBA programa özgü eki
 
-> **Statü:** ISSUED
+> Mevcut belgeniz korundu. Aşağıda yalnızca **sona eklenen** Tech MBA bölümü var.
 >
-> Master's Ek 12'den uyarlandı. Tek kurul modeli: kurul üç programa birden hizmet ediyor, her program için üye taşıyor.
->
-> Dosya: `evidence/tech-mba/Examination Board Handbook - Tech MBA.md`
+> Dosya: `evidence/professional-masters-applied-ai/appendices/Appendix 12 - Examination Board Handbook.md`
 
 ---
 
-# Team Academy Examination Board Handbook — Tech MBA
-
-> **Adapted from:** *Appendix > 12 - Examination Board Handbook*. Part 1 of the source (the internal
-> rules governing the Examination Board's own functioning — installation,
-> independence, composition, tasks, decisions, complaints handling) is
-> **institution-wide and applies unchanged to the Tech MBA**: it is not
-> specific to any one programme. Team Academy operates **one Examination
-> Board across all its programmes**, composed, in the source Handbook's own
-> words, of "the chair, the vice-chair, an official secretary and one or
-> more members per programme," with a permanent examination committee of at
-> least three. The Tech MBA is therefore served by that same Board, with
-> Tech MBA members on it, rather than by a board of its own. Part 2
-> (alignment with the programme's TER) is adapted below to point to the Tech
-> MBA's own TER and programme structure.
-
-## Part 1: Internal Rules and Regulations for the Functioning of the Examination Board (institution-wide — applies to the Examination Board serving the Tech MBA unchanged)
-
-The following provisions of the source Handbook apply to the Examination Board serving the Tech MBA exactly as written; full text is at the source path above.
-
-- **Installation and Independence** (§1B): the Executive Board appoints the Examination Board and its members; the Board must include at least one external member; managers with financial responsibility cannot sit on the Board; the Board acts independently within the boundaries of the applicable TER — for the Tech MBA, its own TER (*Teaching and Examination Regulations (TER)*).
-- **Composition** (§1C): a minimum of three members, "preferably evenly distributed in age, gender and cultural background," including at least one internal faculty member and at least one independent external member; specific exclusions apply (Foundation Board, Executive Board, Programme Directors/Operations Directors, Advisory Board Chairs, Student Advisors). *(This composition rule is one of the provisions the shared Gender Equality and Equal Opportunities Statement draws on.)*
-- **Tasks and Profiles** (§1D): the Chair, Vice-Chair/Members, and Secretary job profiles, and the requirement that the University offer members sufficient opportunity for expertise development (e.g. Basic/Senior Qualification Examination or equivalent).
-- **Activities of the Examination Board** (§1E): the ten statutory tasks under WHW — determining if a learner meets qualification requirements; assuring exam/final-examination quality; setting guidelines within the TER; granting exemptions; taking measures in cases of fraud; assigning assessors; awarding certificates/diploma supplements; granting flexible-study-programme permission; issuing transcripts; drawing up an annual report.
-- **Decisions of the Examination Board** (§1F) and **Complaints Handling** (§1G): decision-making procedures (majority vote, Chair's tie-break, documentation requirements) and the complaints procedure (right to a hearing for both student and lecturer; right to challenge ("wraking") a Board member's impartiality; right of appeal via the independent NRTO disputes and appeals procedure) apply identically to the Tech MBA.
-
-## Part 2: Alignment of the Examination Board's Procedures with the Tech MBA's TER
+# Programme-specific provisions — Tech MBA
 
 ### General Provisions
 
@@ -400,351 +660,5 @@ Article 3.9 (Inclusive Assessment and Examination Provisions) and Article 3.11 (
 As under the source Handbook: the way in which the Examination Board performs its statutory tasks plays an increasingly important role in accreditation, including this IAAR specialised accreditation application for the Tech MBA.
 
 ---
-*Adapted from the Examination Board Handbook. Tech-MBA-specific facts (certification structure, assessment weighting, ECTS/workload, intake pattern) drawn from Tech MBA Programme Handbook_2024, Tech MBA Supervision Guide, and Policy on Assessment.*
-
-
-<div style='page-break-after: always'></div>
 
 ---
-
-
-# 5. Institution-wide Quality Assurance Policy — Tech MBA
-
-> **Statü:** ISSUED
->
-> Kurumsal QA Policy'nin Tech MBA kopyası. §1.1.5 ve §ESG 1.8 eklemelerini taşıyor.
->
-> Dosya: `evidence/tech-mba/Institution-wide Quality Assurance Policy (Team Academy) - Tech MBA.md`
-
----
-
-# Policy for Quality Assurance at Team Academy — Tech MBA
-## ESG 1.1. Policy for Quality Assurance
-
-*"Institutes should have a policy for quality assurance that is made public and forms part of their strategic management. Internal stakeholders should develop and implement this policy through appropriate structures and processes, while involving external stakeholders."*
-
-This section aims to set the context for Quality Assurance at Team Academy and provide information on the institute's guiding principles for quality assurance, its organisational structure for quality assurance, the evaluation system of the quality assurance system and the multi-layered approach to quality assurance for its programmes, including the Tech MBA. The institute's quality assurance policy complies with the requirements of the "European Standards and Guidelines for Quality Assurance in the European Higher Education Area" (ESG).
-
-### 1.1.1. Context and Objectives
-
-The vision of Team Academy is to bridge the skills gap that the world is currently facing. Team Academy offers master's-level programmes, including the Tech MBA, in the technology field, aimed at developing talent for the labour market. All staff and management teams are responsible for ensuring that the programmes meet the needs of the 21st century and the requirements of the job market. This is achieved through an effective internal quality assurance system for the programmes, ensuring that quality culture is maintained by all community members, that relevant content and competencies facilitate each learner's employability, that programmes connect with the needs of the global job market, and that ongoing improvement complies with international accreditation requirements.
-
-### 1.1.2. Concept of Quality
-
-Quality in education is based on the extent to which processes and procedures are in place to establish an educational standard and constantly improve it, and on the interaction between staff, external partners, learners, learning resources, learning environment and support mechanisms.
-
-### 1.1.3. Guiding principles for quality assurance
-
-Quality assurance at Team Academy — for the Tech MBA as for its other programmes — is supported by: adherence to the ESG; collaboration between internal and external bodies; transparency of policies to all community members; innovation in processes and tools; agility in responding to matters; and reflection to maintain constant improvement.
-
-### 1.1.4 Organisation of the Quality Assurance System
-
-Quality assurance at Team Academy provides a clear organisational structure for all teams, faculty and learners, consisting of the institute's quality assurance and the programme quality assurance systems. External players (Ministry of Education, Culture and Science; NVAO; Field Representatives; Knowledge Partners) interact with internal players (Executive Board, Management Teams, Institute Quality Assurance, Exam Board, Managing Director, QA Team, Programme Teams, Educational Council, Admissions Teams, Faculty, Learners, Programme Quality Assurance). For the Tech MBA's own local instance of these roles, see *Institution Organisational Structure*.
-
-The Institute Quality Assurance function is embedded within Team Academy's governance structure; the Institute Board sets strategic vision, management teams implement it, and monthly Executive Board–programme team check-ins provide reflection and adjustment.
-
-The programme quality assurance system for the Tech MBA, as for the institute's other programmes, is informed by the institute's QA policies and strategies, with external players (field representatives, global faculty, content partners) helping keep the curriculum current, and the QA Team (composed of programme managers, led by a QA Lead, reporting to the Executive Board) holding main responsibility.
-
-### 1.1.5 Evaluation of the Quality Assurance System
-
-The evaluation of the QA system is an ongoing, institute-wide process, applying equally to the Tech MBA. The institute's policies, procedures and guidelines are evaluated in collaboration with the Executive Board and other teams; the QA Team holds main responsibility for evaluation, and the Executive Board approves resulting iterative improvements. All feedback from external and internal players, including learners, is incorporated.
-
-**Review of this Policy document and stakeholder satisfaction with it (planned mechanism).** As set out in the institution-wide Policy, this document itself is reviewed annually by the QA Team ahead of each academic year, with revisions subject to Executive Board approval. As the Tech MBA has not yet run under this consolidated QA framework, no stakeholder-satisfaction results specific to the policy document exist yet; once the Tech MBA is operational, satisfaction with this policy will be assessed as part of that annual QA Team review, drawing on faculty, programme management, the Educational Council, and Field Representative input. This is a planned, ex-ante mechanism, not a historical record.
-
-**Adherence to the Plan–Do–Check–Act (PDCA) Cycle.** Team Academy's quality assurance system, including for the Tech MBA, is operationalised through the PDCA cycle across activity, module, certificate and programme levels: Plan (curriculum team and field representatives design the curriculum and align it with learner needs and labour-market demand), Do (delivery of learning activities, assessments and mentoring/coaching), Check (systematic feedback via reflections, learner surveys, exam board reviews and performance reviews), Act (targeted improvements formally approved by the QA Team and Executive Board).
-
-### 1.1.6. Multi-layered approach to quality assurance at the programme level
-
-The PDCA-based quality procedures apply at four levels, mapped to the Tech MBA's own structure as documented in *Tech MBA Programme Handbook_2024*:
-
-- **Activity level** — the Tech MBA's weekly workshops, module projects, weekly tasks/activities, action-learning sets and mentoring sessions. Quality is maintained by faculty/programme-management design against defined principles, continuous learner feedback (e.g. reflective accounts, knowledge checks), and immediate action on that feedback.
-- **Module level** — the Tech MBA's thirteen certification modules (e.g. Module 1: Digital Transformation and Business Strategy, through Module 13: Growth Hacking) plus the Leadership and Action Research modules. Each module is designed against programme competencies, with learner feedback gathered at module close and acted on for subsequent cohorts.
-- **Certificate level** — the Tech MBA's four certifications ("Transform Your Business," "Lead Your Business," "Innovate and Grow Your Business," "Leadership and Action Research"), each concluded with a VIVA and certification decision, with field-expert and external-advisor input into design and market alignment.
-- **Programme level** — the Tech MBA as a whole is evaluated against learner competency development, quality of the Final Project, and learner employability upon completion, with a corresponding design–evaluate–improve cycle in collaboration with field experts.
-
-## ESG 1.2. Design and approval of programmes
-
-*"Institutes should have formal mechanisms for the approval, periodic review and monitoring of their programmes and awards."*
-
-At Team Academy, the Curriculum Team designs and develops programmes — including the Tech MBA — in collaboration with field representatives; the Executive Board formally approves programmes and major changes; the Curriculum Team reviews and improves the curriculum in collaboration with faculty, students and field representatives, following the institute's internal procedures for programme design, approval, monitoring and review.
-
-## ESG 1.3. Student-centred learning, teaching and assessment
-
-*"Institutes should ensure that the programmes are delivered in a way that encourages students to take an active role in creating the learning process, and that the assessment of students reflects this approach."*
-
-Faculty on the Tech MBA follow the guidelines for a learner-centred programme experience; teaching and examination rules and procedures are aligned with the Tech MBA's competency-based education standards and set out in the Tech MBA's own Teaching and Examination Regulations document (see *Teaching and Examination Regulations (TER)*). Curriculum structure and assessment strategies are outlined in the Tech MBA Programme Handbook and made available to all learners, along with extension and appeal procedures.
-
-## ESG 1.4. Student admission, progression, recognition and certification
-
-*"Institutes should consistently apply pre-defined and published regulations covering all phases of the student's life cycle."*
-
-All applicants to the Tech MBA, from diverse backgrounds, cultures, genders and nationalities, regardless of physical disability, are encouraged to apply; the Admissions Team assesses suitability against published requirements. Learner progression is supported through defined intervention mechanisms, with programme management responsible for making programme information available to all learners. Team Academy's status as a Recognised Legal Entity for Higher Education (RPHO) under the Dutch WHW authorises the Tech MBA, like the institute's other programmes, to issue accredited certificates and diplomas.
-
-## ESG 1.5. Teaching staff
-
-*"Institutes should assure themselves of the competence of their teachers."*
-
-Programme management is responsible for fair, transparent recruitment, onboarding and development of Tech MBA faculty, following the institute's guidelines for recruitment and professional development.
-
-## ESG 1.6. Learning resources and learner support
-
-*"Institutes should have appropriate funding for learning and teaching activities and ensure that adequate and readily accessible learning resources and student support are provided."*
-
-The Tech MBA, delivered fully online, provides resources and support suited to a working-professional, part-time-compatible learner population (digital library, group mentoring, action-learning coaching), with a programme manager coordinating faculty–learner interaction and monitoring learner progress.
-
-## ESG 1.7 Information management
-
-*"Institutes should ensure that they collect, analyse and use relevant information for the effective management of their programmes and other activities."*
-
-Programme management for the Tech MBA keeps and provides data such as learner progress, learner mastery, assessment results and drop-out rates, stored on the institute's learning management system, consistent with the institution-wide data categories listed in the shared Policy.
-
-## ESG 1.8. Public information
-
-*"Institutes should publish information about their activities, including programmes, which is clear, accurate, objective, up-to-date and readily accessible."*
-
-The marketing team publishes Tech MBA programme details (objectives, curriculum, target competencies, credits, faculty), admission criteria and steps, the learning approach, brochures on request, and online application forms.
-
-**Publication status of this Policy document.** As with the institution-wide original, this Policy document is currently an internal governance document — shared with staff, faculty, the Educational Council and Field Representatives — and not yet published on the institute's public website, pending launch of the cluster's programmes. Public publication is planned once the cluster is operational.
-
-## ESG 1.9 On-going monitoring and periodic review of programmes
-
-*"Institutes should monitor and periodically review their programmes..."*
-
-The curriculum team, programme management and faculty ensure ongoing monitoring and review of the Tech MBA follow the institute's guidelines for that process, aimed at ensuring the programme achieves its intended learning outcomes and remains connected to the job market and society.
-
-## ESG 1.10 Cyclical external quality assurance
-
-*"Institutes should undergo external quality assurance in line with the ESG on a cyclical basis."*
-
-Team Academy pursues programme accreditation (e.g. NVAO) and maintains close contact, formal and informal, with field experts and employers whose market insights help improve programme quality, including for the Tech MBA.
-
----
-*Adapted from the Institution-wide Quality Assurance Policy, itself sourced from Google Drive "Appendix 21: Quality Assurance Policy_TNO_Professional Masters in Applied AI" (Master's Appendices folder).*
-
-
-<div style='page-break-after: always'></div>
-
----
-
-
-# 6. Institution Organisational Structure — Tech MBA
-
-> **Statü:** ISSUED
->
-> Kurumsal org yapısının Tech MBA kopyası.
->
-> Dosya: `evidence/tech-mba/Institution Organisational Structure (Team Academy) - Tech MBA.md`
-
----
-
-# Organisational Structure — Tech MBA
-## Role Descriptions
-
-**The Executive Board** provides overall governance and strategic direction for Team Academy, including the Tech MBA.
-
-**The Examination Board** is responsible for ensuring the quality and integrity of assessment processes for the Tech MBA, overseeing examination standards, and safeguarding the academic quality of the programme and the level of the diploma.
-
-**QA Team** provides quality assurance oversight for the Tech MBA, ensuring academic standards and quality measures are maintained.
-
-**The Educational Council (Student Advisory Board)** consists of student representatives who share their experience of the Tech MBA's programme quality and provide advisory input. Their recommendations are passed to the Managing Director, who shares them with the Programme Manager(s) and Programme Design Leads.
-
-**Managing Director** Oversees operational management of Team Academy, coordinating between different departments, including the Tech MBA, and implementing strategic decisions from the Executive Board.
-
-**Programme Manager(s)** manage Tech MBA administration and coordination between faculty, students and the programme design lead. On the Tech MBA, this role is currently held by Isadora Costa (see *Tech MBA Programme Handbook_2024*).
-
-**Programme Design & Development Lead** Responsible for designing and developing the Tech MBA curriculum, ensuring curriculum quality and improvement.
-
-**Faculty** Academic staff who design and deliver the Tech MBA's learning activities such as workshops, mentoring, action learning sets and final-project supervision, and who design, develop and evaluate assessments as part of the curriculum team.
-
-**Head Coach** Supervises and coordinates the action-learning-coaching function on the Tech MBA, working directly with action learning coaches and mentors.
-
-**Team Coaches / Mentors / Action Learning Coaches** provide coaching, mentoring and facilitation support to Tech MBA learners.
-
-**Admissions Manager** Handles Tech MBA admissions processes.
-
-**Finance** manages financial operations, budgeting, and financial reporting, including for the Tech MBA.
-
-**Marketing** Specialist for marketing activities and external communications, including for the Tech MBA.
-
-**Web Development** Specialist for maintaining the web presence of Team Academy, including Tech MBA-related content.
-
----
-*Adapted from the Institution Organisational Structure, itself sourced from Google Drive "Appendix 13: Organisational Structure_TNO_Professional Masters in Applied AI". Tech MBA role-holder reference (Programme Manager) sourced from Tech MBA Programme Handbook_2024.*
-
-
-<div style='page-break-after: always'></div>
-
----
-
-
-# 7. Responsibilities and Guidelines for the Field Representatives — Tech MBA
-
-> **Statü:** ISSUED
->
-> Master's Ek 20'den uyarlandı.
->
-> Dosya: `evidence/tech-mba/Responsibilities and Guidelines for the Field Representatives - Tech MBA.md`
-
----
-
-# Responsibilities and Guidelines for the Field Representatives — Tech MBA
-Team Academy recognises the value and the importance of involving external stakeholders from industry, education and other relevant sectors, especially in the planning and development of its programmes, including the Tech MBA. One of the critical parties is the Group of Field Representatives, which creates an essential link between the programmes and the industry in order to achieve a higher level of quality and relevance of the programmes.
-
-The following set of guidelines is intended to lay out the structure, format and function of the field representatives:
-
-## The Purpose
-
-The field representatives serve as an advisory group to the curriculum team in key areas such as programme-market fit, programme-industry fit and continuous academic enhancement of the programmes, including the Tech MBA.
-
-### Role and Responsibilities of the Field Representatives
-
-To achieve this purpose, we collaborate with them to ensure that the programmes deliver education that is up to date and relevant to industry and employment needs. Specific roles and responsibilities of the group members include:
-
-- Provide recommendations and strategic planning guidance for the university's activities and programmes;
-- Make recommendations to ensure that the programmes address the critical needs of the employment and industry market;
-- Provide perspectives from the employer market, industry, and companies for the programmes' strategic planning;
-- Guide the university in the continuous evaluation of its programme objectives and recommend enhancements and improvements based on data from learners and university representatives;
-- Assist the university in the identification of new board members for wider diversity;
-- Commit to regular attendance at the meetings.
-
-## The Meetings
-
-It is intended that the curriculum team meet with the group members at the design and annual review stages of the programmes, including the Tech MBA. The review meeting will aim to validate the professional master's level of the final projects, including the Tech MBA's Final Project. The agenda is formed and agreed on based on the strategic and programme-related needs of the university and shared with the group members to prepare before the meetings.
-
-The length of the meetings is planned carefully to maintain the interest and involvement of the group members. The meetings are moderated by a representative from the institution, and meeting minutes are kept for further reference. The nature of the meetings encourages critical thinking, inquiry, data-driven decisions and innovation. The discussion and brainstorming are translated into decisions and recommendations about the specific agenda and reviewed in the next meeting.
-
-## The Composition of the Group
-
-The Group will represent diverse people from business and academic professionals, which will create diversity in the perspectives as well. The selection of further members will also take into consideration status, gender, race, ethnicity, age and geographic locations.
-
-The suggested number of the group is at least 3. Group members will serve three-year terms with the possibility for renewal for additional terms based on their interest and involvement. The group consists of members to represent the employer market and academia.
-
-The group is non-voting and does not engage in decision-making related to programme personnel, budget, or internal policy development within the partner institutions.
-
----
-*Adapted from the Responsibilities and Guidelines for the Field Representatives (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI").*
-
-
-<div style='page-break-after: always'></div>
-
----
-
-
-# 8. Institution Organisational Structure — Bachelor's
-
-> **Statü:** ISSUED
->
-> Kurumsal org yapısının Bachelor's kopyası.
->
-> Dosya: `evidence/bachelors-applied-computing/standard-5-quality-assurance/Institution Organisational Structure (Team Academy) - Bachelor's.md`
-
----
-
-# Organisational Structure — Bachelor's in Applied Computing
-## Role Descriptions
-
-**The Executive Board** provides overall governance and strategic direction for Team Academy, including the Bachelor's in Applied Computing.
-
-**The Examination Board** is responsible for ensuring the quality and integrity of assessment processes for the Bachelor's programme (and its three tracks — Applied Software Engineering, Applied Machine Learning, Applied Data Science), overseeing examination standards, and safeguarding the academic quality of the programme and the level of the diploma.
-
-**QA Team** provides quality assurance oversight for the Bachelor's programme, ensuring academic standards and quality measures are maintained.
-
-**The Educational Council (Student Advisory Board)** consists of student representatives who share their experience of the Bachelor's programme quality and provide advisory input. Their recommendations are passed to the Managing Director, who shares them with the Programme Manager(s) and Programme Design Leads.
-
-**Managing Director** Oversees operational management of Team Academy, coordinating between different departments, including the Bachelor's programme, and implementing strategic decisions from the Executive Board.
-
-**Programme Manager(s)** manage Bachelor's programme administration and coordination between faculty, students and the programme design lead, across the three tracks.
-
-**Programme Design & Development Lead** Responsible for designing and developing the Bachelor's curriculum (and its tracks), ensuring curriculum quality and improvement — see also *Development of Programme Competencies and Curriculum* and the Bachelor's Composition of Faculty, Teams and Boards document.
-
-**Faculty** Academic staff who design and deliver the Bachelor's learning activities (workshops, one-to-one/team inquiry sessions, final-project/graduation-project supervision), and who design, develop and evaluate assessments as part of the curriculum team.
-
-**Head Coach** Supervises and coordinates the team-coaching function on the Bachelor's programme, working directly with Team Coaches.
-
-**Team Coaches** provide coaching support to Bachelor's student teams' learning.
-
-**Admissions Manager** Handles Bachelor's admissions processes.
-
-**Finance** manages financial operations, budgeting, and financial reporting, including for the Bachelor's programme.
-
-**Marketing** Specialist for marketing activities and external communications, including for the Bachelor's programme.
-
-**Web Development** Specialist for maintaining the web presence of Team Academy, including Bachelor's-related content.
-
----
-*Adapted from the Institution Organisational Structure, itself sourced from Google Drive "Appendix 13: Organisational Structure_TNO_Professional Masters in Applied AI". Bachelor's-specific track references sourced from Composition of the Faculty, Teams and Boards (2026).*
-
-
-<div style='page-break-after: always'></div>
-
----
-
-
-# 9. Responsibilities and Guidelines for the Field Representatives — Bachelor's
-
-> **Statü:** ISSUED
->
-> Master's Ek 20'den uyarlandı.
->
-> Dosya: `evidence/bachelors-applied-computing/external-validation-feedback/Responsibilities and Guidelines for the Field Representatives - Bachelor's.md`
-
----
-
-# Responsibilities and Guidelines for the Field Representatives — Bachelor's in Applied Computing
-Team Academy recognises the value and the importance of involving external stakeholders from industry, education and other relevant sectors, especially in the planning and development of its programmes, including the Bachelor's in Applied Computing. One of the critical parties is the Group of Field Representatives, which creates an essential link between the programmes and the industry in order to achieve a higher level of quality and relevance of the programmes.
-
-The following set of guidelines is intended to lay out the structure, format and function of the field representatives:
-
-## The Purpose
-
-The field representatives serve as an advisory group to the curriculum team in key areas such as programme-market fit, programme-industry fit and continuous academic enhancement of the programmes, including the Bachelor's and its three tracks (Applied Software Engineering, Applied Machine Learning, Applied Data Science).
-
-### Role and Responsibilities of the Field Representatives
-
-To achieve this purpose, we collaborate with them to ensure that the programmes deliver education that is up to date and relevant to industry and employment needs. Specific roles and responsibilities of the group members include:
-
-- Provide recommendations and strategic planning guidance for the university's activities and programmes;
-- Make recommendations to ensure that the programmes address the critical needs of the employment and industry market;
-- Provide perspectives from the employer market, industry, and companies for the programmes' strategic planning;
-- Guide the university in the continuous evaluation of its programme objectives and recommend enhancements and improvements based on data from learners and university representatives;
-- Assist the university in the identification of new board members for wider diversity;
-- Commit to regular attendance at the meetings.
-
-## The Meetings
-
-It is intended that the curriculum team meet with the group members at the design and annual review stages of the programmes, including the Bachelor's. The review meeting will aim to validate the Bachelor's level of the graduation/final projects across its tracks. The agenda is formed and agreed on based on the strategic and programme-related needs of the university and shared with the group members to prepare before the meetings.
-
-The length of the meetings is planned carefully to maintain the interest and involvement of the group members. The meetings are moderated by a representative from the institution, and meeting minutes are kept for further reference. The nature of the meetings encourages critical thinking, inquiry, data-driven decisions and innovation. The discussion and brainstorming are translated into decisions and recommendations about the specific agenda and reviewed in the next meeting — for the Bachelor's, this is precisely the pattern already documented in the Consolidated Field Representative Feedback record cited above.
-
-## The Composition of the Group
-
-The Group will represent diverse people from business and academic professionals, which will create diversity in the perspectives as well. The selection of further members will also take into consideration status, gender, race, ethnicity, age and geographic locations.
-
-The suggested number of the group is at least 3. Group members will serve three-year terms with the possibility for renewal for additional terms based on their interest and involvement. The group consists of members to represent the employer market and academia.
-
-The group is non-voting and does not engage in decision-making related to programme personnel, budget, or internal policy development within the partner institutions.
-
----
-*Adapted from the Responsibilities and Guidelines for the Field Representatives (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI").*
-
-
-<div style='page-break-after: always'></div>
-
----
-
-
-# 10. QA Policy'ye eklenen iki paragraf
-
-> Mevcut QA Policy'niz korundu; yalnızca aşağıdaki iki paragraf eklendi ve dört kopyaya da işlendi.
-
-## §1.1.5 — eklenen paragraf
-
-**Review of this Policy document and stakeholder satisfaction with it (planned mechanism)**
-
-In addition to the ongoing evaluation of the quality assurance *system* described above, this Policy for Quality Assurance document is itself subject to a planned review cycle, distinct from the programme/module/activity-level review cycles described in section 1.1.6. The QA Team is responsible for reviewing this document on an annual basis, ahead of the start of each academic year, and for proposing any revisions arising from regulatory changes (e.g. ESG, NVAO, WHW), from Field Representative or Educational Council input, or from experience applying the policy in practice. Any revision is subject to formal approval by the Executive Board, consistent with the approval authority already described above for changes to the QA system.
-
-The first annual review falls due ahead of the cluster's first academic year. Once the cluster's programmes are operational, satisfaction with this policy document specifically (as distinct from programme-level learner satisfaction, which is already covered under ESG 1.7 Information management) will be assessed as part of the QA Team's annual review, drawing on feedback gathered from faculty, programme management, the Educational Council (student representatives) and Field Representatives during that review — the same stakeholder groups already named in sections 1.1.4 and 1.1.6 as participants in the institute's quality assurance system. This is presented here as a planned, ex-ante mechanism for an initial accreditation application, not as a historical record of reviews already conducted.
-
-## §ESG 1.8 — eklenen paragraf
-
-**Publication status of this Policy document.** The items listed immediately above concern published *programme*-level information. This Policy for Quality Assurance document itself is, at the current stage, an internal governance document — shared with staff, faculty, the Educational Council (student representatives) and Field Representatives, but not yet published on the institute's public website. It is published on the institute's website at the launch of the cluster's programmes, alongside the programme-level information listed above.

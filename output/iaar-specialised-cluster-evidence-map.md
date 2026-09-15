@@ -1,5 +1,15 @@
 # IAAR (Specialised) Cluster — Pre-Stage-2 Evidence Map
 
+
+> **Standard 1 is superseded.** This file maps all ten standards against the
+> checklist's summarised "required evidence type" — broad, but shallow. For
+> Standard 1 a deeper pass exists at
+> `output/iaar-specialised-standard-1-evidence-map.md`, worked against the
+> verbatim Guidelines requirements and Sample Questions and carrying the
+> institution's own decisions. Use that one for Standard 1 and this one for
+> Standards 2–10, each of which still needs its own deep pass before anything
+> is produced.
+
 **Cluster:** Professional Master's in Applied AI · Bachelor's in Applied Computing (AML/SE/DS tracks) · Tech MBA
 **Applicant:** Amsterdam Tech B.V. / School Vision B.V. — Team Academy
 **Checklist source:** `/output/iaar-specialised-cluster-checklist.md`

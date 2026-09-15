@@ -64,6 +64,8 @@ The evaluation of the QA assurance system is an ongoing process at the institute
 
 All feedback, insights and observations from all external and internal players, including the learners, are incorporated into the reviews for the evaluation of the QA system.
 
+**Review of the QA Policy document itself.** In addition to the ongoing evaluation of the QA system described above, this QA Policy document is itself reviewed on an annual cycle by the QA Team, with formal sign-off by the Executive Board, so that the policy's own currency and fitness for purpose — not only the programmes, modules and activities it governs — is periodically confirmed. Stakeholder satisfaction with the QA Policy specifically (as distinct from programme-level satisfaction data already covered under §ESG 1.7) will be assessed once the programmes are running, through the same learner-survey and performance-review mechanisms described under §ESG 1.7, with a dedicated question on the QA Policy itself added to those instruments rather than through a separate survey instrument. As this is an initial (ex-ante) accreditation application, no prior review cycle has yet taken place; this describes the planned mechanism, not historical revision data.
+
 **Adherence to the Plan–Do–Check–Act (PDCA) Cycle**
 
 Team Academy's quality assurance system is built upon the continuous improvement philosophy, which is operationalised through the **Plan–Do–Check–Act (PDCA) cycle.** This cycle provides a structured approach for maintaining and improving the quality of all educational activities, from programme design to learner assessment, and from institutional strategy to faculty development.
@@ -203,6 +205,8 @@ The publicly published information is helpful for the prospective and current Te
 - The learning approach in the programmes.
 - The programme brochures upon request by the applicants.
 - The online application forms;
+
+**Publication status of this QA Policy document itself.** This QA Policy document is, at this stage, an internal governance document — made available to staff, faculty and Field Representatives, but not yet published externally (e.g. on the Team Academy website), since the cluster's programmes have not yet launched. Public publication of the QA Policy is planned once the programmes become operational, at which point it will be added to the institute's public-facing information alongside the programme-level information already described above.
 
 **ESG 1.9 On-going monitoring and periodic review of programmes**
 

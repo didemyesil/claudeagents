@@ -379,3 +379,49 @@ Four decisions have been taken (see above). Three absences remain open: the
 research–teaching linkage for the Bachelor's and the Tech MBA, a dated record
 of a field representative review for the Master's and the Tech MBA, and the
 Tech MBA's entry requirements.
+
+---
+
+## Durum tablosu — Standard 1
+
+> **Taslak.** Kapsam kararları (`output/document-scope-register.md`) verilince
+> kesinleşir. "Kapsam" sütununda *karar bekliyor* yazan satırlar, o karara
+> göre tek belge mi yoksa program başına belge mi olacağını gösterecek.
+>
+> Durum, bu satırın yazıldığı andaki gerçek dosya durumudur: bu döngüde
+> üretilen her şey geri alındı, dolayısıyla tablo yalnızca kurumun kendi
+> belgelerini yansıtır.
+
+**Durum değerleri:** ✅ Tam — dosyada var, olduğu gibi atıf verilebilir ·
+⚠️ Kısmi — var ama bir program veya bir bölüm eksik · ✍️ Üretilecek — belge
+yok, mevcut olgulardan yazılacak · ❌ Açık — üretilemez, önce bir olgu veya
+karar gerekiyor
+
+**Sıradaki adım kimde:** *Bende* — ek bilgi gerekmiyor, üretebilirim ·
+*Didem'de* — yalnızca kurumun bilebileceği bir olgu veya karar gerekiyor ·
+*Beklemede* — program başlamadığı için bugün var olamaz (ex-ante, meşru)
+
+| # | Ek | Kapsam | Durum | Ne eksik | Sıradaki adım |
+|---|---|---|---|---|---|
+| 1.1 | Policy for Quality Assurance | Kurumsal | ⚠️ Kısmi | §1.1.5'e politikanın kendi gözden geçirme döngüsü, §ESG 1.8'e yayın durumu eklenecek | Didem'de — yıllık kadans onayı |
+| 1.2 | Institution Organisational Structure | *karar bekliyor* | ✅ Tam | — | Didem'de — kapsam kararı |
+| 1.3 | Gender Equality and Equal Opportunities Statement | Kurumsal | ✍️ Üretilecek | Belge yok; mevcut ayrımcılık karşıtı ve fırsat eşitliği hükümlerinden yazılacak | Bende → sonra Didem'in onayı |
+| 1.4 | Field Representatives Guidelines | *karar bekliyor* | ⚠️ Kısmi | Master's'ta var; diğer programlarda kapsam kararına bağlı | Didem'de — kapsam kararı |
+| 1.5 | Consolidated Field Representative Feedback | Programa özgü | ⚠️ Kısmi | Bachelor's'ta var; Master's ve Tech MBA'de tarihli inceleme kaydı yok | Beklemede — inceleme yapılınca doğar |
+| 1.6 | Action Planning | Programa özgü | ✅ Tam | — (Bachelor's) | — |
+| 1.7 | Teaching and Examination Regulations | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Tech MBA'e özgü hükümler master's setine eklenecek | Bende — Alper teyidi sonrası |
+| 1.8 | Policy on Assessment | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı | Bende — Alper teyidi sonrası |
+| 1.9 | Examination Board Handbook | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı; tek kurulun üç programa hizmet ettiği yazılacak | Bende — Alper teyidi sonrası |
+| 1.10 | Faculty Research | Master's | ❌ Açık | Bachelor's ve Tech MBA için karşılığı yok | Didem'de — bu programlarda araştırma/güncellik nasıl sağlanıyor |
+
+**Özet:** 10 ekten **2'si tam**, **6'sı kısmi**, **1'i üretilecek**, **1'i açık**.
+
+**Didem'i bekleyen 5 karar:**
+
+1. QA Policy'nin yıllık gözden geçirme kadansı doğru mu
+2. Organisational Structure'ın kapsamı — tek kurumsal belge mi, program başına mı
+3. Field Representatives Guidelines'ın kapsamı — aynı soru
+4. Bachelor's ve Tech MBA'de araştırma–öğretim bağı nasıl kuruluyor
+5. Gender Equality beyanının onayı (yazıldıktan sonra)
+
+**Ayrıca:** Tech MBA'in giriş koşulları, TER'e yazılırken teyit gerektirecek.

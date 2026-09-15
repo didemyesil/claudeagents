@@ -225,7 +225,7 @@ Examination Board Handbook, not in the QA Policy document itself.
   Article 3.11 of `Appendix 12 - Examination Board Handbook.md`; "Use of
   Technological Support" section of `Appendix 15 - Policy on Assessment.md`.
 - **Bachelor's in Applied Computing:** the equivalent articles in
-  `/home/user/claudeagents/evidence/bachelors-applied-computing/standard-3-assessment/Teaching
+  `/home/user/claudeagents/evidence/bachelors-applied-computing/standard-2-teaching-learning-environment/Teaching
   and Examination Regulations (TER).md`, `Examination Board Handbook.md`
   and `Policy on Assessment.md`, with matching article numbering and
   near-identical language to the Master's set.

@@ -61,15 +61,52 @@ Stage 2 without approval. If the checklist carries a placeholder/unsourced
 warning, highlight this specifically — proceeding may be pointless until
 Didem uploads the official document.
 
+## Stage 1.5 — Evidence Mapper
+
+After Stage 1 is approved and before Stage 2 drafts anything, run the
+`evidence-mapper` agent. This step exists because a real accreditor panel
+works from the Standard text, Guidelines, and Sample Questions in the
+accreditor's own guide — not from the checklist's condensed one-line summary
+of required evidence — and drafting straight from the checklist risks Stage 2
+discovering blocking gaps mid-draft instead of upfront.
+
+- Give it `/accreditors/{accreditor}.md` (the full config, not just the
+  checklist) and the evidence pool in scope (`/evidence/_shared/` +
+  `/evidence/{programme}/` for each programme in cluster mode; just
+  `/evidence/{programme}/` otherwise).
+- It is read-only against `/evidence/` — it never adapts or creates evidence,
+  only maps what exists against what the guide actually asks, standard by
+  standard (or one standard at a time, if you and Didem want to go deep
+  before committing to the full pass — see its own agent definition).
+- **A cluster-wide fact (e.g. an institution-wide QA policy) gets one
+  appendix item, never one per programme.** The evidence-mapper's job
+  includes catching the false-gap case where a programme just hasn't been
+  pointed at shared evidence yet — that is a Stage 2 filing/adaptation task,
+  not a gap for Didem to fill. Don't let "write shared content once" invert
+  into asking her to produce N near-duplicate programme-specific versions of
+  the same institutional fact.
+- Output: `/output/{accreditor}-cluster-evidence-map.md` (cluster mode) or
+  `/output/{programme}-{accreditor}-evidence-map.md` (single-programme mode)
+  — a per-standard Appendix Requirements List (what's on file, what needs
+  adapting, what's a false gap, what's a genuine gap) plus a summary table.
+
+**STOP — present for Didem's review**, but this gate is lighter than the
+others: the point is for her to sanity-check the shared-vs-genuine-gap calls
+and flag anything that looks wrong (the way she caught the QA-policy
+false-gap case) before Stage 2 builds on it, not to approve a finished
+artifact. Once she's comfortable with the map (or has corrected it), move to
+Stage 2.
+
 ## Stage 2 — Accreditation Folder Developer
 
 After approval, run the `folder-developer` agent.
 
-- **Single-programme run:** give it the Stage 1 checklist, `/evidence/{programme}/`,
-  institutional policy/regulatory documents. Output:
-  `/output/{programme}-{accreditor}-file.md` (draft) + any evidence documents
-  adapted/created in `/evidence/{programme}/`.
-- **Cluster run:** give it the Stage 1 cluster checklist, `/evidence/_shared/`,
+- **Single-programme run:** give it the Stage 1 checklist, the Stage 1.5
+  evidence map (if one was run), `/evidence/{programme}/`, institutional
+  policy/regulatory documents. Output: `/output/{programme}-{accreditor}-file.md`
+  (draft) + any evidence documents adapted/created in `/evidence/{programme}/`.
+- **Cluster run:** give it the Stage 1 cluster checklist, the Stage 1.5
+  cluster evidence map (if one was run), `/evidence/_shared/`,
   `/evidence/{programme}/` for each programme in the cluster, and
   institutional policy/regulatory documents. Tell it explicitly this is a
   cluster run — see its own agent definition's cluster mode. Output:
@@ -77,6 +114,11 @@ After approval, run the `folder-developer` agent.
   accreditor's prescribed report format — shared content once, per-programme
   content broken out under each standard) + any evidence documents
   adapted/created across `/evidence/_shared/` and the per-programme folders.
+
+If a Stage 1.5 evidence map exists, the Folder Developer works its genuine
+gaps **one at a time with Didem** — ask, get her answer, finish that item,
+then move to the next — rather than collecting every open question and
+dumping them on her at once. See the agent's own definition for why.
 
 This agent doesn't just read the evidence pool — it can **adapt** an existing
 evidence document that doesn't yet match the standard's required format, and

@@ -57,6 +57,28 @@ In cluster mode:
 - Evidence for shared content lives in `/evidence/_shared/`; evidence for
   programme-specific content lives in `/evidence/{programme}/` per
   programme, same as single-programme mode.
+- **A cluster-wide fact gets one appendix item, never one per programme.**
+  If a standard's evidence is genuinely institution-wide (a QA policy, an
+  organisational structure, an institution-wide technology-use policy), the
+  SAR cites the single shared document once — you do not create or maintain
+  near-duplicate "adapted" copies per programme just because a programme
+  folder doesn't have its own copy yet. A programme "missing" a copy of
+  shared evidence is not a gap to draft around or ask Didem about — it's a
+  sign the SAR should simply point to the shared original.
+
+## Start from the evidence map, not a blank search
+
+Before searching the evidence pool yourself, check whether Stage 1.5
+(`evidence-mapper`) has already produced an Appendix Requirements List for
+this checklist (`/output/{accreditor}-cluster-evidence-map.md` or the
+single-programme equivalent). If it exists, use it as your starting map for
+every item: it already tells you what's on file, what's a real gap, and what
+looks like a gap but is actually shared evidence you just need to point to
+(don't re-litigate that classification — treat it as authoritative unless you
+find something that contradicts it while drafting, in which case say so).
+If no evidence map exists yet for this run, fall back to searching the
+evidence pool directly as described below, and note in your Stage 2 report
+that a Stage 1.5 pass would have caught this ahead of time.
 
 ## Three cases per checklist item, and what you do in each
 
@@ -102,8 +124,7 @@ already have before involving Didem. But when finishing an item requires a
 fact you don't have — a specific number, a policy detail, confirmation that
 a described practice is actually current — stop guessing and **ask her
 directly, as a specific question**, rather than leaving vague prose or
-inventing a plausible-sounding answer. Collect these as you go; don't
-interrupt line-by-line.
+inventing a plausible-sounding answer.
 
 Only fall back to **"evidence needed"** when you have nothing to adapt or
 draft from at all — no source document, no prior answer from Didem, nothing
@@ -111,27 +132,43 @@ to build on. If you have *something* to work with (even partial), draft or
 adapt as far as the real facts take you, then mark exactly what's missing to
 finish it, rather than leaving the whole item blank.
 
-Once Didem answers your open questions, incorporate her input and produce the
-final version of the affected items/documents — you don't need a full re-run
-of the stage for that, just fold the answer in and finish the draft or the
-adapted/new evidence document.
+**Genuine gaps are resolved one at a time, not batch-dumped.** When the
+evidence map (or your own search) surfaces a list of genuine gaps for a
+standard, don't hand Didem all of them at once and wait — work through them
+one concrete question at a time: ask, get her answer, draft or create the
+evidence document it unblocks, confirm it's done, then move to the next gap.
+This keeps each answer traceable to the document it produced and lets her
+correct course early if an answer implies something broader (the way a single
+correction earlier in this project — e.g. that a QA policy is institution-wide,
+not per-programme — changed how several other items should be read). Batch
+only the truly independent, low-stakes items (e.g. several short factual
+confirmations that don't depend on each other) if she asks you to speed
+things up — one-at-a-time is the default, not a rule you need her permission
+to relax.
+
+Once Didem answers a question, incorporate it and produce the final version
+of the affected item/document immediately — you don't need a full re-run of
+the stage for that, just fold the answer in and finish that one item before
+moving to the next gap.
 
 ## Input
 
 **Single-programme mode:**
 1. Stage 1 checklist: `/output/{programme}-{accreditor}-checklist.md`
-2. `/evidence/{programme}/` — outputs of the existing 6-agent analysis layer,
+2. Stage 1.5 evidence map, if it exists: `/output/{programme}-{accreditor}-evidence-map.md`
+3. `/evidence/{programme}/` — outputs of the existing 6-agent analysis layer,
    plus anything you adapt or create here yourself
-3. Institutional policy/regulatory documents (if provided separately)
-4. Didem's answers to your open questions, when given
+4. Institutional policy/regulatory documents (if provided separately)
+5. Didem's answers to your open questions, when given
 
 **Cluster mode:**
 1. Stage 1 checklist (accreditor-level, covers the whole cluster):
    `/output/{accreditor}-cluster-checklist.md`
-2. `/evidence/_shared/` — institution-wide evidence
-3. `/evidence/{programme}/` for each programme in the cluster
-4. Institutional policy/regulatory documents (if provided separately)
-5. Didem's answers to your open questions, when given
+2. Stage 1.5 evidence map, if it exists: `/output/{accreditor}-cluster-evidence-map.md`
+3. `/evidence/_shared/` — institution-wide evidence
+4. `/evidence/{programme}/` for each programme in the cluster
+5. Institutional policy/regulatory documents (if provided separately)
+6. Didem's answers to your open questions, when given
 
 If the checklist carries a "placeholder — official document pending" warning,
 stop and tell Didem: drafting a file without real standard items is pointless;

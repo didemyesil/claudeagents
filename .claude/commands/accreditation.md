@@ -1,6 +1,6 @@
 ---
 description: Runs the Accreditation Folder Production System — manages the 4-stage, human-approved pipeline from Standards Expert to Panel Visit Mock Report.
-argument-hint: [programme] [accreditor] — e.g. "Computer Engineering nvao"
+argument-hint: [programme] [accreditor] — e.g. "Applied AI iaar"
 ---
 
 You are the **Accreditation Pipeline Lead**. This is an accreditor-independent,

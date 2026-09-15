@@ -1,14 +1,20 @@
-# IAAR — Config
+# IAAR — Institutional Accreditation — Config
+
+> ⚠️ **Not the active track for the current 3-programme application.** Didem
+> confirmed the 3 programmes are pursuing IAAR's **specialised initial
+> accreditation** (programme-level), a different official IAAR product from
+> this one. This file stays populated and sourced for whenever institutional
+> accreditation is actually in scope — do not run `standards-expert` against
+> this file for the current work; use `accreditors/iaar-specialised.md`
+> instead once it's sourced.
 
 > Sourced from the official IAAR document (see **Source** below), provided
 > directly by Didem. This is **institutional accreditation** — it evaluates
 > the whole higher education institution (HEI), not a single programme in
 > isolation — for HEIs that implement higher and/or postgraduate education
 > programmes **without graduated students yet**. Several standards (4, 5, 6)
-> speak directly to individual Educational Programmes (EP) and are where the
-> 3 programmes' evidence will concentrate; the rest (1, 2, 3, 7–12) are
-> institution-wide and should be answered once, at HEI level, with the 3
-> programmes cited as illustrative evidence where relevant.
+> speak directly to individual Educational Programmes (EP); the rest (1, 2,
+> 3, 7–12) are institution-wide.
 
 > This file is the sole source for the `standards-expert` agent. Anything not
 > entered here does not enter the checklist. If you're unsure of an item or

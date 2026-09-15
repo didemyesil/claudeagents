@@ -13,8 +13,28 @@ pass will be run for Standards 2–10.
 - `/evidence/professional-masters-applied-ai/appendices/Appendix 21 - Quality Assurance Policy.md`
 - `/evidence/bachelors-applied-computing/standard-5-quality-assurance/Quality Assurance Policy.md`
 - `/evidence/bachelors-applied-computing/external-validation-feedback/Consolidated Field Representative Feedback.md`
-- `/evidence/tech-mba/` (searched — no QA policy document exists)
+- `/evidence/tech-mba/` (searched — no Tech-MBA-adapted copy exists yet)
 - Cluster-wide search for "gender equality / equal opportunities" and "mission/strategy" content
+
+**Correction (per Didem):** Standard 1's QA policy is **institution-wide**, not
+programme-specific — that's exactly why it lives in `_shared/` and why
+Master's and Bachelor's each have their own copy that is the *same*
+institution-wide document with light programme-name substitution (see
+`Q1` and each copy's own source footer). Tech MBA not yet having its own
+adapted copy is therefore **not a missing-foundational-document gap** — it
+is a normal Stage 2 "Case 2: adapt existing evidence" task (per
+`folder-developer`'s three-case rule), the same operation already
+performed once to produce the Bachelor's copy from the Master's/shared
+original. Every place below that originally read "Tech MBA: gap — no
+policy exists" has been corrected to reflect this: Tech MBA's Standard 1
+answer comes from **adapting** `_shared/Institution-wide Quality
+Assurance Policy (Team Academy).md`, not from drafting one from scratch
+or treating its absence as a blocking evidence gap. The real open
+question for Tech MBA is narrower than "no QA policy" — it's whether the
+underlying *governance bodies* the shared policy describes (Exam Board,
+QA Team, Educational Council) actually extend to or include Tech MBA
+today, which Stage 2 should confirm with Didem before adapting the text
+rather than silently assuming yes.
 
 ---
 
@@ -29,21 +49,21 @@ questions are illustrative prompts, not the full requirement list.
 
 | Requirement (from Standard/Guidelines text) | Master's | Bachelor's | Tech MBA |
 |---|---|---|---|
-| Policy is **made public** | ❌ not confirmed published anywhere (= Q2 gap) | ❌ same | ❌ no policy exists |
-| **Forms part of strategic management** | ✅ — Executive Board monthly check-ins, periodic performance reviews tie QA to strategic governance | ✅ same | ❌ no policy |
-| **Internal stakeholders develop/implement** through defined structures/processes | ✅ — Curriculum Team, QA Team, Exam Board, Educational Council all named with roles | ✅ same | ❌ no policy |
-| **External stakeholders involved** in developing the policy | Described only, no instance | ✅ real instance (Field Representative Feedback) | ❌ no policy |
-| Forms a **cycle for continuous improvement** | ✅ — PDCA cycle explicit and detailed | ✅ same | ❌ no policy |
-| **Contributes to institutional accountability** | ⚠ implicit (Executive Board approval, external body oversight) but not framed explicitly as "accountability" | ⚠ same | ❌ no policy |
-| Supports development of a **quality culture** where all members assume responsibility | ✅ — named as a guiding principle | ✅ same | ❌ no policy |
-| Reflects the **relationship between research and learning & teaching** | ⚠ not addressed in the QA policy text itself — needs check against Appendix 11 "Faculty Research" (not yet read in this pass) | ⚠ same | ❌ no policy |
-| Takes account of **national context** | ✅ — OCW/NVAO/WHW referenced | ✅ same | ❌ no policy |
-| Takes account of **institutional context** | ✅ — Team Academy's own structure/mission described | ✅ same | ❌ no policy |
-| Supports **academic integrity and freedom, vigilance against academic fraud** | ⚠ **not in the QA policy document itself**, but genuinely well-covered elsewhere: TER, Assessment Policy, Examination Board Handbook, and the Educational Handbook (which has a dedicated "Academic Integrity Cases" section naming plagiarism explicitly) all address this for Master's/Bachelor's | ⚠ same, well-covered elsewhere | ❌ Tech MBA Supervision Guide touches related language but no TER/Assessment Policy/Exam Board Handbook exists to anchor it |
-| Guards against **intolerance or discrimination** | ⚠ scattered — "gender equality"/"equal opportunities" language found in Assessment Policy and TER, not consolidated in QA policy | ⚠ same | ❌ not found |
-| **Covers subcontracted/outsourced activities** | ❌ confirmed absent (= Q16 gap) | ❌ same | ❌ no policy |
+| Policy is **made public** | ❌ not confirmed published anywhere (= Q2 gap, cluster-wide) | ❌ same | ❌ same — cluster-wide gap, not Tech-MBA-specific |
+| **Forms part of strategic management** | ✅ — Executive Board monthly check-ins, periodic performance reviews tie QA to strategic governance | ✅ same | ✅ resolved by adapting the shared policy (Q1) |
+| **Internal stakeholders develop/implement** through defined structures/processes | ✅ — Curriculum Team, QA Team, Exam Board, Educational Council all named with roles | ✅ same | ⚠ resolved by adapting the shared policy, **but** confirm these bodies actually extend to Tech MBA before asserting it |
+| **External stakeholders involved** in developing the policy | Described only, no instance | ✅ real instance (Field Representative Feedback) | Described only, once adapted — no instance for Tech MBA either |
+| Forms a **cycle for continuous improvement** | ✅ — PDCA cycle explicit and detailed | ✅ same | ✅ resolved by adapting the shared policy |
+| **Contributes to institutional accountability** | ⚠ implicit (Executive Board approval, external body oversight) but not framed explicitly as "accountability" | ⚠ same | ⚠ same, once adapted |
+| Supports development of a **quality culture** where all members assume responsibility | ✅ — named as a guiding principle | ✅ same | ✅ resolved by adapting the shared policy |
+| Reflects the **relationship between research and learning & teaching** | ⚠ not addressed in the QA policy text itself — needs check against Appendix 11 "Faculty Research" (not yet read in this pass) | ⚠ same | ⚠ same, once adapted |
+| Takes account of **national context** | ✅ — OCW/NVAO/WHW referenced | ✅ same | ✅ resolved by adapting the shared policy |
+| Takes account of **institutional context** | ✅ — Team Academy's own structure/mission described | ✅ same | ✅ resolved by adapting the shared policy |
+| Supports **academic integrity and freedom, vigilance against academic fraud** | ⚠ **not in the QA policy document itself**, but genuinely well-covered elsewhere: TER, Assessment Policy, Examination Board Handbook, and the Educational Handbook (which has a dedicated "Academic Integrity Cases" section naming plagiarism explicitly) all address this for Master's/Bachelor's | ⚠ same, well-covered elsewhere | ❌ **real gap, distinct from the QA-policy question** — Tech MBA has no TER, Assessment Policy, or Examination Board Handbook of its own to anchor this in; the Supervision Guide only touches it incidentally |
+| Guards against **intolerance or discrimination** | ⚠ scattered — "gender equality"/"equal opportunities" language found in Assessment Policy and TER, not consolidated in QA policy | ⚠ same | ❌ same real gap as above — no Tech MBA regulatory document exists to carry this language |
+| **Covers subcontracted/outsourced activities** | ❌ confirmed absent (= Q16 gap, cluster-wide) | ❌ same | ❌ same — cluster-wide gap, not Tech-MBA-specific |
 
-**Read on Part A:** The QA policy document itself is strong on governance/cycle/stakeholder-structure requirements, but two Standard-level (not just sample-question-level) requirements are genuinely thin across the whole cluster: **(a) research–teaching–learning linkage** and **(b) academic integrity/anti-discrimination content**, which exist as real, substantive documents (TER, Assessment Policy, Examination Board Handbook, Educational Handbook) but are not *referenced from or consolidated into* the QA policy document that Standard 1 is actually about. This is a **drafting/cross-referencing task for Stage 2** (point Standard 1's evidence to those existing documents), not a missing-evidence gap for Master's/Bachelor's — it *is* a missing-evidence gap for Tech MBA, which has none of those underlying documents either.
+**Read on Part A:** The QA policy document itself is strong on governance/cycle/stakeholder-structure requirements, and — once Didem's correction is applied — that strength extends to Tech MBA through adaptation, not fresh drafting. Two genuine gaps remain, and both are **cluster-wide** (affecting all 3 programmes, not a Tech-MBA-only problem): **(a) research–teaching–learning linkage** isn't addressed in the QA policy text for any programme, and **(b) publication/access and outsourcing** (Q2/Q3/Q16) are unconfirmed everywhere. Separately, **academic integrity/anti-discrimination content is a genuine Tech MBA-specific gap** — not because the QA policy doesn't cover it (it's rightly out of scope there), but because the actual carrier documents (TER, Assessment Policy, Examination Board Handbook) don't exist yet for Tech MBA the way they do for Master's/Bachelor's.
 
 ---
 
@@ -54,9 +74,9 @@ questions are illustrative prompts, not the full requirement list.
 - **Shared:** `_shared/Institution-wide Quality Assurance Policy (Team Academy).md` — the canonical, institution-wide statement (ESG 1.1–1.10 mapped).
 - **Master's:** `Appendix 21 - Quality Assurance Policy.md` — same content, Master's-framed.
 - **Bachelor's:** `standard-5-quality-assurance/Quality Assurance Policy.md` — same content, Bachelor's-framed, explicitly cross-references the other two.
-- **Tech MBA:** **no document exists.** Confirmed by direct search — nothing in `/evidence/tech-mba/` addresses QA policy at all.
+- **Tech MBA:** no adapted copy exists yet — but the source document (`_shared/Institution-wide Quality Assurance Policy (Team Academy).md`) is institution-wide and applies to Tech MBA already in principle. Confirmed no Tech-MBA-specific copy exists in `/evidence/tech-mba/`, same as the situation before the Bachelor's copy was adapted.
 
-**Verdict:** Answerable and strong for Master's/Bachelor's (one shared document, two adapted copies). **Unanswerable for Tech MBA.**
+**Verdict:** Answerable and strong for Master's/Bachelor's (one shared document, two adapted copies). **For Tech MBA, this is a Stage 2 adaptation task (Case 2), not a missing-evidence gap** — the same operation that already produced the Bachelor's copy from the shared/Master's original.
 
 ---
 
@@ -135,9 +155,9 @@ questions are illustrative prompts, not the full requirement list.
 ### Q10. Are competences and decision-making processes for EP development defined?
 
 - Yes — QA policy ESG 1.2 section: Curriculum Team designs/develops, Executive Board formally approves. Consistent across Master's/Bachelor's copies.
-- Tech MBA: no equivalent statement (no QA policy document at all), though the Tech MBA Programme Handbook may implicitly describe who owns the curriculum — not checked in this pass.
+- Tech MBA: covered once the shared policy is adapted (Q1) — the same institution-wide Curriculum Team/Executive Board structure applies. Worth cross-checking against the Tech MBA Programme Handbook for any Tech-MBA-specific deviation before adapting the text as-is.
 
-**Verdict:** Answerable and clear for Master's/Bachelor's. Gap for Tech MBA (inherits from Q1's root cause).
+**Verdict:** Answerable and clear for Master's/Bachelor's. **For Tech MBA, resolved by the Q1 adaptation**, not a separate gap.
 
 ---
 
@@ -183,9 +203,9 @@ questions are illustrative prompts, not the full requirement list.
 ### Q15. Describe the university's QA system and its application/continuous improvement within the EP.
 
 - Fully answerable — this is effectively what the QA policy document already does (PDCA cycle, four-layer activity/module/certificate/programme structure) for Master's/Bachelor's.
-- Tech MBA: **not answerable** — no QA system description exists for this programme specifically.
+- Tech MBA: covered once the shared policy is adapted (Q1) — the description is institution-wide by design, not something that needs separate authoring for Tech MBA.
 
-**Verdict:** Strong for Master's/Bachelor's (this is the best-covered question in the whole set). Confirmed gap for Tech MBA.
+**Verdict:** Strong for Master's/Bachelor's (this is the best-covered question in the whole set). **For Tech MBA, resolved by the Q1 adaptation.**
 
 ---
 
@@ -202,29 +222,29 @@ questions are illustrative prompts, not the full requirement list.
 
 | # | Question | Master's | Bachelor's | Tech MBA |
 |---|---|---|---|---|
-| 1 | Documents reflecting QA policy | ✅ | ✅ | ❌ none |
+| 1 | Documents reflecting QA policy | ✅ | ✅ | ✅ once adapted from `_shared/` (Stage 2 task, not a gap) |
 | 2 | Published where | ❌ gap (all) | ❌ gap (all) | ❌ gap (all) |
 | 3 | Available to whom | ❌ gap (all) | ❌ gap (all) | ❌ gap (all) |
-| 4 | External participation in design | Described only | ✅ real instance | Described only |
+| 4 | External participation in design | Described only | ✅ real instance | Described only, once adapted |
 | 5 | Change over time | Expected absence (ex-ante) | Expected absence | Expected absence |
 | 6 | Satisfaction results | ❌ gap (all) | ❌ gap (all) | ❌ gap (all) |
-| 7 | EP–mission match | Partial (mission exists, mapping not explicit) | Partial | Partial |
-| 8 | Research–teaching linkage | ⚠ uncertain, needs Appendix 11 check | ⚠ uncertain | ⚠ uncertain |
-| 9 | Business/community/student interaction | Mechanism only | ✅ real example (business) | Mechanism only |
-| 10 | EP development decision process | ✅ | ✅ | ❌ none |
-| 11 | Transparency to students | ✅ (handbook exists) | ✅ (handbook exists) | ⚠ needs check |
-| 12 | Revision procedures | Described only | ✅ real example (best evidence) | Described only |
-| 13 | Compliance with regulatory docs | ✅ (TER/Assessment Policy exist) | ✅ | ❌ none exist |
-| 14 | Gender equality/equal opportunities | ⚠ scattered, not in QA policy | ⚠ scattered | ❌ not found |
-| 15 | Describe QA system + CI in the EP | ✅ strong | ✅ strong | ❌ none |
+| 7 | EP–mission match | Partial (mission exists, mapping not explicit) | Partial | Partial, once adapted |
+| 8 | Research–teaching linkage | ⚠ uncertain, needs Appendix 11 check | ⚠ uncertain | ⚠ uncertain, once adapted |
+| 9 | Business/community/student interaction | Mechanism only | ✅ real example (business) | Mechanism only, once adapted |
+| 10 | EP development decision process | ✅ | ✅ | ✅ once adapted |
+| 11 | Transparency to students | ✅ (handbook exists) | ✅ (handbook exists) | ⚠ needs check against Tech MBA Programme Handbook |
+| 12 | Revision procedures | Described only | ✅ real example (best evidence) | Described only, once adapted |
+| 13 | Compliance with regulatory docs | ✅ (TER/Assessment Policy exist) | ✅ | ❌ **real gap** — no TER/Assessment Policy/Examination Board Handbook exists for Tech MBA (distinct from the QA-policy question) |
+| 14 | Gender equality/equal opportunities | ⚠ scattered, not in QA policy | ⚠ scattered | ❌ **real gap** — same root cause as Q13, no regulatory document to carry this language |
+| 15 | Describe QA system + CI in the EP | ✅ strong | ✅ strong | ✅ once adapted |
 | 16 | Outsourcing + monitoring | ❌ gap (all) | ❌ gap (all) | ❌ gap (all) |
 
-**Real, cross-programme gaps that block honest drafting (not ex-ante-excusable):**
+**Real, cross-programme gaps that block honest drafting (not ex-ante-excusable, and not resolved by adaptation):**
 1. **Q2/Q3 — publication and access channel.** Factual, needs a direct answer from Didem.
 2. **Q6 — satisfaction-assessment results.** No instrument exists; can only describe intended mechanism.
 3. **Q16 — outsourcing.** The config's own Guidelines text expects this; nothing addresses it anywhere.
-4. **Q14 — gender equality/equal opportunities**, not consolidated into the QA policy itself even though it exists elsewhere.
+4. **Q14 — gender equality/equal opportunities**, not consolidated into the QA policy itself even though it exists elsewhere (for Master's/Bachelor's); genuinely absent for Tech MBA.
 
-**Tech MBA-specific gaps (7 of 16 questions unanswerable):** Q1, Q3 (worse than others), Q10, Q13, Q15 confirmed; Q2/Q3/Q6/Q16 shared with the other two but Tech MBA has literally no source document to draw a partial answer from. This reconfirms the earlier finding that Tech MBA needs a real QA policy document before Standard 1 can be drafted for it at all — not a reframing exercise, a missing foundational document.
+**Tech MBA-specific gaps, corrected:** most of Standard 1 (Q1, Q4, Q5, Q7–Q10, Q12, Q15) is **not** a Tech MBA gap at all — the QA policy is institution-wide, so Tech MBA's answer is Stage 2 adapting the same shared document already adapted once for the Bachelor's, the same "Case 2" operation. The genuine Tech MBA-specific gap is narrower: **Q13 and Q14**, because the *separate* regulatory documents (TER, Assessment Policy, Examination Board Handbook) that Master's and Bachelor's have — and that carry the academic-integrity and equal-opportunities language — don't exist yet for Tech MBA. That's a real missing-document gap; the QA policy itself is not.
 
 **Strongest evidence found:** Q12 (revision procedures) and Q9 (stakeholder interaction) for the Bachelor's — the Consolidated Field Representative Feedback + Action Planning pairing is a genuine, dated, ex-ante-appropriate example of the QA cycle actually working. This is worth highlighting to the panel as the cluster's best Standard 1 evidence, even though it technically documents programme-content review rather than QA-policy-document review specifically.

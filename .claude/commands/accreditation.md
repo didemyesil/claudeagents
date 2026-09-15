@@ -44,7 +44,11 @@ placeholder/unsourced, say so plainly to Didem and stop at that stage.
 
 ## Stage 1 — Standards Expert
 
-Run the `standards-expert` agent.
+Run the `standards-expert` agent. It extracts each standard **in full depth**
+— the Standard statement, every individual Guidelines requirement, and every
+Sample Question listed verbatim, not condensed into a one-line evidence-type
+summary (a condensed checklist silently drops real requirements — see the
+agent's own definition for why this matters).
 
 - **Single-programme run:** give it `/accreditors/{accreditor}.md`, the
   programme name, and any additional official document. Output:
@@ -56,28 +60,28 @@ Run the `standards-expert` agent.
   `/output/{accreditor}-cluster-checklist.md`
 
 **STOP — present for Didem's approval.** Show the summary (how many items
-verified, how many UNVERIFIED, how many with an unclear lens). Do not move to
-Stage 2 without approval. If the checklist carries a placeholder/unsourced
+verified, how many UNVERIFIED, how many with an unclear lens, how many
+Guidelines requirements/Sample Questions extracted in total). Do not move to
+Stage 1.5 without approval. If the checklist carries a placeholder/unsourced
 warning, highlight this specifically — proceeding may be pointless until
 Didem uploads the official document.
 
 ## Stage 1.5 — Evidence Mapper
 
 After Stage 1 is approved and before Stage 2 drafts anything, run the
-`evidence-mapper` agent. This step exists because a real accreditor panel
-works from the Standard text, Guidelines, and Sample Questions in the
-accreditor's own guide — not from the checklist's condensed one-line summary
-of required evidence — and drafting straight from the checklist risks Stage 2
+`evidence-mapper` agent. Stage 1 already did the work of extracting every
+requirement in full; this step's only job is cross-referencing that against
+the real evidence pool, so drafting doesn't start blind and Stage 2 isn't
 discovering blocking gaps mid-draft instead of upfront.
 
-- Give it `/accreditors/{accreditor}.md` (the full config, not just the
-  checklist) and the evidence pool in scope (`/evidence/_shared/` +
-  `/evidence/{programme}/` for each programme in cluster mode; just
-  `/evidence/{programme}/` otherwise).
+- Give it the Stage 1 checklist (full-depth, per-standard breakdown) and the
+  evidence pool in scope (`/evidence/_shared/` + `/evidence/{programme}/` for
+  each programme in cluster mode; just `/evidence/{programme}/` otherwise).
 - It is read-only against `/evidence/` — it never adapts or creates evidence,
-  only maps what exists against what the guide actually asks, standard by
-  standard (or one standard at a time, if you and Didem want to go deep
-  before committing to the full pass — see its own agent definition).
+  only maps what exists against every Guidelines requirement and Sample
+  Question already extracted in the checklist, standard by standard (or one
+  standard at a time, if you and Didem want to go deep before committing to
+  the full pass — see its own agent definition).
 - **A cluster-wide fact (e.g. an institution-wide QA policy) gets one
   appendix item, never one per programme.** The evidence-mapper's job
   includes catching the false-gap case where a programme just hasn't been

@@ -1,28 +1,4 @@
 # Teaching and Examination Regulations (TER) — Tech MBA
-
-> **Adapted from:** `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-> 19 - Teaching and Examinations Regulations.md`. Per Didem's confirmed
-> decision (Standard 1 evidence map), the Tech MBA shares the Master's
-> regulatory framework rather than operating under a different one. This
-> copy preserves the Master's article structure and numbering, substitutes
-> "Professional Master's in Applied AI" with "Tech MBA" throughout, and
-> aligns programme-structure details (certifications, workload, intake) with
-> what is already on file for the Tech MBA in
-> `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme
-> Handbook_2024.md` and `/home/user/claudeagents/evidence/tech-mba/Tech MBA
-> Supervision Guide.md`. Where those two source sets differ (e.g. the
-> Tech MBA's four-certification structure vs. the Master's three
-> certifications, or the Tech MBA's specific assessment weightings),
-> Tech-MBA-specific facts take precedence and are marked as such. Any
-> article below not flagged as Tech-MBA-specific is carried over unchanged
-> from the Master's TER and applies identically. **This is a Case-2
-> adaptation for the regulatory framework needed by Standard 1 (academic
-> integrity, non-discrimination, inclusive assessment, examination-board
-> governance); full re-verification of every procedural deadline against
-> Tech MBA's operational reality is Standard 3/4 territory, not required for
-> this Standard-1 pass, and is flagged as a residual item in the Stage 2
-> report.**
-
 ## Section 1: General Provisions
 
 ### Article 1.1 Applicability of the Regulations
@@ -30,7 +6,7 @@
 1. These regulations apply to the teaching and examinations for the Tech MBA at Team Academy.
 2. These regulations apply to anyone enrolled in the Tech MBA at Team Academy.
 3. Programme Management ensures that the guidelines prescribed in this document are followed by the faculty.
-4. *[Tech-MBA-specific — validity dates to be confirmed by Didem/programme management; the Master's TER's 2025-2026 cohort dates do not automatically apply to the Tech MBA's own cohort cycle, documented separately as starting November 2023/2025 per `Tech MBA Supervision Guide.md`.]*
+4. *[Tech-MBA-specific — validity dates to be confirmed by programme management; the Master's TER's 2025-2026 cohort dates do not automatically apply to the Tech MBA's own cohort cycle, documented separately as starting November 2023/2025 per `Tech MBA Supervision Guide.md`.]*
 
 ### Article 1.2 Definitions of Terms Used
 
@@ -139,15 +115,15 @@ The Programme Manager is responsible for day-to-day coordination and implementat
 
 ## Section 5: Evaluation of the Programme
 
-The Tech MBA's learning experience is evaluated in accordance with the institute's quality assurance framework at activity, module, certificate and programme level, following a "Plan, Implement, Review, Improve" cycle, as detailed in `/home/user/claudeagents/evidence/tech-mba/Institution-wide Quality Assurance Policy (Team Academy) - Tech MBA.md`.
+The Tech MBA's learning experience is evaluated in accordance with the institute's quality assurance framework at activity, module, certificate and programme level, following a "Plan, Implement, Review, Improve" cycle, as detailed in *Institution-wide Quality Assurance Policy*.
 
 ## Section 6: Tasks and Responsibilities of the Examination Board
 
-Follows the Master's TER, Section 6, in full — see `/home/user/claudeagents/evidence/tech-mba/Examination Board Handbook - Tech MBA.md` for the detailed handbook.
+Follows the Master's TER, Section 6, in full — see *Examination Board Handbook* for the detailed handbook.
 
 ## Section 7: Hardship Clause
 
 If demonstrable unreasonableness or unfairness of a predominant nature occurs, the Executive Board or the Examination Board may allow deviation from the provisions of this TER.
 
 ---
-*Adapted from `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix 19 - Teaching and Examinations Regulations.md`. Tech-MBA-specific facts (assessment weighting, ECTS/workload figures, certification structure, intake pattern, Final Project structure) drawn from `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme Handbook_2024.md` and `/home/user/claudeagents/evidence/tech-mba/Tech MBA Supervision Guide.md`. Produced by the Folder Developer (Stage 2, 2026-09-15) as a Case-2 adaptation per Didem's confirmed decision in `/home/user/claudeagents/output/iaar-specialised-standard-1-evidence-map.md`. Items marked "[[Tech-MBA-specific — ... to be confirmed]]" above are genuine residual gaps, not filled with invented detail — see the Stage 2 handover report.*
+*Adapted from the Teaching and Examinations Regulations. Tech-MBA-specific facts (assessment weighting, ECTS/workload figures, certification structure, intake pattern, Final Project structure) drawn from Tech MBA Programme Handbook_2024 and Tech MBA Supervision Guide. Items marked "[[Tech-MBA-specific — ...*

@@ -1,17 +1,4 @@
 # Assessment Policy — Tech MBA
-
-> **Adapted from:** `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-> 15 - Policy on Assessment.md`. That source document is itself split into
-> **Part A** (generic, institution-wide, applies to all Team Academy
-> programmes as written — including the Tech MBA, with no adaptation
-> needed) and **Part B** (programme-specific). This copy reproduces Part A's
-> institution-wide provisions in summary (full text: see the source) and
-> replaces Part B with Tech-MBA-specific content grounded in
-> `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme
-> Handbook_2024.md` and `/home/user/claudeagents/evidence/tech-mba/Tech MBA
-> Supervision Guide.md`. Produced as a Case-2 adaptation per Didem's
-> confirmed decision.
-
 ## Part A — Institution-Wide Assessment Policy (applies unchanged to the Tech MBA)
 
 The following provisions from the source Assessment Policy apply to the Tech MBA exactly as written for all Team Academy programmes; they are summarised here, with the full text available at the source path above:
@@ -65,7 +52,7 @@ Follows Part A's institution-wide provisions on AI and technological aids, opera
 
 ### Quality Assurance
 
-As under the institution-wide QA Policy (see `/home/user/claudeagents/evidence/tech-mba/Institution-wide Quality Assurance Policy (Team Academy) - Tech MBA.md`), the Tech MBA's assessment approach is subject to the institute's PDCA cycle, with the Examination Board responsible for oversight of examination quality and exit qualifications.
+As under the institution-wide QA Policy (see *Institution-wide Quality Assurance Policy*), the Tech MBA's assessment approach is subject to the institute's PDCA cycle, with the Examination Board responsible for oversight of examination quality and exit qualifications.
 
 ---
-*Adapted from `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix 15 - Policy on Assessment.md`. Tech-MBA-specific facts (weighting, roles, Final Project structure) drawn from `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme Handbook_2024.md` and `/home/user/claudeagents/evidence/tech-mba/Tech MBA Supervision Guide.md`. Produced by the Folder Developer (Stage 2, 2026-09-15) as a Case-2 adaptation per Didem's confirmed decision in `/home/user/claudeagents/output/iaar-specialised-standard-1-evidence-map.md`.*
+*Adapted from the Policy on Assessment. Tech-MBA-specific facts (weighting, roles, Final Project structure) drawn from Tech MBA Programme Handbook_2024 and Tech MBA Supervision Guide.*

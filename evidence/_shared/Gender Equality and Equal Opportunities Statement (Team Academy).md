@@ -1,21 +1,6 @@
 # Gender Equality and Equal Opportunities Statement — Team Academy
 
-> **STATUS: NEW DRAFT — requires Didem's factual review before submission.**
-> This statement did not exist as a standalone document prior to this drafting
-> pass. It was produced by the Folder Developer (Stage 2) at Didem's
-> explicit instruction, consolidating language that already exists,
-> scattered, across other institutional documents. **No new commitments,
-> bodies, targets, dates, or figures have been invented.** Every substantive
-> sentence below is traceable to one of the source documents listed at the
-> end. If any sentence below overstates what the institution actually does,
-> Didem should strike or soften it before this goes into the SAR — this
-> draft is deliberately conservative and only says what the underlying
-> documents already say.
->
-> Applies institution-wide, to all three programmes in this cluster
-> (Professional Master's in Applied AI, Bachelor's in Applied Computing,
-> Tech MBA) — one shared statement, not three per-programme copies, consistent
-> with how the QA Policy and Organisational Structure are treated.
+*Draft for approval by the Executive Board.*
 
 ## 1. Purpose
 
@@ -74,23 +59,18 @@ no such data exists yet for programmes that have not launched. Team Academy
 does not yet operate a dedicated equality/diversity office, complaints
 channel specific to discrimination, or published equality monitoring data;
 if the institution wishes to state an intention to develop any of these,
-that must come from Didem as a genuine institutional decision, not be
+that must come from programme management as a genuine institutional decision, not be
 assumed here.
 
 ## 6. Sources consolidated into this statement
 
-- `/home/user/claudeagents/evidence/_shared/Institution-wide Quality
-  Assurance Policy (Team Academy).md` — ESG 1.4, Student Admission
+- *Institution-wide Quality Assurance Policy* — ESG 1.4, Student Admission
   (non-discriminatory admissions language).
-- `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-  15 - Policy on Assessment.md` — "Student Protection" section
+- *Policy on Assessment* — "Student Protection" section
   (inclusivity, cultural fairness, disability accommodations).
-- `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-  19 - Teaching and Examinations Regulations.md` — Article 3.9, Inclusive
+- *Teaching and Examinations Regulations* — Article 3.9, Inclusive
   Assessment and Examination Provisions.
-- `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-  12 - Examination Board Handbook.md` — §1C, Composition of the Examination
+- *Examination Board Handbook* — §1C, Composition of the Examination
   Board (age/gender/cultural-background diversity).
-- `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-  20 - Responsibilities and Guidelines for the Field Representatives.md` —
+- *Responsibilities and Guidelines for the Field Representatives* —
   Composition of the Group (diversity criteria).

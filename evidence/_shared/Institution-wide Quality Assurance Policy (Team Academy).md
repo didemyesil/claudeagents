@@ -68,7 +68,7 @@ All feedback, insights and observations from all external and internal players, 
 
 In addition to the ongoing evaluation of the quality assurance *system* described above, this Policy for Quality Assurance document is itself subject to a planned review cycle, distinct from the programme/module/activity-level review cycles described in section 1.1.6. The QA Team is responsible for reviewing this document on an annual basis, ahead of the start of each academic year, and for proposing any revisions arising from regulatory changes (e.g. ESG, NVAO, WHW), from Field Representative or Educational Council input, or from experience applying the policy in practice. Any revision is subject to formal approval by the Executive Board, consistent with the approval authority already described above for changes to the QA system.
 
-As this policy has not yet been applied to a running cohort, no stakeholder-satisfaction results specific to the policy document exist at this stage; this is stated plainly rather than implied otherwise. Once the cluster's programmes are operational, satisfaction with this policy document specifically (as distinct from programme-level learner satisfaction, which is already covered under ESG 1.7 Information management) will be assessed as part of the QA Team's annual review, drawing on feedback gathered from faculty, programme management, the Educational Council (student representatives) and Field Representatives during that review — the same stakeholder groups already named in sections 1.1.4 and 1.1.6 as participants in the institute's quality assurance system. This is presented here as a planned, ex-ante mechanism for an initial accreditation application, not as a historical record of reviews already conducted.
+The first annual review falls due ahead of the cluster's first academic year. Once the cluster's programmes are operational, satisfaction with this policy document specifically (as distinct from programme-level learner satisfaction, which is already covered under ESG 1.7 Information management) will be assessed as part of the QA Team's annual review, drawing on feedback gathered from faculty, programme management, the Educational Council (student representatives) and Field Representatives during that review — the same stakeholder groups already named in sections 1.1.4 and 1.1.6 as participants in the institute's quality assurance system. This is presented here as a planned, ex-ante mechanism for an initial accreditation application, not as a historical record of reviews already conducted.
 
 **Adherence to the Plan–Do–Check–Act (PDCA) Cycle**
 
@@ -210,7 +210,7 @@ The publicly published information is helpful for the prospective and current Te
 - The programme brochures upon request by the applicants.
 - The online application forms;
 
-**Publication status of this Policy document.** The items listed immediately above concern published *programme*-level information. This Policy for Quality Assurance document itself is, at the current stage, an internal governance document — shared with staff, faculty, the Educational Council (student representatives) and Field Representatives, but not yet published on the institute's public website. This reflects the fact that the three programmes covered by this application have not yet launched. Team Academy's plan is to publish this policy document publicly once the cluster is operational, alongside the programme-level information already listed above. This is stated here plainly, as the honest, ex-ante answer, rather than as a claim of an existing public presence.
+**Publication status of this Policy document.** The items listed immediately above concern published *programme*-level information. This Policy for Quality Assurance document itself is, at the current stage, an internal governance document — shared with staff, faculty, the Educational Council (student representatives) and Field Representatives, but not yet published on the institute's public website. It is published on the institute's website at the launch of the cluster's programmes, alongside the programme-level information listed above. 
 
 **ESG 1.9 On-going monitoring and periodic review of programmes**
 
@@ -226,18 +226,3 @@ Team Academy puts a deliberate effort into raising its academic standards throug
 
 ---
 *Source: Google Drive — "Appendix 21: Quality Assurance Policy_TNO_Professional Masters in Applied AI" (Master's Appendices folder). Note: this document describes Team Academy's institution-wide quality assurance policy (governance, ESG standards, PDCA cycle) rather than content specific only to the Applied AI programme; a copy is also placed in `/evidence/_shared/` as institution-wide QA policy evidence.*
-
-**Stage 2 edit note (2026-09-15):** Section 1.1.5 was extended with a
-paragraph on the review cycle for this policy document itself and on
-planned stakeholder-satisfaction assessment, and section ESG 1.8 was
-extended with a plain statement of this document's current (internal-only)
-publication status. Both additions implement Didem's resolutions of the
-Standard 1 evidence-mapper's two open questions (see
-`/home/user/claudeagents/output/iaar-specialised-standard-1-evidence-map.md`).
-The Master's-appendix copy
-(`/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-21 - Quality Assurance Policy.md`) and the Bachelor's copy
-(`/home/user/claudeagents/evidence/bachelors-applied-computing/standard-5-quality-assurance/Quality
-Assurance Policy.md`) have since been synchronised with this edit (both
-carry the same two additions, adapted to each copy's level of detail), so
-all three programme-filed copies are consistent on these points.

@@ -1,19 +1,4 @@
 # Policy for Quality Assurance at Team Academy — Tech MBA
-
-> **Adapted from:** `/home/user/claudeagents/evidence/_shared/Institution-wide
-> Quality Assurance Policy (Team Academy).md` (the institution-wide QA
-> Policy). This is a Case-2 adaptation (programme-name substitution plus a
-> short Tech-MBA-specific elaboration at §1.1.6) — the same institution-wide
-> text already governs the Professional Master's in Applied AI (see
-> `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-> 21 - Quality Assurance Policy.md`) and the Bachelor's in Applied Computing
-> (see `/home/user/claudeagents/evidence/bachelors-applied-computing/standard-5-quality-assurance/Quality
-> Assurance Policy.md`). No new facts have been introduced beyond what the
-> shared document already states; Tech MBA-specific detail is limited to
-> naming the Tech MBA's own certification structure, which is already on file
-> in `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme
-> Handbook_2024.md`.
-
 ## ESG 1.1. Policy for Quality Assurance
 
 *"Institutes should have a policy for quality assurance that is made public and forms part of their strategic management. Internal stakeholders should develop and implement this policy through appropriate structures and processes, while involving external stakeholders."*
@@ -34,7 +19,7 @@ Quality assurance at Team Academy — for the Tech MBA as for its other programm
 
 ### 1.1.4 Organisation of the Quality Assurance System
 
-Quality assurance at Team Academy provides a clear organisational structure for all teams, faculty and learners, consisting of the institute's quality assurance and the programme quality assurance systems. External players (Ministry of Education, Culture and Science; NVAO; Field Representatives; Knowledge Partners) interact with internal players (Executive Board, Management Teams, Institute Quality Assurance, Exam Board, Managing Director, QA Team, Programme Teams, Educational Council, Admissions Teams, Faculty, Learners, Programme Quality Assurance). For the Tech MBA's own local instance of these roles, see `/home/user/claudeagents/evidence/tech-mba/Institution Organisational Structure (Team Academy) - Tech MBA.md`.
+Quality assurance at Team Academy provides a clear organisational structure for all teams, faculty and learners, consisting of the institute's quality assurance and the programme quality assurance systems. External players (Ministry of Education, Culture and Science; NVAO; Field Representatives; Knowledge Partners) interact with internal players (Executive Board, Management Teams, Institute Quality Assurance, Exam Board, Managing Director, QA Team, Programme Teams, Educational Council, Admissions Teams, Faculty, Learners, Programme Quality Assurance). For the Tech MBA's own local instance of these roles, see *Institution Organisational Structure*.
 
 The Institute Quality Assurance function is embedded within Team Academy's governance structure; the Institute Board sets strategic vision, management teams implement it, and monthly Executive Board–programme team check-ins provide reflection and adjustment.
 
@@ -50,7 +35,7 @@ The evaluation of the QA system is an ongoing, institute-wide process, applying 
 
 ### 1.1.6. Multi-layered approach to quality assurance at the programme level
 
-The PDCA-based quality procedures apply at four levels, mapped to the Tech MBA's own structure as documented in `/home/user/claudeagents/evidence/tech-mba/Tech MBA Programme Handbook_2024.md`:
+The PDCA-based quality procedures apply at four levels, mapped to the Tech MBA's own structure as documented in *Tech MBA Programme Handbook_2024*:
 
 - **Activity level** — the Tech MBA's weekly workshops, module projects, weekly tasks/activities, action-learning sets and mentoring sessions. Quality is maintained by faculty/programme-management design against defined principles, continuous learner feedback (e.g. reflective accounts, knowledge checks), and immediate action on that feedback.
 - **Module level** — the Tech MBA's thirteen certification modules (e.g. Module 1: Digital Transformation and Business Strategy, through Module 13: Growth Hacking) plus the Leadership and Action Research modules. Each module is designed against programme competencies, with learner feedback gathered at module close and acted on for subsequent cohorts.
@@ -67,7 +52,7 @@ At Team Academy, the Curriculum Team designs and develops programmes — includi
 
 *"Institutes should ensure that the programmes are delivered in a way that encourages students to take an active role in creating the learning process, and that the assessment of students reflects this approach."*
 
-Faculty on the Tech MBA follow the guidelines for a learner-centred programme experience; teaching and examination rules and procedures are aligned with the Tech MBA's competency-based education standards and set out in the Tech MBA's own Teaching and Examination Regulations document (see `/home/user/claudeagents/evidence/tech-mba/Teaching and Examination Regulations (TER) - Tech MBA.md`). Curriculum structure and assessment strategies are outlined in the Tech MBA Programme Handbook and made available to all learners, along with extension and appeal procedures.
+Faculty on the Tech MBA follow the guidelines for a learner-centred programme experience; teaching and examination rules and procedures are aligned with the Tech MBA's competency-based education standards and set out in the Tech MBA's own Teaching and Examination Regulations document (see *Teaching and Examination Regulations (TER)*). Curriculum structure and assessment strategies are outlined in the Tech MBA Programme Handbook and made available to all learners, along with extension and appeal procedures.
 
 ## ESG 1.4. Student admission, progression, recognition and certification
 
@@ -114,4 +99,4 @@ The curriculum team, programme management and faculty ensure ongoing monitoring 
 Team Academy pursues programme accreditation (e.g. NVAO) and maintains close contact, formal and informal, with field experts and employers whose market insights help improve programme quality, including for the Tech MBA.
 
 ---
-*Adapted from `/home/user/claudeagents/evidence/_shared/Institution-wide Quality Assurance Policy (Team Academy).md`, itself sourced from Google Drive "Appendix 21: Quality Assurance Policy_TNO_Professional Masters in Applied AI" (Master's Appendices folder). This Tech MBA copy was produced by the Folder Developer (Stage 2, 2026-09-15) as a Case-2 adaptation per Didem's confirmed decision recorded in `/home/user/claudeagents/output/iaar-specialised-standard-1-evidence-map.md`.*
+*Adapted from the Institution-wide Quality Assurance Policy, itself sourced from Google Drive "Appendix 21: Quality Assurance Policy_TNO_Professional Masters in Applied AI" (Master's Appendices folder).*

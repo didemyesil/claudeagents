@@ -1,22 +1,4 @@
 # Responsibilities and Guidelines for the Field Representatives — Bachelor's in Applied Computing
-
-> **Adapted from:** `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
-> 20 - Responsibilities and Guidelines for the Field Representatives.md`.
-> The Standard 1 evidence map judged this document's content to be
-> institution-wide in substance and recommended extending it to the
-> Bachelor's and Tech MBA. No new facts have been added; the group, its
-> purpose, meeting structure, and composition criteria are unchanged from
-> the source. Unlike the standing guidelines, the Bachelor's programme
-> already has a **dated, consolidated record of this mechanism actually
-> operating** — see
-> `/home/user/claudeagents/evidence/bachelors-applied-computing/external-validation-feedback/Consolidated
-> Field Representative Feedback.md` (18 verbatim Field Representative
-> comments with decision/action/status) and
-> `/home/user/claudeagents/evidence/bachelors-applied-computing/action-planning/Action
-> Planning Bachelors TNO_V2.md`. This document should be read together with
-> those two, not in place of them, when answering Standard 1's Sample
-> Questions 4, 9 and 12 for the Bachelor's.
-
 Team Academy recognises the value and the importance of involving external stakeholders from industry, education and other relevant sectors, especially in the planning and development of its programmes, including the Bachelor's in Applied Computing. One of the critical parties is the Group of Field Representatives, which creates an essential link between the programmes and the industry in order to achieve a higher level of quality and relevance of the programmes.
 
 The following set of guidelines is intended to lay out the structure, format and function of the field representatives:
@@ -51,4 +33,4 @@ The suggested number of the group is at least 3. Group members will serve three-
 The group is non-voting and does not engage in decision-making related to programme personnel, budget, or internal policy development within the partner institutions.
 
 ---
-*Adapted from `/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix 20 - Responsibilities and Guidelines for the Field Representatives.md` (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI"). Produced by the Folder Developer (Stage 2, 2026-09-15) as a Case-2 adaptation per the Standard 1 evidence map's recommendation.*
+*Adapted from the Responsibilities and Guidelines for the Field Representatives (source: Google Drive — "Appendix 20: Responsibilities and Guidelines for the Field Representatives_TNO_Professional Masters in Applied AI").*

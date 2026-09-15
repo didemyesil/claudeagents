@@ -238,5 +238,6 @@ The Master's-appendix copy
 (`/home/user/claudeagents/evidence/professional-masters-applied-ai/appendices/Appendix
 21 - Quality Assurance Policy.md`) and the Bachelor's copy
 (`/home/user/claudeagents/evidence/bachelors-applied-computing/standard-5-quality-assurance/Quality
-Assurance Policy.md`) have **not** yet been synchronised with this edit —
-see the Stage 2 handover report for this flag.
+Assurance Policy.md`) have since been synchronised with this edit (both
+carry the same two additions, adapted to each copy's level of detail), so
+all three programme-filed copies are consistent on these points.

@@ -1,4 +1,4 @@
-# Professional Master's in Applied Artificial Intelligence — IAAR (Specialised) Checklist
+# IAAR (Specialised) Checklist — Cluster: Applied AI / Applied Computing / Tech MBA
 
 Source: `/accreditors/iaar-specialised.md` (transcribed verbatim from *IAAR Standards
 and Guidelines for International Accreditation of Foreign Educational
@@ -6,12 +6,20 @@ Organisations and Educational Programmes (based on ESG)*, IAAR, 2018, §III pp.
 12–22; local copy: `/accreditors/sources/iaar-international-specialised-standards-2018.pdf`)
 Status: fully sourced
 
-> **Scope note:** This checklist covers only the **Professional Master's in
-> Applied Artificial Intelligence** — one of 3 programmes named in the config's
-> "Active application context" for this single specialised initial
-> accreditation application (Amsterdam Tech B.V. / School Vision B.V. Team
-> Academy → IAAR). The other two programmes (Bachelor's in Applied Computing;
-> Tech MBA) are out of scope for this file and require their own checklists.
+> **Scope note (revised):** The 10 standards, their required evidence types,
+> and panel lens tags below are defined at **accreditor level** — they don't
+> vary by programme, so this single checklist run covers the entire
+> **3-programme cluster** named in the config's "Active application context"
+> (Professional Master's in Applied AI; Bachelor's in Applied Computing;
+> Tech MBA), matching how IAAR itself structures a cluster accreditation: one
+> Self-Assessment Report, submitted once, covering all EPs in the cluster
+> (config's own rule: "aspects common to all programmes are described once...
+> to avoid repetition"). Stage 2 (`folder-developer`) is what determines,
+> standard by standard and even sentence by sentence, which content is
+> genuinely shared across the 3 programmes (written once) versus
+> programme-specific (written separately per programme) — that judgment
+> depends on the actual evidence, not on this checklist, so it is not forced
+> here.
 
 > **Ex-ante note (carried forward from config):** This is an **initial
 > accreditation (ex-ante)** assessment. Per the config's own format rule, the
@@ -159,7 +167,6 @@ Status: fully sourced
   per the config's explicit ex-ante relaxation, these must be reframed as
   design/plan evidence for this initial-accreditation application rather than
   filled with invented historical data.
-- No config gaps or ambiguities encountered for this programme — the config
-  is fully sourced for all 10 standards and applies uniformly across the 3
-  programmes in this application; nothing programme-specific to Applied AI
-  required guessing.
+- No config gaps or ambiguities encountered — the config is fully sourced for
+  all 10 standards and applies uniformly across the 3 programmes in this
+  cluster; nothing programme-specific required guessing at this stage.

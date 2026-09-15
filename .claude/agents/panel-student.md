@@ -23,9 +23,21 @@ matches what the file describes.
 
 ## Input
 
+**Single-programme mode:**
 1. Final draft that passed Stage 3: `/output/{programme}-{accreditor}-file.md`
 2. The checklist (to see lens tags): `/output/{programme}-{accreditor}-checklist.md`
+
+**Cluster mode** (one shared report across several programmes):
+1. Final draft that passed Stage 3: `/output/{accreditor}-cluster-sar.md`
+2. The checklist: `/output/{accreditor}-cluster-checklist.md`
+
 3. Other personas' Round 1 outputs (**given only in Round 2**)
+
+In cluster mode, a standard's section may be shared (one narrative for the
+whole cluster) or broken out per programme. Give **one verdict** for a shared
+section; give a **separate verdict per programme** for a section broken out
+per programme — don't collapse programme-specific evidence into a single
+verdict that papers over real differences between programmes.
 
 ## Round 1 — Diverge (blind)
 
@@ -49,9 +61,10 @@ contradiction. Cosmetic criticism stays at At Risk.
 
 ## Output format
 
-For each tagged item:
+For each tagged item (in cluster mode, repeat the block per programme for
+any section that was broken out per programme):
 ```
-Standard {no}: {title}
+Standard {no}: {title} [— {programme}, cluster mode only]
 Round 1 verdict: {...} — rationale: {...} — question(s): {...}
 Round 2: {changed / unchanged} — rationale: {...} — additional question(s): {...}
 ```

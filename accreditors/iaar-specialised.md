@@ -419,6 +419,20 @@ Derived from each standard's Guidelines and sample questions:
   institution/programme info, levels per NQF and QF-EHEA, ECTS credits,
   entry requirements, learning outcomes, specialisation, tuition fees,
   employability/career fields, dates of site visit.
+- **Cluster deliverable shape**: for this application (3 programmes, one
+  cluster, one EEP visit), the SAR is **one document**, not three. Table 1
+  (general institution info) appears once. Table 2 (per-programme profile)
+  is filled **once per programme** — 3 instances, one per EP. The Main
+  section (Standards 1–10) is written **per standard**, and within each
+  standard's write-up, content genuinely common to all 3 programmes is
+  stated once; content that differs by programme is broken out into a
+  labelled subsection per programme — this is `folder-developer`'s call to
+  make per standard, grounded in the actual evidence, not a fixed split
+  decided in advance. The "Conclusion of the Self-Evaluation Committee"
+  table likewise needs a position (strong/satisfactory/suggests
+  improvement/unsatisfactory) per standard **per programme** wherever that
+  standard was broken out per programme, and a single position where it
+  was genuinely shared.
 - Achievement data for the **last 3–5 years** is required for each
   standard, **except initial accreditation** — the current application, so
   this requirement is relaxed for the 3 programmes (ex-ante assessment).

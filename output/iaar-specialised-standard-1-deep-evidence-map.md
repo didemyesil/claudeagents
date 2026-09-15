@@ -382,6 +382,44 @@ Tech MBA's entry requirements.
 
 ---
 
+---
+
+## Bu ekler neden Standard 1 altında
+
+Zincir şu: **IAAR'ın resmî belgesi → config → checklist → bu harita.** Her
+adımda metin birebir taşındı, hiçbir gereklilik yorumlanarak eklenmedi.
+
+- **Kaynak:** *IAAR Standards and Guidelines for International Accreditation of
+  Foreign Educational Organisations and Educational Programmes (based on ESG)*,
+  IAAR, 2018 — senin yüklediğin dosya, `accreditors/sources/` altında duruyor.
+- **Config:** `accreditors/iaar-specialised.md`, satır 60–99 — Standard 1'in
+  standart metni, 12 Guidelines gerekliliği ve 16 Sample Question'ı verbatim.
+- **Checklist:** `output/iaar-specialised-cluster-checklist.md`, satır 43–100 —
+  aynı maddeler, her biri ayrı satır olarak açılmış.
+
+Aşağıdaki tablo her eki, onu gerektiren maddeye bağlar. Bir eki doğrulamak
+için: satırdaki maddeyi config'in 60–99. satırları arasında ara, birebir orada
+görürsün.
+
+| # | Ek | Bu standardın hangi maddesi gerektiriyor |
+|---|---|---|
+| 1.1 | Policy for Quality Assurance | Guidelines: tutarlı bir QA sistemi ve sürekli iyileştirme döngüsü · kalite kültürü · resmî statü ve kamuya açıklık · ulusal ve kurumsal bağlam · QA sisteminin örgütlenmesi · politikanın nasıl uygulandığı, izlendiği ve revize edildiği. Sample Q1, 2, 3, 5, 6, 7, 15 |
+| 1.2 | Institution Organisational Structure | Guidelines: "QA sisteminin örgütlenmesini destekler" · "birimlerin, liderliğin, personelin ve öğrencilerin QA sorumluluklarını üstlenmesini destekler". Sample Q1, 10, 15 |
+| 1.3 | Gender Equality and Equal Opportunities Statement | Guidelines: "öğrencilere veya personele karşı her türlü hoşgörüsüzlüğe veya ayrımcılığa karşı korur". Sample Q14 — *"Does the EO have a gender equality/equal opportunities concept?"* |
+| 1.4 | Field Representatives Guidelines | Guidelines: "dış paydaşların kalite güvencesine katılımını destekler". Sample Q4, 9 |
+| 1.5 | Consolidated Field Representative Feedback | Sample Q4, 9 (mekanizma ve örnekler) · Q12 (EP hedef/konsept revizyon prosedürleri) · Q5 (politika zaman içinde nasıl değişti) |
+| 1.6 | Action Planning | Sample Q5, 12 — geri bildirimin karara ve aksiyona dönüştüğünü tarihli olarak gösterir |
+| 1.7 | Teaching and Examination Regulations | Guidelines: "akademik dürüstlüğü ve özgürlüğü destekler, akademik sahtekârlığa karşı uyanıktır" · ayrımcılığa karşı koruma. Sample Q11 (bilginin öğrenciye şeffaflığı), Q13 (EP'ler kurumun düzenleyici belgelerine uyuyor mu) |
+| 1.8 | Policy on Assessment | Aynı iki Guidelines maddesi — değerlendirme pratiğinde işletilen hali (kapsayıcı değerlendirme, engellilik uyarlamaları, teknolojik destek kuralları) |
+| 1.9 | Examination Board Handbook | Aynı iki Guidelines maddesi — suistimal tanımı, bildirim yükümlülüğü, yaptırım ve itiraz yolu |
+| 1.10 | Faculty Research | Guidelines: "politika, araştırma ile öğrenme ve öğretme arasındaki ilişkiyi yansıttığında en etkilidir". Sample Q8 |
+
+**Dikkat:** 1.7–1.10 arası ekler bu standardın *tamamını* karşılamaz; yalnızca
+yukarıda adı geçen maddeler için atıf alırlar. Asıl ele alınışları kendi
+standartlarında olur. Bir belgeye burada atıf vermek, o belgenin bu standardın
+eki olduğu anlamına gelmez — Standard 1'in belirli bir sorusunu cevapladığı
+anlamına gelir.
+
 ## Durum tablosu — Standard 1
 
 > **Taslak.** Kapsam kararları (`output/document-scope-register.md`) verilince
@@ -397,22 +435,29 @@ Tech MBA's entry requirements.
 yok, mevcut olgulardan yazılacak · ❌ Açık — üretilemez, önce bir olgu veya
 karar gerekiyor
 
+**Rol:** *Birincil* — bu ek esas olarak bu standardı karşılar, burası onun evi ·
+*Destekleyici* — ekin asıl evi başka bir standart; burada yalnızca o standardın
+belirli bir gerekliliği için atıf veriliyor. Destekleyici bir ek, kendi
+standardında ayrıca ve tam olarak ele alınır; burada yeniden anlatılmaz.
+(Destekleyici satırlardaki hedef standart, o standardın kendi derin geçişi
+yapılana kadar geçicidir.)
+
 **Sıradaki adım kimde:** *Bende* — ek bilgi gerekmiyor, üretebilirim ·
 *Didem'de* — yalnızca kurumun bilebileceği bir olgu veya karar gerekiyor ·
 *Beklemede* — program başlamadığı için bugün var olamaz (ex-ante, meşru)
 
-| # | Ek | Kapsam | Durum | Ne eksik | Sıradaki adım |
-|---|---|---|---|---|---|
-| 1.1 | Policy for Quality Assurance | Kurumsal | ⚠️ Kısmi | §1.1.5'e politikanın kendi gözden geçirme döngüsü, §ESG 1.8'e yayın durumu eklenecek | Didem'de — yıllık kadans onayı |
-| 1.2 | Institution Organisational Structure | *karar bekliyor* | ✅ Tam | — | Didem'de — kapsam kararı |
-| 1.3 | Gender Equality and Equal Opportunities Statement | Kurumsal | ✍️ Üretilecek | Belge yok; mevcut ayrımcılık karşıtı ve fırsat eşitliği hükümlerinden yazılacak | Bende → sonra Didem'in onayı |
-| 1.4 | Field Representatives Guidelines | *karar bekliyor* | ⚠️ Kısmi | Master's'ta var; diğer programlarda kapsam kararına bağlı | Didem'de — kapsam kararı |
-| 1.5 | Consolidated Field Representative Feedback | Programa özgü | ⚠️ Kısmi | Bachelor's'ta var; Master's ve Tech MBA'de tarihli inceleme kaydı yok | Beklemede — inceleme yapılınca doğar |
-| 1.6 | Action Planning | Programa özgü | ✅ Tam | — (Bachelor's) | — |
-| 1.7 | Teaching and Examination Regulations | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Tech MBA'e özgü hükümler master's setine eklenecek | Bende — Alper teyidi sonrası |
-| 1.8 | Policy on Assessment | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı | Bende — Alper teyidi sonrası |
-| 1.9 | Examination Board Handbook | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı; tek kurulun üç programa hizmet ettiği yazılacak | Bende — Alper teyidi sonrası |
-| 1.10 | Faculty Research | Master's | ❌ Açık | Bachelor's ve Tech MBA için karşılığı yok | Didem'de — bu programlarda araştırma/güncellik nasıl sağlanıyor |
+| # | Ek | Rol | Kapsam | Durum | Ne eksik | Sıradaki adım |
+|---|---|---|---|---|---|---|
+| 1.1 | Policy for Quality Assurance | **Birincil** | Kurumsal | ⚠️ Kısmi | §1.1.5'e politikanın kendi gözden geçirme döngüsü, §ESG 1.8'e yayın durumu eklenecek | Didem'de — yıllık kadans onayı |
+| 1.2 | Institution Organisational Structure | **Birincil** | *karar bekliyor* | ✅ Tam | — | Didem'de — kapsam kararı |
+| 1.3 | Gender Equality and Equal Opportunities Statement | **Birincil** | Kurumsal | ✍️ Üretilecek | Belge yok; mevcut ayrımcılık karşıtı ve fırsat eşitliği hükümlerinden yazılacak | Bende → sonra Didem'in onayı |
+| 1.4 | Field Representatives Guidelines | **Birincil** | *karar bekliyor* | ⚠️ Kısmi | Master's'ta var; diğer programlarda kapsam kararına bağlı | Didem'de — kapsam kararı |
+| 1.5 | Consolidated Field Representative Feedback | Destekleyici → St. 9 | Programa özgü | ⚠️ Kısmi | Bachelor's'ta var; Master's ve Tech MBA'de tarihli inceleme kaydı yok | Beklemede — inceleme yapılınca doğar |
+| 1.6 | Action Planning | Destekleyici → St. 9 | Programa özgü | ✅ Tam | — (Bachelor's) | — |
+| 1.7 | Teaching and Examination Regulations | Destekleyici → St. 3/4 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Tech MBA'e özgü hükümler master's setine eklenecek | Bende — Alper teyidi sonrası |
+| 1.8 | Policy on Assessment | Destekleyici → St. 3 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı | Bende — Alper teyidi sonrası |
+| 1.9 | Examination Board Handbook | Destekleyici → St. 3 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı; tek kurulun üç programa hizmet ettiği yazılacak | Bende — Alper teyidi sonrası |
+| 1.10 | Faculty Research | Destekleyici → St. 5 | Master's | ❌ Açık | Bachelor's ve Tech MBA için karşılığı yok | Didem'de — bu programlarda araştırma/güncellik nasıl sağlanıyor |
 
 **Özet:** 10 ekten **2'si tam**, **6'sı kısmi**, **1'i üretilecek**, **1'i açık**.
 

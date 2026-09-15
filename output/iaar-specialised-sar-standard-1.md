@@ -405,7 +405,7 @@ cluster.
 | 3 | Tech MBA — dated record of Field Representative review in practice | Only the standing guidelines exist (Case-2 adapted at Stage 2); no consolidated feedback record equivalent to the Bachelor's `Consolidated Field Representative Feedback.md` | Technical/Industry | Moderate |
 | 4 | Tech MBA — dated entry requirements / foundations-module equivalent | The adapted TER (Article 2.3) carries over the Master's application process structurally but flags Tech-MBA-specific entry requirements as unconfirmed | Pedagogical | Minor |
 | 5 | Tech MBA — distinct Examination Board installation | Not confirmed whether the Tech MBA has its own formally installed Examination Board or shares the Master's Board under one TER-with-programme-sections model (both are permitted under the source Handbook, but which applies here is unconfirmed) | Technical/Governance | Minor–Moderate |
-| 6 | Document synchronisation | §1.1.5 and §ESG 1.8 edits made to the `_shared/` and Tech MBA QA Policy copies have not yet been mirrored into the Master's and Bachelor's appendix copies | N/A (mechanical) | Minor, but must be fixed before submission |
+| 6 | ~~Document synchronisation~~ **CLOSED** | §1.1.5 and §ESG 1.8 additions have since been mirrored into the Master's appendix copy and the Bachelor's copy; all four QA Policy copies now agree on the review cycle and publication status | N/A (mechanical) | Resolved |
 | 7 | Gender Equality and Equal Opportunities Statement | Entire document is a NEW DRAFT pending Didem's factual sign-off | N/A (approval, not evidence) | Must resolve before submission |
 
 ---

@@ -48,11 +48,9 @@ Run the `standards-expert` agent. It extracts each standard **in full depth**
 — the Standard statement, every individual Guidelines requirement, and every
 Sample Question listed verbatim, not condensed into a one-line evidence-type
 summary (a condensed checklist silently drops real requirements — see the
-agent's own definition for why this matters) — and then **consolidates** that
-depth into a **Suggested appendix document(s)** list per standard: the
-concrete, named documents Didem actually needs to produce or gather, with
-overlapping requirements/questions grouped into the same document where they
-belong together (not one document per raw question).
+agent's own definition for why this matters). It does not consolidate these
+into named documents — that happens in Stage 1.5, together with checking real
+evidence, since the two naturally inform each other.
 
 - **Single-programme run:** give it `/accreditors/{accreditor}.md`, the
   programme name, and any additional official document. Output:
@@ -65,9 +63,7 @@ belong together (not one document per raw question).
 
 **STOP — present for Didem's approval.** Show the summary (how many items
 verified, how many UNVERIFIED, how many with an unclear lens, how many
-Guidelines requirements/Sample Questions extracted in total, and how many
-distinct suggested appendix documents were named across the checklist — that
-last number is the actual to-do list Didem cares about). Do not move to
+Guidelines requirements/Sample Questions extracted in total). Do not move to
 Stage 1.5 without approval. If the checklist carries a placeholder/unsourced
 warning, highlight this specifically — proceeding may be pointless until
 Didem uploads the official document.
@@ -75,19 +71,23 @@ Didem uploads the official document.
 ## Stage 1.5 — Evidence Mapper
 
 After Stage 1 is approved and before Stage 2 drafts anything, run the
-`evidence-mapper` agent. Stage 1 already did the work of extracting every
-requirement in full; this step's only job is cross-referencing that against
-the real evidence pool, so drafting doesn't start blind and Stage 2 isn't
-discovering blocking gaps mid-draft instead of upfront.
+`evidence-mapper` agent. It does two things together, not as separate passes:
+**consolidates** Stage 1's full-depth Guidelines requirements and Sample
+Questions into named, concrete appendix documents (several requirements
+often belong in the same real document — see its own agent definition for
+why this is done alongside evidence-checking rather than as an abstract step
+beforehand), and **maps** each named document against the real evidence
+pool. This is what tells Didem, standard by standard, exactly what documents
+she needs to place in the appendix folder — not just what evidence type is
+required in the abstract.
 
 - Give it the Stage 1 checklist (full-depth, per-standard breakdown) and the
   evidence pool in scope (`/evidence/_shared/` + `/evidence/{programme}/` for
   each programme in cluster mode; just `/evidence/{programme}/` otherwise).
 - It is read-only against `/evidence/` — it never adapts or creates evidence,
-  only maps what exists against every Guidelines requirement and Sample
-  Question already extracted in the checklist, standard by standard (or one
-  standard at a time, if you and Didem want to go deep before committing to
-  the full pass — see its own agent definition).
+  only consolidates and maps, standard by standard (or one standard at a
+  time, if you and Didem want to go deep before committing to the full pass
+  — see its own agent definition).
 - **A cluster-wide fact (e.g. an institution-wide QA policy) gets one
   appendix item, never one per programme.** The evidence-mapper's job
   includes catching the false-gap case where a programme just hasn't been

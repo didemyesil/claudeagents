@@ -48,7 +48,11 @@ Run the `standards-expert` agent. It extracts each standard **in full depth**
 — the Standard statement, every individual Guidelines requirement, and every
 Sample Question listed verbatim, not condensed into a one-line evidence-type
 summary (a condensed checklist silently drops real requirements — see the
-agent's own definition for why this matters).
+agent's own definition for why this matters) — and then **consolidates** that
+depth into a **Suggested appendix document(s)** list per standard: the
+concrete, named documents Didem actually needs to produce or gather, with
+overlapping requirements/questions grouped into the same document where they
+belong together (not one document per raw question).
 
 - **Single-programme run:** give it `/accreditors/{accreditor}.md`, the
   programme name, and any additional official document. Output:
@@ -61,7 +65,9 @@ agent's own definition for why this matters).
 
 **STOP — present for Didem's approval.** Show the summary (how many items
 verified, how many UNVERIFIED, how many with an unclear lens, how many
-Guidelines requirements/Sample Questions extracted in total). Do not move to
+Guidelines requirements/Sample Questions extracted in total, and how many
+distinct suggested appendix documents were named across the checklist — that
+last number is the actual to-do list Didem cares about). Do not move to
 Stage 1.5 without approval. If the checklist carries a placeholder/unsourced
 warning, highlight this specifically — proceeding may be pointless until
 Didem uploads the official document.

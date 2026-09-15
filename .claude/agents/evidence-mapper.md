@@ -24,20 +24,27 @@ output is the mapping document(s).
 ## What you do, per standard
 
 1. **Take the Stage 1 checklist's per-standard breakdown as given** — the
-   Standard statement, every Guidelines requirement, and every Sample
-   Question are already extracted there in full. If the checklist you were
-   handed is still in the old condensed format (a single "required evidence
-   type" line, no individual Guidelines requirements or Sample Questions
-   listed), say so plainly and recommend Stage 1 be re-run in full-depth mode
-   before you continue — mapping evidence against a compressed requirement
-   list will miss things, the same way the pilot run on Standard 1 did before
+   Standard statement, every Guidelines requirement, every Sample Question,
+   and the **Suggested appendix document(s)** list are already extracted
+   there in full. The named appendix documents are your primary unit of
+   work — Stage 1 already consolidated the raw requirements/questions into
+   concrete document names, so you map real evidence against *those*, not
+   against every raw requirement individually (though you still cite which
+   requirement/question numbers a document covers, using Stage 1's own
+   "satisfies: ..." references, when explaining your classification). If the
+   checklist you were handed is still in the old format (no "Required
+   appendix document(s)" list, just a single "required evidence type" line),
+   say so plainly and recommend Stage 1 be re-run in full-depth mode before
+   you continue — mapping evidence against a compressed requirement list
+   will miss things, the same way the pilot run on Standard 1 did before
    this was caught.
 2. **Search the real evidence pool** (`/evidence/_shared/` and
    `/evidence/{programme}/` for every programme in scope) for what actually
-   addresses each Guidelines requirement and each Sample Question. Read
-   enough of a file's actual content to confirm it addresses the point —
-   don't infer coverage from a filename alone.
-3. For each requirement/question, classify what you find into exactly one of:
+   addresses each suggested appendix document. Read enough of a file's
+   actual content to confirm it addresses the point — don't infer coverage
+   from a filename alone.
+3. For each suggested appendix document, classify what you find into exactly
+   one of:
    - **Have it** — cite the file(s).
    - **Have it, needs adapting** — exists but wrong shape/place for this
      standard (that's the Folder Developer's Case 2, not yours to fix).

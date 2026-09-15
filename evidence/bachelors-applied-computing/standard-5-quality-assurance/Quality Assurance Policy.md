@@ -30,8 +30,6 @@ Programme-level QA is informed by institute QA policy; external players (field r
 
 Ongoing evaluation of policies/procedures/guidelines in collaboration with the Executive Board and other teams; QA Team holds main evaluation responsibility; Executive Board approves iterative improvements; all stakeholder feedback (including learners) is incorporated.
 
-**Review of this Policy document and stakeholder satisfaction with it (planned mechanism):** Beyond the ongoing evaluation of the QA *system* above, this Policy document is itself subject to a planned review cycle, distinct from the programme/module/activity-level cycles in section 1.1.6 — annual review by the QA Team ahead of each academic year, proposing revisions arising from regulatory change (ESG, NVAO, WHW), Field Representative or Educational Council input, or experience applying the policy; any revision formally approved by the Executive Board. The first annual review falls due ahead of the cluster's first academic year. Once the programme is operational, satisfaction with this policy document specifically (as distinct from programme-level learner satisfaction under ESG 1.7) will be assessed within the QA Team's annual review, drawing on feedback from faculty, programme management, the Educational Council (student representatives) and Field Representatives. Presented as a planned, ex-ante mechanism, not a record of reviews already conducted.
-
 **Plan–Do–Check–Act (PDCA) Cycle:** Plan (curriculum team + faculty + field representatives design curriculum, set strategic objectives); Do (deliver learning activities, assessments, coaching); Check (systematic internal/external feedback — reflections, learner surveys, exam board reviews, performance reviews — against KPIs/programme outcomes); Act (targeted improvements approved by QA team and executive board). Applied across activity, module, and programme levels.
 
 ### 1.1.6. Multi-layered Approach to Quality Assurance
@@ -77,8 +75,6 @@ Institute management uses a performance review system to track organisational go
 ## ESG 1.8. Public Information
 
 Marketing team ensures the institute publishes: programme details (objectives, curriculum, target competencies, credits, faculty); admission criteria/steps; learning approach; programme brochures on request; online application forms.
-
-**Publication status of this Policy document.** The information listed above is *programme*-level. This Policy document itself is currently an internal governance document — shared with staff, faculty, the Educational Council (student representatives) and Field Representatives, but not yet published on the institute's public website, It is published on the institute's website at the launch of the programmes. 
 
 ## ESG 1.9 On-going Monitoring and Periodic Review of Programmes
 

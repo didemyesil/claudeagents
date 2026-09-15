@@ -64,12 +64,6 @@ The evaluation of the QA assurance system is an ongoing process at the institute
 
 All feedback, insights and observations from all external and internal players, including the learners, are incorporated into the reviews for the evaluation of the QA system.
 
-**Review of this Policy document and stakeholder satisfaction with it (planned mechanism)**
-
-In addition to the ongoing evaluation of the quality assurance *system* described above, this Policy for Quality Assurance document is itself subject to a planned review cycle, distinct from the programme/module/activity-level review cycles described in section 1.1.6. The QA Team is responsible for reviewing this document on an annual basis, ahead of the start of each academic year, and for proposing any revisions arising from regulatory changes (e.g. ESG, NVAO, WHW), from Field Representative or Educational Council input, or from experience applying the policy in practice. Any revision is subject to formal approval by the Executive Board, consistent with the approval authority already described above for changes to the QA system.
-
-The first annual review falls due ahead of the cluster's first academic year. Once the cluster's programmes are operational, satisfaction with this policy document specifically (as distinct from programme-level learner satisfaction, which is already covered under ESG 1.7 Information management) will be assessed as part of the QA Team's annual review, drawing on feedback gathered from faculty, programme management, the Educational Council (student representatives) and Field Representatives during that review — the same stakeholder groups already named in sections 1.1.4 and 1.1.6 as participants in the institute's quality assurance system. This is presented here as a planned, ex-ante mechanism for an initial accreditation application, not as a historical record of reviews already conducted.
-
 **Adherence to the Plan–Do–Check–Act (PDCA) Cycle**
 
 Team Academy's quality assurance system is built upon the continuous improvement philosophy, which is operationalised through the **Plan–Do–Check–Act (PDCA) cycle.** This cycle provides a structured approach for maintaining and improving the quality of all educational activities, from programme design to learner assessment, and from institutional strategy to faculty development.
@@ -209,8 +203,6 @@ The publicly published information is helpful for the prospective and current Te
 - The learning approach in the programmes.
 - The programme brochures upon request by the applicants.
 - The online application forms;
-
-**Publication status of this Policy document.** The items listed immediately above concern published *programme*-level information. This Policy for Quality Assurance document itself is, at the current stage, an internal governance document — shared with staff, faculty, the Educational Council (student representatives) and Field Representatives, but not yet published on the institute's public website. It is published on the institute's website at the launch of the cluster's programmes, alongside the programme-level information listed above. 
 
 **ESG 1.9 On-going monitoring and periodic review of programmes**
 

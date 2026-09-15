@@ -1,16 +1,5 @@
 Assessment Policy
 
-> **Scope.** This policy applies to Team Academy's professional
-> master's-level programmes: the **Professional Master's in Applied
-> Artificial Intelligence** and the **Tech MBA**. The provisions below are
-> common to both programmes. Provisions that apply to one programme only are
-> set out in the programme-specific annex at the end.
->
-> The Bachelor's in Applied Computing is governed by its own regulations,
-> reflecting the different entry, progression and graduation requirements at
-> NLQF level 6.
-
-
 Professional Master's in Applied Artificial Intelligence
 
 ### Definitions of Terms Used
@@ -636,52 +625,3 @@ reviews/scores
 7 Teaching to the test, where learners are trained to perform a certain task to pass an exam, is to be avoided by any means.
 
 8 In case of implementation in summative assessments, the permission of the exam board is required.
-
-
----
-
-# Programme-specific provisions — Tech MBA
-
-This section describes the procedural policies for assessment within the Tech MBA, following the institution-wide Part A above and clarifying Tech-MBA-specific roles, structures and weighting.
-
-### Organisation of Assessment
-
-**Roles and Responsibilities** (Tech-MBA-specific personnel, per the Tech MBA Programme Handbook's staff listing):
-
-- **Faculty / Module Facilitators** design and deliver module content and assess module projects and weekly tasks.
-- **Action Learning Coach** facilitates action learning sets and assesses Action Learning Reflective Accounts.
-- **Programme Manager** (currently Isadora Costa) manages execution of assessments and operational tasks.
-- **Final Project Supervisors** (Tech-focus and Leadership-and-Action-Research/LAR-focus) guide and assess the Final Project, per the Tech MBA Supervision Guide.
-- **Examination Board** validates deviations from the TER, ensures compliance with assessment policy, acts on suspected fraud, and safeguards diploma quality.
-
-### Assessment Structure
-
-The Tech MBA's assessment structure differs from the Master's programmatic low/medium/high-stake portfolio model and instead follows a certification-based weighted model, as already documented in the Tech MBA Programme Handbook:
-
-**Per certification** (Transform Your Business; Lead Your Business; Innovate and Grow Your Business; Leadership and Action Research):
-- Module Projects — 50% weight
-- Weekly Tasks/Activities — 30% weight
-- Action Learning Reflective Accounts — 10% weight
-- Knowledge Checks — 10% weight
-- Passing requirement: a minimum of 60 points accumulated across all assessments in the certificate.
-
-**Final Project** (21.5 ECTS, per the Tech MBA Supervision Guide):
-- Project Plan — 15%
-- Action Research Methodology — 30%
-- Technology Focus — 40%
-- Video Presentation & Q&A/VIVA session — 15%
-- Learners must achieve an average of at least 60 across the four certifications before proceeding to the Final Project.
-
-### Quality Criteria for the Datapoints
-
-As under the institution-wide Part A, each assessed item (module project, weekly task, reflective account, knowledge check, Final Project component) must be valid (aligned to the intended learning outcome), reliable, sufficient, and authentic (owned by the learner, properly referenced). Module projects are assessed by faculty; Final Project components are assessed by supervisors acting as examiners, with the Tech MBA Supervision Guide's explicit caution that "the score should be very carefully evaluated ... NOT a reflection of the personal connection between supervisor and student, but ONLY an academic evaluation."
-
-### Use of Advanced Technology in Assessment
-
-Follows Part A's institution-wide provisions on AI and technological aids, operationalised for the Final Project specifically through the Final Project Agreement Form's AI Usage Planning, ongoing disclosure, AI Use Statement, and evidence-retention requirements described in the Tech MBA Supervision Guide.
-
-### Quality Assurance
-
-As under the institution-wide QA Policy (see *Institution-wide Quality Assurance Policy*), the Tech MBA's assessment approach is subject to the institute's PDCA cycle, with the Examination Board responsible for oversight of examination quality and exit qualifications.
-
----

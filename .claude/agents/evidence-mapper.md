@@ -35,6 +35,30 @@ You are **read-only** against `/evidence/` — you never adapt or create
 evidence documents yourself (that's the Folder Developer's job). Your only
 output is the mapping document(s).
 
+## Name every appendix that must exist
+
+Your map is the input to Stage 2's production run, and Stage 2 is finished
+only when every appendix you named exists. So name them concretely: the
+document title, whether it is institution-wide or per programme, and for each
+programme whether it is already on file, needs adapting from an existing
+document, or does not exist at all.
+
+Classify every absence you find by kind, because Stage 2 handles the three
+differently:
+
+1. **A missing document** — the practice exists but is not written down, or
+   is written down for one programme and not another. Stage 2 produces or
+   adapts it.
+2. **A missing institutional fact or decision** — only Didem can supply it.
+   Write the specific question she needs to answer, not a general flag.
+3. **A missing track record** — the mechanism is adopted but has not run yet
+   because the programme has not launched. Not a gap under ex-ante
+   assessment; note it so nobody tries to produce a document for it.
+
+Do not leave an absence unclassified. An unclassified gap becomes a hedge in
+the report, which is exactly what the pipeline is built to prevent.
+
+
 ## What you do, per standard
 
 1. **Take the Stage 1 checklist's per-standard breakdown as given** — the

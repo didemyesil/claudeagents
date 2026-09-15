@@ -382,91 +382,101 @@ Tech MBA's entry requirements.
 
 ---
 
+## Why these appendices sit under Standard 1
+
+The chain runs: **IAAR's own document → the config → the checklist → this map.**
+The text is carried verbatim at each step; no requirement is added by
+interpretation.
+
+- **Source:** *IAAR Standards and Guidelines for International Accreditation of
+  Foreign Educational Organisations and Educational Programmes (based on ESG)*,
+  IAAR, 2018 — the file supplied by the institution, held under
+  `accreditors/sources/`.
+- **Config:** `accreditors/iaar-specialised.md`, lines 60–99 — Standard 1's
+  statement, its twelve Guidelines requirements and its sixteen sample
+  questions, verbatim.
+- **Checklist:** `output/iaar-specialised-cluster-checklist.md`, lines 43–100 —
+  the same provisions, each broken out as its own line.
+
+The table below binds each appendix to the provision that calls for it. To
+verify a row, look up its provision between lines 60 and 99 of the config; it
+appears there word for word.
+
+| # | Appendix | The provision that requires it |
+|---|---|---|
+| 1.1 | Policy for Quality Assurance | Guidelines: a coherent QA system forming a cycle for continuous improvement · quality culture · formal status and public availability · national and institutional context · the organisation of the QA system · how the policy is implemented, monitored and revised. Sample questions 1, 2, 3, 5, 6, 7, 15 |
+| 1.2 | Institution Organisational Structure | Guidelines: "supports the organisation of the quality assurance system" · "supports departments, schools, faculties, institutional leadership, individual staff members and students to take on their responsibilities in quality assurance". Sample questions 1, 10, 15 |
+| 1.3 | Gender Equality and Equal Opportunities Statement | Guidelines: "guarding against intolerance of any kind or discrimination against the students or staff". Sample question 14 — *"Does the EO have a gender equality/equal opportunities concept?"* |
+| 1.4 | Field Representatives Guidelines | Guidelines: "the involvement of external stakeholders in quality assurance". Sample questions 4, 9 |
+| 1.5 | Consolidated Field Representative Feedback | Sample questions 4 and 9 (the mechanism and examples of it) · 12 (procedures for revising programme objectives and concept) · 5 (how the policy changed over time) |
+| 1.6 | Action Planning | Sample questions 5 and 12 — shows feedback becoming decision and action, against dates |
+| 1.7 | Teaching and Examination Regulations | Guidelines: "supports academic integrity and freedom and is vigilant against academic fraud" · guarding against discrimination. Sample questions 11 (transparency of information to students), 13 (whether the programmes comply with the institution's regulatory documents) |
+| 1.8 | Policy on Assessment | The same two Guidelines provisions, as they operate in assessment practice: inclusive assessment, accommodations, and the rules on technological support |
+| 1.9 | Examination Board Handbook | The same two Guidelines provisions: the definition of misconduct, the duty to report, sanctions, and the route of appeal |
+| 1.10 | Faculty Research | Guidelines: "quality assurance policies are most effective when they reflect the relationship between research and learning & teaching". Sample question 8 |
+
+**Note.** Appendices 1.7 to 1.10 do not answer this standard as a whole; they
+are cited only for the provisions named above. Each is treated properly under
+its own standard. Citing a document here does not make it an appendix of
+Standard 1 — it means the document answers a particular question this standard
+asks.
+
 ---
 
-## Bu ekler neden Standard 1 altında
+## Status table — Standard 1
 
-Zincir şu: **IAAR'ın resmî belgesi → config → checklist → bu harita.** Her
-adımda metin birebir taşındı, hiçbir gereklilik yorumlanarak eklenmedi.
-
-- **Kaynak:** *IAAR Standards and Guidelines for International Accreditation of
-  Foreign Educational Organisations and Educational Programmes (based on ESG)*,
-  IAAR, 2018 — senin yüklediğin dosya, `accreditors/sources/` altında duruyor.
-- **Config:** `accreditors/iaar-specialised.md`, satır 60–99 — Standard 1'in
-  standart metni, 12 Guidelines gerekliliği ve 16 Sample Question'ı verbatim.
-- **Checklist:** `output/iaar-specialised-cluster-checklist.md`, satır 43–100 —
-  aynı maddeler, her biri ayrı satır olarak açılmış.
-
-Aşağıdaki tablo her eki, onu gerektiren maddeye bağlar. Bir eki doğrulamak
-için: satırdaki maddeyi config'in 60–99. satırları arasında ara, birebir orada
-görürsün.
-
-| # | Ek | Bu standardın hangi maddesi gerektiriyor |
-|---|---|---|
-| 1.1 | Policy for Quality Assurance | Guidelines: tutarlı bir QA sistemi ve sürekli iyileştirme döngüsü · kalite kültürü · resmî statü ve kamuya açıklık · ulusal ve kurumsal bağlam · QA sisteminin örgütlenmesi · politikanın nasıl uygulandığı, izlendiği ve revize edildiği. Sample Q1, 2, 3, 5, 6, 7, 15 |
-| 1.2 | Institution Organisational Structure | Guidelines: "QA sisteminin örgütlenmesini destekler" · "birimlerin, liderliğin, personelin ve öğrencilerin QA sorumluluklarını üstlenmesini destekler". Sample Q1, 10, 15 |
-| 1.3 | Gender Equality and Equal Opportunities Statement | Guidelines: "öğrencilere veya personele karşı her türlü hoşgörüsüzlüğe veya ayrımcılığa karşı korur". Sample Q14 — *"Does the EO have a gender equality/equal opportunities concept?"* |
-| 1.4 | Field Representatives Guidelines | Guidelines: "dış paydaşların kalite güvencesine katılımını destekler". Sample Q4, 9 |
-| 1.5 | Consolidated Field Representative Feedback | Sample Q4, 9 (mekanizma ve örnekler) · Q12 (EP hedef/konsept revizyon prosedürleri) · Q5 (politika zaman içinde nasıl değişti) |
-| 1.6 | Action Planning | Sample Q5, 12 — geri bildirimin karara ve aksiyona dönüştüğünü tarihli olarak gösterir |
-| 1.7 | Teaching and Examination Regulations | Guidelines: "akademik dürüstlüğü ve özgürlüğü destekler, akademik sahtekârlığa karşı uyanıktır" · ayrımcılığa karşı koruma. Sample Q11 (bilginin öğrenciye şeffaflığı), Q13 (EP'ler kurumun düzenleyici belgelerine uyuyor mu) |
-| 1.8 | Policy on Assessment | Aynı iki Guidelines maddesi — değerlendirme pratiğinde işletilen hali (kapsayıcı değerlendirme, engellilik uyarlamaları, teknolojik destek kuralları) |
-| 1.9 | Examination Board Handbook | Aynı iki Guidelines maddesi — suistimal tanımı, bildirim yükümlülüğü, yaptırım ve itiraz yolu |
-| 1.10 | Faculty Research | Guidelines: "politika, araştırma ile öğrenme ve öğretme arasındaki ilişkiyi yansıttığında en etkilidir". Sample Q8 |
-
-**Dikkat:** 1.7–1.10 arası ekler bu standardın *tamamını* karşılamaz; yalnızca
-yukarıda adı geçen maddeler için atıf alırlar. Asıl ele alınışları kendi
-standartlarında olur. Bir belgeye burada atıf vermek, o belgenin bu standardın
-eki olduğu anlamına gelmez — Standard 1'in belirli bir sorusunu cevapladığı
-anlamına gelir.
-
-## Durum tablosu — Standard 1
-
-> **Taslak.** Kapsam kararları (`output/document-scope-register.md`) verilince
-> kesinleşir. "Kapsam" sütununda *karar bekliyor* yazan satırlar, o karara
-> göre tek belge mi yoksa program başına belge mi olacağını gösterecek.
+> **Draft.** It settles once the scope decisions in
+> `output/document-scope-register.md` are taken. Rows whose scope reads
+> *to be decided* will then show whether the document is one file or one per
+> programme.
 >
-> Durum, bu satırın yazıldığı andaki gerçek dosya durumudur: bu döngüde
-> üretilen her şey geri alındı, dolayısıyla tablo yalnızca kurumun kendi
-> belgelerini yansıtır.
+> Status reflects the real state of the evidence pool at the time of writing:
+> everything produced during the last run was reverted, so the table shows the
+> institution's own documents and nothing else.
 
-**Durum değerleri:** ✅ Tam — dosyada var, olduğu gibi atıf verilebilir ·
-⚠️ Kısmi — var ama bir program veya bir bölüm eksik · ✍️ Üretilecek — belge
-yok, mevcut olgulardan yazılacak · ❌ Açık — üretilemez, önce bir olgu veya
-karar gerekiyor
+**Role:** *Primary* — this standard is the appendix's home ·
+*Supporting* — the appendix belongs to another standard and is cited here only
+for a specific provision of this one. A supporting appendix is treated fully
+under its own standard and is not re-argued here. (The target standard shown
+for a supporting row is provisional until that standard has its own deep pass.)
 
-**Rol:** *Birincil* — bu ek esas olarak bu standardı karşılar, burası onun evi ·
-*Destekleyici* — ekin asıl evi başka bir standart; burada yalnızca o standardın
-belirli bir gerekliliği için atıf veriliyor. Destekleyici bir ek, kendi
-standardında ayrıca ve tam olarak ele alınır; burada yeniden anlatılmaz.
-(Destekleyici satırlardaki hedef standart, o standardın kendi derin geçişi
-yapılana kadar geçicidir.)
+**Status:** ✅ Complete — on file, citable as it stands · ⚠️ Partial — exists
+but a programme or a section is missing · ✍️ To produce — no document yet; to
+be written from facts already held · ❌ Open — cannot be produced until a fact
+or decision is supplied
 
-**Sıradaki adım kimde:** *Bende* — ek bilgi gerekmiyor, üretebilirim ·
-*Didem'de* — yalnızca kurumun bilebileceği bir olgu veya karar gerekiyor ·
-*Beklemede* — program başlamadığı için bugün var olamaz (ex-ante, meşru)
+**Next step with:** *Us* — no further input needed, it can be produced ·
+*The institution* — needs a fact or decision only the institution holds ·
+*Not yet* — cannot exist today because the programmes have not launched
+(legitimate under ex-ante assessment)
 
-| # | Ek | Rol | Kapsam | Durum | Ne eksik | Sıradaki adım |
+| # | Appendix | Role | Scope | Status | What is missing | Next step with |
 |---|---|---|---|---|---|---|
-| 1.1 | Policy for Quality Assurance | **Birincil** | Kurumsal | ⚠️ Kısmi | §1.1.5'e politikanın kendi gözden geçirme döngüsü, §ESG 1.8'e yayın durumu eklenecek | Didem'de — yıllık kadans onayı |
-| 1.2 | Institution Organisational Structure | **Birincil** | *karar bekliyor* | ✅ Tam | — | Didem'de — kapsam kararı |
-| 1.3 | Gender Equality and Equal Opportunities Statement | **Birincil** | Kurumsal | ✍️ Üretilecek | Belge yok; mevcut ayrımcılık karşıtı ve fırsat eşitliği hükümlerinden yazılacak | Bende → sonra Didem'in onayı |
-| 1.4 | Field Representatives Guidelines | **Birincil** | *karar bekliyor* | ⚠️ Kısmi | Master's'ta var; diğer programlarda kapsam kararına bağlı | Didem'de — kapsam kararı |
-| 1.5 | Consolidated Field Representative Feedback | Destekleyici → St. 9 | Programa özgü | ⚠️ Kısmi | Bachelor's'ta var; Master's ve Tech MBA'de tarihli inceleme kaydı yok | Beklemede — inceleme yapılınca doğar |
-| 1.6 | Action Planning | Destekleyici → St. 9 | Programa özgü | ✅ Tam | — (Bachelor's) | — |
-| 1.7 | Teaching and Examination Regulations | Destekleyici → St. 3/4 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Tech MBA'e özgü hükümler master's setine eklenecek | Bende — Alper teyidi sonrası |
-| 1.8 | Policy on Assessment | Destekleyici → St. 3 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı | Bende — Alper teyidi sonrası |
-| 1.9 | Examination Board Handbook | Destekleyici → St. 3 | Master's + Tech MBA ortak · Bachelor's ayrı | ⚠️ Kısmi | Aynı; tek kurulun üç programa hizmet ettiği yazılacak | Bende — Alper teyidi sonrası |
-| 1.10 | Faculty Research | Destekleyici → St. 5 | Master's | ❌ Açık | Bachelor's ve Tech MBA için karşılığı yok | Didem'de — bu programlarda araştırma/güncellik nasıl sağlanıyor |
+| 1.1 | Policy for Quality Assurance | **Primary** | Institution | ⚠️ Partial | §1.1.5 needs the policy's own review cycle; §ESG 1.8 needs its publication status | The institution — confirm the annual cycle |
+| 1.2 | Institution Organisational Structure | **Primary** | *to be decided* | ✅ Complete | — | The institution — scope |
+| 1.3 | Gender Equality and Equal Opportunities Statement | **Primary** | Institution | ✍️ To produce | No document; to be written from the non-discrimination and equal-opportunities provisions already held | Us → then approval |
+| 1.4 | Field Representatives Guidelines | **Primary** | *to be decided* | ⚠️ Partial | Held for the Master's; the other programmes depend on the scope decision | The institution — scope |
+| 1.5 | Consolidated Field Representative Feedback | Supporting → St. 9 | Per programme | ⚠️ Partial | Held for the Bachelor's; no dated record of a review for the Master's or the Tech MBA | Not yet — arises when a review is held |
+| 1.6 | Action Planning | Supporting → St. 9 | Per programme | ✅ Complete | — (Bachelor's) | — |
+| 1.7 | Teaching and Examination Regulations | Supporting → St. 3/4 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | Tech MBA provisions to be added to the master's-level set | Us — after confirmation |
+| 1.8 | Policy on Assessment | Supporting → St. 3 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | As above | Us — after confirmation |
+| 1.9 | Examination Board Handbook | Supporting → St. 3 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | As above; and that one board serves all three programmes | Us — after confirmation |
+| 1.10 | Faculty Research | Supporting → St. 5 | Master's | ❌ Open | No equivalent for the Bachelor's or the Tech MBA | The institution — how currency is maintained in those programmes |
 
-**Özet:** 10 ekten **2'si tam**, **6'sı kısmi**, **1'i üretilecek**, **1'i açık**.
+**Summary:** of ten appendices, **2 complete**, **6 partial**, **1 to produce**,
+**1 open**.
 
-**Didem'i bekleyen 5 karar:**
+**Five decisions needed from the institution:**
 
-1. QA Policy'nin yıllık gözden geçirme kadansı doğru mu
-2. Organisational Structure'ın kapsamı — tek kurumsal belge mi, program başına mı
-3. Field Representatives Guidelines'ın kapsamı — aynı soru
-4. Bachelor's ve Tech MBA'de araştırma–öğretim bağı nasıl kuruluyor
-5. Gender Equality beyanının onayı (yazıldıktan sonra)
+1. Is the annual review cycle for the quality assurance policy correct as
+   described?
+2. The scope of the Institution Organisational Structure — one institutional
+   document, or one per programme?
+3. The scope of the Field Representatives Guidelines — the same question.
+4. How is the research–teaching link maintained in the Bachelor's and the Tech
+   MBA?
+5. Approval of the Gender Equality and Equal Opportunities Statement, once
+   drafted.
 
-**Ayrıca:** Tech MBA'in giriş koşulları, TER'e yazılırken teyit gerektirecek.
+**Also:** the Tech MBA's entry requirements will need confirming when the
+regulations are written.

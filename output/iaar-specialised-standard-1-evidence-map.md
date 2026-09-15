@@ -197,7 +197,13 @@ reflect this, and the current QA Policy text does not.
   _shared/Institution Organisational Structure (Team Academy).md` (already
   covers this institution-wide) — applies to: Bachelor's, Tech MBA.
 
-### Genuine gaps — real answer needed from Didem
+### Genuine gaps — resolved by Didem, ready for Stage 2
+
+All four gaps below were open questions when this map was first produced.
+Didem has now answered all four; they are kept in this section (relabelled)
+rather than deleted, so Stage 2 can see the original question and her
+resolution side by side, and so future standards' evidence-mapper runs have
+a record of these institution-wide decisions instead of re-asking them.
 
 - **Gender equality / equal opportunities policy statement** — satisfies:
   Guidelines req "guards against intolerance or discrimination"; Sample Q
@@ -222,6 +228,13 @@ reflect this, and the current QA Policy text does not.
   language already on file), or would she rather answer Sample Q 14 by
   pointing to the existing scattered provisions and stating a formal
   standalone policy is planned?
+  **Resolved:** Didem confirmed the Folder Developer should draft this —
+  grounded in the non-discriminatory-admissions and inclusive-assessment
+  language already on file (Policy on Assessment, TER, Field Representative
+  diversity criteria), not invented from nothing. Draft a short, shared,
+  institution-wide statement, one copy for the whole cluster, and route it
+  back to Didem for review once drafted (this is Case-3 "draft new" per
+  `folder-developer`'s three-case rule, not a remaining open question).
 
 - **QA policy revision-history / stakeholder-satisfaction assessment
   mechanism, explicitly named as such** — satisfies: Guidelines req "how
@@ -249,6 +262,13 @@ reflect this, and the current QA Policy text does not.
   sentences added to §1.1.5 of the shared QA Policy rather than a new
   document — flagging it so the Folder Developer doesn't invent a review
   cadence unprompted.
+  **Resolved:** Didem confirmed this goes inside the QA Policy document
+  itself (§1.1.5, alongside the existing PDCA evaluation description) —
+  not a separate document. Folder Developer: adapt §1.1.5 to add an
+  explicit line naming the QA-policy-specific review cycle and how
+  stakeholder satisfaction with the policy itself will be assessed once
+  programmes are running, framed as a planned mechanism (ex-ante), not
+  historical data. Shared, one edit to the one shared document.
 
 - **QA Policy for Tech MBA content specific to academic integrity /
   anti-discrimination in assessment** — satisfies: Guidelines reqs
@@ -273,6 +293,16 @@ reflect this, and the current QA Policy text does not.
   reuse the same regulatory framework; if Tech MBA runs under a materially
   different assessment/examination model, that needs to be described from
   scratch and grounded in facts from her, not assumed.
+  **Resolved:** Didem confirmed Tech MBA's TER, Assessment Policy, and
+  Examination Board Handbook will be **shared with the Master's** — i.e.
+  Tech MBA reuses/adapts the Master's regulatory framework rather than
+  needing a materially different one. This reclassifies the item from
+  "genuine gap" to a **Case-2 adaptation task**: Folder Developer adapts
+  Master's `Appendix 12 - Examination Board Handbook.md`, `Appendix 19 -
+  Teaching and Examinations Regulations.md`, and `Appendix 15 - Policy on
+  Assessment.md` into Tech MBA-named copies, the same operation already
+  performed for the QA Policy and Org Structure. No further fact-finding
+  needed from Didem for this item.
 
 - **Where/how the QA Policy is published and who can access it** —
   satisfies: Sample Qs 2 (where published — open or internal only), 3
@@ -288,6 +318,14 @@ reflect this, and the current QA Policy text does not.
   once finalised, or shared only internally with staff/students/field
   representatives? A one-line answer closes Sample Qs 2–3 for this
   standard.
+  **Resolved:** Didem confirmed the QA Policy is **not publicly published
+  yet** — the programme(s) have not launched, so this is treated as an
+  internal-only governance document for now. Folder Developer: state this
+  plainly in the QA Policy's access/publication answer (Sample Qs 2–3) —
+  internal to staff/faculty/field representatives at this stage, with
+  public publication planned once the cluster is operational — rather than
+  claiming a public presence that doesn't exist yet or leaving the question
+  unanswered.
 
 ---
 

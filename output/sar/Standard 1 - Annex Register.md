@@ -109,10 +109,10 @@ point 2 in the Standard.
 
 ## Summary
 
-Eighteen files stand behind the ten annexes. Of these:
+Twenty-one files stand behind the ten annexes. Of these:
 
 - **9 Held** — existing institutional documents, cited as they stand.
-- **7 Extended** — the four Quality Assurance Policy copies, and the three
+- **6 Extended** — three Quality Assurance Policy copies, and the three
   master's-level regulatory documents, each now carrying a Tech MBA
   programme-specific annex.
 - **5 Issued** — copies produced for programmes that lacked one: the Tech MBA's

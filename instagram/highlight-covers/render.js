@@ -59,6 +59,45 @@ const icons = {
     <circle cx="540" cy="380" r="14" fill="${YELLOW}" stroke="${INK}" stroke-width="6"/>`,
 };
 
+// Eğitim alternatifleri
+Object.assign(icons, {
+  // A: Sertifika + rozet
+  egitim_a: `
+    <rect x="300" y="330" width="420" height="320" rx="18" fill="${WHITE}" ${S}/>
+    <rect x="330" y="360" width="360" height="260" rx="8" fill="none" stroke="${LAV2}" stroke-width="8"/>
+    <path d="M380 420 H600" stroke="${PURPLE}" stroke-width="16" stroke-linecap="round"/>
+    <path d="M380 470 H560 M380 510 H520" stroke="${INK}" stroke-width="10" stroke-linecap="round"/>
+    <path d="M380 570 C400 550 420 590 450 566" stroke="${INK}" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M640 600 L610 760 L650 734 L684 770 L700 620 Z" fill="${PURPLE}" ${S}/>
+    <path d="M720 600 L750 760 L710 734 L676 770 L660 620 Z" fill="${PURPLE}" ${S}/>
+    <circle cx="680" cy="580" r="86" fill="${YELLOW}" ${S}/>
+    <circle cx="680" cy="580" r="52" fill="${IVORY}" stroke="${INK}" stroke-width="8"/>
+    <path d="M656 580 l18 18 l32 -36" stroke="${INK}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>`,
+  // B: Açık kitaptan filizlenen bitki (Grow with Tech'e gönderme)
+  egitim_b: `
+    <path d="M540 620 C470 580 380 570 290 590 V780 C380 760 470 770 540 810 Z" fill="${WHITE}" ${S}/>
+    <path d="M540 620 C610 580 700 570 790 590 V780 C700 760 610 770 540 810 Z" fill="${WHITE}" ${S}/>
+    <path d="M540 620 V810" ${S}/>
+    <path d="M330 650 C390 638 450 642 500 664 M330 700 C390 688 450 692 500 714" stroke="${LAV2}" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M580 664 C630 642 690 638 750 650 M580 714 C630 692 690 688 750 700" stroke="${LAV2}" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M540 610 C540 520 546 420 540 330" ${S} fill="none"/>
+    <path d="M540 470 C460 480 390 430 380 350 C460 340 530 390 540 470 Z" fill="${GREEN}" ${S}/>
+    <path d="M540 410 C610 420 680 370 690 290 C610 280 548 330 540 410 Z" fill="${PURPLE}" ${S}/>
+    <path d="M540 540 C600 548 650 510 660 460 C606 452 552 486 540 540 Z" fill="${YELLOW}" ${S}/>
+    <path d="M540 470 C500 440 460 405 430 380 M540 410 C580 380 620 345 650 320" stroke="${INK}" stroke-width="6" stroke-linecap="round" fill="none"/>`,
+  // C: Kitap yığını + ampul
+  egitim_c: `
+    <rect x="320" y="700" width="420" height="80" rx="12" fill="${PURPLE}" ${S}/>
+    <path d="M700 716 V764" stroke="${IVORY}" stroke-width="10" stroke-linecap="round"/>
+    <rect x="350" y="620" width="380" height="80" rx="12" fill="${YELLOW}" ${S}/>
+    <path d="M390 636 V684" stroke="${INK}" stroke-width="10" stroke-linecap="round"/>
+    <rect x="380" y="540" width="330" height="80" rx="12" fill="${GREEN}" ${S} transform="rotate(-3 545 580)"/>
+    <path d="M500 540 C500 470 430 450 430 380 C430 316 480 270 545 270 C610 270 660 316 660 380 C660 450 590 470 590 540 Z" fill="${IVORY}" ${S}/>
+    <path d="M500 540 H590" ${S}/>
+    <path d="M512 500 C512 450 545 430 545 390 M578 500 C578 450 545 430 545 390" stroke="${PURPLE}" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <rect x="508" y="540" width="74" height="40" rx="10" fill="${LAV2}" ${S} transform="translate(0 -8)"/>`,
+});
+
 const svg = (key, w, h) => {
   const dy = (h - 1080) / 2;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
@@ -80,12 +119,20 @@ const svg = (key, w, h) => {
     }
   }
   // Önizleme: profildeki gibi daire kırpması
-  const row = Object.keys(icons).map(k => `<div style="text-align:center;font:28px sans-serif;color:#222">
+  const row = ['webinar','atolye','egitim'].map(k => `<div style="text-align:center;font:28px sans-serif;color:#222">
     <div style="width:220px;height:220px;border-radius:50%;padding:8px;border:3px solid #ddd">
     <div style="width:220px;height:220px;border-radius:50%;overflow:hidden">${svg(k,1080,1080).replace('width="1080" height="1080"','width="220" height="220"')}</div></div>
     <div style="margin-top:14px">${{webinar:'Webinar',atolye:'Atölye',egitim:'Eğitim'}[k]}</div></div>`).join('');
   await page.setViewportSize({ width: 900, height: 360 });
   await page.setContent(`<html><body style="margin:0;background:#fff;display:flex;gap:50px;padding:40px 60px">${row}</body></html>`);
   await page.screenshot({ path: 'onizleme.png' });
+  const opts = [['egitim','Şu anki'],['egitim_a','A · Sertifika'],['egitim_b','B · Filizlenen kitap'],['egitim_c','C · Kitap + ampul']];
+  const row2 = opts.map(([k,l]) => `<div style="text-align:center;font:26px sans-serif;color:#222">
+    <div style="width:220px;height:220px;border-radius:50%;padding:8px;border:3px solid #ddd">
+    <div style="width:220px;height:220px;border-radius:50%;overflow:hidden">${svg(k,1080,1080).replace('width="1080" height="1080"','width="220" height="220"')}</div></div>
+    <div style="margin-top:14px">${l}</div></div>`).join('');
+  await page.setViewportSize({ width: 1200, height: 360 });
+  await page.setContent(`<html><body style="margin:0;background:#fff;display:flex;gap:40px;padding:40px 50px">${row2}</body></html>`);
+  await page.screenshot({ path: 'egitim-secenekler.png' });
   await browser.close();
 })();

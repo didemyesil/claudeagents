@@ -9,10 +9,11 @@ hangi dosya nerede, hangi bileşen ne zaman kullanılır, tekdüzelik nasıl kı
 | Renk, tipografi, bileşenler | `.claude/templates/brand.css` |
 | Karusel şablonları | `.claude/templates/karusel-*.html` |
 | Reel şablonları | `.claude/templates/reel-*.html` |
-| Quicksand fontu | `.claude/assets/fonts/` |
+| Poppins + Nunito fontlari | `.claude/assets/fonts/` |
 | Render scriptleri | `.claude/scripts/` |
 
-Font **Quicksand**, istisnasız. Başka font kullanma.
+Fontlar **Poppins** (başlık, etiket, pill, rozet, dev numara) ve **Nunito**
+(akan metin, liste, not, alt bilgi satırı). Bu ikisinin dışında font kullanma.
 
 ## İki ayrı düzen
 
@@ -72,7 +73,7 @@ içeriğin ihtiyacına göre seç.
 
 **4. Yeni bileşen üretmek serbest.** Şablonlar tavan değil taban. İçerik farklı bir
 görsel yapı istiyorsa `brand.css` değişkenlerini kullanarak yeni bir yapı kur.
-Şartlar: Quicksand, açık zemin, paletteki renkler, bol whitespace, tek fikir.
+Şartlar: Poppins + Nunito, açık zemin, paletteki renkler, bol whitespace, tek fikir.
 
 **Geçen haftaya bak.** Çıktı klasörlerinde önceki haftaların içeriği var.
 Aynı şablon-tema kombinasyonunu üst üste iki hafta kullanma.

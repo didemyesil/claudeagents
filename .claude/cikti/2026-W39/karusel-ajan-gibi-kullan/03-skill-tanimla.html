@@ -13,6 +13,11 @@
            font-size: 34px; line-height: 1.5; font-weight: 600;
            padding: 28px 34px; border-radius: 22px 22px 6px 22px; }
   .mesaj em { font-style: normal; color: var(--aksan); font-weight: 700; }
+  .ek-not { display: flex; gap: 16px; font-size: 30px; font-weight: 600;
+            line-height: 1.4; color: var(--soluk); padding-left: 4px; }
+  .ek-not::before { content: ''; width: 6px; flex-shrink: 0; border-radius: 3px;
+                    background: var(--aksan); }
+  .dev-numara { top: 168px; right: 52px; font-size: 230px; }
 </style>
 </head><body>
 <div class="slayt tema-deniz">
@@ -28,10 +33,11 @@
     <p>Yanıtlama stilini ve kaynak kontrolü gibi tüm kurallarını anlat.</p>
     <div class="sohbet">
       <div class="cubuk"><span class="nokta"></span><span class="nokta"></span><span class="nokta"></span></div>
-      <div class="mesaj">E-postalarıma cevapları yazarken her zaman belgelere dayandır.
+      <div class="mesaj">E-postalarımı cevaplarken yanıtlarını her zaman belgelere dayandır.
         Kısa ve net yaz. Gerektiği kadar bilgi ver. Onayım olmadan gönderme.
         <em>Bunu skill olarak kaydet.</em></div>
     </div>
+    <div class="ek-not">Belgeleriniz Drive'da ise onu da bağlamalısın.</div>
   </div>
 
   <div class="alt"><span>Grow with Tech</span><span class="sayfa">03 / 05</span></div>

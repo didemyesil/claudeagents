@@ -1,11 +1,12 @@
 # Karusel — Ajan gibi kullan (4 adım)
 
-**Slayt akışı (Listicle-Checklist, 5 slayt)**
+**Slayt akışı (Listicle-Checklist, 6 slayt)**
 1. Kapak — Yapay zekâyı Google gibi kullanmayı bırak. / 4 adımda ajan gibi kullanmayı öğren.
 2. Adım 1 — Araçlarını bağla. (Plugins → Gmail, ekran görüntüsü)
 3. Adım 2 — Çalışma şeklini Skill olarak tanımla. (sohbet balonu)
 4. Adım 3 — Zamanlı görev tanımla. (sohbet ekranı)
 5. Adım 4 — Test et ve iyileştir. (gönderme yetkisi uyarısı)
+6. CTA — Kaydet · Paylaş · Takip et (çizgi ikonlu eylem kartları)
 
 İçerik alanı (iç sınıflandırma): Yapay Zekâyla Çalışmak
 
@@ -18,6 +19,7 @@ araçlarımı bağladım, çalışma biçimimi bir kez yazdım, gerisini zamanl�
 yetkisi hâlâ bende — ve orada kalacak. Ajan hazırlar, son kontrolü ben yaparım.
 
 4 adım kaydetmelik: bağla, tanımla, zamanla, test et.
+Bunun gibi pratik yapay zekâ ipuçları için kaydet, paylaş, takip et.
 Sen hangi işini bu akışa taşırdın?
 
 ## Hashtag

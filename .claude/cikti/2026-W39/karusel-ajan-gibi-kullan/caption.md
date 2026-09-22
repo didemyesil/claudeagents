@@ -6,7 +6,8 @@
 3. Adım 2 — Çalışma şeklini Skill olarak tanımla. (sohbet balonu)
 4. Adım 3 — Zamanlı görev tanımla. (sohbet ekranı)
 5. Adım 4 — Test et ve iyileştir. (gönderme yetkisi uyarısı)
-6. CTA — Kaydet · Paylaş · Takip et (çizgi ikonlu eylem kartları)
+6. CTA — Yapay zekâyla kendi çalışma sistemini kurmak için bu 4 adımı kaydet.
+   (kaydet ikonu + 4 adımın tek satırlık özeti)
 
 İçerik alanı (iç sınıflandırma): Yapay Zekâyla Çalışmak
 
@@ -19,7 +20,7 @@ araçlarımı bağladım, çalışma biçimimi bir kez yazdım, gerisini zamanl�
 yetkisi hâlâ bende — ve orada kalacak. Ajan hazırlar, son kontrolü ben yaparım.
 
 4 adım kaydetmelik: bağla, tanımla, zamanla, test et.
-Bunun gibi pratik yapay zekâ ipuçları için kaydet, paylaş, takip et.
+Yapay zekâyla kendi çalışma sistemini kurmak için bu 4 adımı kaydet.
 Sen hangi işini bu akışa taşırdın?
 
 ## Hashtag

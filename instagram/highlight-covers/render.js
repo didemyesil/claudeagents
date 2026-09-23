@@ -98,6 +98,55 @@ Object.assign(icons, {
     <rect x="508" y="540" width="74" height="40" rx="10" fill="${LAV2}" ${S} transform="translate(0 -8)"/>`,
 });
 
+// Atölye alternatifleri
+Object.assign(icons, {
+  // A: Masa etrafında grup çalışması
+  atolye_a: `
+    <path d="M296 562 C296 486 330 462 380 462 C430 462 464 486 464 562 Z" fill="${YELLOW}" ${S}/>
+    <circle cx="380" cy="392" r="50" fill="${YELLOW}" ${S}/>
+    <path d="M616 562 C616 486 650 462 700 462 C750 462 784 486 784 562 Z" fill="${GREEN}" ${S}/>
+    <circle cx="700" cy="392" r="50" fill="${GREEN}" ${S}/>
+    <path d="M444 562 C444 456 488 426 540 426 C592 426 636 456 636 562 Z" fill="${PURPLE}" ${S}/>
+    <circle cx="540" cy="348" r="56" fill="${LAV2}" ${S}/>
+    <rect x="260" y="560" width="560" height="48" rx="14" fill="${WHITE}" ${S}/>
+    <path d="M320 608 V740 M760 608 V740" ${S}/>
+    <rect x="478" y="488" width="124" height="74" rx="10" fill="${WHITE}" stroke="${INK}" stroke-width="10"/>
+    <circle cx="540" cy="524" r="9" fill="${PURPLE}"/>
+    <rect x="322" y="530" width="84" height="32" rx="6" fill="${IVORY}" stroke="${INK}" stroke-width="8" transform="rotate(-6 364 546)"/>
+    <rect x="672" y="530" width="84" height="32" rx="6" fill="${LAV2}" stroke="${INK}" stroke-width="8" transform="rotate(5 714 546)"/>`,
+  // B: Alet çantası (uygulamalı çalışma)
+  atolye_b: `
+    <path d="M470 440 V390 C470 370 480 360 500 360 H580 C600 360 610 370 610 390 V440" fill="none" ${S}/>
+    <g transform="rotate(-18 400 360)">
+      <rect x="378" y="290" width="44" height="160" rx="8" fill="${LAV2}" stroke="${INK}" stroke-width="10"/>
+      <path d="M378 290 L400 244 L422 290 Z" fill="${IVORY}" stroke="${INK}" stroke-width="10" stroke-linejoin="round"/>
+    </g>
+    <rect x="640" y="290" width="44" height="170" rx="6" fill="${YELLOW}" stroke="${INK}" stroke-width="10" transform="rotate(14 662 375)"/>
+    <path d="M654 320 h20 M654 350 h14 M654 380 h20 M654 410 h14" stroke="${INK}" stroke-width="6" stroke-linecap="round" transform="rotate(14 662 375)"/>
+    <rect x="300" y="440" width="480" height="300" rx="24" fill="${PURPLE}" ${S}/>
+    <path d="M300 540 H780" ${S}/>
+    <rect x="500" y="510" width="80" height="60" rx="10" fill="${YELLOW}" stroke="${INK}" stroke-width="10"/>
+    <path d="M360 620 H460 M360 670 H430" stroke="${LAV2}" stroke-width="12" stroke-linecap="round"/>`,
+  // C: Görev panosu / clipboard + kalem
+  atolye_c: `
+    <rect x="340" y="300" width="360" height="460" rx="24" fill="${PURPLE}" ${S}/>
+    <rect x="375" y="345" width="290" height="380" rx="10" fill="${WHITE}" stroke="${INK}" stroke-width="10"/>
+    <rect x="450" y="272" width="140" height="62" rx="14" fill="${YELLOW}" ${S}/>
+    <rect x="405" y="400" width="44" height="44" rx="8" fill="${GREEN}" stroke="${INK}" stroke-width="8"/>
+    <path d="M414 422 l10 10 l18 -20" stroke="${INK}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M472 422 H620" stroke="${INK}" stroke-width="10" stroke-linecap="round"/>
+    <rect x="405" y="490" width="44" height="44" rx="8" fill="${GREEN}" stroke="${INK}" stroke-width="8"/>
+    <path d="M414 512 l10 10 l18 -20" stroke="${INK}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M472 512 H600" stroke="${INK}" stroke-width="10" stroke-linecap="round"/>
+    <rect x="405" y="580" width="44" height="44" rx="8" fill="${WHITE}" stroke="${INK}" stroke-width="8"/>
+    <path d="M472 602 H580" stroke="${LAV2}" stroke-width="10" stroke-linecap="round"/>
+    <g transform="rotate(35 700 600)">
+      <rect x="678" y="480" width="44" height="170" rx="8" fill="${YELLOW}" stroke="${INK}" stroke-width="8"/>
+      <path d="M678 650 L700 700 L722 650 Z" fill="${IVORY}" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/>
+      <rect x="678" y="480" width="44" height="28" rx="6" fill="${PURPLE}" stroke="${INK}" stroke-width="8"/>
+    </g>`,
+});
+
 const svg = (key, w, h) => {
   const dy = (h - 1080) / 2;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
@@ -134,5 +183,12 @@ const svg = (key, w, h) => {
   await page.setViewportSize({ width: 1200, height: 360 });
   await page.setContent(`<html><body style="margin:0;background:#fff;display:flex;gap:40px;padding:40px 50px">${row2}</body></html>`);
   await page.screenshot({ path: 'egitim-secenekler.png' });
+  const opts3 = [['atolye','Şu anki'],['atolye_a','A · Grup çalışması'],['atolye_b','B · Alet çantası'],['atolye_c','C · Görev panosu']];
+  const row3 = opts3.map(([k,l]) => `<div style="text-align:center;font:26px sans-serif;color:#222">
+    <div style="width:220px;height:220px;border-radius:50%;padding:8px;border:3px solid #ddd">
+    <div style="width:220px;height:220px;border-radius:50%;overflow:hidden">${svg(k,1080,1080).replace('width="1080" height="1080"','width="220" height="220"')}</div></div>
+    <div style="margin-top:14px">${l}</div></div>`).join('');
+  await page.setContent(`<html><body style="margin:0;background:#fff;display:flex;gap:40px;padding:40px 50px">${row3}</body></html>`);
+  await page.screenshot({ path: 'atolye-secenekler.png' });
   await browser.close();
 })();

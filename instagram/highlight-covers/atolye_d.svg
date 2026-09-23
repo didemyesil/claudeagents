@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#EEE8FD"/>
+  <g transform="translate(0 0)"><g transform="translate(540 540) scale(1.15) translate(-540 -540)"><path d="M540 250 C700 244 842 352 838 530 C834 700 716 836 536 832 C360 828 238 712 244 536 C250 372 372 256 540 250Z" fill="#FFF4DD"/>
+    <circle cx="540" cy="470" r="215" fill="#FFF4DD" stroke="#2E2266" stroke-width="14"/>
+    <circle cx="625.5" cy="235.1" r="74" fill="#6C3FE4" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="597.5" cy="312.1" r="44" fill="#6C3FE4" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="774.9" cy="555.5" r="74" fill="#F5C542" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="697.9" cy="527.5" r="44" fill="#F5C542" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="454.5" cy="704.9" r="74" fill="#A9B99A" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="482.5" cy="627.9" r="44" fill="#A9B99A" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="305.1" cy="384.5" r="74" fill="#D9CCFB" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="382.1" cy="412.5" r="44" fill="#D9CCFB" stroke="#2E2266" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="470" y="425" width="140" height="92" rx="10" fill="#FFFFFF" stroke="#2E2266" stroke-width="10"/>
+    <path d="M496 458 H584 M496 482 H556" stroke="#D9CCFB" stroke-width="8" stroke-linecap="round"/></g>
+  <g stroke="#F5C542" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M232 250 l-34 -30"/><path d="M262 222 l-8 -44"/><path d="M204 290 l-44 -6"/>
+  </g>
+  <circle cx="850" cy="820" r="12" fill="#F5C542"/><circle cx="890" cy="780" r="7" fill="#F5C542"/></g></svg>

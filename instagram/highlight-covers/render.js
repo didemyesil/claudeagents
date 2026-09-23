@@ -15,6 +15,20 @@ const accents = (c) => `
   </g>
   <circle cx="850" cy="820" r="12" fill="${c}"/><circle cx="890" cy="780" r="7" fill="${c}"/>`;
 
+
+function rotPt(x, y, deg) {
+  const r = deg * Math.PI / 180;
+  return [x * Math.cos(r) - y * Math.sin(r), x * Math.sin(r) + y * Math.cos(r)];
+}
+// Kuşbakışı oturan kişi: omuz (dış, büyük daire) + kafa (iç, küçük daire) iç içe geçerek tek bir siluet oluşturur
+function personTop(cx, cy, angDeg, color) {
+  const Rshoulder = 250, rShoulder = 74, Rhead = 168, rHead = 44;
+  const [sx, sy] = rotPt(0, -Rshoulder, angDeg);
+  const [hx, hy] = rotPt(0, -Rhead, angDeg);
+  return `<circle cx="${(cx+sx).toFixed(1)}" cy="${(cy+sy).toFixed(1)}" r="${rShoulder}" fill="${color}" ${S}/>
+    <circle cx="${(cx+hx).toFixed(1)}" cy="${(cy+hy).toFixed(1)}" r="${rHead}" fill="${color}" ${S}/>`;
+}
+
 const icons = {
   // Laptop + canlı görüntülü görüşme ekranı
   webinar: `
@@ -96,9 +110,16 @@ Object.assign(icons, {
     <path d="M500 540 H590" ${S}/>
     <path d="M512 500 C512 450 545 430 545 390 M578 500 C578 450 545 430 545 390" stroke="${PURPLE}" stroke-width="10" stroke-linecap="round" fill="none"/>
     <rect x="508" y="540" width="74" height="40" rx="10" fill="${LAV2}" ${S} transform="translate(0 -8)"/>`,
+  // D: Masa etrafında oturan insanlar (kuşbakışı)
+  atolye_d: `
+    <circle cx="540" cy="470" r="215" fill="${IVORY}" stroke="${INK}" stroke-width="14"/>
+    ${personTop(540,470,20,PURPLE)}
+    ${personTop(540,470,110,YELLOW)}
+    ${personTop(540,470,200,GREEN)}
+    ${personTop(540,470,290,LAV2)}
+    <rect x="470" y="425" width="140" height="92" rx="10" fill="${WHITE}" stroke="${INK}" stroke-width="10"/>
+    <path d="M496 458 H584 M496 482 H556" stroke="${LAV2}" stroke-width="8" stroke-linecap="round"/>`,
 });
-
-// Atölye alternatifleri
 Object.assign(icons, {
   // A: Masa etrafında grup çalışması
   atolye_a: `
@@ -183,7 +204,7 @@ const svg = (key, w, h) => {
   await page.setViewportSize({ width: 1200, height: 360 });
   await page.setContent(`<html><body style="margin:0;background:#fff;display:flex;gap:40px;padding:40px 50px">${row2}</body></html>`);
   await page.screenshot({ path: 'egitim-secenekler.png' });
-  const opts3 = [['atolye','Şu anki'],['atolye_a','A · Grup çalışması'],['atolye_b','B · Alet çantası'],['atolye_c','C · Görev panosu']];
+  const opts3 = [['atolye','Şu anki'],['atolye_a','A · Grup çalışması'],['atolye_b','B · Alet çantası'],['atolye_c','C · Görev panosu'],['atolye_d','D · Masa etrafı']];
   const row3 = opts3.map(([k,l]) => `<div style="text-align:center;font:26px sans-serif;color:#222">
     <div style="width:220px;height:220px;border-radius:50%;padding:8px;border:3px solid #ddd">
     <div style="width:220px;height:220px;border-radius:50%;overflow:hidden">${svg(k,1080,1080).replace('width="1080" height="1080"','width="220" height="220"')}</div></div>

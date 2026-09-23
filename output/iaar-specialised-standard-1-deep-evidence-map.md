@@ -458,15 +458,22 @@ or decision is supplied
 | 1.4 | Field Representatives Guidelines | **Primary** | *to be decided* | ⚠️ Partial | Held for the Master's; the other programmes depend on the scope decision | The institution — scope |
 | 1.5 | Consolidated Field Representative Feedback | Supporting → St. 9 | Per programme | ⚠️ Partial | Held for the Bachelor's; no dated record of a review for the Master's or the Tech MBA | Not yet — arises when a review is held |
 | 1.6 | Action Planning | Supporting → St. 9 | Per programme | ✅ Complete | — (Bachelor's) | — |
-| 1.7 | Teaching and Examination Regulations | Supporting → St. 3/4 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | Tech MBA provisions to be added to the master's-level set | Us — after confirmation |
-| 1.8 | Policy on Assessment | Supporting → St. 3 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | As above | Us — after confirmation |
-| 1.9 | Examination Board Handbook | Supporting → St. 3 | Master's + Tech MBA shared · Bachelor's own | ⚠️ Partial | As above; and that one board serves all three programmes | Us — after confirmation |
+| 1.7 | Teaching and Examination Regulations | Supporting → St. 3/4 | Institution | ⚠️ Partial | The Master's and Bachelor's sets to be merged into one institutional document with a programme annex each; the Tech MBA has no set of its own yet | Us |
+| 1.8 | Policy on Assessment | Supporting → St. 3 | Institution | ⚠️ Partial | As above | Us |
+| 1.9 | Examination Board Handbook | Supporting → St. 3 | Institution | ⚠️ Partial | As above; and that one board serves all three programmes | Us |
 | 1.10 | Faculty Research | Supporting → St. 5 | Master's | ❌ Open | No equivalent for the Bachelor's or the Tech MBA | The institution — how currency is maintained in those programmes |
 
 **Summary:** of ten appendices, **2 complete**, **6 partial**, **1 to produce**,
 **1 open**.
 
-**Five decisions needed from the institution:**
+**Scope settled 2026-09-23.** The Teaching and Examination Regulations, the
+Policy on Assessment, the Examination Board Handbook and the Policy for
+Quality Assurance are institution-level: one document each, covering all three
+programmes, with level-specific provisions carried in a programme annex rather
+than the common part. Educational handbooks and module descriptions stay per
+programme. See `output/document-scope-register.md`.
+
+**Still needed from the institution:**
 
 1. Is the annual review cycle for the quality assurance policy correct as
    described?

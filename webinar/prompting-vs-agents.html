@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Prompting vs AI Agent</title>
+<style>
+  @font-face { font-family: "Poppins"; src: url("fonts/Poppins-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Poppins"; src: url("fonts/Poppins-SemiBold.ttf"); font-weight: 600; }
+  @font-face { font-family: "Poppins"; src: url("fonts/Poppins-Bold.ttf"); font-weight: 700; }
+  @font-face { font-family: "Nunito"; src: url("fonts/Nunito-VariableFont_wght.ttf"); font-weight: 200 1000; }
+
+  :root {
+    --paper: #FFFBF3;
+    --ivory: #FFF4DD;
+    --purple: #31005E;
+    --purple-soft: #F2E6ED;
+    --yellow: #FFB900;
+    --yellow-soft: #FEF2D5;
+    --green: #A9B99A;
+    --green-soft: #EEF1EB;
+    --ink: #241539;
+    --muted: #6B5E7B;
+    --line: #E6DCCB;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide { position: absolute; inset: 0; padding: 60px 96px 52px; display: flex; flex-direction: column; }
+
+  /* header */
+  .kicker {
+    font-family: "Nunito"; font-weight: 800; font-size: 22px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  h1 {
+    font-family: "Poppins"; font-weight: 700; font-size: 64px; line-height: 1.08;
+    color: var(--purple); margin-top: 10px; letter-spacing: -.01em;
+  }
+  h1 .hl { position: relative; white-space: nowrap; }
+  h1 .hl svg { position: absolute; left: -8px; right: -8px; bottom: -14px; width: calc(100% + 16px); height: 22px; z-index: -1; }
+  .sub { font-size: 28px; color: var(--muted); margin-top: 16px; font-weight: 500; }
+
+  /* table */
+  .table {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: 330px 1fr 1fr;
+    column-gap: 28px;
+    flex: 1;
+  }
+  .colhead {
+    display: flex; align-items: center; gap: 18px;
+    padding: 18px 28px; border-radius: 18px 18px 0 0;
+    font-family: "Poppins"; font-weight: 600; font-size: 32px;
+  }
+  .colhead small { display: block; font-family: "Nunito"; font-weight: 700; font-size: 19px; letter-spacing: .02em; opacity: .8; margin-top: 2px; }
+  .colhead.prompt { background: var(--yellow-soft); color: var(--ink); border: 2px solid var(--ink); border-bottom: none; }
+  .colhead.agent  { background: var(--purple); color: #fff; border: 2px solid var(--purple); border-bottom: none; }
+  .colhead svg { flex: none; }
+
+  .label, .cell { padding: 16px 28px; display: flex; align-items: center; min-height: 108px; }
+  .label {
+    gap: 18px; font-family: "Poppins"; font-weight: 600; font-size: 27px; line-height: 1.2; color: var(--purple);
+    border-top: 2px dashed var(--line);
+    padding-left: 0;
+  }
+  .label .n {
+    flex: none; width: 50px; height: 50px; border-radius: 50%;
+    background: var(--yellow); color: var(--ink);
+    display: grid; place-items: center; font-size: 22px; font-weight: 700;
+  }
+  .cell { font-size: 25px; line-height: 1.35; font-weight: 500; }
+  .cell b { font-weight: 800; }
+  .cell.prompt { background: #FFFFFF; border-left: 2px solid var(--ink); border-right: 2px solid var(--ink); border-top: 2px dashed var(--line); }
+  .cell.agent  { background: var(--purple-soft); border-left: 2px solid var(--purple); border-right: 2px solid var(--purple); border-top: 2px dashed #DCC8D8; }
+  .first { border-top: none !important; }
+  .last.prompt { border-bottom: 2px solid var(--ink); border-radius: 0 0 18px 18px; }
+  .last.agent  { border-bottom: 2px solid var(--purple); border-radius: 0 0 18px 18px; }
+  .label.lastl { border-bottom: 2px dashed var(--line); }
+
+  /* footer */
+  .foot { display: flex; justify-content: space-between; align-items: center; margin-top: 26px; }
+  .takeaway {
+    display: inline-flex; align-items: center; gap: 16px;
+    background: var(--green-soft); border-left: 6px solid var(--green);
+    padding: 14px 26px; border-radius: 10px; font-size: 25px; font-weight: 600;
+  }
+  .takeaway b { font-family: "Poppins"; font-weight: 600; color: var(--purple); }
+  .brand { font-family: "Poppins"; font-weight: 600; font-size: 22px; color: var(--purple); letter-spacing: .01em; }
+
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="kicker" lang="en">Agentic AI · Temel fark</div>
+  <h1>Prompting mi, <span class="hl">Agent mı?<svg viewBox="0 0 300 22" preserveAspectRatio="none"><path d="M4 14 C 60 6, 120 18, 180 10 S 270 8, 296 12" stroke="#FFB900" stroke-width="12" fill="none" stroke-linecap="round" opacity=".85"/></svg></span></h1>
+  <p class="sub">Aynı dil modeli, iki farklı çalışma biçimi.</p>
+
+  <div class="table">
+    <div></div>
+    <div class="colhead prompt">
+      <!-- chat bubble: one request, one reply -->
+      <svg width="58" height="58" viewBox="0 0 58 58" aria-hidden="true">
+        <circle cx="29" cy="29" r="28" fill="#FFB900"/>
+        <path d="M14 18 h24 a4 4 0 0 1 4 4 v11 a4 4 0 0 1 -4 4 h-13 l-7 6 v-6 h-4 a4 4 0 0 1 -4 -4 v-11 a4 4 0 0 1 4 -4z" fill="#fff" stroke="#241539" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M19 25 h18 M19 30 h11" stroke="#241539" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <div>LLM Prompting<small>Soru sor → cevap al</small></div>
+    </div>
+    <div class="colhead agent">
+      <!-- loop with tool nodes: plan-act-observe -->
+      <svg width="58" height="58" viewBox="0 0 58 58" aria-hidden="true">
+        <circle cx="29" cy="29" r="28" fill="#FFB900"/>
+        <path d="M17 22 a14 14 0 0 1 24 -2" stroke="#241539" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M41 36 a14 14 0 0 1 -24 2" stroke="#241539" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M36 15 l5 5 l-6 2" stroke="#241539" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 43 l-5 -5 l6 -2" stroke="#241539" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="23" y="23" width="12" height="12" rx="3" fill="#fff" stroke="#241539" stroke-width="2.5"/>
+      </svg>
+      <div>AI Agent<small>Hedef ver → iş bitsin</small></div>
+    </div>
+
+    <div class="label first"><span class="n">1</span>Kim yönetir?</div>
+    <div class="cell prompt first"><p>Her adımı <b>sen</b> yazarsın; model tek bir isteğe yanıt verir.</p></div>
+    <div class="cell agent first"><p>Sen <b>hedefi</b> verirsin; agent adımları kendisi planlar.</p></div>
+
+    <div class="label"><span class="n">2</span>Çalışma akışı</div>
+    <div class="cell prompt"><p>Tek seferlik: <b>istek → yanıt.</b> Sonraki adım yine sende.</p></div>
+    <div class="cell agent"><p>Döngü: <b>planla → uygula → kontrol et → düzelt</b>, iş bitene kadar.</p></div>
+
+    <div class="label"><span class="n">3</span>Araç kullanımı</div>
+    <div class="cell prompt"><p>Yalnızca bildikleri ve senin yapıştırdığın metinle çalışır.</p></div>
+    <div class="cell agent"><p><b>Araçlara bağlanır:</b> web, dosya, e-posta, takvim, API.</p></div>
+
+    <div class="label"><span class="n">4</span>Hafıza &amp; bağlam</div>
+    <div class="cell prompt"><p>Sohbet penceresiyle sınırlı; bağlamı her seferinde sen taşırsın.</p></div>
+    <div class="cell agent"><p>Görev boyunca <b>durumu takip eder,</b> ara sonuçları hatırlar.</p></div>
+
+    <div class="label lastl"><span class="n">5</span>Senin rolün</div>
+    <div class="cell prompt last"><p><b>Operatör:</b> çıktıyı kopyalar, bir sonraki işe sen taşırsın.</p></div>
+    <div class="cell agent last"><p><b>Yönetici:</b> hedef koyar, sınır çizer, kritik noktada onaylarsın.</p></div>
+  </div>
+
+  <div class="foot">
+    <div class="takeaway"><b>Özetle:</b> Prompting bir cevap üretir; agent bir işi tamamlar.</div>
+    <div class="brand">Grow with Tech</div>
+  </div>
+</div>
+</body>
+</html>

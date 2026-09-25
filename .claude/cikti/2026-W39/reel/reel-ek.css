@@ -1,0 +1,20 @@
+/* Bu reel'e ozel ek bilesenler — brand.css degiskenleriyle */
+.bilesen-no { font-size: 260px; line-height: .85; font-weight: 700; letter-spacing: -.05em; color: var(--aksan); }
+.bilesen-ad { font-size: 110px; line-height: 1; font-weight: 700; color: var(--indigo); letter-spacing: -.03em; }
+.bilesen-mecaz { font-size: 50px; font-weight: 600; color: var(--indigo); }
+.ornekler { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; max-width: 900px; }
+.ornekler span { background: var(--aksan-yumusak); color: var(--indigo); font-size: 32px; font-weight: 700; padding: 14px 28px; border-radius: 999px; }
+.sahne p.aciklama { font-size: 40px; max-width: 860px; }
+.ilerleme { position: absolute; top: 150px; left: 0; right: 0; display: flex; justify-content: center; gap: 14px; }
+.ilerleme i { width: 70px; height: 10px; border-radius: 5px; background: var(--cizgi); }
+.ilerleme i.on { background: var(--aksan); }
+.karsit { display: flex; flex-direction: column; gap: 26px; width: 100%; }
+.karsit .satir { display: flex; align-items: center; gap: 26px; text-align: left; }
+.karsit .kim { flex-shrink: 0; width: 250px; }
+.karsit .ne { font-size: 38px; font-weight: 600; color: var(--indigo); line-height: 1.35; }
+.koyu-panel .satir .etk { color: var(--altin); margin-right: 14px; }
+.koyu-panel .satir { font-size: 34px; }
+.sahne .sonuc-etiket { font-size: 27px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--mor); }
+.karsit .kim .pill { white-space: nowrap; }
+.karsit .kim { width: auto; }
+.karsit .satir { justify-content: center; }

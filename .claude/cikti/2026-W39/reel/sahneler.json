@@ -1,0 +1,11 @@
+{ "gecis": 0.35,
+  "sahneler": [
+    { "html": "sahne-1.html", "sure": 3.5 },
+    { "html": "sahne-2.html", "sure": 4.2 },
+    { "html": "sahne-3.html", "sure": 4.0 },
+    { "html": "sahne-4.html", "sure": 4.0 },
+    { "html": "sahne-5.html", "sure": 4.0 },
+    { "html": "sahne-6.html", "sure": 4.2 },
+    { "html": "sahne-7.html", "sure": 5.8 },
+    { "html": "sahne-8.html", "sure": 3.6 }
+  ] }

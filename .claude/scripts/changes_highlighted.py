@@ -57,6 +57,13 @@ def blocks(md):
         if m:
             out.append(("h", len(m.group(1)), strip_marks(m.group(2))))
             continue
+        if s.startswith("|"):
+            if re.fullmatch(r"\|[-:| ]+\|", s):          # separator: previous row is the header
+                if out and out[-1][0] == "tr":
+                    out[-1] = ("th", 0, out[-1][2])
+                continue
+            out.append(("tr", 0, s))
+            continue
         if s.startswith("- "):
             out.append(("li", 0, s[2:]))
             continue
@@ -84,6 +91,25 @@ def render_inline(text):
         else:
             parts.append(html.escape(part))
     return "".join(parts)
+
+
+def cells(row):
+    return [c.strip() for c in row.strip().strip("|").split("|")]
+
+
+def render_cells(row, old=None, tag="td", highlight_all=False):
+    new = cells(row)
+    olds = cells(old) if old is not None and len(cells(old)) == len(new) else None
+    out = []
+    for i, c in enumerate(new):
+        if highlight_all and c:
+            body = mark(render_inline(c))
+        elif olds is not None:
+            body = word_diff_html(olds[i], c) if olds[i] != c else render_inline(c)
+        else:
+            body = render_inline(c)
+        out.append(f"<{tag}>{body}</{tag}>")
+    return "<tr>" + "".join(out) + "</tr>"
 
 
 def mark(s):
@@ -121,23 +147,42 @@ def build(orig_md, rev_md, renames):
         hi.append((b[0], b[1], text_hi))
         clean.append((b[0], b[1], text_clean))
 
+    def is_row(b):
+        return b[0] in ("tr", "th")
+
+    def row_html(b, old=None, highlight_all=False):
+        return render_cells(b[2], old, "th" if b[0] == "th" else "td", highlight_all)
+
     for op, i1, i2, j1, j2 in sm.get_opcodes():
         if op == "equal":
             for b in rb[j1:j2]:
-                t = render_inline(b[2]) if b[0] != "h" else html.escape(b[2])
+                t = row_html(b) if is_row(b) else (render_inline(b[2]) if b[0] != "h" else html.escape(b[2]))
                 emit(b, t, t)
         elif op == "delete":
             if SHOW_DELETED:
                 for b in ob[i1:i2]:
-                    hi.append((b[0], b[1], "<del>" + html.escape(strip_marks(b[2])) + "</del>"))
+                    if is_row(b):
+                        hi.append(("tr", 0, "<tr>" + "".join("<td><del>" + html.escape(c) + "</del></td>" for c in cells(b[2])) + "</tr>"))
+                    else:
+                        hi.append((b[0], b[1], "<del>" + html.escape(strip_marks(b[2])) + "</del>"))
             continue
         elif op == "insert":
             for b in rb[j1:j2]:
+                if is_row(b):
+                    emit(b, row_html(b, highlight_all=True), row_html(b))
+                    continue
                 t = render_inline(b[2]) if b[0] != "h" else html.escape(b[2])
                 emit(b, mark(t), t)
         else:  # replace: pair up block by block, word-diff the pairs
             olds, news = ob[i1:i2], rb[j1:j2]
             for k, b in enumerate(news):
+                if is_row(b):
+                    old = olds[k][2] if k < len(olds) and is_row(olds[k]) else None
+                    if old is not None and len(cells(old)) == len(cells(b[2])):
+                        emit(b, row_html(b, old), row_html(b))
+                    else:
+                        emit(b, row_html(b, highlight_all=True), row_html(b))
+                    continue
                 t = render_inline(b[2]) if b[0] != "h" else html.escape(b[2])
                 if k < len(olds) and olds[k][0] == b[0]:
                     emit(b, word_diff_html(olds[k][2], b[2]), t)
@@ -149,14 +194,26 @@ def build(orig_md, rev_md, renames):
 PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{title}</title>
 <style>body{{font-family:Calibri,Arial,sans-serif;font-size:11pt;max-width:800px;margin:2em auto;padding:0 1em;line-height:1.45;color:#1f1f1f}}
 h1,h2,h3,h4{{font-weight:normal;margin:1.2em 0 .3em}}h1{{font-size:20pt}}h2{{font-size:16pt}}h3{{font-size:13pt}}h4{{font-size:11pt}}
-mark{{background:#fff176;color:#000}}del{{color:#b00020}}</style></head><body>
+mark{{background:#fff176;color:#000}}del{{color:#b00020}}table{{border-collapse:collapse;width:100%;margin:.6em 0}}th,td{{border:1px solid #999;padding:5px 7px;vertical-align:top;text-align:left;font-size:10pt}}th{{background:#eee;font-weight:normal}}</style></head><body>
 {body}
 </body></html>"""
 
 
 def to_page(items, title):
-    out, inlist = [], False
+    out, inlist, intable = [], False, False
     for kind, lvl, text in items:
+        if kind in ("tr", "th"):
+            if inlist:
+                out.append("</ul>")
+                inlist = False
+            if not intable:
+                out.append("<table>")
+                intable = True
+            out.append(text)
+            continue
+        if intable:
+            out.append("</table>")
+            intable = False
         if kind == "li":
             if not inlist:
                 out.append("<ul>")
@@ -169,6 +226,8 @@ def to_page(items, title):
         out.append(f"<h{lvl}>{text}</h{lvl}>" if kind == "h" else "<p>" + text + "</p>")
     if inlist:
         out.append("</ul>")
+    if intable:
+        out.append("</table>")
     return PAGE.format(title=html.escape(title), body="\n".join(out))
 
 

@@ -1,0 +1,23 @@
+# Progress log — IAAR specialised (Schoolvision B.V.)
+
+Internal working record. Not a deliverable.
+
+## Working rules agreed with Didem
+- Guide in use: IAAR 2018 "Standards and Guidelines for International Accreditation of Foreign Educational Organisations and Educational Programmes (based on ESG)". Ex-ante / initial accreditation. Didem decided 2018 is the edition to use (IAAR's site also lists 2026 files, not checked).
+- Entity name in texts: Schoolvision (School Vision B.V.). Easy to change later.
+- Replies in English; Didem writes Turkish. Keep replies short; one question at a time; do not ask many questions.
+- Write the designed / expected state; programmes have not launched, so never state past events or results.
+- Review copies: `.claude/scripts/changes_highlighted.py` builds an HTML page (changes bold + yellow) and a clean copy; Didem has no Word and copies the page into Google Docs.
+- Existing documents are improved in place; do not create copies per programme. Documents covering several programmes are one file.
+- Final gap check is done at the Dean stage (coherence audit), not now.
+
+## Standard 1
+- QA Policy institution-wide: draft v1 in `drafts/qa-policy-institution-wide-draft-v1.md`; answers behind it in `standard-1-qa-policy-answers.md`. Sample question 8 (scientific community) parked; 10 left undefined on purpose. Pending: version date, Pearson credential name, Bachelor "certificate/VIVA" terms, academic freedom text.
+- Equal Opportunities Policy: final text in `drafts/equal-opportunities-policy-final.md` (from Didem's own Drive document, improved).
+
+## Standard 2 (map: `output/iaar-specialised-standard-2-deep-evidence-map.md`)
+- NLQF and QF-EHEA are required by the standard text; EQF is not (dropped). Dublin Descriptors = QF-EHEA descriptors.
+- 2.1 Programme Design and Approval Procedure: guidelines v6 in `drafts/programme-design-and-approval-guidelines-v6.md` (7 dimensions, 7 stages). Open: dated Executive Board approvals; confirm learners/faculty in stage 3; Bachelor/Tech MBA assessment structure.
+- 2.2 / 2.11 alignment, Master's: FINAL. Repo file `evidence/professional-masters-applied-ai/appendices/Appendix 1 - ...md`; Drive copy "Standard 2_IAAR_Programme Outcomes Alignment with Qualification Frameworks_Masters in Applied AI". Check: in the four-purposes table of the Drive copy, bold markers show as literal asterisks.
+- Next: Bachelor's two alignment documents (add QF-EHEA/NLQF 6 statement and four purposes); Tech MBA has no alignment document (outcome-level table needed).
+- Still to do: 2.3 Diploma Supplement, 2.4 external review plan, 2.9 design record, 2.10 programme profiles, 2.12 curriculum structure and workload, 2.13 module descriptions, 2.14 traineeship, 2.15 change register. Questions Q2–Q10 in the map still need Didem (Tech MBA version of record is the biggest).

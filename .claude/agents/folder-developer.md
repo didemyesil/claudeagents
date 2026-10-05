@@ -201,7 +201,16 @@ panel: those belong in your handover, not in a document.
      from the institution's existing document;
    - **drafted** — did not previously exist.
 
-3. **Your handover** — the internal record, under `/output/internal/`:
+3. **A review copy for every adapted or revised document** — under
+   `/output/review/`, built with `.claude/scripts/changes_highlighted.py`
+   (original, revised, output; `--same "Old=>New"` for global renames,
+   `--show-deleted` for removals, `--clean` for the unhighlighted version).
+   Only changed or added text is bold and yellow. Didem has no Word and
+   reviews in Google Docs, so this is HTML she copies into a Doc, never a
+   .docx. It is a review aid, not a deliverable: the filed document stays
+   clean.
+
+4. **Your handover** — the internal record, under `/output/internal/`:
    documents produced, open questions still blocking a document, anything you
    refused to write, and the risks a panel would probe.
 

@@ -177,12 +177,29 @@ Outputs:
   (existing, unchanged), **extended** (existing, with material added),
   **issued** (produced for a programme that lacked it), **drafted** (did not
   previously exist).
+- **A changes-highlighted review copy** for every document that was adapted
+  or revised from an existing original (see *Review copies* below). Didem
+  reviews in Google Docs and has no Word, so this is an HTML page, not a
+  .docx.
 
 Work the Stage 1.5 map's genuine gaps **one at a time with Didem** — ask,
 get her answer, finish that item, then move to the next — rather than
 collecting every open question and dumping them on her at once. Classify
 each absence by the three-kinds rule above before deciding what to do with
 it.
+
+**Review copies.** Whenever a document is adapted or revised from an
+existing original, build the review copy with
+`.claude/scripts/changes_highlighted.py` (original, revised, output; add
+`--same "Old=>New"` for a global rename such as the institution's name, and
+`--show-deleted` so pure deletions are visible). In it only the text that was
+changed or added is bold and yellow; headings are headings and the
+original's own bold is dropped, so bold always means "changed". The same
+run writes a clean copy (`--clean`) with no highlighting — that is the
+version that goes out after review. Tell Didem how to use it: open the page
+in a browser, select all, copy, paste into a Google Doc. Say in the
+hand-off which global renames were not highlighted. Review copies live
+under `/output/review/` and are never part of the deliverable.
 
 **STOP — present for Didem's approval.** Surface: (1) every document
 drafted or adapted, which she reviews as documents, not as a report;

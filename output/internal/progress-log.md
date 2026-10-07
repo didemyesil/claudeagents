@@ -13,6 +13,7 @@ Internal working record. Not a deliverable.
 
 ## Standard 1
 - QA Policy institution-wide: draft v1 in `drafts/qa-policy-institution-wide-draft-v1.md`; answers behind it in `standard-1-qa-policy-answers.md`. Sample question 8 (scientific community) parked; 10 left undefined on purpose. Pending: version date, Pearson credential name, Bachelor "certificate/VIVA" terms, academic freedom text.
+- QA Policy 1.1.9 rewritten (2026-10-07, Didem approved): heading 'professional field'; Field Reps meet Curriculum Team at design and annual review and validate final-project level; learners meet the field through final projects. To fix later: Town Hall is 4x/year (Didem confirmed) but Master's Educational Handbook says 'every two months' and Brochure 'bi-monthly'.
 - Equal Opportunities Policy: final text in `drafts/equal-opportunities-policy-final.md` (from Didem's own Drive document, improved).
 
 ## Standard 2 (map: `output/iaar-specialised-standard-2-deep-evidence-map.md`)

@@ -130,9 +130,9 @@ As part of the annual review, Schoolvision assesses the satisfaction of learners
 
 Schoolvision links research, teaching and learning. Learners carry out inquiry in professional practice as part of their programme. Faculty members, in line with their roles and expertise, engage in research and/or professional practice and bring it into their teaching. The Curriculum Team updates module content as new findings and developments in the field arise, reviews it annually, and the Executive Board approves major changes.
 
-**1.1.9. Interaction between the field, faculty and learners**
+**1.1.9. Interaction between the professional field, faculty and learners**
 
-Interaction between the business community, faculty and learners takes place through defined mechanisms. Learners complete a survey at the end of every module and take part in reflections and improvement cycles. Schoolvision holds a Town Hall four times a year, where learners, faculty and programme managers meet. Field Representatives give regular feedback on programme quality, following the Field Representatives Guidelines, and Knowledge Partners keep module content up to the standards of the field. The QA Team collects this input and brings it into the annual review.
+Schoolvision connects the professional field, faculty and learners through defined mechanisms. Field Representatives from the employer market and academia meet the Curriculum Team at the design and annual review stages of each programme. Following the Field Representatives Guidelines, they advise on how well the programmes fit the needs of the industry and validate the level of the final projects. Knowledge Partners keep module content up to the standards of the field. Learners work with the field directly through their final projects, which they carry out in a professional context. Learners, faculty and programme managers meet at a Town Hall four times a year, and learners complete a survey at the end of every module and take part in reflections and improvement cycles. The QA Team collects this input and brings it into the annual review.
 
 **1.1.10. Academic integrity, equal opportunities and non-discrimination**
 

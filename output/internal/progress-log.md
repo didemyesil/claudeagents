@@ -9,6 +9,7 @@ Internal working record. Not a deliverable.
 - Write the designed / expected state; programmes have not launched, so never state past events or results.
 - Review copies: `.claude/scripts/changes_highlighted.py` builds an HTML page (changes bold + yellow) and a clean copy; Didem has no Word and copies the page into Google Docs.
 - Existing documents are improved in place; do not create copies per programme. Documents covering several programmes are one file.
+- Never put notes, placeholders or explanations for Didem inside documents (especially student-facing ones such as the Diploma Supplement). Documents are to the point; open points go in the chat reply only.
 - Final gap check is done at the Dean stage (coherence audit), not now.
 
 ## Standard 1

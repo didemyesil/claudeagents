@@ -3,8 +3,8 @@ id: 20261125-iaar-sar-status
 title: IAAR SAR - gerçek durum çıkarma (pilot)
 project: iaar
 specialist: accreditation
-status: awaiting-feedback
-next_step: Didem raporu okuyup önceliği seçer (hangi standart, son tarih geçerli mi, Juliette'in açık istekleri)
+status: cancelled
+next_step: yok (Didem durdurdu: nerede kaldığını kendisi biliyor)
 waiting_on: 
 existing_work: didem-draft-in-progress - SAR Doc 1yTyiw2MZdkVwxDEr7cRzCB9Gu4AkftSfDLW_4fWQJSM (son değişiklik 2026-11-25 09:45 UTC). Didem yazıyor; uzman İNCELER, yeniden yazmaz
 latest_draft: drafts/v1-sar-status-report.md

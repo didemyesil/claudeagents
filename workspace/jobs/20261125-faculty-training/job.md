@@ -33,7 +33,7 @@ updated: 2026-11-25
 Taslak: (a) Session 1 için 4MAT'e göre ayrıntılı 2+ saatlik akış (8 adım, süre, etkinlik, materyal, facilitator rolü Didem/Shamir); (b) Session 2 akışı; (c) Pre/Post görevleri ve basit yansıma şablonu; (d) başarı ölçütleri; (e) açık sorular. Mail/Slack/davet YOK, taslak mesajlar bile ayrı işlerdir.
 
 ## Durum notu (kaldığım yer)
-v1 taslak hazır (2026-11-25). Taslak hazır != iş bitti. Onay kapsamı: yalnızca araştırma+taslak. Shamir'e mesaj/mail/davet YOK.
+Didem'in kendi planı paylaşılan Google Doc'ta (Pre/During/Post özet + Expected output); asıl plan odur. v1 taslak yalnızca onun altına inecek ayrıntı katmanı (Session 1/2 akışı) olarak değerlendirilir, planın yerine geçmez. Doc'ta 2026-11-25 itibarıyla yorum yok. Taslak hazır != iş bitti. Onay kapsamı: yalnızca araştırma+taslak. Shamir'e mesaj/mail/davet YOK.
 
 ## Kabul edilen değişiklikler / feedback özeti
 (henüz yok)

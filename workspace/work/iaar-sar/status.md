@@ -47,6 +47,9 @@ Note: the Slack list, the Drive project plan and the Slack conversation give DIF
 - Advice: concrete surveys, bodies and sample annexes (Std 1); describe the conditions and mechanism, not past experience (new programmes); service flow as narrative, following the criteria (Std 4); for Std 9-10 describe the planned system for the new programmes
 - Note: the seminar notes say page 87 for Annex 3 (title page); the guide's table of contents shows page 38. The specialist confirmed page 38 is correct.
 
+## Standard 2 GAP walk-through (2026-11-25, document order)
+GAP 1 signing approval records: Didem's side, skipped. GAP 2 Tech MBA title/version: not settled, on hold. GAP 3 (Tech MBA stakeholder input) and the validation half of GAP 4 depend on GAP 2.
+
 ## Known uncertainties
 - The project plan may not match Slack (the plan is dated 11-18).
 - Is the "25 Nov" final submission date in the plan still valid? NOT verified. Whether the IAAR correspondence gives another date was not checked.
@@ -71,3 +74,4 @@ The pilot (a read-only SAR state report) is done; Didem stopped it because she k
 2026-11-25 | coordinator | Standard 2 first GAP identified: "Sign the three existing approval records with the decision date and programme version. Add Applied AI Engineering to the Applied Computing record before sign-off."
 2026-11-25 | coordinator | Structure changed: one status file per work item (workstreams and jobs merged)
 2026-11-25 | coordinator | All system files translated to English
+2026-11-25 | coordinator | Didem chose to go through Standard 2 GAPs in document order (9 left after the signing GAP). GAP 2 (Tech MBA title and curriculum version): not settled yet, waiting for Didem's decision. Didem said English replies are fine

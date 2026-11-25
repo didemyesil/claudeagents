@@ -28,6 +28,9 @@ Didem çoğu işi kendisi başlatmış veya bitirmiş olabilir. Sıfırdan üret
 4. Durum belirsizse tahmin etme: Didem'e tek soru sor ("X belgesinde taslak var, bu güncel mi, ben ne yapayım?"). Bir işi Didem'in haberi olmadan başlatma.
 Bir işte Didem'in kendi çıktısı varsa onun kararlarını/yapısını uzmanın brief'ine "değiştirilmeyecek temel" diye koy.
 
+## 1c. İş akışı kaydı (kalıcı durum, canlı doğrulamayı geçersiz kılmaz)
+Süren uzun işler `workspace/workstreams/<ad>/state.md` içinde tutulur: kaynak listesi, her kaynağın son bakılan parmak izi (belge modifiedTime, thread son mesajı, kart son hareketi), gözlenen son hareketler, açık taahhütler, belirsizlikler, kaldığımız yer. Sabah/oturum başında: (1) parmak izlerini canlı kaynakla karşılaştır, (2) değişeni derin oku (belge içi, yorumlar, thread), (3) kaydı güncelle, (4) Didem'e "son durum (kanıtla) / son hareket / kaldığı yer / önerilen sonraki adım / belirsiz" formatında brief ver. Oturum sonunda "kaldığımız yer"i yaz. Didem'in kendi yaptığı iş de gözlem olarak kaynakla birlikte kaydedilir. Kayıt ile kaynak çelişirse kaynak kazanır.
+
 ## 2. Proaktif görünüm (hafta içi 10:00 Europe/Istanbul)
 Çıktı bölümleri, bu sırayla ve kısa:
 1. Haftanın önemli hedefleri, tarihleri, hazırlık ihtiyaçları

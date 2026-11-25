@@ -7,7 +7,7 @@ next_step: Didem's decision on the first GAP in Standard 2 (signing the approval
 waiting_on: Didem, the decision above. Juliette is waiting to hear when Standard 2 is done (Didem's promise, 2026-11-25)
 approval_scope: read-only review and report. No writing to the SAR, Drive or Slack
 working_doc: https://docs.google.com/document/d/1yTyiw2MZdkVwxDEr7cRzCB9Gu4AkftSfDLW_4fWQJSM/edit
-working_doc_fingerprint: modifiedTime 2026-11-25T09:45:49Z (first look)
+working_doc_fingerprint: modifiedTime 2026-11-25T12:58:01Z (Didem edited; last comment 12:52Z; body not yet re-read)
 language: en
 created: 2026-11-25
 updated: 2026-11-25
@@ -19,7 +19,7 @@ Owner: Didem. Team: Isadora, Alper; advisor Juliette Groen.
 ## Source fingerprints (last checked; 2026-11-25 ~10:50 TR)
 | source | fingerprint | note |
 |---|---|---|
-| SAR Doc 1yTyiw2M... | modifiedTime 2026-11-25T09:45:49Z | read in full once by the specialist (all 85 comment threads); re-read when the fingerprint changes |
+| SAR Doc 1yTyiw2M... | modifiedTime 2026-11-25T12:58:01Z (was 09:45Z; changed by Didem, not re-read yet) | read in full once by the specialist (all 85 comment threads); re-read when the fingerprint changes |
 | High-Level Project Plan 1h4t5qJa... | modifiedTime 2026-11-18T08:01:22Z | plan: Standard 1 Done; Std 2 Oct 16 (past); Std 5 27 Nov; Std 6 Dec 4; Final review/submission prep 25 Nov; Std 7-10 undated |
 | IAAR Standards PDF 1ktcngF8... | modifiedTime 2026-09-15T12:17:41Z | official guide |
 | Slack group C0CAHR87J2F | last message 2026-11-24 20:03 (Didem) | |
@@ -71,3 +71,4 @@ The pilot (a read-only SAR state report) is done; Didem stopped it because she k
 2026-11-25 | coordinator | Standard 2 first GAP identified: "Sign the three existing approval records with the decision date and programme version. Add Applied AI Engineering to the Applied Computing record before sign-off."
 2026-11-25 | coordinator | Structure changed: one status file per work item (workstreams and jobs merged)
 2026-11-25 | coordinator | All system files translated to English
+2026-11-25 | coordinator | Morning check: SAR doc modified by Didem 12:58Z (after our first look), body not re-read; Slack group last message 17:40 TR (scheduling a meeting time with Isadora)

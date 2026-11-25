@@ -3,10 +3,11 @@ id: 20261125-iaar-sar-status
 title: IAAR SAR - gerçek durum çıkarma (pilot)
 project: iaar
 specialist: accreditation
-status: drafting
-next_step: Uzmanın SAR durum raporu Didem'e sunulacak; Slack listesi ve proje planıyla karşılaştırılacak
+status: awaiting-feedback
+next_step: Didem raporu okuyup önceliği seçer (hangi standart, son tarih geçerli mi, Juliette'in açık istekleri)
 waiting_on: 
 existing_work: didem-draft-in-progress - SAR Doc 1yTyiw2MZdkVwxDEr7cRzCB9Gu4AkftSfDLW_4fWQJSM (son değişiklik 2026-11-25 09:45 UTC). Didem yazıyor; uzman İNCELER, yeniden yazmaz
+latest_draft: drafts/v1-sar-status-report.md
 approval_scope: salt okunur inceleme ve rapor (Didem 2026-11-25 pilot onayı). SAR'a/Drive'a/Slack'e yazma YOK.
 language: en
 sources:
@@ -22,4 +23,4 @@ Didem'in örnek sorusu: "SAR en son nerede kalmış?" Belgenin içini okuyarak h
 ## Beklenen çıktı
 Bölüm bazında (Intro, Std 1-10, Conclusion, Annexes): dolu / taslak / boş, açık yorumlar, [CONFIRM] ve boş alanlar, bölümler arası tekrar/tutarsızlık, kılavuzun format/uzunluk kurallarına göre sayfa durumu (ölçülebiliyorsa), seminer aksiyonlarının SAR'da karşılığı. Plan ile gerçek arasındaki fark. Hiçbir bölüm yeniden yazılmaz.
 ## Durum notu
-Uzman başlatıldı.
+Rapor hazır (2026-11-25). Rapor bir inceleme, SAR'a dokunulmadı. Iş bitmedi: raporun gösterdiği işler Didem'in kararlarını bekliyor.

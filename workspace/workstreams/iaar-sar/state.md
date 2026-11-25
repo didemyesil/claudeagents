@@ -38,5 +38,13 @@ Not: Slack liste, Drive proje planı ve Slack konuşması birbirinden FARKLI son
 - Final submission tarihi ("25 Nov" planda) hâlâ geçerli mi? DOĞRULANMADI. IAAR ile yazışmada başka tarih var mı bakılmadı.
 - Second Seminar Meeting Notes, Tech MBA materyalleri, TNO dossier konumları doğrulanmadı.
 
+## SAR gerçek durumu (uzman raporu, 2026-11-25; jobs/20261125-iaar-sar-status/drafts/v1-sar-status-report.md)
+- SAR'da yalnızca: kapak, Annex 1 (boş), içindekiler, kısaltmalar, Intro 1.1-1.3, Standard 1 (neredeyse taslak, kanıtlar "pending"), Standard 2 ("STILL UNDER REVIEW", 10 GAP notu). Std 3-10, Conclusion (self-evaluation tablosu) ve Annex 1 dışındaki tüm ekler YOK. 85 yorum thread'i (70 açık). Hiçbir standart tamamlanmış sayılamaz.
+- Plan ile gerçek ayrışıyor; "25 Nov final review/submission prep" geçerliliği DOĞRULANMADI.
+- Tablo 1-2'de çok sayıda placeholder; Tech MBA kimliği belirsiz; Juliette'in açık istekleri var (Amsterdam Tech vs Team Academy, 1 May 2027 yeniden akreditasyon tarihi, öğrenci sayıları, 240 vs 180 ECTS, çıktılar çok geniş).
+- Tekrarlar ve zaman kipi karışıklığı; Std 2 örnek soruların yalnızca bir kısmını kapsıyor.
+- Seminer aksiyonları: SAR'da karşılığı yok (imzalı uzman değerlendirmeleri, diploma supplement örneği, iş yükü belgesi, risk kaydı).
+- Okunmadı: ~25 bağlı Schoolvision belgesi, suggestion-mode düzenlemeler, diğer sekmeler.
+
 ## Kaldığımız yer / sonraki adım
 Pilot: akreditasyon uzmanını SAR'ı içeriğiyle okutup bölüm bölüm gerçek durumu çıkartmak (Didem'in örnek sorusu: "SAR en son nerede kalmış?"). Henüz yapılmadı.

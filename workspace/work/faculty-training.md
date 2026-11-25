@@ -1,25 +1,18 @@
 ---
-id: 20261125-faculty-training
+id: faculty-training
 title: Faculty Training - Facilitative Teaching for Student Engagement (4MAT)
-project: amsterdam-tech/faculty-development
-specialist: program-design
+domain: program-design
 status: awaiting-feedback
-next_step: Didem'e sor: kendi taslağın tamam, v1'den işine yarayan (Session 1 süreli akış, Pre/Post şablonları) var mı? Yoksa v1 kapatılır
-waiting_on: Shamir Joseph - paylaşılan dokümandaki outline'a yorumları (toplantı öncesi istendi, 2026-11-25 11:09 TR)
-existing_work: didem-draft-complete? (DOĞRULANMADI) - Didem'in paylaşılan dokümanı https://docs.google.com/document/d/1CYX-xxKEZDW4ezH3Y53BYBt5LgcTrbDf4WQ0LWtOW28/edit , 2026-11-25 11:09 TR'de Shamir'e iletildi. Didem: kendisi bitirmişti. drafts/v1-program-design.md bu işe KOORDINATÖR HATASIYLA sıfırdan üretildi; yalnızca Didem'in taslağıyla karşılaştırma/ek materyal olarak kullan
-approval_scope: research+draft only (doğrulama koşusu). Mail/Slack/davet/yayın/Trello-Slack yazımı YOK.
+next_step: Didem'in kendi taslağı esas. Didem'in bir sonraki isteğini bekle (v1 taslaktan işe yarar bir şey var mı sorusu açık)
+waiting_on: Shamir Joseph, paylaşılan dokümandaki outline'a yorumları (2026-11-25 11:09 TR'de istendi)
+approval_scope: research+draft only. Mail, Slack, davet, yayın yok
+working_doc: https://docs.google.com/document/d/1CYX-xxKEZDW4ezH3Y53BYBt5LgcTrbDf4WQ0LWtOW28/edit
+working_doc_fingerprint: kaydedilmedi
 language: en
-sources:
-  - Slack DM Didem-Shamir: https://myunihub.slack.com/archives/D05LAARHEV7/p1793016039167689
-  - Slack sprint grubu "Faculty Training": https://myunihub.slack.com/archives/C0CCGHSA44R/p1793085226488539
-  - Slack Didem-Isadora DM (Evrim yerine Shamir kararı): https://myunihub.slack.com/archives/D02HFBP5QDQ/p1792594997627209
-  - Google Doc "AT Faculty Training" (paylaşılan taslak): https://docs.google.com/document/d/1CYX-xxKEZDW4ezH3Y53BYBt5LgcTrbDf4WQ0LWtOW28/edit
-  - Calendar: "AT Faculty Training Planning" 2026-11-25 16:30 TR (Shamir organizer), Drive klasörü Faculty Training: https://drive.google.com/drive/folders/1wkZ0J5rtDAgzIux_-RkAqFPKzGm9SvOw
-  - 4MAT kaynakları (Drive): 4MAT Cycle.pdf (1olo_l8U1xEsVVxPJaZYYIV2JbJhAWNgI), Learning and Teaching Styles and 4MAT.PDF (1SnVfI0j1RbnSMBbLvCDy7tnWcwMG9qwU; OKUNMADI)
-  - Trello: bu iş için AÇIK KART YOK (arama yapıldı; yalnızca ilgisiz Done kartlar)
 created: 2026-11-25
 updated: 2026-11-25
 ---
+## Durum (yalnızca koordinatör günceller)
 ## Amaç
 Öğrenci workshop sonuçlarından çıkan ihtiyaçla, fakülteyi facilitative teaching konusunda güçlendirip öğrenci katılımını (engagement) artırmak. Sprint: "Train faculty members to improve student engagement - FACULTY DEVELOPMENT/LX" (Isadora, Alper, Didem, Shamir).
 
@@ -38,3 +31,11 @@ v1 taslak hazır (2026-11-25). Taslak hazır != iş bitti. Onay kapsamı: yalnı
 
 ## Kabul edilen değişiklikler / feedback özeti
 (henüz yok)
+
+## Geçmiş (yalnızca satır eklenir: tarih | kim | ne)
+2026-11-25 | coordinator | Slack, Calendar, Docs, Trello tarandı; iş Didem talebiyle (doğrulama koşusu) açıldı; kapsam research+draft; program-design-specialist arka planda başlatıldı
+2026-11-25 | program-design-specialist | drafts/v1-program-design.md yazildi (yaklasim, Session 1 8 adim akisi, Pre/Post sablonlari, Session 2 akisi, basari olcutleri, acik sorular); varsayimlar A1-A6 isaretli; onceki karardan sapma yok
+2026-11-25 | coordinator | v1 taslak Didem'e sunuldu; status=awaiting-feedback
+2026-11-25 | coordinator | HATA: Didem'in mevcut taslağı (Docs, 11:09) vardı; mevcut iş kontrolü yapılmadan v1 sıfırdan üretildi. Kural eklendi (coordinator.md 1b). v1 ek materyal statüsüne alındı
+2026-11-25 | coordinator | HATA kaydı: Didem'in mevcut taslağı varken v1 sıfırdan üretildi; mevcut iş kontrolü kuralı eklendi
+2026-11-25 | coordinator | Yapı değişti: tek iş dosyası; taslak klasörü kaldırıldı, v1 git geçmişinde (commit 9588bcb)

@@ -1,6 +1,20 @@
-# İş akışı: IAAR SAR (Schoolvision ilk program akreditasyonu)
-Durum kaynaklardan canlı doğrulanır; bu kayıt "ne zaman neye baktım" ve "kaldığımız yer"dir. Kayıt gerçeği geçersiz kılmaz.
-Sahip/koordinatör: Didem. Ekip: Isadora, Alper, danışman Juliette Groen. Kaynak listesi: workspace/projects/iaar/sources.md
+---
+id: iaar-sar
+title: IAAR SAR (Schoolvision ilk program akreditasyonu)
+domain: accreditation
+status: active
+next_step: Standart 2'nin ilk GAP'i (onay kayıtlarının imzası) için Didem'in kararı: üç kaydı okuyayım mı, sıradaki GAP'e mi geçelim
+waiting_on: Didem, yukarıdaki karar. Juliette, Standard 2 bitince haber bekliyor (Didem'in sözü, 2026-11-25)
+approval_scope: salt okunur inceleme ve rapor. SAR'a, Drive'a, Slack'e yazma yok
+working_doc: https://docs.google.com/document/d/1yTyiw2MZdkVwxDEr7cRzCB9Gu4AkftSfDLW_4fWQJSM/edit
+working_doc_fingerprint: modifiedTime 2026-11-25T09:45:49Z (ilk bakış)
+language: en
+created: 2026-11-25
+updated: 2026-11-25
+---
+## Durum (yalnızca koordinatör günceller)
+Kaynak listesi: instructions/accreditation/guides/index.md ve "Takip edilecek yerler". Durum kaynaklardan canlı doğrulanır; bu kayıt "ne zaman neye baktım" ve "kaldığımız yer"dir.
+Sahip/koordinatör: Didem. Ekip: Isadora, Alper, danışman Juliette Groen. Kaynak listesi: workspace/instructions/accreditation/guides/index.md
 
 ## Kaynak parmak izleri (son bakılan; 2026-11-25 ~10:50 TR)
 | kaynak | parmak izi | not |
@@ -38,7 +52,7 @@ Not: Slack liste, Drive proje planı ve Slack konuşması birbirinden FARKLI son
 - Final submission tarihi ("25 Nov" planda) hâlâ geçerli mi? DOĞRULANMADI. IAAR ile yazışmada başka tarih var mı bakılmadı.
 - Second Seminar Meeting Notes, Tech MBA materyalleri, TNO dossier konumları doğrulanmadı.
 
-## SAR gerçek durumu (uzman raporu, 2026-11-25; jobs/20261125-iaar-sar-status/drafts/v1-sar-status-report.md)
+## SAR gerçek durumu (uzman raporu, 2026-11-25; rapor repoda tutulmadı)
 - SAR'da yalnızca: kapak, Annex 1 (boş), içindekiler, kısaltmalar, Intro 1.1-1.3, Standard 1 (neredeyse taslak, kanıtlar "pending"), Standard 2 ("STILL UNDER REVIEW", 10 GAP notu). Std 3-10, Conclusion (self-evaluation tablosu) ve Annex 1 dışındaki tüm ekler YOK. 85 yorum thread'i (70 açık). Hiçbir standart tamamlanmış sayılamaz.
 - Plan ile gerçek ayrışıyor; "25 Nov final review/submission prep" geçerliliği DOĞRULANMADI.
 - Tablo 1-2'de çok sayıda placeholder; Tech MBA kimliği belirsiz; Juliette'in açık istekleri var (Amsterdam Tech vs Team Academy, 1 May 2027 yeniden akreditasyon tarihi, öğrenci sayıları, 240 vs 180 ECTS, çıktılar çok geniş).
@@ -48,3 +62,12 @@ Not: Slack liste, Drive proje planı ve Slack konuşması birbirinden FARKLI son
 
 ## Kaldığımız yer / sonraki adım
 Pilot: akreditasyon uzmanını SAR'ı içeriğiyle okutup bölüm bölüm gerçek durumu çıkartmak (Didem'in örnek sorusu: "SAR en son nerede kalmış?"). Henüz yapılmadı.
+
+## Geçmiş (yalnızca satır eklenir: tarih | kim | ne)
+2026-11-25 | coordinator | Pilot onayı Didem tarafından verildi; iş açıldı; accreditation-specialist başlatılıyor (salt okunur)
+2026-11-25 | accreditation-specialist | SAR status review read-only: drafts/v1-sar-status-report.md (Intro, Std1-2 drafted; Std3-10, conclusion, annexes absent; plan comparison, seminar items, format check)
+2026-11-25 | coordinator | rapor Didem'e sunuldu; status=awaiting-feedback
+2026-11-25 | coordinator | Didem işi durdurdu (pilot yeterli; durumu kendisi biliyor). status=cancelled. Rapor arşivde
+2026-11-25 | coordinator | Pilot raporu Didem'e sunuldu; Didem durdurdu, rapor silindi (özeti Durum bölümünde)
+2026-11-25 | coordinator | Standart 2 ilk GAP: "Sign the three existing approval records with the decision date and programme version. Add Applied AI Engineering to the Applied Computing record before sign-off."
+2026-11-25 | coordinator | Yapı değişti: tek iş dosyası; workstreams ve jobs birleşti

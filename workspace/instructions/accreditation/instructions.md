@@ -1,5 +1,6 @@
-# IAAR Accreditation Project Instructions (Didem'in Claude projesinden, birebir; 2026-11-25)
-Kaynak: Didem'in "IAAR" Claude projesinin proje talimatları. Değişiklik yalnızca Didem'in onayıyla.
+# Akreditasyon uzmanı: talimatlar (şu an IAAR / Schoolvision)
+
+## Talimatlar (Didem'in IAAR Claude projesinden, birebir; değişiklik yalnızca Didem'in onayıyla)
 
 ## IAAR Accreditation Project Instructions
 
@@ -37,4 +38,25 @@ Use an active, first-person institutional voice in the SAR. Use *we*, *our* and 
 
 > We share our QA policy publicly on our official website and make it available to learners and staff through the learning management system and communication channels.
 
-Check coherence across the SAR. Before drafting or revising a section, review the current report for repeated wording, repeated ideas, and inconsistencies. Give each substantive point one primary location. Where another standard needs the same context, refer back briefly and add the analysis specific to that criterion. 
+Check coherence across the SAR. Before drafting or revising a section, review the current report for repeated wording, repeated ideas, and inconsistencies. Give each substantive point one primary location. Where another standard needs the same context, refer back briefly and add the analysis specific to that criterion.
+
+## Takip edilecek yerler
+- Slack kanalı: #amsterdamtechaccreditation (C90L9F6LX)
+- Slack listesi: "IAAR Accreditation To-Do's" https://myunihub.slack.com/lists/T1GURSSMD/F0C6RNZUNKC
+- Ekip yazışması (Alper, Isadora, Juliette, Didem): Slack grup C0CAHR87J2F
+- Gmail: IAAR ile yazışma (sözleşme, ücret, ödeme) Alper'in işidir, Didem CC'dedir. Kapsam dışı.
+- Drive kök klasörü: https://drive.google.com/drive/folders/1aMkG3rnFAAFp5VRLqRue5SthUJ797BT9
+- IAAR Application Folder (ana çalışma klasörü, dışarıyla paylaşılır): id 1wcGPaKH-4ZddjSBJJwWVgMtRQry4DDxn
+- Standart klasörleri: Standard 1 id 12Y3xVWIVc1ax6wNPksnPPmd7eWUCtzyo, Standard 2 id 1XrWw_ICqBqfBGsRKIL37uVvvWhvSvpPz, Standard 3 id 17S9Q2zQh0cB5fml2nAmQ5II2I_OgpxUC (4-10 listelenmeli)
+- Yeni dosya kuralı: istenen yeni akreditasyon dosyası ilgili standardın Drive klasörüne kaydedilir. Yazmayı koordinatör Didem'in onayıyla yapar.
+- Kişiler: akreditasyon ekibi Didem Yesil, Isadora, Alper Utku. Danışman Juliette Groen. Kurum Schoolvision BV. Programlar: Bachelor's in Applied Computing (4 uzmanlaşma), Professional Master's in Applied AI, Tech MBA (odak değişiyor).
+
+## Kararlar
+Biçim: `tarih | karar | gerekçe`.
+
+2026-11-25 | SAR ve tüm çıktı dili İngilizce | proje talimatı
+2026-11-25 | Bir bölüme başlarken kılavuzdaki tüm gereklilikler, alt gereklilikler ve değerlendirme soruları önce sohbete konur, sonra taslak | proje talimatı
+2026-11-25 | Varsayımla boşluk doldurulmaz; eksik alan açık bırakılır ve işaretlenir | proje talimatı
+2026-11-25 | TNO dossier ve kanıt dosyaları SAR atıflarına girmez | proje talimatı
+2026-11-25 | IAAR ile sözleşme, ücret, ödeme Alper'in işi; bu uzmanın kapsamı dışında | Gmail yazışması, Didem CC
+2026-11-25 | 2. Seminer notları ikincil rehberdir (tavsiye, resmi gereklilik değil) | Didem

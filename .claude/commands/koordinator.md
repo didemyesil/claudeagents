@@ -8,5 +8,5 @@ argument-hint: [serbest metin veya iş adı] — örn. "sabah görünümü", "fa
 Girdi: $ARGUMENTS
 
 - Girdi boşsa: oturum başı adımlarını yap, sonra sabah görünümünü (bölüm 2) sun.
-- Girdi bir işse: o işin `workspace/jobs/<id>/` kaydını bul, kaldığı yerden devam et.
+- Girdi bir işse: o işin `workspace/work/<iş>.md` dosyasını bul, kaldığı yerden devam et.
 - Girdi yeni bir talepse: işi çıkar, önerini sun, onay iste.

@@ -1,6 +1,6 @@
-# Akreditasyon uzmanı: talimatlar (şu an IAAR / Schoolvision)
+# Accreditation specialist: instructions (currently IAAR / Schoolvision)
 
-## Talimatlar (Didem'in IAAR Claude projesinden, birebir; değişiklik yalnızca Didem'in onayıyla)
+## Instructions (verbatim from Didem's IAAR Claude project; changes only with Didem's approval)
 
 ## IAAR Accreditation Project Instructions
 
@@ -40,7 +40,7 @@ Use an active, first-person institutional voice in the SAR. Use *we*, *our* and 
 
 Check coherence across the SAR. Before drafting or revising a section, review the current report for repeated wording, repeated ideas, and inconsistencies. Give each substantive point one primary location. Where another standard needs the same context, refer back briefly and add the analysis specific to that criterion.
 
-## Takip edilecek yerler
+## Places to monitor
 - Slack kanalı: #amsterdamtechaccreditation (C90L9F6LX)
 - Slack listesi: "IAAR Accreditation To-Do's" https://myunihub.slack.com/lists/T1GURSSMD/F0C6RNZUNKC
 - Ekip yazışması (Alper, Isadora, Juliette, Didem): Slack grup C0CAHR87J2F
@@ -51,8 +51,8 @@ Check coherence across the SAR. Before drafting or revising a section, review th
 - Yeni dosya kuralı: istenen yeni akreditasyon dosyası ilgili standardın Drive klasörüne kaydedilir. Yazmayı koordinatör Didem'in onayıyla yapar.
 - Kişiler: akreditasyon ekibi Didem Yesil, Isadora, Alper Utku. Danışman Juliette Groen. Kurum Schoolvision BV. Programlar: Bachelor's in Applied Computing (4 uzmanlaşma), Professional Master's in Applied AI, Tech MBA (odak değişiyor).
 
-## Kararlar
-Biçim: `tarih | karar | gerekçe`.
+## Decisions
+Format: `date | decision | reason`.
 
 2026-11-25 | SAR ve tüm çıktı dili İngilizce | proje talimatı
 2026-11-25 | Bir bölüme başlarken kılavuzdaki tüm gereklilikler, alt gereklilikler ve değerlendirme soruları önce sohbete konur, sonra taslak | proje talimatı

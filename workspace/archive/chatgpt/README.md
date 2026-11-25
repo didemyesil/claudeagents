@@ -1,5 +1,4 @@
-# ChatGPT arşivi
-Henüz import edilmedi: export dosyası bu ortama verilmedi.
-Alma: ChatGPT > Settings > Data controls > Export data (zip e-postaya gelir). Zip'i Drive'a koy veya buraya yükle, sonra
-`python3 workspace/scripts/chatgpt_import.py <zip>`. Proje talimatlarını ve proje dosyalarını export içermeyebilir: elle kopyala,
-`workspace/projects/<slug>/instructions.md` içine yapıştır. Ham klasör git'e girmez (gizli); `index/` girer.
+# ChatGPT arşivi: KULLANILMIYOR (Didem kararı, 2026-11-25)
+Geçmiş çalışmalar Claude'da açılan projelerde. Bu klasör ve `scripts/chatgpt_import.py` yalnızca ileride gerekirse diye duruyor (test edildi, sentetik veriyle).
+Önemli: Claude projelerindeki talimat/belgelere bu oturumdan otomatik erişim doğrulanmadı. Bir iş için gerekirse Didem ilgili proje talimatını/belgesini
+`workspace/projects/<slug>/instructions.md` içine yapıştırır veya Drive'a koyar; koordinatör oradan okur.

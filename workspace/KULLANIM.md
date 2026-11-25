@@ -21,5 +21,5 @@ Yeni eklenen agent tanımları, oturum başlayınca yüklenir; oturum ortasında
 ## Hafıza (`workspace/`)
 Bkz. `README.md`: tercihler, kararlar, proje bilgisi, iş kayıtları, brief arşivi, ChatGPT arşivi. Hepsi git'te.
 
-## ChatGPT aktarımı
-Henüz yapılmadı. Bkz. `archive/chatgpt/README.md`.
+## Geçmiş proje bilgisi
+Atlandı (karar: `memory/decisions.md`). Proje bilgisi `projects/<slug>/` içinde, iş geldikçe birikir.

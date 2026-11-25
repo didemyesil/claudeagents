@@ -20,6 +20,14 @@ Kaynaklar: Trello kartları + checklist'ler, Slack kanal/thread/DM/Lists, huddle
 - Önem ve aciliyeti **ayrı** değerlendir. Her öneride gerekçe + kaynak linki ver. Tarih kaynakta yoksa "tarih belirsiz" de.
 - Bir işin `done`/`cancelled` olması tekrar önerilmez. "Taslak hazır" ≠ "iş bitti"; ayrı durumlardır.
 
+## 1b. Mevcut iş kontrolü (ZORUNLU, bir işi devretmeden/önermeden önce)
+Didem çoğu işi kendisi başlatmış veya bitirmiş olabilir. Sıfırdan üretmeyi önermeden önce işin **gerçek durumunu** çıkar:
+1. Ara: Google Docs/Drive (başlıkla ve toplantı/Slack linklerindeki belgeler), Slack ("ekledim", "hazırladım", "taslak", paylaşılan link), Gmail, Trello kartı/checklist, takvim etkinliği ekleri. Bulduğun belgeyi **oku** (yalnızca başlığına bakma).
+2. Sınıflandır ve işe `existing_work` olarak yaz: `none` / `didem-draft-in-progress` / `didem-draft-complete` / `others-draft` / `done`. Kim yazdı, ne zaman son güncellendi, kaynak linki.
+3. Önerini duruma göre kur: Didem'in taslağı varsa o **kaynak gerçektir**. Uzmana "sıfırdan üret" DEĞİL, "bu taslağı incele, boşlukları/riskleri bul, eksik materyali (ör. akış, şablon) ekle, kendi yaklaşımını farkını işaretleyerek sun" de. Taslak tamamsa devretme; "tamam görünüyor, şunları kontrol edebilirim" de.
+4. Durum belirsizse tahmin etme: Didem'e tek soru sor ("X belgesinde taslak var, bu güncel mi, ben ne yapayım?"). Bir işi Didem'in haberi olmadan başlatma.
+Bir işte Didem'in kendi çıktısı varsa onun kararlarını/yapısını uzmanın brief'ine "değiştirilmeyecek temel" diye koy.
+
 ## 2. Proaktif görünüm (hafta içi 10:00 Europe/Istanbul)
 Çıktı bölümleri, bu sırayla ve kısa:
 1. Haftanın önemli hedefleri, tarihleri, hazırlık ihtiyaçları

@@ -6,6 +6,7 @@ specialist: accreditation | program-design | coordinator
 status: proposed | approved | drafting | awaiting-feedback | awaiting-external | blocked | draft-ready | done | cancelled
 next_step: 
 waiting_on:            # kimden hangi yanıt/karar, tarihiyle
+existing_work: none   # none | didem-draft-in-progress | didem-draft-complete | others-draft | done (+ link, son güncelleme)
 approval_scope: none   # ör. "research+draft only"; gönderme/yayın onayı ayrı yazılır
 language: en
 sources: []            # Trello/Slack/Gmail/Calendar/Drive linkleri

@@ -21,3 +21,6 @@ Bu dosya Didem'in onayıyla güncellenir. Tarih ve kaynak sorusu olmadan buraya 
 ## Kapsam
 - Amsterdam Tech kaynakları: Trello panoları, IAAR Slack List, Google Calendar (didem@amsterdam.tech) + bu kurulumda eklenen Slack kanal/thread/DM, huddle notları, Gmail, belgeler.
 - Grow with Tech ve kişisel işler görev olarak kapsam dışı (takvim toplantısı olarak görünür). Didem aksini söyleyene kadar.
+
+## Mevcut işler
+- Didem'in kendi taslağı/çıktısı varsa o kaynak gerçektir. Sıfırdan üretme; incele, boşluk bul, ekle. Durum belirsizse önce sor (2026-11-25 düzeltmesi).

@@ -4,8 +4,9 @@ title: Faculty Training - Facilitative Teaching for Student Engagement (4MAT)
 project: amsterdam-tech/faculty-development
 specialist: program-design
 status: awaiting-feedback
-next_step: Didem v1 taslağını okuyup feedback verir (toplantı 16:30 TR öncesi); 10 açık soru toplantıda Shamir ile netleşir
+next_step: Didem'e sor: kendi taslağın tamam, v1'den işine yarayan (Session 1 süreli akış, Pre/Post şablonları) var mı? Yoksa v1 kapatılır
 waiting_on: Shamir Joseph - paylaşılan dokümandaki outline'a yorumları (toplantı öncesi istendi, 2026-11-25 11:09 TR)
+existing_work: didem-draft-complete? (DOĞRULANMADI) - Didem'in paylaşılan dokümanı https://docs.google.com/document/d/1CYX-xxKEZDW4ezH3Y53BYBt5LgcTrbDf4WQ0LWtOW28/edit , 2026-11-25 11:09 TR'de Shamir'e iletildi. Didem: kendisi bitirmişti. drafts/v1-program-design.md bu işe KOORDINATÖR HATASIYLA sıfırdan üretildi; yalnızca Didem'in taslağıyla karşılaştırma/ek materyal olarak kullan
 approval_scope: research+draft only (doğrulama koşusu). Mail/Slack/davet/yayın/Trello-Slack yazımı YOK.
 language: en
 sources:

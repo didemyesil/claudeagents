@@ -17,6 +17,15 @@ Sahip/koordinatör: Didem. Ekip: Isadora, Alper, danışman Juliette Groen. Kayn
 - 2026-11-24 19:12 TR: Juliette "Done! Let me know the next step"; 20:03 Didem: "Tomorrow I will try to finalise standard 2 too. I will let you know." => AÇIK TAAHHÜT, bugün (2026-11-25)
 - Takvim: IAAR toplantısı 2026-11-25 17:30 TR (Alper), "IAAR Accreditation" 2026-12-02 17:30 TR (Juliette kabul etti)
 
+## Seminer notlarından çıkan aksiyonlar (kaynak: guides/second-seminar-meeting-notes.md; tamamlanıp tamamlanmadığı DOĞRULANMADI)
+- Didem: sektör/alan uzmanlarından resmi, imzalı ve kaşeli yazılı uzman değerlendirmeleri (öğrenme çıktıları ve içerik) alıp SAR eklerine koymak (Standard 2)
+- Didem: diploma supplement örneğini SAR eki olarak eklemek (Standard 4)
+- Didem: öğretim kadrosu iş yükünü belirleyen belgenin adını/referansını bulup SAR'da atıf ve ek olarak kullanmak (Standard 5)
+- Alper: mevcut politikaların risk eylem planlarını (siber saldırı, doğal afet, kayıt riskleri) kapsayıp kapsamadığını kontrol edip gerekirse program için risk kaydı/politikası yazmak (Standard 7)
+- Alper: SAR taslağı ilerleyince seminerin ikinci kısmını talep etmek
+- Öneriler: somut anketler/organlar/örnek ekler (Std 1); koşul ve mekanizmayı anlat, geçmiş deneyimi değil (yeni programlar); hizmet akışı narratif, kriterleri izle (Std 4); Std 9-10 için yeni programlarda planlanan sistem anlatılır
+- Not: seminer notları Annex 3 (başlık sayfası) için sayfa 87 diyor, kılavuz içindekiler tablosu sayfa 38 gösteriyor: kılavuzdan doğrulanacak
+
 ## Bilinen belirsizlikler
 - Proje planı Slack ile uyuşmuyor olabilir (plan 11-18 tarihli). Gerçek bölüm durumu SAR içinden okunmadan bilinmiyor.
 - Final submission tarihi ("25 Nov" planda) hâlâ geçerli mi? DOĞRULANMADI. IAAR ile yazışmada başka tarih var mı bakılmadı.

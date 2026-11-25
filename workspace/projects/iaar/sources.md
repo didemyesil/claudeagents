@@ -8,7 +8,8 @@
 - High-Level IAAR Project Plan (Doc): id 1h4t5qJaO3tTnNBoCR23gCdC2ItTAZDdrGxp_qdAm7II (son değişiklik 2026-11-18; Slack ile fark olabilir)
 - Standart klasörleri: Standard 1 id 12Y3xVWIVc1ax6wNPksnPPmd7eWUCtzyo; Standard 2 id 1XrWw_ICqBqfBGsRKIL37uVvvWhvSvpPz; Standard 3 id 17S9Q2zQh0cB5fml2nAmQ5II2I_OgpxUC; (4-10: listeleme gerekir)
 - Yeni dosya kuralı: istenen yeni akreditasyon dosyası ilgili standardın klasörüne kaydedilir (yazmayı koordinatör, Didem onayıyla yapar)
-- Proje talimatındaki "Sources": Second Seminar Meeting Notes, Tech MBA materyalleri, Applied AI TNO dossier, TNO Bachelor dossier (konumları henüz doğrulanmadı: Drive'da aranacak). TNO dossier/kanıt dosyaları SAR atıf ve linklerine GİRMEZ.
+- **İkincil rehber:** Second Seminar Meeting Notes (IAAR uzmanı Saule Burbekova ile 2. seminer, AI özeti): repoda `workspace/projects/iaar/guides/second-seminar-meeting-notes.md`. Resmi kılavuzun yanında tamamlayıcı kullanılır; resmi gereklilik değildir, tavsiyedir. Drive'da kopyası yok (Didem'in kararına bağlı).
+- Proje talimatındaki "Sources": Tech MBA materyalleri, Applied AI TNO dossier, TNO Bachelor dossier (konumları henüz doğrulanmadı: Drive'da aranacak). TNO dossier/kanıt dosyaları SAR atıf ve linklerine GİRMEZ.
 
 ## Slack
 - Kanal: #amsterdamtechaccreditation (C90L9F6LX)

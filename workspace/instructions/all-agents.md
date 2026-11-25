@@ -44,3 +44,5 @@ Biçim: `tarih | karar | gerekçe`. Eski karar silinmez, "superseded" işaretlen
 2026-11-25 | ChatGPT aktarımı atlandı; arşiv ve script silindi | Didem
 2026-11-25 | Sabah görünümü elle (`/koordinator`) başlatılır; zamanlanmış görev konektör ve depoya erişemedi | deneme sonucu
 2026-11-25 | Eski 4 aşamalı akreditasyon hattı `legacy/accreditation-pipeline/` altına ayrıldı; yeni sistem onu kullanmaz, çağırmaz | Didem
+2026-11-25 | AI Diary ve Radar (karusel, reel, radar) ayrı özel depoya taşındı (didemyesil/ai-diary, geçmişiyle). Bu depoda yok, koordinatör ve uzmanlar onu kullanmaz | Didem
+2026-11-25 | Faculty Training işi silindi; bu sistemin kapsamı dışında | Didem

@@ -2,7 +2,7 @@
 
 ## Açma
 Claude Code'da (claude.ai/code, repo `didemyesil/claudeagents`) yeni oturum aç ve yaz/söyle:
-`/koordinator` (argümansız = sabah görünümü) veya `/koordinator faculty training'e devam`.
+`/koordinator` (argümansız = sabah görünümü) veya `/koordinator IAAR SAR'a devam`.
 Koordinatör hafızasını kendisi okur; geçmişi anlatman gerekmez.
 
 ## Günlük akış

@@ -1,6 +1,6 @@
 ---
 description: Koordinatörü açar. Sabah görünümü, açık işler, onayladığın işi uzmana devretme. Argümansız = bugünün görünümü.
-argument-hint: [serbest metin veya iş adı] — örn. "sabah görünümü", "faculty training'e devam"
+argument-hint: [serbest metin veya iş adı] — örn. "sabah görünümü", "IAAR SAR'a devam"
 ---
 
 `coordinator` agent'ını bu konuşmada kendin üstlen (veya arka planda başlat) ve `.claude/agents/coordinator.md` talimatlarını uygula.

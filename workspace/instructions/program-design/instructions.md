@@ -16,5 +16,4 @@ Durum: Didem'in çalışma biçimi henüz alınmadı. Aşağıdaki başlıklar D
 ## Kararlar
 Biçim: `tarih | karar | gerekçe`.
 
-2026-10-26 | Faculty training tasarım modeli 4MAT; fakülteye bir araç olarak da sunulacak | Slack DM Didem-Shamir
 2026-11-25 | Didem'in kendi taslağı varsa esas alınır, sıfırdan üretilmez | Didem düzeltmesi

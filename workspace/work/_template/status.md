@@ -1,5 +1,5 @@
 ---
-id: kisa-ad
+id: short-name
 title: 
 domain: accreditation | program-design | coordinator
 status: active

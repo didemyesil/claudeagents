@@ -1,16 +1,16 @@
 # Workspace
 
-Koordinatör ve uzman ajanların ortak, kalıcı hafızası. Her şey git'te.
+The shared, persistent memory of the coordinator and the specialist agents. Everything is in git.
 
 ```
 workspace/
-├─ instructions/            nasıl çalışılır (değişmeyen)
-│  ├─ all-agents.md         bütün ajanların ortak kuralları ve genel kararlar
+├─ instructions/            how to work (does not change often)
+│  ├─ all-agents.md         rules for all agents and general decisions
 │  ├─ accreditation/        instructions.md + guides/
 │  └─ program-design/       instructions.md + guides/
-├─ work/                    ne durumda (değişen)
-│  ├─ log.md                tüm işlerin güncel listesi (otomatik)
-│  └─ <item>/status.md      üstte durum (Status), altta geçmiş (History)
-└─ scripts/work_log.py      work/log.md'yi üretir
+├─ work/                    what the state is (changes)
+│  ├─ log.md                current list of all work (generated)
+│  └─ <item>/status.md      Status on top, History below
+└─ scripts/work_log.py      generates work/log.md
 ```
-Sistemin işleyişi ve yazma kuralları: `instructions/all-agents.md`. Taslaklar repoda tutulmaz, Didem'in Drive'ındaki çalışma belgesi esastır.
+How the system works and the writing rules: `instructions/all-agents.md`. Drafts are not kept in the repo; Didem's working document in Drive is the source of truth.

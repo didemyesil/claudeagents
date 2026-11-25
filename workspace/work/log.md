@@ -6,7 +6,7 @@ Generated: 2026-11-25. Open items not updated for more than 5 days get a warning
 
 | work | status | domain | next step | waiting on | updated | days |
 |---|---|---|---|---|---|---|
-| [iaar-sar](iaar-sar/status.md) | active | accreditation | Standart 2'nin ilk GAP'i (onay kayıtlarının imzası) için Didem'in kararı: üç kaydı okuyayım mı, sıradaki GAP'e mi geçelim | Didem, yukarıdaki karar. Juliette, Standard 2 bitince haber bekliyor (Didem'in sözü, 2026-11-25) | 2026-11-25 | 0 |
+| [iaar-sar](iaar-sar/status.md) | active | accreditation | Didem's decision on the first GAP in Standard 2 (signing the approval records): should the three records be read, or should we move to the next GAP | Didem, the decision above. Juliette is waiting to hear when Standard 2 is done (Didem's promise, 2026-11-25) | 2026-11-25 | 0 |
 
 ## Closed
 

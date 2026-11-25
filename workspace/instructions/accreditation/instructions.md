@@ -41,22 +41,22 @@ Use an active, first-person institutional voice in the SAR. Use *we*, *our* and 
 Check coherence across the SAR. Before drafting or revising a section, review the current report for repeated wording, repeated ideas, and inconsistencies. Give each substantive point one primary location. Where another standard needs the same context, refer back briefly and add the analysis specific to that criterion.
 
 ## Places to monitor
-- Slack kanalı: #amsterdamtechaccreditation (C90L9F6LX)
-- Slack listesi: "IAAR Accreditation To-Do's" https://myunihub.slack.com/lists/T1GURSSMD/F0C6RNZUNKC
-- Ekip yazışması (Alper, Isadora, Juliette, Didem): Slack grup C0CAHR87J2F
-- Gmail: IAAR ile yazışma (sözleşme, ücret, ödeme) Alper'in işidir, Didem CC'dedir. Kapsam dışı.
-- Drive kök klasörü: https://drive.google.com/drive/folders/1aMkG3rnFAAFp5VRLqRue5SthUJ797BT9
-- IAAR Application Folder (ana çalışma klasörü, dışarıyla paylaşılır): id 1wcGPaKH-4ZddjSBJJwWVgMtRQry4DDxn
-- Standart klasörleri: Standard 1 id 12Y3xVWIVc1ax6wNPksnPPmd7eWUCtzyo, Standard 2 id 1XrWw_ICqBqfBGsRKIL37uVvvWhvSvpPz, Standard 3 id 17S9Q2zQh0cB5fml2nAmQ5II2I_OgpxUC (4-10 listelenmeli)
-- Yeni dosya kuralı: istenen yeni akreditasyon dosyası ilgili standardın Drive klasörüne kaydedilir. Yazmayı koordinatör Didem'in onayıyla yapar.
-- Kişiler: akreditasyon ekibi Didem Yesil, Isadora, Alper Utku. Danışman Juliette Groen. Kurum Schoolvision BV. Programlar: Bachelor's in Applied Computing (4 uzmanlaşma), Professional Master's in Applied AI, Tech MBA (odak değişiyor).
+- Slack channel: #amsterdamtechaccreditation (C90L9F6LX)
+- Slack list: "IAAR Accreditation To-Do's" https://myunihub.slack.com/lists/T1GURSSMD/F0C6RNZUNKC
+- Team conversation (Alper, Isadora, Juliette, Didem): Slack group C0CAHR87J2F
+- Gmail: correspondence with IAAR (contract, fees, payment) is Alper's work; Didem is on CC. Out of scope.
+- Drive root folder: https://drive.google.com/drive/folders/1aMkG3rnFAAFp5VRLqRue5SthUJ797BT9
+- IAAR Application Folder (main working folder, shared externally): id 1wcGPaKH-4ZddjSBJJwWVgMtRQry4DDxn
+- Standard folders: Standard 1 id 12Y3xVWIVc1ax6wNPksnPPmd7eWUCtzyo, Standard 2 id 1XrWw_ICqBqfBGsRKIL37uVvvWhvSvpPz, Standard 3 id 17S9Q2zQh0cB5fml2nAmQ5II2I_OgpxUC (4-10 still to be listed)
+- New file rule: any new accreditation file that is requested is saved in the Drive folder of the relevant standard. The coordinator does the writing, with Didem's approval.
+- People: accreditation team Didem Yesil, Isadora, Alper Utku. Advisor Juliette Groen. Institution Schoolvision BV. Programmes: Bachelor's in Applied Computing (4 specialisations), Professional Master's in Applied AI, Tech MBA (focus is changing).
 
 ## Decisions
 Format: `date | decision | reason`.
 
-2026-11-25 | SAR ve tüm çıktı dili İngilizce | proje talimatı
-2026-11-25 | Bir bölüme başlarken kılavuzdaki tüm gereklilikler, alt gereklilikler ve değerlendirme soruları önce sohbete konur, sonra taslak | proje talimatı
-2026-11-25 | Varsayımla boşluk doldurulmaz; eksik alan açık bırakılır ve işaretlenir | proje talimatı
-2026-11-25 | TNO dossier ve kanıt dosyaları SAR atıflarına girmez | proje talimatı
-2026-11-25 | IAAR ile sözleşme, ücret, ödeme Alper'in işi; bu uzmanın kapsamı dışında | Gmail yazışması, Didem CC
-2026-11-25 | 2. Seminer notları ikincil rehberdir (tavsiye, resmi gereklilik değil) | Didem
+2026-11-25 | The SAR and all output are in English | project instructions
+2026-11-25 | When starting a section, every requirement, sub-requirement and assessment question from the guide is put in the chat first, then the draft | project instructions
+2026-11-25 | No gap is filled with an assumption; a missing field is left open and flagged | project instructions
+2026-11-25 | TNO dossiers and evidence files do not enter SAR citations | project instructions
+2026-11-25 | The contract, fees and payment with IAAR are Alper's work; outside this specialist's scope | Gmail correspondence, Didem on CC
+2026-11-25 | The Second Seminar notes are secondary guidance (advice, not a formal requirement) | Didem

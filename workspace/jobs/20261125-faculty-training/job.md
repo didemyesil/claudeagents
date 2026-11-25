@@ -3,8 +3,8 @@ id: 20261125-faculty-training
 title: Faculty Training - Facilitative Teaching for Student Engagement (4MAT)
 project: amsterdam-tech/faculty-development
 specialist: program-design
-status: drafting
-next_step: Uzmanın ilk taslağı (yaklaşım + akış) Didem'e sunulacak; bugünkü toplantı (16:30 TR) öncesi Didem feedback verir
+status: awaiting-feedback
+next_step: Didem v1 taslağını okuyup feedback verir (toplantı 16:30 TR öncesi); 10 açık soru toplantıda Shamir ile netleşir
 waiting_on: Shamir Joseph - paylaşılan dokümandaki outline'a yorumları (toplantı öncesi istendi, 2026-11-25 11:09 TR)
 approval_scope: research+draft only (doğrulama koşusu). Mail/Slack/davet/yayın/Trello-Slack yazımı YOK.
 language: en
@@ -33,7 +33,7 @@ updated: 2026-11-25
 Taslak: (a) Session 1 için 4MAT'e göre ayrıntılı 2+ saatlik akış (8 adım, süre, etkinlik, materyal, facilitator rolü Didem/Shamir); (b) Session 2 akışı; (c) Pre/Post görevleri ve basit yansıma şablonu; (d) başarı ölçütleri; (e) açık sorular. Mail/Slack/davet YOK, taslak mesajlar bile ayrı işlerdir.
 
 ## Durum notu (kaldığım yer)
-Uzman başlatıldı. Toplantı bugün 16:30 TR.
+v1 taslak hazır (2026-11-25). Taslak hazır != iş bitti. Onay kapsamı: yalnızca araştırma+taslak. Shamir'e mesaj/mail/davet YOK.
 
 ## Kabul edilen değişiklikler / feedback özeti
 (henüz yok)

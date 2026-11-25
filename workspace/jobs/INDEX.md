@@ -5,6 +5,7 @@
 | id | durum | uzman | sonraki adım | bekleniyor | güncelleme |
 |---|---|---|---|---|---|
 | 20261125-faculty-training | awaiting-feedback | program-design | Didem'e sor: kendi taslağın tamam, v1'den işine yarayan (Session 1 süreli akış, Pre/Post şablonları) var mı? Yoksa v1 kapatılır | Shamir Joseph - paylaşılan dokümandaki outline'a yorumları (toplantı öncesi istendi, 2026-11-25 11:09 TR) | 2026-11-25 |
+| 20261125-iaar-sar-status | drafting | accreditation | Uzmanın SAR durum raporu Didem'e sunulacak; Slack listesi ve proje planıyla karşılaştırılacak |  | 2026-11-25 |
 
 ## Kapalı
 

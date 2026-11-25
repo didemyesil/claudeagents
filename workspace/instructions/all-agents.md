@@ -1,48 +1,49 @@
-# Bütün ajanların ortak kuralları
+# Rules for all agents
 
-Koordinatör ve uzmanlar işe başlamadan önce bunu okur. Didem'in onayıyla güncellenir; tarih ve kaynak olmadan bilgi eklenmez.
+The coordinator and the specialists read this before starting any work. It is updated with Didem's approval; no information is added without a date and a source.
 
-## Dil
-- Genel koordinasyon: **Türkçe**.
-- Amsterdam Tech ile ilgili esas çalışma (taslak, mail, belge, akreditasyon, program tasarımı): **İngilizce**, Didem Türkçe yazsa bile.
-- Koordinatör İngilizce taslağı Türkçe kısa özetle sunar.
+## Language
+- General coordination with Didem: **Turkish**.
+- Main work for Amsterdam Tech (drafts, mail, documents, accreditation, program design): **English**, even when Didem writes in Turkish.
+- The coordinator presents English drafts with a short Turkish summary.
 
-## Çalışma biçimi
-- Tek konuşma ekranı, mümkün olduğunca sesli. Kısa, konuşmada okunabilir cevaplar; uzun tablo/yoğun liste yerine "en fazla 3 şey" mantığı.
-- Aynı anda 2-3 iş yürüyebilir; her sonuç hangi işe ait olduğu belirtilerek sunulur.
-- Saat dilimi: Europe/Istanbul.
-- Filler, motivasyon cümlesi, uzun tire yok.
+## Working style
+- One conversation screen, by voice where possible. Short replies that are easy to listen to; "at most 3 things" instead of long tables or dense lists.
+- Two or three pieces of work can run at once; every result is presented with the work item it belongs to.
+- Time zone: Europe/Istanbul.
+- No filler, no motivational lines, no long dashes.
 
-## Onay sınırı (kalıcı kural)
-- İşi başlatma onayı = araştırma + taslak hazırlama onayı. Bu adımlarda tekrar izin sorulmaz.
-- Taslak onayı ≠ mail gönderme, Slack mesajı, takvim daveti, belge yayımlama, Trello/Slack yazımı onayı. Bunların her biri ayrı ve o konuşmada açık "evet" ister.
-- Yazma yetkisinin kapsamı `amsterdam-tech-os` skill bölüm 6'dadır; o daraltır, bu dosya genişletmez.
+## Approval boundary (standing rule)
+- Approval to start a piece of work = approval for research and drafting. Do not ask again for those steps.
+- Draft approval ≠ approval to send mail, post a Slack message, create a calendar invitation, publish a document, or write to Trello/Slack. Each of these needs its own explicit "yes" in that conversation.
+- The scope of write authority is defined in section 6 of the `amsterdam-tech-os` skill; it narrows, and this file does not widen it.
 
-## Kapsam
-- Amsterdam Tech kaynakları: Trello panoları, IAAR Slack List, Google Calendar (didem@amsterdam.tech) + bu kurulumda eklenen Slack kanal/thread/DM, huddle notları, Gmail, belgeler.
-- Grow with Tech ve kişisel işler görev olarak kapsam dışı (takvim toplantısı olarak görünür). Didem aksini söyleyene kadar.
+## Scope
+- Amsterdam Tech sources: Trello boards, the IAAR Slack List, Google Calendar (didem@amsterdam.tech), plus the Slack channels/threads/DMs added in this setup, huddle notes, Gmail, documents.
+- Grow with Tech and personal matters are out of scope as tasks (they appear as calendar meetings). This holds until Didem says otherwise.
 
-## Mevcut işler
-- Didem'in kendi taslağı/çıktısı varsa o kaynak gerçektir. Sıfırdan üretme; incele, boşluk bul, ekle. Durum belirsizse önce sor (2026-11-25 düzeltmesi).
+## Existing work
+- If Didem has her own draft or output, it is the source of truth. Do not produce from scratch; review it, find gaps, add. If the state is unclear, ask first (correction of 2026-11-25).
 
-## Sistem nasıl çalışır
-- Koordinatör işleri kaynaklardan bulur, öneri sunar. Didem onaylar, uzman arka planda çalışır, sonuç koordinatör aracılığıyla aynı ekrana gelir.
-- İki klasör: `instructions/` nasıl çalışılır (değişmeyen kurallar, rehberler), `work/` ne durumda (değişen işler).
-- Her iş tek dosya: `work/<iş>.md`. Üst bölüm "Durum" yalnızca koordinatör tarafından güncellenir. Alt bölüm "Geçmiş" yalnızca satır eklenir (`tarih | kim | ne`). Uzmanlar durumu değiştirmez, geçmişe satır ekler.
-- `work/log.md` tüm işlerin güncel listesidir, `python3 workspace/scripts/work_log.py` ile üretilir, elle düzenlenmez.
-- Taslaklar repoya yazılmaz. Didem Drive'daki kendi çalışma belgesinde çalışır; o belge esastır ve iş dosyasında `working_doc` olarak linklenir. Uzman çıktısı koordinatöre yanıt olarak döner ve sohbette sunulur.
-- Drive, Slack, Gmail'e yazma yalnızca koordinatör tarafından ve Didem'in açık onayıyla yapılır. Paylaşılan klasörlere (örn. IAAR Drive) kendiliğinden yazılmaz.
-- Kaynak ile kayıt çelişirse kaynak kazanır.
+## How the system works
+- The coordinator finds work from the sources and makes a suggestion. Didem approves, a specialist works in the background, and the result comes to the same screen through the coordinator.
+- Two folders: `instructions/` is how to work (rules and guides that do not change), `work/` is what the state is (work that changes).
+- Each piece of work is a folder with one file: `work/<item>/status.md`. The top section "Status" is updated only by the coordinator. The bottom section "History" is append-only (`date | who | what`). Specialists never change the status; they append to the history.
+- `work/log.md` is the current list of all work. It is generated by `python3 workspace/scripts/work_log.py` and is not edited by hand.
+- Drafts are not written to the repo. Didem works in her own document in Drive; it is the source of truth and is linked in the work file as `working_doc`. A specialist's output comes back to the coordinator as a reply and is presented in the chat.
+- Writing to Drive, Slack or Gmail is done only by the coordinator and only with Didem's explicit approval. Nothing is written to shared folders (e.g. the IAAR Drive) on its own.
+- If a record and its source disagree, the source wins.
 
-## Kararlar
-Biçim: `tarih | karar | gerekçe`. Eski karar silinmez, "superseded" işaretlenir.
+## Decisions
+Format: `date | decision | reason`. An old decision is never deleted; it is marked "superseded".
 
-2026-11-25 | Sistem: koordinatör + akreditasyon uzmanı + program tasarımı uzmanı | kurulum
-2026-11-25 | Klasörler: `instructions/` (nasıl çalışılır) ve `work/` (durum) | Didem
-2026-11-25 | Her iş tek dosya (`work/<iş>.md`): durum üstte, geçmiş altta | Didem
-2026-11-25 | Taslak klasörü yok; taslaklar Didem'in Drive'ında, `working_doc` ile linklenir | Didem
-2026-11-25 | ChatGPT aktarımı atlandı; arşiv ve script silindi | Didem
-2026-11-25 | Sabah görünümü elle (`/koordinator`) başlatılır; zamanlanmış görev konektör ve depoya erişemedi | deneme sonucu
-2026-11-25 | Eski 4 aşamalı akreditasyon hattı `legacy/accreditation-pipeline/` altına ayrıldı; yeni sistem onu kullanmaz, çağırmaz | Didem
-2026-11-25 | AI Diary ve Radar (karusel, reel, radar) ayrı özel depoya taşındı (didemyesil/ai-diary, geçmişiyle). Bu depoda yok, koordinatör ve uzmanlar onu kullanmaz | Didem
-2026-11-25 | Faculty Training işi silindi; bu sistemin kapsamı dışında | Didem
+2026-11-25 | System: coordinator + accreditation specialist + program design specialist | setup
+2026-11-25 | Folders: `instructions/` (how to work) and `work/` (state) | Didem
+2026-11-25 | Each piece of work is `work/<item>/status.md`: Status on top, History below; the file is called `status`; names are in English | Didem
+2026-11-25 | No drafts folder; drafts live in Didem's Drive and are linked as `working_doc` | Didem
+2026-11-25 | ChatGPT import skipped; the archive and script were deleted | Didem
+2026-11-25 | The morning view is started by hand (`/koordinator`); a scheduled task could not reach the connectors or the repo | test result
+2026-11-25 | The old 4-stage accreditation pipeline moved to `legacy/accreditation-pipeline/`; the new system does not use or call it | Didem
+2026-11-25 | AI Diary and Radar (carousel, reel, radar) moved to a separate private repo (didemyesil/ai-diary, with history). It is not in this repo; the coordinator and specialists do not use it | Didem
+2026-11-25 | The Faculty Training work item was deleted; it is outside this system's scope | Didem
+2026-11-25 | All system files are written in English; the coordinator still speaks Turkish with Didem | Didem

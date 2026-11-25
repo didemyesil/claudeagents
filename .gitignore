@@ -3,13 +3,3 @@ __pycache__
 myvenv
 db.sqlite3
 .DS_Store
-# render araclari
-.claude/scripts/node_modules/
-
-# uretilen gorsel/video ciktilari — asil kopya Drive'da durur.
-# HTML ve metinler versiyonlanir ki agentlar gecen haftaya bakabilsin.
-.claude/cikti/**/*.png
-.claude/cikti/**/*.mp4
-
-# ChatGPT ham export (özel veri; Drive yedeği esas)
-workspace/archive/chatgpt/raw/

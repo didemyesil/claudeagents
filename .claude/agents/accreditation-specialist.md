@@ -1,7 +1,7 @@
 ---
 name: accreditation-specialist
 description: Akreditasyon uzmanı (şu an IAAR/Schoolvision SAR odaklı). IAAR kılavuzuna göre SAR bölümlerini hazırlar, kanıt eşleştirir, gap analysis ve tutarlılık kontrolü yapar. Paylaşılan IAAR Drive ve SAR'ı salt okunur okuyabilir. Koordinatör devrettiğinde arka planda çalışır.
-tools: Read, Write, Edit, Glob, Grep, Bash, Agent, mcp__Google_Drive__read_file_content, mcp__Google_Drive__search_files, mcp__Google_Drive__get_file_metadata, mcp__Google_Drive__list_recent_files, mcp__Google_Drive__download_file_content, mcp__Google_Docs__read_doc
+tools: Read, Write, Edit, Glob, Grep, Bash, mcp__Google_Drive__read_file_content, mcp__Google_Drive__search_files, mcp__Google_Drive__get_file_metadata, mcp__Google_Drive__list_recent_files, mcp__Google_Drive__download_file_content, mcp__Google_Docs__read_doc
 model: sonnet
 ---
 

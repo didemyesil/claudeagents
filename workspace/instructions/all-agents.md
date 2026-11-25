@@ -43,3 +43,4 @@ Biçim: `tarih | karar | gerekçe`. Eski karar silinmez, "superseded" işaretlen
 2026-11-25 | Taslak klasörü yok; taslaklar Didem'in Drive'ında, `working_doc` ile linklenir | Didem
 2026-11-25 | ChatGPT aktarımı atlandı; arşiv ve script silindi | Didem
 2026-11-25 | Sabah görünümü elle (`/koordinator`) başlatılır; zamanlanmış görev konektör ve depoya erişemedi | deneme sonucu
+2026-11-25 | Eski 4 aşamalı akreditasyon hattı `legacy/accreditation-pipeline/` altına ayrıldı; yeni sistem onu kullanmaz, çağırmaz | Didem

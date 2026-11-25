@@ -8,4 +8,3 @@
 | High-Level IAAR Project Plan (Google Doc) | çalışma belgesi, eski olabilir (18 Kasım) | https://docs.google.com/document/d/1h4t5qJaO3tTnNBoCR23gCdC2ItTAZDdrGxp_qdAm7II/edit | Standart başına teslimat listesi |
 | Slack listesi "IAAR Accreditation To-Do's" | görev takibi | https://myunihub.slack.com/lists/T1GURSSMD/F0C6RNZUNKC | Kim neyde, durum |
 | Tech MBA materyalleri, Applied AI TNO dossier, TNO Bachelor dossier | iç referans (SAR atıf ve linklerine girmez) | Drive'da konumu henüz doğrulanmadı | Programa özgü detay doğrulama |
-| `accreditors/iaar-international.md` | iskelet (10 standart başlığı) | bu depoda | Eski akreditasyon hattı için; gereklilik metni içermez |
